@@ -1,0 +1,89 @@
+924" class="post-924 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-metallic-dragon">
+                                        <h1>Brass Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Young Brass Dragon <span class="monster-level">Creature 7</span></h4> 
+ <p class="traits"><span class="alignment">CG</span> <span class="size">Large</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +15; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Tremorsense">tremorsense</a> (imprecise) 30 feet</p> 
+ <p><b>Languages</b> Common, Draconic, Gnome, Halfling, Sylvan; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +13, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +14</p> 
+ <p><b>Str</b> +5, <b>Dex</b> +2, <b>Con</b> +3, <b>Int</b> +1, <b>Wis</b> +1, <b>Cha</b> +2</p> 
+ <hr> 
+ <p><b>AC</b> 25; <b>Fort</b> +16, <b>Ref</b> +15, <b>Will</b> +14</p> 
+ <p><b>HP</b> 125; <b>Immunities</b> fire, paralyzed, sleep</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 23</p> 
+ <p><b>Wing Deflection</b> [reaction] <b>Trigger</b> The dragon is targeted with an attack. <b>Effect</b> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is flying, it descends 10 feet after the attack is complete.</p> 
+ <hr> 
+ <p><b>Speed</b> 40 feet, burrow 30 feet, fly 120 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +19 (fire, reach 10 feet), <b>Damage</b> 2d6+8 piercing plus 1d8 fire</p> 
+ <p><b>Melee</b> [one-action] claw +19 (agile), <b>Damage</b> 2d6+8 slashing</p> 
+ <p><b>Melee</b> [one-action] wing +17 (reach 10 feet), <b>Damage</b> 1d8+7 slashing</p> 
+ <p><b>Arcane Innate Spells</b> DC 25</p> 
+ <p><b>Constant (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] (arcane, evocation, fire); The brass dragon breathes fire in a 60-foot line that deals 8d6 fire damage (DC 26 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one jaws Strike in any order.</p> 
+ <p><b>Draconic Momentum</b> When the dragon scores a critical hit with a Strike, it recharges Breath Weapon.</p> 
+ <h4 class="monster">Adult Brass Dragon <span class="monster-level">Creature 11</span></h4> 
+ <p class="traits"><span class="alignment">CG</span> <span class="size">Large</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +21; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Tremorsense">tremorsense</a> (imprecise) 30 feet</p> 
+ <p><b>Languages</b> Auran, Common, Draconic, Gnome, Halfling, Sylvan; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +19</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +3, <b>Con</b> +5, <b>Int</b> +2, <b>Wis</b> +4, <b>Cha</b> +3</p> 
+ <hr> 
+ <p><b>AC</b> 31, <b>Fort</b> +22, <b>Ref</b> +20, <b>Will</b> +21; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 215; <b>Immunities</b> fire, paralyzed, sleep</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 28</p> 
+ <p><b>Wing Deflection</b> [reaction] As young brass dragon.</p> 
+ <hr> 
+ <p><b>Speed</b> 50 feet, burrow 30 feet, fly 120 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +24 (fire, magical, reach 10 feet), <b>Damage</b> 2d10+12 piercing plus 2d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +24 (agile, magical), <b>Damage</b> 2d10+12 slashing</p> 
+ <p><b>Melee</b> [one-action] wing +22 (magical, reach 10 feet), <b>Damage</b> 1d12+10 slashing</p> 
+ <p><b>Arcane Innate Spells</b> DC 30</p> 
+ <p><b>Constant (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] (arcane, evocation, fire); The brass dragon breathes fire in an 80-foot line that deals 12d6 fire damage (DC 32 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <p><b>Desert Wind</b> [two-actions] (air, arcane, concentrate, evocation) <b>Frequency</b> three times per day.; <b>Effect</b> The dragon calls upon the desert wind. This has the same effect as <a class="spell" href="https://pf2.d20pfsrd.com/spell/gust-of-wind/">gust of wind</a> (DC 30 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a>) but in a 60-foot cone. A creature that fails its save is also <a href="https://pf2.d20pfsrd.com/rules/conditions/#Blinded">blinded</a> until the end of its next turn (or for 1 minute on a critical failure).</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young brass dragon.</p> 
+ <p><b>Draconic Momentum</b> As young brass dragon.</p> 
+ <h4 class="monster">Ancient Brass Dragon <span class="monster-level">Creature 16</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">CG</span> <span class="size">Huge</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +30; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Tremorsense">tremorsense</a> (imprecise) 60 feet</p> 
+ <p><b>Languages</b> Auran, Common, Draconic, Gnome, Halfling, Sphinx, Sylvan; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +31, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +28</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +5, <b>Con</b> +6, <b>Int</b> +4, <b>Wis</b> +4, <b>Cha</b> +5</p> 
+ <hr> 
+ <p><b>AC</b> 39; <b>Fort</b> +30, <b>Ref</b> +29, <b>Will</b> +30; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 325; <b>Immunities</b> fire, paralyzed, sleep</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 35</p> 
+ <p><b>Wing Deflection</b> [reaction] As young brass dragon.</p> 
+ <hr> 
+ <p><b>Speed</b> 50 feet, burrow 40 feet, fly 150 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +32 (fire, magical, reach 15 feet), <b>Damage</b> 3d10+15 piercing plus 3d6 fire and 2d6 persistent fire</p> 
+ <p><b>Melee</b> [one-action] claw +32 (agile, magical, reach 10 feet), <b>Damage</b> 3d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] wing + 30 (magical, reach 15 feet), <b>Damage</b> 2d12+13 slashing</p> 
+ <p><b>Arcane Innate Spells</b> DC 37</p> 
+ <p><b>Constant (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] The brass dragon breathes in one of two ways. The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <ul> 
+  <li>Flame (arcane, evocation, fire) The dragon breathes fire in a 100-foot line that deals 16d6 fire damage (DC 39 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save).</li> 
+  <li>Sleep Gas (arcane, enchantment, incapacitation, sleep); The dragon breathes an 80-foot cone of sleep gas. Each creature within the cone must succeed at a DC 39 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save or fall unconscious for 1d6 rounds, or 1 minute on a critical failure.</li> 
+ </ul> 
+ <p><b>Desert Wind</b> [two-actions] (air, arcane, concentrate, evocation) As adult brass dragon, but DC 37.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young brass dragon.</p> 
+ <p><b>Draconic Momentum</b> As young brass dragon.</p> 
+
+<p class="header">About</p>
+<p>Brass dragons are whimsical tricksters who delight in humor and play. They particularly enjoy conversations with humans and other civilized humanoids, delighting in the naive customs of these diminutive races without showing them haughtiness or scorn. While they may seem merely curious, brass dragons engage in this sort of conversation with the goal of keeping up to date on regional politics so they can anticipate future conflicts. Along the way, they create extensive information networks that begin with their own allies but stretch across all levels of humanoid society—networks which the brass dragon then uses to subtly assist settlements near their lair. Unlike the schemes and manipulations of blue dragons, brass dragons use their informant networks to establish justice and equality.</p> 
+ <p>These carefree dragons value independence and feel that all creatures deserve to live as they please, provided they don&#8217;t harm others. They are emotional creatures and tend to have short attention spans, sometimes falling victim to depression in their twilight years. To combat this, some brass dragons keep pets and houseplants that they can care for.</p> 
+ <p>Though they may seem childlike in their curiosity concerning mortal affairs, a brass dragon&#8217;s prowess in battle is no laughing matter. A brass dragon whose territory or allies are threatened is a terrifying foe indeed, quick to shed their innocent guise and unleash their terrifying might upon evildoers.</p> 
+ <p>Most brass dragons live in desert climates, and while they keep their lairs hidden, they often build near humanoid settlements.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

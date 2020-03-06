@@ -1,0 +1,46 @@
+1036" class="post-1036 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-demon">
+                                        <h1>Glabrezu (Treachery Demon)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Glabrezu <span class="monster-level">Creature 13</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Huge</span> <span class="trait">Demon</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +24; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p> 
+ <p><b>Languages</b> Abyssal, Celestial, Draconic; telepathy 100 feet, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tongues/">tongues</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +26, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +26, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +21</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +2, <b>Con</b> +7, <b>Int</b> +3, <b>Wis</b> +3, <b>Cha</b> +7</p> 
+ <hr> 
+ <p><b>AC</b> 34; <b>Fort</b> +26, <b>Ref</b> +19, <b>Will</b> +24; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 280; <b>Weaknesses</b> cold iron 10, good 10</p> 
+
+<div class="special-abilities">
+<p><b>Truth Vulnerability</b> A glabrezu&#8217;s lies sustain them, and the truth can destroy them. Whenever a revelation effect counteracts or reveals the glabrezu&#8217;s illusions or the glabrezu fails a save against an effect that would prevent them from lying (such as <a class="spell" href="https://pf2.d20pfsrd.com/spell/zone-of-truth/">zone of truth</a>), the demon takes 3d6 mental damage. They take this damage only once per effect, even if the effect reveals multiple illusions or prevents multiple lies.</p>
+</div>
+ <hr> 
+ <p><b>Speed</b> 35 feet</p> 
+ <p><b>Melee</b> [one-action] pincer +27 (deadly 2d10, evil, magical, reach 15 feet), <b>Damage</b> 3d10+13 bludgeoning plus 1d6 evil and Grab</p> 
+ <p><b>Melee</b> [one-action] claw +27 (agile, evil, magical, reach 10 feet), <b>Damage</b> 3d6+13 slashing plus 1d6 evil</p> 
+ <p><b>Melee</b> [one-action] jaws +27 (evil, magical, reach 10 feet), <b>Damage</b> 3d12+13 piercing plus 1d6 evil</p> 
+
+<p><b>Divine Innate Spells</b> DC 34; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/illusory-disguise/">illusory disguise</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/reverse-gravity/">reverse gravity</a>; <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dispel-magic/">dispel magic</a> (at will); <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/confusion/">confusion</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/mirror-image/">mirror image</a> (at will); <b>Cantrips</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/telekinetic-projectile/">telekinetic projectile</a>; <b>Constant</b> (6th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a>; (5th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/tongues/">tongues</a></p> 
+<p><b>Divine Rituals</b> DC 34; Abyssal pact</p> 
+
+<div class="special-abilities">
+<p><b>Captive Rake</b> [one-action] <b>Requirements</b> A creature is grabbed in the glabrezu&#8217;s pincer. <b>Effect</b> The glabrezu pulls the grabbed creature up to 5 feet closer, then makes two claw Strikes against it. Those Strikes count as one attack when determining a treachery demon&#8217;s multiple attack penalty, and the penalty doesn&#8217;t increase until after both Strikes.</p> 
+<p><b>Steady Spellcasting</b> When a reaction would disrupt a glabrezu&#8217;s spell, the demon can attempt a DC 15 flat check, avoiding the disruption on a success.</p> 
+<p><b>Sudden Betrayal</b> A glabrezu can always use <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> when rolling initiative as long as they&#8217;re aware of at least one opponent before initiative is rolled. When using <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> for initiative, the demon gains a +2 circumstance bonus to <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a>.</p> 
+<p><b>Treacherous Veil</b> A glabrezu&#8217;s <a class="spell" href="https://pf2.d20pfsrd.com/spell/illusory-disguise/">illusory disguise</a> can allow it to appear as a creature of any size.</p> 
+<p><b>Twisted Desires</b> (divination, divine) Once per month, a glabrezu can grant a mortal humanoid the effects of a <a class="spell" href="https://pf2.d20pfsrd.com/spell/miracle/">miracle</a> spell granted by an Abyssal patron, though the glabrezu always perverts the <a class="spell" href="https://pf2.d20pfsrd.com/spell/miracle/">miracle</a> according to their own treacherous nature.</p>
+</div>
+
+<p class="header">About</p>
+<p>Glabrezus are looming behemoths who revel in the act of twisting mortal desires into their ultimate ruin, betraying and manipulating as easily as they breathe. Desires granted by a glabrezu always come to fruition in the most destructive way possible, turning a wish or hope into a potent and devastating act of betrayal—although the long-term repercussions are not always immediately apparent. For example, a struggling weapon smith might wish for fame and skill at their craft, only to find that their best patron is a cruel and sadistic murderer who uses the weapons in bloody sprees. Or a lonely widower might have his desire granted in the form of a lost love returned to &#8221; life as a vampire. Glabrezus are nothing if not creative in addressing a mortal&#8217;s needs.</p> 
+<p>These massive demons have enormous pincers and a pair of smaller humanoid arms sprouting from their chests, but their size belies their skill at magic, and they possess formidable innate spells. Treachery demons arise from the souls of mortals engaged in treason and deception.</p>                                         <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.name {
+  color: #a26655;
+  font-size: 2em;
+}
+
+.trait {
+  background-color: #5a0008;
+  color: #eee;
+  border: #cbc18f solid 4px;
+  border-width: 4px 0 4px 4px;
+  padding: 2px;
+}
+
+.trait:last-child {
+  border-right-width: 4px;
+}
+
+.alignment {
+  background-color: #5b6091;
+}
+
+.size {
+  background-color: #447b5a;
+}
+
+body {
+  padding: 20px;
+}
+
+.csv::after {
+  content: ', '
+}
+
+.csv:last-child::after {
+  content: '';
+}

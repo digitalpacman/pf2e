@@ -1,0 +1,43 @@
+904" class="post-904 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-angel">
+                                        <h1>Astral Deva (Emissary Angel)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Astral Deva <span class="monster-level">Creature 14</span></h4> 
+ <p class="traits"><span class="alignment">NG</span> <span class="size">Medium</span> <span class="trait">Angel</span> <span class="trait">Celestial</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +26; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+ <p><b>Languages</b> Celestial, Draconic, Infernal; <a class="spell" href="https://pf2.d20pfsrd.com/spell/tongues/">tongues</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +26, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +24</p> 
+ <p><b>Str</b> +8, <b>Dex</b> +4, <b>Con</b> +5, <b>Int</b> +4, <b>Wis</b> +4, <b>Cha</b> +6</p> 
+ <p><b>Items</b> +2 Striking warhammer AC 36; <b>Fort</b> +27, <b>Ref</b> +26, <b>Will</b> +22; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 285; <b>Weaknesses</b> evil 15</p>
+
+<div class="special-abilities">
+<p><b>Traveler&#8217;s Aura</b> (abjuration, aura, divine) 20 feet. Creatures in the astral deva&#8217;s aura are protected from ambient environmental damage from any plane, including severe and extreme heat and cold as well as more exotic dangers. The astral deva is never flat-footed to creatures within its aura.</p> 
+<p><b>Messenger&#8217;s Amnesty</b> (abjuration, divine) An astral deva with a message to deliver is continually protected by the effect of sanctuary (DC 32). If the deva breaks the sanctuary, the effect returns if the deva ceases hostility for 10 minutes.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 75 feet</p> 
+ <p><b>Melee</b> [one-action] holy warhammer +30 (good, magical, shove), <b>Damage</b> 2d8+22 bludgeoning plus 1d6 good</p> 
+
+<p><b>Divine Innate Spells</b> DC 36, attack +28; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/blade-barrier/">blade barrier</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-decree/">divine decree</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-wrath/">divine wrath</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-curse/">remove curse</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-disease/">remove disease</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-fear/">remove fear</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/discern-lies/">discern lies</a> (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a> (at will, self only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (at will, evil only); <b>Cantrips</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/light/">light</a>; <b>Constant (5th)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/tongues/">tongues</a></p> 
+<p><b>Divine Rituals</b> DC 36; <a class="spell" href="https://pf2.d20pfsrd.com/spell/angelic-messenger/">angelic messenger</a></p> 
+
+<div class="special-abilities">
+<p><b>Divine Armament</b> (divine, evocation) Any weapon gains the effect of a holy property Rune while an astral deva wields it.</p> 
+<p><b>Stunning Strike</b> [one-action] <b>Requirements</b> The astral deva hit a foe earlier this turn with a weapon Strike. <b>Effect</b> The astral deva makes a weapon Strike against the foe. On a success, the foe must succeed at a DC 34 Fortitude save or become stunned 1. On a critical failure, the foe is stunned 2 instead.</p>
+</div>
+
+<p class="header">About</p>
+<p>Astral devas are the elite messengers and emissaries of the celestial realms, serving deities and celestial armies by delivering messages, performing reconnaissance, and providing support for those in need of aid. They watch over planar travelers and take powerful mortals under their wings to mentor them. Astral devas carry scrolls containing important messages and other celestial secrets.</p> 
+<p>Astral devas can form spontaneously from the souls of exceptional good-aligned mortals, but are also sometimes created from such souls intentionally by deities or demigods. In the later cases, astral devas often bear physical features that mark them as closely affiliated with that deity. An astral deva created by The Healing Flame, for example, might have hair made of fire, while one created by Father of the Dwarves might look more dwarven, and one created by Goddess of Fortune could have butterfly wings instead of feathered wings. It&#8217;s not unusual for astral devas created by lawful good or chaotic good deities to share their creators&#8217; alignment.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

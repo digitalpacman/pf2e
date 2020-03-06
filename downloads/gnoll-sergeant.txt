@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Gnoll Sergeant - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Gnoll Sergeant" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=231" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABe5GPGgxIGNsYXNzPSJ0aXRsZSI+R25vbGwgU2VyZ2VhbnQ8L2gxPldoZW4gZ25vbGxzIGJhbmQgdG9nZXRoZXIgdG8gZm9ybSBodW50aW5nIG9yIHJhaWRpbmcgcGFydGllcywgdGhlIHN0cm9uZ2VzdCBhbW9uZyB0aGVtIGlzIG9mdGVuIGRlc2lnbmF0ZWQgdGhlIGxlYWRlciBvciBzZXJnZWFudC4gVGhlc2UgZ25vbGxzIHRyYWluIGV4dGVuc2l2ZWx5IGluIHRoZSBhcnQgb2Ygd2FyLiBUaGVpciBza2lsbCBhdCBhcm1zIGFuZCB0aGUgcmVzcGVjdCB0aGV5IGNvbW1hbmQgbWFrZSB0aGVtIHBvd2VyZnVsIGFkdmVyc2FyaWVzLiBJbiBzbWFsbGVyIGNsYW5zIG9yIHNpbmdsZSBmYW1pbHkgdW5pdHMsIGEgZ25vbGwgc2VyZ2VhbnQgbWlnaHQgYWxzbyBzZXJ2ZSBhcyB0aGUgZ3JvdXDigJlzIGxlYWRlciBpbiBvdGhlciBhZmZhaXJzLCBzdWNoIGFzIHNvcnRpbmcgb3V0IGRvbWVzdGljIGRpc3B1dGVzIG9yIG5lZ290aWF0aW5nIHdpdGggcml2YWwgZ25vbGwgY2xhbnMuPGJyIC8+PGJyIC8+PGI+PHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NSZHZW5lcmFsPXRydWUiPlJlY2FsbCBLbm93bGVkZ2UgLSBIdW1hbm9pZDwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xNCI+U29jaWV0eTwvYT48L3U+KTwvYj46IERDIDE5PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0yMzEiPkdub2xsIFNlcmdlYW50PC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIDQ8L3NwYW4+PC9oMT48YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iSW1hZ2VzXE1vbnN0ZXJzXEdub2xsX0dub2xsU2VyZ2VhbnQucG5nIj48aW1nIGNsYXNzPSJ0aHVtYm5haWwiIHNyYz0iSW1hZ2VzXE1vbnN0ZXJzXEdub2xsX0dub2xsU2VyZ2VhbnQucG5nIj48L2E+PHNwYW4gYWx0PSJDaGFvdGljIEV2aWwiIGNsYXNzPSJ0cmFpdGFsaWdubWVudCIgdGl0bGU9IkNoYW90aWMgRXZpbCI+Q0U8L3NwYW4+PHNwYW4gYWx0PSJNZWRpdW0iIGNsYXNzPSJ0cmFpdHNpemUiIHRpdGxlPSJNZWRpdW0iPk1lZGl1bTwvc3Bhbj48c3BhbiBhbHQ9Ikdub2xsIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJHbm9sbHMgYXJlIGh1bWFub2lkcyB0aGF0IHJlc2VtYmxlIGh5ZW5hcy4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIxOSI+R25vbGw8L2E+PC9zcGFuPjxzcGFuIGFsdD0iSHVtYW5vaWQgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9Ikh1bWFub2lkIGNyZWF0dXJlcyByZWFzb24gYW5kIGFjdCBtdWNoIGxpa2UgaHVtYW5zLiBUaGV5IHR5cGljYWxseSBzdGFuZCB1cHJpZ2h0IGFuZCBoYXZlIHR3byBhcm1zIGFuZCB0d28gbGVncy4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTkxIj5IdW1hbm9pZDwvYT48L3NwYW4+PGJyIC8+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiAxNzk8L2k+PC9hPjxiciAvPjxiPlBlcmNlcHRpb248L2I+ICsxMDsgZGFya3Zpc2lvbjxiciAvPjxiPkxhbmd1YWdlczwvYj4gPGEgaHJlZj0iTGFuZ3VhZ2VzLmFzcHg/SUQ9MSI+PHU+Q29tbW9uPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTE3Ij48dT5Hbm9sbDwvYT48L3U+PGJyIC8+PGI+U2tpbGxzPC9iPiA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0zIj48dT5BdGhsZXRpY3M8L2E+PC91PiArMTMsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTciPjx1PkludGltaWRhdGlvbjwvYT48L3U+ICs5LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xNSI+PHU+U3RlYWx0aDwvYT48L3U+ICsxMSwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTYiPjx1PlN1cnZpdmFsPC9hPjwvdT4gKzEwPGJyIC8+PGI+U3RyPC9iPiArNCwgPGI+RGV4PC9iPiArMiwgPGI+Q29uPC9iPiArMiwgPGI+SW50PC9iPiArMCwgPGI+V2lzPC9iPiArMSwgPGI+Q2hhPC9iPiArMDxiciAvPjxiPkl0ZW1zPC9iPiA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9NzUiPjx1PmNvbXBvc2l0ZSBzaG9ydGJvdyAoMjAgYXJyb3dzKTwvdT48L2E+LCA8YSBocmVmPSJBcm1vci5hc3B4P0lEPTciPjx1PmhpZGUgYXJtb3I8L3U+PC9hPiwgPGEgaHJlZj0iV2VhcG9ucy5hc3B4P0lEPTM4Ij48dT5zY2ltaXRhcjwvdT48L2E+PGhyIC8+PGI+QUM8L2I+IDIxLCA8Yj5Gb3J0PC9iPiArMTIsIDxiPlJlZjwvYj4gKzEwLCA8Yj5XaWxsPC9iPiArODxiciAvPjxiPkhQPC9iPiA2MDxiciAvPjxiPkF0dGFjayBvZiBPcHBvcnR1bml0eTwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJSZWFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xSZWFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlJlYWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFJlYWN0aW9uX0kucG5nIj48aHIgLz48Yj5TcGVlZDwvYj4gMjUgZmVldDxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IHNjaW1pdGFyICsxNCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTgwIj48dT5mb3JjZWZ1bDwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xOTQiPjx1PnN3ZWVwPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkNis3IHNsYXNoaW5nPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGphd3MgKzE0ICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzAiPjx1PmFnaWxlPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkNis3IHBpZXJjaW5nPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+UmFuZ2VkPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiBjb21wb3NpdGUgc2hvcnRib3cgKzEyICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzQiPjx1PmRlYWRseSAxZDEwPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE5MSI+PHU+cHJvcHVsc2l2ZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yNDgiPjx1PnJhbmdlIGluY3JlbWVudCA2MCBmZWV0PC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTI1NCI+PHU+cmVsb2FkIDA8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMWQ2KzQgcGllcmNpbmc8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5CYXJrIE9yZGVyczwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNiI+PHU+YXVkaXRvcnk8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTAxIj48dT5saW5ndWlzdGljPC9hPjwvdT4pIFRoZSBnbm9sbCBzZXJnZWFudCBjb21tYW5kcyBpdHMgYWxsaWVzIHRvIHJlcG9zaXRpb24uIEFueSBhbGxpZXMgd2hvIGhlYXIgYW5kIHVuZGVyc3RhbmQgdGhpcyBvcmRlciBjYW4gdXNlIGEgcmVhY3Rpb24gdG8gU3RlcC48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5QYWNrIEF0dGFjazwvYj4gQSBnbm9sbCBzZXJnZWFudCBkZWFscyAxZDQgZXh0cmEgZGFtYWdlIHRvIGFueSBjcmVhdHVyZSB0aGF04oCZcyB3aXRoaW4gcmVhY2ggb2YgYXQgbGVhc3QgdHdvIG9mIHRoZSBnbm9sbCBzZXJnZWFudCdzIGFsbGllcy48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5SdWdnZWQgVHJhdmVsPC9iPiBBIGdub2xsIGlnbm9yZXMgdGhlIGZpcnN0IHNxdWFyZSBvZiBkaWZmaWN1bHQgdGVycmFpbiBpdCBtb3ZlcyBpbnRvIGVhY2ggdGltZSBpdCBTdGVwcyBvciBTdHJpZGVzLjwvc3Bhbj48aDIgY2xhc3M9InRpdGxlIj5BbGwgTW9uc3RlcnMgaW4gIjxhIGhyZWY9Ik1vbnN0ZXJGYW1pbGllcy5hc3B4P0lEPTU0Ij5Hbm9sbDwvYT4iPC9oMj48dGFibGUgY2xhc3M9ImlubmVyIj48dHI+PHRkPjxiPk5hbWU8L2I+PC90ZD48dGQ+PGI+TGV2ZWw8L2I+PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0yMzAiPkdub2xsIEN1bHRpc3Q8L2E+PC90ZD48dGQ+MzwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjI5Ij5Hbm9sbCBIdW50ZXI8L2E+PC90ZD48dGQ+MjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjMxIj5Hbm9sbCBTZXJnZWFudDwvYT48L3RkPjx0ZD40PC90ZD48L3RyPjwvdGFibGU+PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHg/SUQ9NTQiPkdub2xsPC9hPjwvaDE+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiAxNzg8L2k+PC9hPjxiciAvPkdub2xscyBhcmUgc2hvcnQsIGh5ZW5hLWhlYWRlZCBodW1hbm9pZHMgd2hvIGR3ZWxsIGluIHdhcm0gZ3Jhc3NsYW5kcywgc2F2YW5uYXMsIGFuZCBhcmlkIGhpbGxzLiBHaXZlbiB0aGVpciBhcHBlYXJhbmNlLCB0aGVpciBhZmZpbml0eSBmb3IgaHllbmFzIHNob3VsZCBub3QgYmUgc3VycHJpc2luZzsgZ25vbGxzIHNoYXJlIHRoZWlyIGhvbWVzLCBmb29kLCBhbmQgZXZlbiBtYW55IG9mIHRoZWlyIG93biBiZWhhdmlvcnMgd2l0aCB0aGVzZSBhbmltYWxzLiBNdWNoIGxpa2UgaHllbmFzLCBnbm9sbHMgaGF2ZSBhIG5vdG9yaW91cyByZXB1dGF0aW9u4oCUdGhleSBhcmUga25vd24gYXMgYmxvb2R0aGlyc3R5IGdsdXR0b25zIGFuZCBzbGF2ZXJzIHdobyB3b3JzaGlwIGRlbW9ucyBvciBvdGhlciByZXByZWhlbnNpYmxlIHBvd2Vycy4gVGhvdWdoIHRoZXNlIHJ1bW9ycyBhcmUgb2Z0ZW4gdHJ1ZSwgdGhlIGJlaGF2aW9yIG9mIGdub2xsIGNsYW5zIHZhcmllcyB3aWRlbHkuIFNvbWUgZ3JvdXBzIGFyZSBjb21wb3NlZCBvZiBjYXBhYmxlIGh1bnRlcnMgd2hvIHJhcmVseSBjbGFzaCB3aXRoIG90aGVyIGh1bWFub2lkcyB1bmxlc3MgdGhlcmUgaXMgYSBjb25mbGljdCBvdmVyIHRlcnJpdG9yeS4gT3RoZXJzIGhldyBjbG9zZXIgdG8gdGhlIHVuc2F2b3J5IHN0b3JpZXMsIHByZWZlcnJpbmcgdG8gcmFpZCBzZXR0bGVtZW50cyBhbmQgZW5zbGF2ZSBpbm5vY2VudHMsIHNuYXRjaGluZyB0aGUgZnJ1aXRzIG9mIG90aGVyc+KAmSBoYXJkIGxhYm9yIGJ5IHN0cmVuZ3RoIG9mIGFybXMgYW5kIGZvcmNpbmcgdGhlaXIgdmljdGltcyB0byBwZXJmb3JtIHRoZSBoYXJkLCBkZW1lYW5pbmcgbGFib3IgbmVjZXNzYXJ5IHRvIG1haW50YWluIHRoZSBicnV0YWwgY2xhbi48YnIgLz4gR25vbGxzIGxhY2sgYW55IHBhcnRpY3VsYXIgcmV2ZXJlbmNlIGZvciB0aGUgcmVtYWlucyBvZiB0aGUgZGVhZCwgd2hpY2ggYWRkcyB0byB0aGVpciByZXB1dGF0aW9uIGFzIHNjYXZlbmdlcnMgb3IgZXZlbiBjYW5uaWJhbHMuIFRoZXkgd2lsbGluZ2x5IGVhdCBuZWFybHkgYW55IG90aGVyIGNyZWF0dXJlLCBpbmNsdWRpbmcgZGVhZCBnbm9sbHMsIHdoaWNoIGNhbiBldm9rZSBzdHJvbmcgcmVhY3Rpb25zIGZyb20gcGVvcGxlIGFuZCBjdWx0dXJlcyB3aXRoIGEgc3Ryb25nIHRhYm9vIGFnYWluc3QgY2FubmliYWxpc20gb3IgZGVzZWNyYXRpbmcgdGhlIGRlYWQuIFRvIGEgZ25vbGwsIGl0IGlzIGFsbW9zdCBtb3JlIG9mZmVuc2l2ZSB0byBub3QgZWF0IGEgZGVhZCBib2R5LCBubyBtYXR0ZXIgaXRzIG9yaWdpbjsgZ25vbGxzIHNlZSBubyBwb2ludCBpbiB3YXN0aW5nIHByZWNpb3VzIG1lYXQgaW4gYSBoYXJzaCBhbmQgY2hhbGxlbmdpbmcgd29ybGQuIFdvcnNlIHN0aWxsIGlzIHRoZSByZWZ1c2FsIHRvIGVhdCB0aGUgICBlc2ggb2YgYSBkZWFkIGdub2xsLCB3aGljaCB0aGV5IGNvbnNpZGVyIGFuIGluc3VsdCB0byB0aGF0IGdub2xs4oCZcyBtZW1vcnkgYW5kIHNhY3JpZmljZSBhbmQgYW4gaW1wbGljYXRpb24gdGhhdCB0aGUgZ25vbGzigJlzIGZsZXNoIGlzIHVud29ydGh5IG9mIGNvbnN1bXB0aW9uLiBJbiBmYWN0LCB0aGV5IHJlZnVzZSB0byBlYXQgdGhlIGJvZGllcyBvZiBwYXJ0aWN1bGFybHkgaGF0ZWQgZm9lczsgcGFydGljdWxhcmx5IHdhcm1vbmdlcmluZyBnbm9sbHMgZXZlbiBzcGlrZSB0aGUgYm9kaWVzIG9yIGhlYWRzIG9mIHN1Y2ggZGVzcGlzZWQgZW5lbWllcyBvbiB0YWxsIHNwZWFycywgd2hpY2ggdGhleSBwbGFjZSBhcm91bmQgdGhlaXIgdHJpYmFsIGhvbGRpbmdzIHRvIGRpc2hvbm9yIHRoZSBkZWFkIGFuZCBpbnRpbWlkYXRlIHdvdWxkLWJlIGludmFkZXJzLjxiciAvPiBHbm9sbCB3b21lbiBhcmUgZmFyIHN0cm9uZ2VyIGFuZCBtb3JlIGFnZ3Jlc3NpdmUgdGhhbiBnbm9sbCBtZW4gYW5kIGFyZSB0eXBpY2FsbHkgY29uc2lkZXJlZCB0aGUgbGVhZGVycyBvZiB0aGVpciBodW50aW5nIHBhY2tzIGFuZCBjbGFucy4gVGhvdWdoIGdub2xscyB0ZW5kIHRvIGJlIGRpc29yZ2FuaXplZCB3aGVuIGl0IGNvbWVzIHRvIHByYWN0aWNhbCBtYXR0ZXJzIG9yIG5lZ290aWF0aW9ucywgdGhleSBhcmUgZXh0cmVtZWx5IGVmZmljaWVudCBhdCB3b3JraW5nIHRvZ2V0aGVyIHRvIGh1bnQgZG93biBwcmV5IG9yIG92ZXJ3aGVsbSBhIGdyb3VwIG9mIGZvZXMuIE11Y2ggbGlrZSBoeWVuYXMsIHRoZXkgcHJlZmVyIHRvIGh1bnQgaW4gcGFja3MsIGFuZCBhcmUgZXhjZXB0aW9uYWxseSBza2lsbGVkIGF0IHNldHRpbmcgdXAgYW1idXNoZXMgb3Igc2VwYXJhdGluZyBpbmRpdmlkdWFsIHRhcmdldHMgZnJvbSBsYXJnZXIgZ3JvdXBzLjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiB0aXRsZT0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8yX0FkZGl0aW9uYWxMb3JlLnBuZyI+IEdub2xsIENsYW5zPC9oMz5UaGUgbW9zdCBjb21tb25seSBlbmNvdW50ZXJlZCBnbm9sbCBjbGFucyBhcmUgc2xhdmVycywgd2hvIHRyYXZlbCBmYXIgYW5kIHdpZGUgdG8gYWNxdWlyZSBjaGF0dGVsIGFuZCBhdWN0aW9uIG9mZiB0aGVpciBsaXZpbmcgZ29vZHMuIEFsdGhvdWdoIG5vdCBhbGwgY2xhbnMgZW5nYWdlIGluIHNsYXZlcnksIG1vc3QgYXJlIHN0aWxsIHZpb2xlbnQgdG93YXJkIG90aGVyIGNyZWF0dXJlcyBpbiBnZW5lcmFsLiBTb21lIGNsYW5zIGh1bnQgcGVvcGxlIGZvciBmb29kLCBvdGhlcnMgY2FwdHVyZSBpbm5vY2VudHMgdG8gc2FjcmlmaWNlIHRvIGV2aWwgZGVpdGllcywgYW5kIHN0aWxsIG90aGVycyBzaW1wbHkgd2lzaCB0byB3ZXQgdGhlaXIgYmxhZGVzIHdpdGggYmxvb2QuPGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBMb2NhdGlvbnMiIHRpdGxlPSJTaWRlYmFyIC0gTG9jYXRpb25zIiBzdHlsZT0iaGVpZ2h0OjIwcHg7IHBhZGRpbmc6MnB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xJY29uc1xTaWRlYmFyXzNfTG9jYXRpb25zLnBuZyI+IEdub2xsIExhaXJzPC9oMz5Hbm9sbHMgZHdlbGwgcHJpbWFyaWx5IG9uIGRyeSBzYXZhbm5hcyBhbmQgd2luZHN3ZXB0IHBsYWlucy4gVGhhbmtzIHRvIHRoZWlyIHN0dXJkeSBjb25zdGl0dXRpb25zIGFuZCBzdHJvbmcgc3Vydml2YWwgaW5zdGluY3RzLCB0aGV5IGhhdmUgZmV3IHF1YWxtcyBhYm91dCBzZXR0aW5nIHVwIGhvbGRpbmdzIG91dCBpbiB0aGUgb3Blbi4gTWFueSBnbm9sbHMgZXN0YWJsaXNoIHRoZWlyIGVuY2FtcG1lbnRz4oCUdHlwaWNhbGx5IG1hZGUgdXAgb2YgaGlkZSBsZWFuLXRvcyBhbmQgdGVudHPigJRhdG9wIHNsb3BpbmcgaGlsbHMgdG8gYmV0dGVyIHN1cnZleSB0aGUgcmVnaW9uIGZvciBwb3RlbnRpYWwgcHJleS4gR25vbGxzIHJhcmVseSBkd2VsbCBpbiBjYXZlcm5zIG9yIHNpbWlsYXIgZW5jbG9zdXJlcywga25vd2luZyB0aGF0IGl0IGlzIGFsbCB0b28gZWFzeSB0byBnZXQgY29ybmVyZWQgd2hlbiB0aGVyZSBpcyBvbmx5IG9uZSBleGl0LmRkAgsPPCsADQEADxYGHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgEeB1Zpc2libGVoZBYCZg9kFgQCAQ9kFgxmD2QWAmYPDxYEHwAFDkdub2xsIFNlcmdlYW50HgtOYXZpZ2F0ZVVybAUUTW9uc3RlcnMuYXNweD9JRD0yMzFkZAIBDw8WAh8ABQVHbm9sbGRkAgIPDxYCHwAFBiZuYnNwO2RkAgMPDxYCHwAFDENoYW90aWMgRXZpbGRkAgQPDxYCHwAFBiZuYnNwO2RkAgUPDxYCHwAFBiZuYnNwO2RkAgIPDxYCHwNoZGQCDQ8PZDwrAAYAZBgBBR5jdGwwMCRNYWluQ29udGVudCRUYWJsZUVsZW1lbnQPFCsACmRkZGRkZBUBCk1vbnN0ZXJzSUQUKwABFCsAAQLnAQIBFCsAAQLnAWQmA5ZiZfYx/kgGYhUB8q2hr+uKjg==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Gnoll Sergeant</h1>When gnolls band together to form hunting or raiding parties, the strongest among them is often designated the leader or sergeant. These gnolls train extensively in the art of war. Their skill at arms and the respect they command make them powerful adversaries. In smaller clans or single family units, a gnoll sergeant might also serve as the group’s leader in other affairs, such as sorting out domestic disputes or negotiating with rival gnoll clans.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Humanoid</a></u> (<u><a href="Skills.aspx?ID=14">Society</a></u>)</b>: DC 19<h1 class="title"><a href="Monsters.aspx?ID=231">Gnoll Sergeant</a><span style="float:right;">Creature 4</span></h1><a target="_blank" href="Images\Monsters\Gnoll_GnollSergeant.png"><img class="thumbnail" src="Images\Monsters\Gnoll_GnollSergeant.png"></a><span alt="Chaotic Evil" class="traitalignment" title="Chaotic Evil">CE</span><span alt="Medium" class="traitsize" title="Medium">Medium</span><span alt="Gnoll Trait" class="trait" title="Gnolls are humanoids that resemble hyenas."><a href="Traits.aspx?ID=219">Gnoll</a></span><span alt="Humanoid Trait" class="trait" title="Humanoid creatures reason and act much like humans. They typically stand upright and have two arms and two legs."><a href="Traits.aspx?ID=91">Humanoid</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 179</i></a><br /><b>Perception</b> +10; darkvision<br /><b>Languages</b> <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=17"><u>Gnoll</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +13, <a href="Skills.aspx?ID=7"><u>Intimidation</a></u> +9, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +11, <a href="Skills.aspx?ID=16"><u>Survival</a></u> +10<br /><b>Str</b> +4, <b>Dex</b> +2, <b>Con</b> +2, <b>Int</b> +0, <b>Wis</b> +1, <b>Cha</b> +0<br /><b>Items</b> <a href="Weapons.aspx?ID=75"><u>composite shortbow (20 arrows)</u></a>, <a href="Armor.aspx?ID=7"><u>hide armor</u></a>, <a href="Weapons.aspx?ID=38"><u>scimitar</u></a><hr /><b>AC</b> 21, <b>Fort</b> +12, <b>Ref</b> +10, <b>Will</b> +8<br /><b>HP</b> 60<br /><b>Attack of Opportunity</b> <img class="actiondark" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction.png"><img class="actionlight" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction_I.png"><hr /><b>Speed</b> 25 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> scimitar +14 (<a href="Traits.aspx?ID=180"><u>forceful</a></u>, <a href="Traits.aspx?ID=194"><u>sweep</a></u>), <b>Damage</b> 1d6+7 slashing</span><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> jaws +14 (<a href="Traits.aspx?ID=170"><u>agile</a></u>), <b>Damage</b> 1d6+7 piercing</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> composite shortbow +12 (<a href="Traits.aspx?ID=174"><u>deadly 1d10</a></u>, <a href="Traits.aspx?ID=191"><u>propulsive</a></u>, <a href="Traits.aspx?ID=248"><u>range increment 60 feet</a></u>, <a href="Traits.aspx?ID=254"><u>reload 0</a></u>), <b>Damage</b> 1d6+4 piercing</span><span class="hanging-indent"><b>Bark Orders</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  (<a href="Traits.aspx?ID=16"><u>auditory</a></u>, <a href="Traits.aspx?ID=101"><u>linguistic</a></u>) The gnoll sergeant commands its allies to reposition. Any allies who hear and understand this order can use a reaction to Step.</span><span class="hanging-indent"><b>Pack Attack</b> A gnoll sergeant deals 1d4 extra damage to any creature that’s within reach of at least two of the gnoll sergeant's allies.</span><span class="hanging-indent"><b>Rugged Travel</b> A gnoll ignores the first square of difficult terrain it moves into each time it Steps or Strides.</span><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=54">Gnoll</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=230">Gnoll Cultist</a></td><td>3</td></tr><tr><td><a href="Monsters.aspx?ID=229">Gnoll Hunter</a></td><td>2</td></tr><tr><td><a href="Monsters.aspx?ID=231">Gnoll Sergeant</a></td><td>4</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=54">Gnoll</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 178</i></a><br />Gnolls are short, hyena-headed humanoids who dwell in warm grasslands, savannas, and arid hills. Given their appearance, their affinity for hyenas should not be surprising; gnolls share their homes, food, and even many of their own behaviors with these animals. Much like hyenas, gnolls have a notorious reputation—they are known as bloodthirsty gluttons and slavers who worship demons or other reprehensible powers. Though these rumors are often true, the behavior of gnoll clans varies widely. Some groups are composed of capable hunters who rarely clash with other humanoids unless there is a conflict over territory. Others hew closer to the unsavory stories, preferring to raid settlements and enslave innocents, snatching the fruits of others’ hard labor by strength of arms and forcing their victims to perform the hard, demeaning labor necessary to maintain the brutal clan.<br /> Gnolls lack any particular reverence for the remains of the dead, which adds to their reputation as scavengers or even cannibals. They willingly eat nearly any other creature, including dead gnolls, which can evoke strong reactions from people and cultures with a strong taboo against cannibalism or desecrating the dead. To a gnoll, it is almost more offensive to not eat a dead body, no matter its origin; gnolls see no point in wasting precious meat in a harsh and challenging world. Worse still is the refusal to eat the   esh of a dead gnoll, which they consider an insult to that gnoll’s memory and sacrifice and an implication that the gnoll’s flesh is unworthy of consumption. In fact, they refuse to eat the bodies of particularly hated foes; particularly warmongering gnolls even spike the bodies or heads of such despised enemies on tall spears, which they place around their tribal holdings to dishonor the dead and intimidate would-be invaders.<br /> Gnoll women are far stronger and more aggressive than gnoll men and are typically considered the leaders of their hunting packs and clans. Though gnolls tend to be disorganized when it comes to practical matters or negotiations, they are extremely efficient at working together to hunt down prey or overwhelm a group of foes. Much like hyenas, they prefer to hunt in packs, and are exceptionally skilled at setting up ambushes or separating individual targets from larger groups.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Gnoll Clans</h3>The most commonly encountered gnoll clans are slavers, who travel far and wide to acquire chattel and auction off their living goods. Although not all clans engage in slavery, most are still violent toward other creatures in general. Some clans hunt people for food, others capture innocents to sacrifice to evil deities, and still others simply wish to wet their blades with blood.<h3 class="title"><img alt="Sidebar - Locations" title="Sidebar - Locations" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_3_Locations.png"> Gnoll Lairs</h3>Gnolls dwell primarily on dry savannas and windswept plains. Thanks to their sturdy constitutions and strong survival instincts, they have few qualms about setting up holdings out in the open. Many gnolls establish their encampments—typically made up of hide lean-tos and tents—atop sloping hills to better survey the region for potential prey. Gnolls rarely dwell in caverns or similar enclosures, knowing that it is all too easy to get cornered when there is only one exit.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

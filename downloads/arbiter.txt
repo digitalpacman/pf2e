@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Arbiter - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Arbiter" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=6" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABYZJPGgxIGNsYXNzPSJ0aXRsZSI+QXJiaXRlcjwvaDE+VGhlc2Ugc3BoZXJpY2FsIGluZXZpdGFibGVzIGFyZSBzY291dHMgYW5kIGRpcGxvbWF0cy4gRm91bmQgdGhyb3VnaG91dCB0aGUgbXVsdGl2ZXJzZSwgdGhleSBoYXZlIHRyYWRpdGlvbmFsbHkga2VwdCB3YXRjaCBvdmVyIG9uIGNoYW9zIGFuZCBpdHMgYWdlbnRzLiBXaXRoIHRoZSBhbm5vdW5jZW1lbnQgb2YgdGhlIENvbnZlcmdlbmNlLCBtYW55IGFyYml0ZXJzIG5vdyBzZXJ2ZSBhcyBnby1iZXR3ZWVucyBhbW9uZyB0aGUgYWVvbiBhbGxpYW5jZSBhbmQgaXRzIG1vcnRhbCBhc3NvY2lhdGVzLjxiciAvPjxiciAvPjxiPjx1PjxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTUmR2VuZXJhbD10cnVlIj5SZWNhbGwgS25vd2xlZGdlIC0gTW9uaXRvcjwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xMyI+UmVsaWdpb248L2E+PC91Pik8L2I+OiBEQyAxNTxoMSBjbGFzcz0idGl0bGUiPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9NiI+QXJiaXRlcjwvYT48c3BhbiBzdHlsZT0iZmxvYXQ6cmlnaHQ7Ij5DcmVhdHVyZSAxPC9zcGFuPjwvaDE+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9IkltYWdlc1xNb25zdGVyc1xBZW9uX0FyYml0ZXIucG5nIj48aW1nIGNsYXNzPSJ0aHVtYm5haWwiIHNyYz0iSW1hZ2VzXE1vbnN0ZXJzXEFlb25fQXJiaXRlci5wbmciPjwvYT48c3BhbiBhbHQ9Ikxhd2Z1bCBOZXV0cmFsIiBjbGFzcz0idHJhaXRhbGlnbm1lbnQiIHRpdGxlPSJMYXdmdWwgTmV1dHJhbCI+TE48L3NwYW4+PHNwYW4gYWx0PSJUaW55IiBjbGFzcz0idHJhaXRzaXplIiB0aXRsZT0iVGlueSI+VGlueTwvc3Bhbj48c3BhbiBhbHQ9IkFlb24gVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IlRoZXNlIG1vbml0b3JzIGFyZSB0aGUgc2VsZi1zdHlsZWQgZGVmZW5kZXJzIG9mIHJlYWxpdHkuIFRyYWRpdGlvbmFsIGFlb25zIGhhdmUgZHVhbGlzdGljIG5hdHVyZXMgYW5kIGZvcm1zLCBhbmQgdGhleSBob2xkIGEgZGljaG90b215IG9mIGludGVyZXN0cywgdGhvdWdoIGF4aW9taXRlcyBhbmQgaW5ldml0YWJsZXMgZG8gbm90LiBBZW9ucyBvdGhlciB0aGFuIGF4aW9taXRlcyBhbmQgaW5ldml0YWJsZXMgY29tbXVuaWNhdGUgdmlhIGEgc3RyYW5nZSB0ZWxlcGF0aGljIGhvZGdlcG9kZ2Ugb2Ygc2Vuc29yeSBzZW5kaW5nIGNhbGxlZCBlbnZpc2lvbmluZy4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIwOCI+QWVvbjwvYT48L3NwYW4+PHNwYW4gYWx0PSJJbmV2aXRhYmxlIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJUaGVzZSBjb25zdHJ1Y3RlZCBhZW9ucyB3ZXJlIGNyZWF0ZWQgYnkgdGhlIGF4aW9taXRlcy4gRWFjaCB0eXBlIG9mIGluZXZpdGFibGUgaXMgZGVkaWNhdGVkIHRvIGEgc3BlY2lmaWMgdGFzay4gTW9zdCBpbmV2aXRhYmxlcyBoYXZlIHdlYWtuZXNzIHRvIGNoYW90aWMgZGFtYWdlLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjIzIj5JbmV2aXRhYmxlPC9hPjwvc3Bhbj48c3BhbiBhbHQ9Ik1vbml0b3IgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkNyZWF0dXJlcyB0aGF0IGhhaWwgZnJvbSBvciBoYXZlIGEgc3Ryb25nIGNvbm5lY3Rpb24gdG8gdGhlIG5ldXRyYWxseSBhbGlnbmVkIHBsYW5lcyBhcmUgY2FsbGVkIG1vbml0b3JzLiBNb25pdG9ycyBjYW4gc3Vydml2ZSB0aGUgYmFzaWMgZW52aXJvbm1lbnRhbCBlZmZlY3RzIG9mIHBsYW5lcyBpbiB0aGUgT3V0ZXIgU3BoZXJlLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTExIj5Nb25pdG9yPC9hPjwvc3Bhbj48YnIgLz48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDg8L2k+PC9hPjxiciAvPjxiPlBlcmNlcHRpb248L2I+ICs3OyBkYXJrdmlzaW9uLCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NjUiPjxpPmRldGVjdCBhbGlnbm1lbnQ8L2k+PC9hPiAoY2hhb3RpYyBvbmx5KSwgbG9jYXRlIGluZXZpdGFibGU8YnIgLz48Yj5MYW5ndWFnZXM8L2I+IDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTE2Ij48dT5DZWxlc3RpYWw8L2E+PC91PiwgPGEgaHJlZj0iTGFuZ3VhZ2VzLmFzcHg/SUQ9MSI+PHU+Q29tbW9uPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTE5Ij48dT5JbmZlcm5hbDwvYT48L3U+LCA8YSBocmVmPSJMYW5ndWFnZXMuYXNweD9JRD0zNiI+PHU+VXRvcGlhbjwvYT48L3U+PGJyIC8+PGI+U2tpbGxzPC9iPiA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xIj48dT5BY3JvYmF0aWNzPC9hPjwvdT4gKzksIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTgiPjx1PkF4aXMgTG9yZTwvYT48L3U+ICs1LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD02Ij48dT5EaXBsb21hY3k8L2E+PC91PiArNiwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPjx1PlN0ZWFsdGg8L2E+PC91PiArOTxiciAvPjxiPlN0cjwvYj4gKzEsIDxiPkRleDwvYj4gKzQsIDxiPkNvbjwvYj4gKzIsIDxiPkludDwvYj4gKzAsIDxiPldpczwvYj4gKzIsIDxiPkNoYTwvYj4gKzE8YnIgLz48Yj5Mb2NhdGUgSW5ldml0YWJsZTwvYj4gQW4gYXJiaXRlciBjYW4gYWx3YXlzIHNlbnNlIHRoZSBkaXJlY3Rpb24gb2YgdGhlIG5lYXJlc3Qgbm9uLWFyYml0ZXIgaW5ldml0YWJsZSBvbiB0aGUgcGxhbmUsIGJ1dCBpdCBjYW5ub3Qgc2Vuc2UgdGhlIHJhbmdlIG9mIHRoZSBpbmV2aXRhYmxlLjxiciAvPjxiPkl0ZW1zPC9iPiA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9NDMiPjx1PnNob3J0c3dvcmQ8L3U+PC9hPjxociAvPjxiPkFDPC9iPiAxNiwgPGI+Rm9ydDwvYj4gKzUsIDxiPlJlZjwvYj4gKzcsIDxiPldpbGw8L2I+ICs3OyArMSBzdGF0dXMgdG8gYWxsIHNhdmVzIHZzLiBtYWdpYzxiciAvPjxiPkhQPC9iPiAyMjsgPGI+SW1tdW5pdGllczwvYj4gZGVhdGggZWZmZWN0cywgZGlzZWFzZSwgZW1vdGlvbiwgcG9pc29uLCB1bmNvbnNjaW91czsgPGI+UmVzaXN0YW5jZXM8L2I+IGVsZWN0cmljaXR5IDM7IDxiPldlYWtuZXNzZXM8L2I+IGNoYW90aWMgMzxociAvPjxiPlNwZWVkPC9iPiAyMCBmZWV0LCBmbHkgNDAgZmVldDxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IHNob3J0c3dvcmQgKzkgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE3MCI+PHU+YWdpbGU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTc5Ij48dT5maW5lc3NlPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTk5Ij48dT5sYXdmdWw8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTAzIj48dT5tYWdpY2FsPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIwMCI+PHU+dmVyc2F0aWxlIFM8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMWQ2KzEgcGllcmNpbmcgcGx1cyAxZDQgbGF3ZnVsPC9zcGFuPjxiPkRpdmluZSBJbm5hdGUgU3BlbGxzPC9iPiBEQyAxNzsgPGI+NHRoPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0yNDciPnJlYWQgb21lbnM8L2E+PC91PjwvaT47IDxiPjFzdDwvYj4gPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NDUiPmNvbW1hbmQ8L2E+PC91PjwvaT4sIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTY1Ij5kZXRlY3QgYWxpZ25tZW50PC9hPjwvdT48L2k+IChhdCB3aWxsLCBjaGFvdGljIG9ubHkpLCA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0xODkiPm1lbmRpbmc8L2E+PC91PjwvaT4gKHgzKTxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+RWxlY3RyaWNhbCBCdXJzdDwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJUd28gQWN0aW9ucyIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xUd29BY3Rpb25zLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iVHdvIEFjdGlvbnMiIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcVHdvQWN0aW9uc19JLnBuZyI+ICAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NDgiPjx1PmRpdmluZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD01NiI+PHU+ZWxlY3RyaWNpdHk8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjUiPjx1PmV2b2NhdGlvbjwvYT48L3U+KSBUaGUgYXJiaXRlciByZWxlYXNlcyBhbiBlbGVjdHJpY2FsIGJ1cnN0IGZyb20gaXRzIGJvZHkgdGhhdCBkZWFscyAzZDYgZWxlY3RyaWNpdHkgZGFtYWdlIChEQyAxNyBiYXNpYyBSZWZsZXggc2F2ZSkuIEZvbGxvd2luZyBzdWNoIGEgYnVyc3QsIHRoZSBhcmJpdGVyIGJlY29tZXMgc3R1bm5lZCBmb3IgMjQgaG91cnMuPC9zcGFuPjxoMiBjbGFzcz0idGl0bGUiPkFsbCBNb25zdGVycyBpbiAiPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHg/SUQ9MiI+QWVvbjwvYT4iPC9oMj48dGFibGUgY2xhc3M9ImlubmVyIj48dHI+PHRkPjxiPk5hbWU8L2I+PC90ZD48dGQ+PGI+TGV2ZWw8L2I+PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD02Ij5BcmJpdGVyPC9hPjwvdGQ+PHRkPjE8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTciPkF4aW9taXRlPC9hPjwvdGQ+PHRkPjg8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTEwIj5Lb2x5YXJ1dDwvYT48L3RkPjx0ZD4xMjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MTEiPlBsZXJvbWE8L2E+PC90ZD48dGQ+MjA8L3RkPjwvdHI+PC90YWJsZT48aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD0yIj5BZW9uPC9hPjwvaDE+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiA4PC9pPjwvYT48YnIgLz5BZW9ucyBoYXZlIGFsd2F5cyBiZWVuIHRoZSBjYXJldGFrZXJzIG9mIHJlYWxpdHkgYW5kIGRlZmVuZGVycyBvZiB0aGUgbmF0dXJhbCBvcmRlciBvZiBiYWxhbmNlLiBFYWNoIHR5cGUgb2YgYWVvbiB0YWtlcyBvbiBzb21lIGZvcm0gb2YgZHVhbGl0eSBpbiBpdHMgbWFuaWZlc3RhdGlvbiBhbmQgd29ya3MgZWl0aGVyIHRvIHNoYXBlIHRoZSBtdWx0aXZlcnNlIHdpdGhpbiB0aGUgYXNwZWN0cyBvZiB0aGlzIGR1YWxpdHkgaW4gc29tZSB3YXksIG9yIHRvIGNvcnJlY3QgaW1iYWxhbmNlcyB0byB0aGUgcGVyZmVjdCBvcmRlciBvZiBleGlzdGVuY2UuIEFlb25zIGNhbiBicmluZyB3ZWFsIG9yIHdvZSB3aGVuIHRoZXkgYXBwZWFyIGluIGEgcmVnaW9uLCBhbmQgdGhlaXIgbWFjaGluYXRpb25zIGNhbiByYWlzZSBhIG5hdGlvbiwgcmF6ZSBpdCwgb3IgcmVzdG9yZSBpdCBmcm9tIHJ1aW4uIFRoZWlyIHJlYXNvbnMgYXJlIHRoZWlyIG93biwgYW5kIHRoZXkgcmFyZWx5IHNoYXJlIHRoZWlyIG1vdGl2YXRpb25zIHdpdGggb3RoZXJz4oCUIHRoZXkgc2ltcGx5IGNyZWF0ZSB0aGUgcmVzdWx0cyB0aGV5IGluc2lzdCB0aHJvdWdoIHRoZWlyIHN0cmFuZ2UgZW52aXNpb25pbmcgY29tbXVuaWNhdGlvbiBhcmUgbmVjZXNzYXJ5IHRvIG1haW50YWluIHRoZSBiYWxhbmNlIG9mIHRoZSBtdWx0aXZlcnNlLjxiciAvPjxiciAvPiBBcyBhIHJlc3VsdCBvZiByZWNlbnQgc2hpZnRzIGluIHJlYWxpdHksIGFlb25zIGhhdmUgYmVndW4gdG8gcmVhc3NlcnQgYSBwcmVzZW5jZSBpbiB0aGUgcGVyZmVjdCBwbGFuYXIgY2l0eSBvZiBBeGlzLiBUbyB0aGUgYWVvbnMsIHRoaXMgaXMgbWVyZWx5IHRoZSBsYXRlc3QgaW4gYSByZWN1cnJpbmcgY3ljbGUsIGFsYmVpdCBvbmUgdGhhdCBtb3J0YWxzIGhhdmUgbm90IHlldCBib3JuZSB3aXRuZXNzIHRvLiBPbmNlIHJlZ2FyZGVkIGFzIGFuIGluZGVwZW5kZW50IGZhY3Rpb24sIHRoZSBsaXZpbmcgbWFjaGluZXMga25vd24gYXMgaW5ldml0YWJsZXMgYXJlIG5vdyByZXZlYWxlZCBhcyBoYXZpbmcgYmVlbiBhZ2VudHMgb2YgdGhlIGFlb25zIGFsbCBhbG9uZywgYW5kIHdoaWxlIGluZXZpdGFibGVzIGhhdmUgdGhlaXIgb3duIHNoYXJlZCB0aGVtZXMgYW5kIGZlYXR1cmVzLCB0aGV5IGFyZSB2ZXJ5IG11Y2ggbGl2aW5nIGJ1dCBjb25zdHJ1Y3RlZCBtYW5pZmVzdGF0aW9ucyBvZiB0aGUgYWVvbnPigJkgd2FyIGFnYWluc3QgaW1iYWxhbmNl4oCUcGFydGljdWxhcmx5IHdpdGggcmVnYXJkIHRvIGhvdyB0aGlzIHdhciBpcyB3YWdlZCBhZ2FpbnN0IHRoZSBmb3JjZXMgb2YgY2hhb3MuPGJyIC8+PGJyIC8+IEFlb25zIGhhdmUgYSBuYW1lIGZvciB0aGlzIGN5Y2xpYyByZXR1cm4sIGluIHdoaWNoIHRoZXkgd2VsY29tZSB0aGUgaW5kdXN0cmlvdXMgYXhpb21pdGVzIGJhY2sgdG8gdGhlaXIgZm9sZCBhbmQgYnJpbmcgdGhlIGluZXZpdGFibGVzIG9uY2UgYWdhaW4gdW5kZXIgdGhlaXIgY29udHJvbDogdGhlIOKAnENvbnZlcmdlbmNlLuKAnSBBdCB0aGUgb25zZXQgb2YgdGhlIENvbnZlcmdlbmNlLCBhIGNvdW5jaWwgb2YgcGxlcm9tYSBhZW9ucyBhcHBlYXJlZCBpbiB0aGUgRXRlcm5hbCBDaXR5IG9mIEF4aXMsIHdoZXJlIHRoZXkgcmV2ZWFsZWQgdGhhdCBheGlvbWl0ZXMgd2VyZSB3YXl3YXJkIGFlb25zLCBzcGxpdCBvZmYgbG9uZyBhZ28gdG8gcHVyc3VlIHRoZSBhY3Qgb2YgY3JlYXRpb24uIFdpdGggdGhlIGxhdGVzdCBjeWNsZSBvZiBjaGFuZ2UgaXQgd2FzIHRpbWUgZm9yIHRoZSBheGlvbWl0ZXMgYW5kIHRoZWlyIGNyZWF0aW9ucywgdGhlIGluZXZpdGFibGVzLCB0byByZWpvaW4gdGhlIGFlb24gY2F1c2UuIFdoaWxlIG1vc3QgYXhpb21pdGVzIGFuZCBpbmV2aXRhYmxlcyBmZWxsIGluIGxpbmUsIHJlYWxpemluZyBwZXJoYXBzIG9uIGEgZnVuZGFtZW50YWwgbGV2ZWwgb2YgcmVhbGl0eSB0aGF0IHdoYXQgdGhlIGFlb25zIHNhaWQgd2FzIHRoZSB0cnV0aCwgc29tZSByZWZ1c2VkIHRvIGhlZWQgdGhlIGNhbGwgYW5kIHdhaXRlZCBmb3IgdGhlIHdyYXRoIG9mIHRoZSBhZW9ucyDigJQgYnV0IHRoYXQgd3JhdGggaGFzIHlldCB0byBjb21lLiBUaGUgZHVhbC1uYXR1cmVkIGFlb25zIGhhdmUgcmVzcG9uZGVkIHRvIHRob3NlIHdobyBoYXZlIGRlY2xpbmVkIGluIGNvbmZ1c2luZyB3YXlzLiBXaXRoIHNvbWUgdGhleSB0cmVhdCBhbmQgZXZlbiBiYXJnYWluLCB3aGlsZSBhIGhhbmRmdWwgb2Ygb3RoZXJzIHRoZXkgaGF2ZSBkZXN0cm95ZWQsIGFuZCBhIGZldyBoYXZlIGJlZW4gZXh0ZXJtaW5hdGVkIGJ5IHRoZSBheGlvbWl0ZXMgYW5kIGFsbGllZCBpbmV2aXRhYmxlcy4gQnV0IG1vc3Qgb2YgdGhlc2UgcXVpZXQgaW5zdXJnZW50cyB0aGV5IGxlYXZlIGFsb25lLCBhbGxvd2luZyB0aGVzZSBheGlvbWl0ZXMgdG8gY29udGludWUgdG8gY3JlYXRlIGluIHBlYWNlIGFuZCB0aGUgaW5ldml0YWJsZXMgdG8gY29udGludWUgd2l0aCB0aGVpciBkdXRpZXMuIEhvd+KAlG9yIGlm4oCUdGhpcyBDb252ZXJnZW5jZSB3aWxsIGVuZCBpcyBhcyBsaXR0bGUgdW5kZXJzdG9vZCBhcyB0aGUgYWVvbnMgdGhlbXNlbHZlcy48aDMgY2xhc3M9InRpdGxlIj48aW1nIGFsdD0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgdGl0bGU9IlNpZGViYXIgLSBBZGRpdGlvbmFsIExvcmUiIHN0eWxlPSJoZWlnaHQ6MjBweDsgcGFkZGluZzoycHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEljb25zXFNpZGViYXJfMl9BZGRpdGlvbmFsTG9yZS5wbmciPiBBZW9uIERpdmluaXRpZXM8L2gzPldoZXRoZXIgdGhlIGFlb25zIHNlcnZlIGFuIGFjdHVhbCBkaXZpbml0eSwgYSBwaGlsb3NvcGhpY2FsIGNvbmNlcHQsIG9yIG1lcmVseSBhIOKAnHN1cHJlbWUgb25lbmVzc+KAnSBpcyBhIHRvcGljIGhvdGx5IGRlYmF0ZWQgYnkgcGxhbmFyIHNjaG9sYXJzLiBUaGUgYWVvbnMgdGhlbXNlbHZlcyBhcmUgc2lsZW50LCByZWZlcnJpbmcgdG8gdGhpcyBiZWluZyBvciBjb25jZXB0IGFzIHRoZSBNb25hZCwgYSDigJxjb25kaXRpb24gb2YgYWxsLuKAnSBSZWdhcmRsZXNzIG9mIHdoYXQgdGhlIE1vbmFkIGFjdHVhbGx5IGlzLCB0aGVyZSBjZXJ0YWlubHkgZXhpc3RzIGFub3RoZXIgY2F0ZWdvcnkgb2YgcG93ZXJmdWwgYWVvbnPigJR0aGUgcHJpbWFsIGluZXZpdGFibGVzLCBlYWNoIGEgdW5pcXVlIGRlbWlnb2Qgd2l0aCBpdHMgb3duIHBvd2VycyBhbmQgZ29hbHMuIFJlbGF0aXZlbHkgZmV3IHByaW1hbCBpbmV2aXRhYmxlcyByZW1haW4gdG9kYXksIGZvciBuZWFybHkgdGhyZWUtcXVhcnRlcnMgb2YgdGhlaXIgaXJyZXBsYWNlYWJsZSBraW5kIGhhdmUgZmFsbGVuIGluIHRoZSBlbmRsZXNzIGJhdHRsZSB3aXRoIHRoZSBpbmV4b3JhYmxlIGZvcmNlcyBvZiBlbnRyb3B5LjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gUmVsYXRlZCBDcmVhdHVyZXMiIHRpdGxlPSJTaWRlYmFyIC0gUmVsYXRlZCBDcmVhdHVyZXMiIHN0eWxlPSJoZWlnaHQ6MjBweDsgcGFkZGluZzoycHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEljb25zXFNpZGViYXJfNF9SZWxhdGVkQ3JlYXR1cmVzLnBuZyI+IE90aGVyIEFlb25zPC9oMz5BZW9ucyBhcmUgYW1vbmcgdGhlIGxlYXN0IHVuZGVyc3Rvb2Qgb2YgdGhlIEdyZWF0IEJleW9uZOKAmXMgaW1tb3J0YWwgY3JlYXR1cmVzLCBhbmQgdGhleSBoYXZlIGEgd2lkZSByYW5nZSBvZiBwb3dlcnMgYW5kIGFiaWxpdGllcy4gRmFyIG1vcmUgYWVvbnMgZXhpc3QgdGhhbiB0aG9zZSBwcmVzZW50ZWQgaGVyZSwgaW5jbHVkaW5nIGd1YXJkaWFucyBvZiB0aW1lIGxpa2UgdGhlIGZvdXItYXJtZWQgYnl0aG9zIGFuZCB0aGUgd2VpcmRseSBzeW1tZXRyaWNhbCB0aGVsZXRvcywgd2hpY2ggbW9kZXJhdGVzIHRoZSBkdWFsaXR5IGJldHdlZW4gZnJlZWRvbSBhbmQgZmF0ZS5kZAILDzwrAA0BAA8WBh4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBHgdWaXNpYmxlaGQWAmYPZBYEAgEPZBYMZg9kFgJmDw8WBB8ABQdBcmJpdGVyHgtOYXZpZ2F0ZVVybAUSTW9uc3RlcnMuYXNweD9JRD02ZGQCAQ8PFgIfAAUEQWVvbmRkAgIPDxYCHwAFBiZuYnNwO2RkAgMPDxYCHwAFDkxhd2Z1bCBOZXV0cmFsZGQCBA8PFgIfAAUGJm5ic3A7ZGQCBQ8PFgIfAAUGJm5ic3A7ZGQCAg8PFgIfA2hkZAINDw9kPCsABgBkGAEFHmN0bDAwJE1haW5Db250ZW50JFRhYmxlRWxlbWVudA8UKwAKZGRkZGRkFQEKTW9uc3RlcnNJRBQrAAEUKwABAgYCARQrAAECBmTVgP6Hr4TFSrKgknzlho9/f1/3yg==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Arbiter</h1>These spherical inevitables are scouts and diplomats. Found throughout the multiverse, they have traditionally kept watch over on chaos and its agents. With the announcement of the Convergence, many arbiters now serve as go-betweens among the aeon alliance and its mortal associates.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Monitor</a></u> (<u><a href="Skills.aspx?ID=13">Religion</a></u>)</b>: DC 15<h1 class="title"><a href="Monsters.aspx?ID=6">Arbiter</a><span style="float:right;">Creature 1</span></h1><a target="_blank" href="Images\Monsters\Aeon_Arbiter.png"><img class="thumbnail" src="Images\Monsters\Aeon_Arbiter.png"></a><span alt="Lawful Neutral" class="traitalignment" title="Lawful Neutral">LN</span><span alt="Tiny" class="traitsize" title="Tiny">Tiny</span><span alt="Aeon Trait" class="trait" title="These monitors are the self-styled defenders of reality. Traditional aeons have dualistic natures and forms, and they hold a dichotomy of interests, though axiomites and inevitables do not. Aeons other than axiomites and inevitables communicate via a strange telepathic hodgepodge of sensory sending called envisioning."><a href="Traits.aspx?ID=208">Aeon</a></span><span alt="Inevitable Trait" class="trait" title="These constructed aeons were created by the axiomites. Each type of inevitable is dedicated to a specific task. Most inevitables have weakness to chaotic damage."><a href="Traits.aspx?ID=223">Inevitable</a></span><span alt="Monitor Trait" class="trait" title="Creatures that hail from or have a strong connection to the neutrally aligned planes are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere."><a href="Traits.aspx?ID=111">Monitor</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 8</i></a><br /><b>Perception</b> +7; darkvision, <a style="text-decoration:underline" href="Spells.aspx?ID=65"><i>detect alignment</i></a> (chaotic only), locate inevitable<br /><b>Languages</b> <a href="Languages.aspx?ID=16"><u>Celestial</a></u>, <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=19"><u>Infernal</a></u>, <a href="Languages.aspx?ID=36"><u>Utopian</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +9, <a href="Skills.aspx?ID=8"><u>Axis Lore</a></u> +5, <a href="Skills.aspx?ID=6"><u>Diplomacy</a></u> +6, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +9<br /><b>Str</b> +1, <b>Dex</b> +4, <b>Con</b> +2, <b>Int</b> +0, <b>Wis</b> +2, <b>Cha</b> +1<br /><b>Locate Inevitable</b> An arbiter can always sense the direction of the nearest non-arbiter inevitable on the plane, but it cannot sense the range of the inevitable.<br /><b>Items</b> <a href="Weapons.aspx?ID=43"><u>shortsword</u></a><hr /><b>AC</b> 16, <b>Fort</b> +5, <b>Ref</b> +7, <b>Will</b> +7; +1 status to all saves vs. magic<br /><b>HP</b> 22; <b>Immunities</b> death effects, disease, emotion, poison, unconscious; <b>Resistances</b> electricity 3; <b>Weaknesses</b> chaotic 3<hr /><b>Speed</b> 20 feet, fly 40 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> shortsword +9 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>, <a href="Traits.aspx?ID=99"><u>lawful</a></u>, <a href="Traits.aspx?ID=103"><u>magical</a></u>, <a href="Traits.aspx?ID=200"><u>versatile S</a></u>), <b>Damage</b> 1d6+1 piercing plus 1d4 lawful</span><b>Divine Innate Spells</b> DC 17; <b>4th</b> <i><u><a href="Spells.aspx?ID=247">read omens</a></u></i>; <b>1st</b> <i><u><a href="Spells.aspx?ID=45">command</a></u></i>, <i><u><a href="Spells.aspx?ID=65">detect alignment</a></u></i> (at will, chaotic only), <i><u><a href="Spells.aspx?ID=189">mending</a></u></i> (x3)<br /><span class="hanging-indent"><b>Electrical Burst</b> <img class="actiondark" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions.png"><img class="actionlight" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions_I.png">  (<a href="Traits.aspx?ID=48"><u>divine</a></u>, <a href="Traits.aspx?ID=56"><u>electricity</a></u>, <a href="Traits.aspx?ID=65"><u>evocation</a></u>) The arbiter releases an electrical burst from its body that deals 3d6 electricity damage (DC 17 basic Reflex save). Following such a burst, the arbiter becomes stunned for 24 hours.</span><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=2">Aeon</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=6">Arbiter</a></td><td>1</td></tr><tr><td><a href="Monsters.aspx?ID=7">Axiomite</a></td><td>8</td></tr><tr><td><a href="Monsters.aspx?ID=10">Kolyarut</a></td><td>12</td></tr><tr><td><a href="Monsters.aspx?ID=11">Pleroma</a></td><td>20</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=2">Aeon</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 8</i></a><br />Aeons have always been the caretakers of reality and defenders of the natural order of balance. Each type of aeon takes on some form of duality in its manifestation and works either to shape the multiverse within the aspects of this duality in some way, or to correct imbalances to the perfect order of existence. Aeons can bring weal or woe when they appear in a region, and their machinations can raise a nation, raze it, or restore it from ruin. Their reasons are their own, and they rarely share their motivations with others— they simply create the results they insist through their strange envisioning communication are necessary to maintain the balance of the multiverse.<br /><br /> As a result of recent shifts in reality, aeons have begun to reassert a presence in the perfect planar city of Axis. To the aeons, this is merely the latest in a recurring cycle, albeit one that mortals have not yet borne witness to. Once regarded as an independent faction, the living machines known as inevitables are now revealed as having been agents of the aeons all along, and while inevitables have their own shared themes and features, they are very much living but constructed manifestations of the aeons’ war against imbalance—particularly with regard to how this war is waged against the forces of chaos.<br /><br /> Aeons have a name for this cyclic return, in which they welcome the industrious axiomites back to their fold and bring the inevitables once again under their control: the “Convergence.” At the onset of the Convergence, a council of pleroma aeons appeared in the Eternal City of Axis, where they revealed that axiomites were wayward aeons, split off long ago to pursue the act of creation. With the latest cycle of change it was time for the axiomites and their creations, the inevitables, to rejoin the aeon cause. While most axiomites and inevitables fell in line, realizing perhaps on a fundamental level of reality that what the aeons said was the truth, some refused to heed the call and waited for the wrath of the aeons — but that wrath has yet to come. The dual-natured aeons have responded to those who have declined in confusing ways. With some they treat and even bargain, while a handful of others they have destroyed, and a few have been exterminated by the axiomites and allied inevitables. But most of these quiet insurgents they leave alone, allowing these axiomites to continue to create in peace and the inevitables to continue with their duties. How—or if—this Convergence will end is as little understood as the aeons themselves.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Aeon Divinities</h3>Whether the aeons serve an actual divinity, a philosophical concept, or merely a “supreme oneness” is a topic hotly debated by planar scholars. The aeons themselves are silent, referring to this being or concept as the Monad, a “condition of all.” Regardless of what the Monad actually is, there certainly exists another category of powerful aeons—the primal inevitables, each a unique demigod with its own powers and goals. Relatively few primal inevitables remain today, for nearly three-quarters of their irreplaceable kind have fallen in the endless battle with the inexorable forces of entropy.<h3 class="title"><img alt="Sidebar - Related Creatures" title="Sidebar - Related Creatures" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_4_RelatedCreatures.png"> Other Aeons</h3>Aeons are among the least understood of the Great Beyond’s immortal creatures, and they have a wide range of powers and abilities. Far more aeons exist than those presented here, including guardians of time like the four-armed bythos and the weirdly symmetrical theletos, which moderates the duality between freedom and fate.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

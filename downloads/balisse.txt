@@ -1,0 +1,44 @@
+907" class="post-907 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-angel">
+                                        <h1>Balisse (Confessor Angel)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Balisse <span class="monster-level">Creature 8</span></h4> 
+ <p class="traits"><span class="alignment">NG</span> <span class="size">Medium</span> <span class="trait">Angel</span> <span class="trait">Celestial</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +18 (+20 to detect lies and illusions); <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+ <p><b>Languages</b> Celestial, Draconic, Infernal; <a class="spell" href="https://pf2.d20pfsrd.com/spell/tongues/">tongues</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +14, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +17, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +18</p> 
+ <p><b>Str</b> +5, <b>Dex</b> +2, <b>Con</b> +4, <b>Int</b> +1, <b>Wis</b> +6, <b>Cha</b> +5</p> 
+ <p><b>Items</b> +1 Striking scimitar</p> 
+ <hr> 
+ <p><b>AC</b> 26; <b>Fort</b> +16, <b>Ref</b> +12, <b>Will</b> +18; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 145; <b>Weaknesses</b> evil 10; <b>Resistances</b> fire 15</p> 
+ <p><b>Confessor&#8217;s Aura</b> (aura, divine, enchantment, mental) 20 feet. Creatures in the balisse&#8217;s aura are subject to <a class="spell" href="https://pf2.d20pfsrd.com/spell/zone-of-truth/">zone of truth</a> (DC 23). Additionally, if these creatures choose to honestly express their own conflicted feelings, the aura makes it easier for them to put words to those feelings.</p> 
+ <hr> 
+ <p><b>Speed</b> 30 feet, fly 40 feet</p> 
+ <p><b>Melee</b> [one-action] flaming scimitar +20 (fire, forceful, good, magical, sweep), <b>Damage</b> 2d6+8 slashing plus 1d6 fire and 1d6 good</p> 
+ <p><b>Divine Innate Spells</b> DC 26</p> 
+ <p><b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-wrath/">divine wrath</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/paralyze/">paralyze</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-curse/">remove curse</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-disease/">remove disease</a>; <b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-fear/">remove fear</a> (at will); <b>2nd</b> <a class="spell" href="http://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a> (at will, self only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (at will, evil only)</p> 
+ <p><b>Divine Rituals</b> DC 26</p> 
+ <p><a class="spell" href="https://pf2.d20pfsrd.com/spell/angelic-messenger/">angelic messenger</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/atone/">atone</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/geas/">geas</a></p> 
+ <p><b>Brand of the Impenitent</b> [two-actions] (curse, divine, evocation)</p> 
+ <p><b>Frequency</b> once per day; <b>Effect</b> The balisse marks an evil creature within its confessor&#8217;s aura as irredeemable. It can only do so after a failed attempt to convince the creature to repent. The touched creature takes a -1 status penalty to AC and saves, reduces its resistances by 2, and gains weakness 2 to good damage. The duration depends on the target&#8217;s DC 26 Will save.</p> 
+ <p><b>Critical Success</b> The creature is unaffected.</p> 
+ <p><b>Success</b> The duration is 1 round.</p> 
+ <p><b>Failure</b> The duration is 1 day.</p> 
+ <p><b>Critical Failure</b> The duration is permanent.</p> 
+ <p><b>Flaming Armament</b> (divine, evocation) Any weapon gains the effect of a flaming property Rune while a balisse wields it.</p> 
+ <p><b>Guiding Angel</b> [one-action] (divine, transmutation) While invisible, a balisse can spiritually attach itself to a non-evil mortal. When it does so, it merges with the mortal&#8217;s body and is unable to use any of its spells and abilities other than to interact with the mortal. It must use Guiding Angel again to leave the mortal. While merged with the mortal, the balisse can take a form of its choice that only the mortal can see, such as a small angel on the mortal&#8217;s shoulder. Alternatively, it can communicate with the mortal using a bodiless voice only the mortal can hear.</p> 
+
+<p class="header">About</p>
+<p>Balisses, or confessor angels, seek to assist mortals ensnared by moral dilemmas or crises of faith. Balisses prefer to guide people to their own decisions rather than demand obedience to a higher cause, as intrinsic belief is even more powerful than blind obedience.</p> 
+ <p>While most balisses are fundamentally honest, they use their guardian angel ability to seem less intimidating and decrease the chance the mortal will simply acquiesce to the opinion of an obviously divine being. Balisses often form from souls of those who performed evil acts but were redeemed. Many serve the goddess The Healing Flame, but they can serve other good deities and empyreal lords as well.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

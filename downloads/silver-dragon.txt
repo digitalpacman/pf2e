@@ -1,0 +1,119 @@
+1197" class="post-1197 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-metallic-dragon">
+                                        <h1>Silver Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Young Silver Dragon <span class="monster-level">Creature 10</span></h4>
+<p class="traits"><span class="alignment">LG</span> <span class="size">Large</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +20; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, fog vision, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Auran, Common, Draconic</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +14, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +14</p>
+<p><b>Str</b> +6, <b>Dex</b> +2, <b>Con</b> +3, <b>Int</b> +2, <b>Wis</b> +4, <b>Cha</b> +4</p>
+<div class="special-abilities">
+<p><b>Fog Vision</b> The silver dragon ignores the concealed condition from fog and clouds.</p>
+</div>
+<hr />
+<p><b>AC</b> 31; <b>Fort</b> +20, <b>Ref</b> +17, <b>Will</b> +21</p>
+<p><b>HP</b> 200; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 10</p>
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 28</p>
+<p><b>Wing Deflection</b> [reaction] <b>Trigger</b> The silver dragon is targeted with an attack. <b>Effect</b> The dragon raises its wing, gaining a +2 circumstance bonus to AC against the triggering attack. If the dragon is flying, it descends 10 feet after the attack is complete.</p>
+</div>
+<hr />
+<p><b>Speed</b> 40 feet, fly 100 feet; cloud walk</p>
+<p><b>Melee</b> [one-action] jaws +23 (cold, reach 10 feet), <b>Damage</b> 2d10+12 piercing plus 2d6 cold</p>
+<p><b>Melee</b> [one-action] claw +23 (agile), <b>Damage</b> 2d8+12 slashing</p>
+<p><b>Melee</b> [one-action] tail +21 (reach 15 feet), <b>Damage</b> 1d10+10 bludgeoning</p>
+<p><b>Arcane Innate Spells</b> DC 28; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p>
+<p><b>Divine Prepared Spells</b> DC 28, attack +23; <b>4th</b> freedom of movement, read omens, restoration; <b>3rd</b> heal, paralyze, wall of wind; <b>2nd</b> augury, calm emotions, restoration, see invisibility; <b>1st</b> alarm, bless, protection, true strike; <b>Cantrips (4th)</b> detect magic, light, message, read aura, stabilize</p>
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] The silver dragon breathes in one of two ways. The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p>
+<ul>
+<li><b>Frost</b> (arcane, cold, evocation); The dragon breathes a cloud of frost in a 30-foot cone that deals 10d6 cold damage (DC 29 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save).</li>
+<li><b>Paralyzing Gas</b> (arcane, enchantment, incapacitation); The dragon breathes a blast of paralyzing gas. Each creature within a 30-foot cone must succeed at a DC 29 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save or be slowed 1 for 1 round (or paralyzed for 1 round on a critical failure).</li>
+</ul>
+<p><b>Cloud Walk</b> The silver dragon can tread on clouds or fog as though on solid ground.</p>
+<p><b>Draconic Frenzy</b> [two-actions] The silver dragon makes two claw Strikes and one tail Strike in any order.</p>
+<p><b>Draconic Momentum</b> When the silver dragon scores a critical hit with a Strike, it recharges its Breath Weapon.</p>
+</div>
+
+<h4 class="monster">Adult Silver Dragon <span class="monster-level">Creature 14</span></h4>
+<p class="traits"><span class="alignment">LG</span> <span class="size">Huge</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +26; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, fog vision, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Auran, Common, Draconic, Dwarven</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +21, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +20</p>
+<p><b>Str</b> +7, <b>Dex</b> +3, <b>Con</b> +4, <b>Int</b> +3, <b>Wis</b> +4, <b>Cha</b> +5</p>
+<div class="special-abilities">
+<p><b>Fog Vision</b> As young silver dragon.</p>
+</div>
+<hr />
+<p><b>AC</b> 37; <b>Fort</b> +26, <b>Ref</b> +23, <b>Will</b> +28; +1 status to all saves vs. magic</p>
+<p><b>HP</b> 295; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 10</p>
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 33</p>
+<p><b>Wing Deflection</b> [reaction] As young silver dragon.</p>
+</div>
+<hr />
+<p><b>Speed</b> 50 feet, fly 140 feet; cloud walk</p>
+<p><b>Melee</b> [one-action] jaws +29 (cold, magical, reach 15 feet), <b>Damage</b> 3d10+13 piercing plus 3d6 cold</p>
+<p><b>Melee</b> [one-action] claw +29 (agile, magical, reach 10 feet), <b>Damage</b> 3d8+13 slashing</p>
+<p><b>Melee</b> [one-action] tail +27 (magical, reach 20 feet), <b>Damage</b> 2d10+11 bludgeoning</p>
+<p><b>Arcane Innate Spells</b> DC 33; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p>
+<p><b>Divine Prepared Spells</b> DC 33, attack +29; As young silver dragon, plus <b>6th</b> repulsion, true seeing, zealous conviction; <b>5th</b> banishment, heal, sending; <b>Cantrips (6th)</b> detect magic, light, message, read aura, stabilize</p>
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] As young silver dragon, but a 40-foot cone, DC 35, the dragon&#8217;s frost deals 15d6 cold damage, and the dragon&#8217;s paralyzing gas makes the creature slowed 2 for 1 round (or paralyzed for 2 rounds on a critical failure).</p>
+<p><b>Cloud Walk</b> As young silver dragon.</p>
+<p><b>Draconic Frenzy</b> [two-actions] As young silver dragon.</p>
+<p><b>Draconic Momentum</b> As young silver dragon.</p>
+</div>
+
+
+<h4 class="monster">Ancient Silver Dragon <span class="monster-level">Creature 19</span></h4>
+<p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">LG</span> <span class="size">Gargantuan</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +32; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, fog vision, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Auran, Common, Draconic, Dwarven, Sylvan</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +38, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +34, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +37, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +33, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +30</p>
+<p><b>Str</b> +9, <b>Dex</b> +4, <b>Con</b> +5, <b>Int</b> +5, <b>Wis</b> +5, <b>Cha</b> +7</p>
+<div class="special-abilities">
+<p><b>Fog Vision</b> As young silver dragon.</p>
+</div>
+<hr />
+<p><b>AC</b> 45; <b>Fort</b> +34, <b>Ref</b> +31, <b>Will</b> +34; +1 status to all saves vs. magic</p>
+<p><b>HP</b> 410; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 15</p>
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 40</p>
+<p><b>Cold Aura</b> (cold, aura) 15 feet, 3d6 cold damage. The silver dragon can turn this aura on or off as a single action, which has the concentrate trait, and can choose not to affect allies within the aura.</p>
+<p><b>Reflect Spell</b> [reaction] <b>Trigger</b> The silver dragon critically succeeds at a saving throw against a spell, or a caster trying to target the dragon critically fails their attack roll. <b>Effect</b> The spell is reflected back upon the caster, with the effect of <a class="spell" href="https://pf2.d20pfsrd.com/spell/spell-turning/">spell turning</a>.</p>
+<p><b>Wing Deflection</b> [reaction] As young silver dragon.</p>
+</div>
+<hr />
+<p><b>Speed</b> 60 feet, fly 180 feet; cloud walk</p>
+<p><b>Melee</b> [one-action] jaws +37 (cold, magical, reach 20 feet), <b>Damage</b> 4d10+17 piercing plus 4d6 cold</p>
+<p><b>Melee</b> [one-action] claw +37 (agile, magical, reach 15 feet), <b>Damage</b> 4d8+17 slashing</p>
+<p><b>Melee</b> [one-action] tail +35 (magical, reach 25 feet), <b>Damage</b> 3d10+15 bludgeoning</p>
+<p><b>Arcane Innate Spells</b> DC 40; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p>
+
+<p><b>Divine Prepared Spells</b> DC 40, attack +36; As adult silver dragon, plus 8rd <a class="spell" href="https://pf2.d20pfsrd.com/spell/discern-location/">discern location</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-decree/">divine decree</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-decree/">divine decree</a>, energy aegis, <a class="spell" href="https://pf2.d20pfsrd.com/spell/plane-shift/">plane shift</a>; <b>Cantrips</b> (8th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/light/">light</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/message/">message</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/stabilize/">stabilize</a></p>
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] As young silver dragon, but a 50-foot cone, DC 42, the frost deals 20d6 cold damage, and the paralyzing gas makes the creature paralyzed for 1 round (or 3 rounds on a critical failure).</p>
+<p><b>Cloud Walk</b> As young silver dragon.</p>
+<p><b>Draconic Frenzy</b> [two-actions] As young silver dragon.</p>
+<p><b>Draconic Momentum</b> As young silver dragon.</p>
+</div>
+<p class="header">About</p>
+<p>Silver dragons are among the most chivalrous of all dragonkind; they wield frost and cold as weapons, can walk on clouds, and dwell high upon snowy mountain peaks or deep in steep, misty valleys. Although they typically make their lairs among the highlands, the pursuit of justice leads silver dragons to travel far and wide—often into the very heart of realms overrun by evil. These exemplars of righteousness are ceaseless in their determination to help the weak, spread honor, and stamp out evil.</p>
+<p>Silver dragons are sleek and sinuous. Their hides resemble nothing so much as a suit of gleaming armor, lending further credence to the popular myth that silver dragons are the paladins of dragonkind. The zeal with which they seek out, confront, and defeat evil is unsurpassed even among their metallic cousins, and they adhere to strict codes of honor usually passed down from parent to hatchling. On occasion, they instead learn these codes from trusted mentors, usually other silver dragons or gold dragons. As they age, they become even more dedicated to their codes, often adding new and even more restrictive clauses to the systems that guide their behavior.</p>
+<p>Silver dragons are incredibly altruistic and regularly consort with the citizens of goodly societies, of which they consider themselves protectors and guides.</p>
+<p>In addition to responding to evil threats, silver dragons work to prevent evil from taking root in the first place, and they ensure mortals under their care are well fed, educated, and treated with dignity. Although silver dragons can seem overzealous or even eager to join the fight against evil, they know that the best way to rid the world of corruption is to stamp out strife and disillusionment at their source, not to passively sit back and watch it grow into an unsolvable problem. Silver dragons can be vindictive, but they can also be forgiving; for evildoers who seek to atone for their sins and turn over a new leaf, the support of a silver dragon is both unwavering and invaluable.</p>
+<p>Many silver dragons are also drawn to religious endeavors, venerating deities such as Lady of Valor, The Healing Flame, and other deities concerned with justice, virtue, and redemption.</p>                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

@@ -1,0 +1,50 @@
+1120" class="post-1120 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-demon">
+                                        <h1>Marilith (Pride Demon)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Marilith <span class="monster-level">Creature 17</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Demon</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +30; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p> 
+ <p><b>Languages</b> Abyssal, Celestial, Draconic; telepathy 100 feet</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +33, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +30, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +30, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +29, Warfare <a href="https://pf2.d20pfsrd.com/rules/skills/#Lore_Int">Lore</a> +31</p> 
+ <p><b>Str</b> +8, <b>Dex</b> +6, <b>Con</b> +6, <b>Int</b> +4, <b>Wis</b> +4, <b>Cha</b> +7</p> 
+ <p><b>Items</b> longsword (6)</p> 
+ <hr> 
+ <p><b>AC</b> 40; <b>Fort</b> +31, <b>Ref</b> +29, <b>Will</b> +27; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 380; <b>Weaknesses</b> cold iron 15, good 15</p> 
+
+<div class="special-abilities">
+<p><b>Commander&#8217;s Aura</b> (aura, divine, enchantment) 100 feet. Commanded or allied evil creatures in the aura of lower level than the marilith gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks.</p> 
+<p><b>Failure</b> Vulnerability A marilith&#8217;s pride feeds their strength, so the sting of failure wounds them. If the marilith uses a damaging spell or makes a Strike on their turn but doesn&#8217;t deal any damage that turn, they take 3d6+10 mental damage at the end of their turn and their commander&#8217;s aura deactivates until the end of their next turn.</p>
+</div>
+
+<p><b>Attack of Opportunity</b> [reaction] A marilith gains 5 extra reactions per round that they can use only to make Attacks of Opportunity. The demon can&#8217;t use more than one on the same triggering action, even if a creature leaves several squares in the marilith&#8217;s reach, and the marilith must use a different weapon for each Attack of Opportunity.</p> 
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 40 feet (from fly)</p> 
+ <p><b>Melee</b> [one-action] cold iron silver longsword +35 (evil, magical, reach 10 feet, versatile P), <b>Damage</b> 3d8+16 slashing plus 1d6 evil</p> 
+ <p><b>Melee</b> [one-action] tail +33 (evil, magical, reach 10 feet), <b>Damage</b> 3d12+16 bludgeoning plus 1d6 evil and Grab</p> 
+
+<p><b>Divine Innate Spells</b> DC 38; <b>9th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/blade-barrier/">blade barrier</a> (×2), <a class="spell" href="https://pf2.d20pfsrd.com/spell/weapon-storm/">weapon storm</a> (×2); <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>Constant</b> (6th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a><br><b>(4th)</b> fly</p> 
+<p><b>Divine Rituals</b> DC 38; Abyssal pact</p> 
+
+<div class="special-abilities">
+<p><b>Bladestorm</b> [two-actions] The marilith makes up to six longsword Strikes, each against a different target. These attacks count toward the marilith&#8217;s multiple attack penalty, but the multiple attack penalty doesn&#8217;t increase until after all the attacks.</p> 
+<p><b>Defensive Assault</b> [two-actions] The marilith makes two Strikes, each with a different weapon, and they use the remaining weapons for protection. The demon gains a circumstance bonus to AC for 1 round equal to the number of weapons not used for attacks. If the marilith later uses any of those weapons to attack (including for an Attack of Opportunity), the bonus to AC decreases by 1 for each weapon used.</p> 
+<p><b>Focused Assault</b> [two-actions] The marilith attacks a single target with all the weapons they wield in their arms, overwhelming the target with multiple attacks and leaving almost nowhere to dodge. The demon makes a longsword Strike. On a successful attack, the marilith deals longsword damage to the target, plus an additional 1d8 damage for every longsword they wield beyond the first (typically 5d8 extra damage). Even on a failed attack, the marilith deals the damage from one longsword to the target, though they still miss completely on a critical failure. This counts toward the marilith&#8217;s multiple attack penalty as a number of attacks equal to the number of longswords the pride demon wields.</p> 
+<p><b>Greater Constrict</b> [one-action] 2d12+13 bludgeoning, DC 39</p> 
+<p><b>Infuse Weapons</b> (divine, evocation) Any weapon becomes a +2 greater Striking weapon made of cold iron and silver while a marilith wields it. The marilith can change its evil damage to chaotic whenever it attacks.</p>
+</div>
+
+<p class="header">About</p>
+<p>Mariliths are the generals of the Abyss, formed from the souls of proud evil mortals, often warlords and despots. They appear as tall and powerfully built humans from the waist up with snake tails and six arms. Most pride demons encountered by mortals take female form, but they can be of any gender.</p> 
+ <p>Mariliths are among the greatest tacticians in the Abyss, and they have an almost supernatural knack for understanding the ripples of chaos and the unpredictable nature of demonic life. Their ability to command armies rises as much from their commanding presence as it does their ability to read into the potential results of any possible act and a sufficient understanding of the flow of entropy to allow them to predict likely outcomes.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

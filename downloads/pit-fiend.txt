@@ -1,0 +1,56 @@
+1154" class="post-1154 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-devil">
+                                        <h1>Pit Fiend (Tyrant Devil)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Pit Fiend <span class="monster-level">Creature 20</span></h4>
+<p class="traits"><span class="alignment">LE</span> <span class="size">Large</span> <span class="trait">Devil</span> <span class="trait">Fiend</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +37; greater <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p>
+<p><b>Languages</b> Celestial, Common, Draconic, Infernal; telepathy 100 feet</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +34, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +33, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +39, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +34, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +39, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +37, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +36, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +34</p>
+<p><b>Str</b> +9, <b>Dex</b> +8, <b>Con</b> +9, <b>Int</b> +8, <b>Wis</b> +9, <b>Cha</b> +8</p>
+<hr />
+<p><b>AC</b> 46; <b>Fort</b> +37, <b>Ref</b> +32, <b>Will</b> +35; +1 status to all saves vs. magic</p>
+<p><b>HP</b> 335, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Regeneration">regeneration</a> 30 (deactivated by good); <b>Immunities</b> fire; <b>Weaknesses</b> good 15; <b>Resistances</b> physical 15 (except silver), poison 15</p>
+<div class="special-abilities">
+<p><b>Commander&#8217;s Aura</b> (aura, divine, enchantment) 100 feet. Commanded or allied evil creatures in the aura of lower level than the pit fiend gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks.</p>
+<p><b>Frightful Presence</b> (aura, divine, emotion, enchantment, fear, mental) 20 feet, DC 42</p>
+<p><b>Attack of Opportunity</b> [reaction] The pit fiend can make an Attack of Opportunity when a creature within reach uses a concentrate action, in addition to the usual trigger. The devil can disrupt triggering concentrate actions, and they disrupt actions on any hit, not only a critical hit.</p>
+</div>
+<hr />
+<p><b>Speed</b> 35 feet, fly 50 feet</p>
+<p><b>Melee</b> [one-action] jaws +40 (evil, magical, poison, reach 10 feet), <b>Damage</b> 4d10+17 piercing plus 2d6 evil and pit fiend venom</p>
+<p><b>Melee</b> [one-action] claw +38 (agile, evil, magical, reach 10 feet), <b>Damage</b> 4d6+17 slashing plus 2d6 evil</p>
+<p><b>Melee</b> [one-action] tail +36 (evil, magical, reach 10 feet), <b>Damage</b> 4d10+17 bludgeoning plus 2d6 evil and Improved Grab</p>
+<p><b>Melee</b> [one-action] wing +36 (evil, magical, reach 15 feet), <b>Damage</b> 4d6+17 slashing plus 2d6 evil</p>
+<p><b>Divine Innate Spells</b> DC 42; <b>10th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/meteor-swarm/">meteor swarm</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/miracle/">miracle</a> (once per year), <a class="spell" href="https://pf2.d20pfsrd.com/spell/power-word-stun/">power word stun</a>; <b>9th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/bind-soul/">bind soul</a> (at will); <b>8th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dispel-magic/">dispel magic</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-decree/">divine decree</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/fireball/">fireball</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/scrying/">scrying</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-fire/">wall of fire</a> (at will); <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>Constant (8th)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p>
+<p><b>Rituals</b> DC 42; infernal pact</p>
+<div class="special-abilities">
+<p><b>Constrict</b> [one-action] 2d10+17 bludgeoning plus 2d6 evil, DC 43</p>
+<p><b>Devil Shaping</b> (divine, downtime, transmutation) The pit fiend reshapes a large number of lemures within a 600-foot radius into more powerful devils to swell</p>
+<p><b>Hell&#8217;s legions</b>. The pit fiend must have available the number of lemures listed on the table in the sidebar on page 92. The pit fiend can shape 100 lemures per day, to a maximum of 1,100 lemures in 11 days. Devils created in this way are in thrall to the pit fiend and follow its orders, with the exception of created pit fiends or other devils of similar power, which are always independent. As a result, few pit fiends choose to create peers. At the end of the Devil Shaping activity, the pit fiend attempts an incredibly hard <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> check of the desired devil&#8217;s level, with results as follows.</p>
+<ul>
+<li><b>Critical Success</b> The pit fiend shapes two devils from the massed lemures instead of one.</li>
+<li><b>Success</b> The pit fiend shapes a devil of the desired type and level.</li>
+<li><b>Failure</b> The devil shaped from the lemures is 2 levels lower than the intended devil.</li>
+<li><b>Critical Failure</b> The pit fiend fails to shape any devils and draws the ire of an archdevil for its waste of resources.</li>
+</ul>
+<p><b>Fast Swoop</b> [one-action] The pit fiend Flies and makes a wing Strike at any point during its movement.</p>
+<p><b>Masterful Quickened Casting</b> [free-action] (concentrate); <b>Frequency</b> once per round.; <b>Effect</b> If the pit fiend&#8217;s next action is to cast an 8th-level or lower innate spell, reduce the number of actions to cast it by 1 (minimum 1 action).</p>
+<p><b>Pit Fiend Venom</b> (poison); <b>Saving Throw DC</b> 43 Fortitude; <b>Maximum Duration</b> 10 rounds; <b>Stage 1</b> 6d6 poison damage and drained 1 (1 round); <b>Stage 2</b> 7d6 poison damage and drained 2 (1 round); <b>Stage 3</b> 8d6 poison damage and drained 3 (1 round)</p>
+</div>
+<p class="header">About</p>
+<p>When an army of devils invades to bathe a region in bloodshed and hellfire, it is likely that one of Hell&#8217;s most powerful and diabolical generals, the pit fiend, masterminded the incursion. Cunning, powerful, and ruthless, pit fiends often serve the archdevils directly. They rule infernal duchies, subjugate mortal worlds, and usurp infernal rivals using unparalleled despotism and calculated ferocity. To realize their tyrannical machinations, pit fiends claim mortal souls that they corrupt into lemure servants, which can then be shaped and transformed through infernal manipulation into the terrifying devils that form Hell&#8217;s formidable legions. They often select the most wicked and vicious lemures for their armies, drawing upon these lesser devils&#8217; depravity during powerful magical ceremonies to create hideous and terrifying abominations that can cow and eviscerate the pit fiend&#8217;s enemies.</p>
+<p>Pit fiends themselves are crafted deep within the nightmarish bowels of Nessus, the ninth layer of Hell, to serve the whims of archdevils and infernal dukes.</p>
+<p>Those pit fiends that don&#8217;t leave Nessus to command infernal legions in the upper layers of Hell often form the courts of Hell&#8217;s elite, gathering cabals and sects that shape Hell&#8217;s political landscape through subterfuge and manipulation. But many pit fiends see themselves as living embodiments of hellfire, the all-encompassing wrath of Hell, and thus prefer to dwell in realms consumed by fire. In Avernus, Dis, Malebolge, Nessus, and Phlegethon, pit fiends build vast citadels of brimstone wreathed in flame to lord over.</p>
+<p>Pit fiends tower over other devils, standing at least 16 feet tall, weighing over 1,000 pounds, and brandishing wingspans in excess of 20 feet.</p>
+<h3>Infernal Dukes</h3>
+<p>Elite members of Hell&#8217;s political infrastructure and leadership hierarchy, the dukes of Hell are chosen from among the most tyrannical, oppressive, and conniving devils. While not all infernal dukes are pit fiends, a pit fiend&#8217;s natural disposition toward conquest and oppression often make it an ideal candidate for this position. To create an infernal duke, adjust the pit fiend to be between 21st and 25th level. Because of their physical prowess, manipulative nature, and powerful spellcasting abilities, infernal dukes make excellent villains for long-running campaigns.</p>                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

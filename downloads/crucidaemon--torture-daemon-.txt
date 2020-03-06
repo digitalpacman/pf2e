@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Crucidaemon - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Crucidaemon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=479" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABbpbPGgxIGNsYXNzPSJ0aXRsZSI+Q3J1Y2lkYWVtb24gKFRvcnR1cmUgRGFlbW9uKTwvaDE+T2YgYWxsIHRoZSB3YXlzIHRvIGRpZSwgY3J1Y2lkYWVtb25zIHJlcHJlc2VudCBwZXJoYXBzIG9uZSBvZiB0aGUgbGVhc3QgZGVzaXJhYmxlOiBkZWF0aCBieSB0b3J0dXJlLiBUaGUgZmllbmTigJlzIHNoYXBlbHkgYm9keSwgd2hpY2ggYXBwZWFycyB0byBiZSBzY3VscHRlZCBmcm9tIGlyb24gb3IgbWl0aHJpbCwgYmVsaWVzIGEgc2luaXN0ZXIgd3JhdGggYW5kIGxvdmUgb2YgaW5mbGljdGluZyBwYWluLiBDcnVjaWRhZW1vbnMgcGFydGljdWxhcmx5IGVuam95IGluZmxpY3RpbmcgcGFpbiB3aXRoIHRoZWlyIGN1cnZlZCwgc2VycmF0ZWQgZGFnZ2Vycywgd2hpY2ggYXJlIGF0dGFjaGVkIHRvIHRoZWlyIGJvZGllcyB2aWEgYSBjaGFpbiB0aGF0IHBpZXJjZXMgZWFjaCB3cmlzdC48YnIgLz48YnIgLz4gQSBjcnVjaWRhZW1vbuKAmXMgZXhpc3RlbmNlIGlzIGRlZGljYXRlZCB0byBzdWJqZWN0aW5nIGl0cyBwcmV5IHRvIGFuIGV0ZXJuaXR5IG9mIHBhaW4gYW5kIHRlcnJvci4gVW5saWtlIG90aGVyIGRhZW1vbnMsIG1hbnkgb2Ygd2hpY2ggYXJlIGVhZ2VyIHRvIGZlZWQgb24gbW9ydGFsIHNvdWxzIGFzIHNvb24gYXMgdGhleSBjYW4sIHRoZSBjcnVjaWRhZW1vbiB0YWtlcyBtdWNoIGdyZWF0ZXIgcGxlYXN1cmUgaW4gcHJvbG9uZ2luZyB0aGUgYWdvbnkgb2YgaXRzIHZpY3RpbXMuIE9mdGVudGltZXMsIGEgY3J1Y2lkYWVtb24gd2lsbCBpbmZsaWN0IHN1Y2ggdG9ybWVudCBhbmQgcGFpbiB1cG9uIGl0cyBwcmV5IHRoYXQgd2hlbiB0aGUgZW5kIGZpbmFsbHkgY29tZXMsIHRoZSB2aWN0aW0gdGVhcmZ1bGx5IHRoYW5rcyB0aGUgZGFlbW9uIGZvciB0aGUgbWVyY3kgb2Ygb2JsaXZpb24uIEFuIGVuY291bnRlciB3aXRoIGEgY3J1Y2lkYWVtb24gdGhhdCBkb2VzIG5vdCBlbmQgd2l0aCBpdHMgZGVhdGggaXMgZmFyIGZyb20gb3ZlcuKAlGNydWNpZGFlbW9ucyBoYXZlIHVuZXF1YWxlZCBwYXRpZW5jZSBmb3IgdGhvc2Ugd2hvIGRhcmUgb3Bwb3NlIHRoZW0uDQo8YnIgLz48YnIgLz48Yj48dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD01JkdlbmVyYWw9dHJ1ZSI+UmVjYWxsIEtub3dsZWRnZSAtIEZpZW5kPC9hPjwvdT4gKDx1PjxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTEzIj5SZWxpZ2lvbjwvYT48L3U+KTwvYj46IERDIDM0PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD00NzkiPkNydWNpZGFlbW9uPC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIDE1PC9zcGFuPjwvaDE+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9IkltYWdlc1xNb25zdGVyc1xEYWVtb25fQ3J1Y2lkYWVtb24ucG5nIj48aW1nIGNsYXNzPSJ0aHVtYm5haWwiIHNyYz0iSW1hZ2VzXE1vbnN0ZXJzXERhZW1vbl9DcnVjaWRhZW1vbi5wbmciPjwvYT48c3BhbiBhbHQ9Ik5ldXRyYWwgRXZpbCIgY2xhc3M9InRyYWl0YWxpZ25tZW50IiB0aXRsZT0iTmV1dHJhbCBFdmlsIj5ORTwvc3Bhbj48c3BhbiBhbHQ9Ik1lZGl1bSIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9Ik1lZGl1bSI+TWVkaXVtPC9zcGFuPjxzcGFuIGFsdD0iRGFlbW9uIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJBIGZhbWlseSBvZiBmaWVuZHMgc3Bhd25lZCBvbiB0aGUgZGVzb2xhdGUgcGxhbmUgb2YgQWJhZGRvbiwgbW9zdCBkYWVtb25zIGFyZSBuZXV0cmFsIGV2aWwuIFRoZXkgdHlwaWNhbGx5IGhhdmUgZGFya3Zpc2lvbiBhbmQgd2Vha25lc3MgdG8gZ29vZCBkYW1hZ2UuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yMTMiPkRhZW1vbjwvYT48L3NwYW4+PHNwYW4gYWx0PSJGaWVuZCBUcmFpdCIgY2xhc3M9InRyYWl0IiB0aXRsZT0iQ3JlYXR1cmVzIHRoYXQgaGFpbCBmcm9tIG9yIGhhdmUgYSBzdHJvbmcgY29ubmVjdGlvbiB0byB0aGUgZXZpbC1hbGlnbmVkIHBsYW5lcyBhcmUgY2FsbGVkIGZpZW5kcy4gRmllbmRzIGNhbiBzdXJ2aXZlIHRoZSBiYXNpYyBlbnZpcm9ubWVudGFsIGVmZmVjdHMgb2YgcGxhbmVzIGluIHRoZSBPdXRlciBTcGhlcmUuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD03MCI+RmllbmQ8L2E+PC9zcGFuPjxiciAvPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDIwNjUiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+UGF0aGZpbmRlciAjMTQ5OiBBZ2FpbnN0IHRoZSBTY2FybGV0IFRyaWFkIHBnLiA4NTwvaT48L2E+PGJyIC8+PGI+UGVyY2VwdGlvbjwvYj4gKzI2OyBkYXJrdmlzaW9uLCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NjUiPjxpPmRldGVjdCBhbGlnbm1lbnQ8L2k+PC9hPiAoZ29vZCBvbmx5KSwgbGlmZXNlbnNlIDMwIGZlZXQ8YnIgLz48Yj5MYW5ndWFnZXM8L2I+IDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTEyIj48dT5BYnlzc2FsPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTIiPjx1PkRyYWNvbmljPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTE5Ij48dT5JbmZlcm5hbDwvYT48L3U+OyB0ZWxlcGF0aHkgMTAwIGZlZXQ8YnIgLz48Yj5Ta2lsbHM8L2I+IDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTEiPjx1PkFjcm9iYXRpY3M8L2E+PC91PiArMzAsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTIiPjx1PkFyY2FuYTwvYT48L3U+ICsyNiwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NCI+PHU+Q3JhZnRpbmc8L2E+PC91PiArMzAsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTUiPjx1PkRlY2VwdGlvbjwvYT48L3U+ICsyNiwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NyI+PHU+SW50aW1pZGF0aW9uPC9hPjwvdT4gKzI4LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xNSI+PHU+U3RlYWx0aDwvYT48L3U+ICszMCwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTciPjx1PlRoaWV2ZXJ5PC9hPjwvdT4gKzI2PGJyIC8+PGI+U3RyPC9iPiArNCwgPGI+RGV4PC9iPiArNywgPGI+Q29uPC9iPiArNywgPGI+SW50PC9iPiArMywgPGI+V2lzPC9iPiArNywgPGI+Q2hhPC9iPiArNTxociAvPjxiPkFDPC9iPiAzOCwgPGI+Rm9ydDwvYj4gKzI2LCA8Yj5SZWY8L2I+ICszMCwgPGI+V2lsbDwvYj4gKzI2OyArMSBzdGF0dXMgdG8gYWxsIHNhdmVzIHZzLiBtYWdpYzxiciAvPjxiPkhQPC9iPiAyMjU7IDxiPkltbXVuaXRpZXM8L2I+IGRlYXRoIGVmZmVjdHM7IDxiPlJlc2lzdGFuY2VzPC9iPiBwaHlzaWNhbCAxMCAoZXhjZXB0IGFkYW1hbnRpbmUpOyA8Yj5XZWFrbmVzc2VzPC9iPiBnb29kIDEwPGJyIC8+PGI+VHJhcCBEb2RnZXI8L2I+IENydWNpZGFlbW9ucyBhcmUgYWxsIGJ1dCBpbXBvc3NpYmxlIHRvIGZvb2wgd2l0aCB0cmFwcy4gV2hlbmV2ZXIgYSBjcnVjaWRhZW1vbiByb2xscyBhIHNhdmluZyB0aHJvdyBhZ2FpbnN0IGEgdHJhcCBoYXphcmQsIGl0cyBkZWdyZWUgb2Ygc3VjY2VzcyBpcyBvbmUgYmV0dGVyIHRoYW4gaXQgcm9sbGVkLjxociAvPjxiPlNwZWVkPC9iPiA1MCBmZWV0LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NiI+PGk+YWlyIHdhbGs8L2k+PC9hPjxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGNoYWluZWQgZGFnZ2VyICszMCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTcwIj48dT5hZ2lsZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzkiPjx1PmZpbmVzc2U8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTAzIj48dT5tYWdpY2FsPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE5MiI+PHU+cmVhY2ggMTAgZmVldDwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yMDAiPjx1PnZlcnNhdGlsZSBTPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDRkNCsxNCBwaWVyY2luZyBwbHVzIDJkNiA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iQ29uZGl0aW9ucy5hc3B4P0lEPTI5Ij5wZXJzaXN0ZW50PC9hPiBibGVlZDwvc3Bhbj48Yj5EaXZpbmUgSW5uYXRlIFNwZWxsczwvYj4gREMgMzIsIGF0dGFjayArMjg7IDxiPjd0aDwvYj4gPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MTM4Ij5nbHlwaCBvZiB3YXJkaW5nPC9hPjwvdT48L2k+ICh4MyksIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTIxMyI+cGFyYWx5emU8L2E+PC91PjwvaT47IDxiPjR0aDwvYj4gPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NjMiPmRlYXRoIGtuZWxsPC9hPjwvdT48L2k+LCA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0xMTAiPmZlYXI8L2E+PC91PjwvaT4sIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTE2NCI+aW52aXNpYmlsaXR5PC9hPjwvdT48L2k+IChhdCB3aWxsKSwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MjIwIj5waGFudG9tIHBhaW48L2E+PC91PjwvaT4gKGF0IHdpbGwpOyA8Yj5Db25zdGFudDwvYj4gPGI+KDJuZCk8L2I+IDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTY1Ij5kZXRlY3QgYWxpZ25tZW50PC9hPjwvdT48L2k+IChnb29kIG9ubHkpPGJyIC8+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5EYWVtb25pYyBUcmFwIE1ha2luZzwvYj4gKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTQ4Ij48dT5kaXZpbmU8L2E+PC91PikgV2hlbiB0aGUgY3J1Y2lkYWVtb24gY2FzdHMgaXRzIGlubmF0ZSA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MTM4Ij48aT5nbHlwaCBvZiB3YXJkaW5nPC9pPjwvYT4gc3BlbGwsIGl0IGNhbiBzdG9yZSBhbnkgYXJjYW5lIG9yIGRpdmluZSBzcGVsbCBvZiBhbiBhcHByb3ByaWF0ZSBsZXZlbCBpbiB0aGUgZ2x5cGgsIGV2ZW4gaWYgaXQgY2Fu4oCZdCBvdGhlcndpc2UgY2FzdCB0aGUgc3BlbGwuPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+Rmx1cnJ5IG9mIERhZ2dlcnM8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+ICBUaGUgY3J1Y2lkYWVtb24gbWFrZXMgdHdvIGNoYWluZWQgZGFnZ2VyIFN0cmlrZXMgYWdhaW5zdCBhIHNpbmdsZSB0YXJnZXQuIFRoZXNlIGF0dGFja3MgY291bnQgdG93YXJkIHRoZSBjcnVjaWRhZW1vbuKAmXMgbXVsdGlwbGUgYXR0YWNrIHBlbmFsdHkgYW5kIGl0cyBtdWx0aXBsZSBhdHRhY2sgcGVuYWx0eSBkb2VzbuKAmXQgaW5jcmVhc2UgdW50aWwgYWZ0ZXIgYm90aCBhdHRhY2tzLjwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPk1hbmlmZXN0IERhZ2dlcjwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gIFRoZSBjcnVjaWRhZW1vbiBzdW1tb25zIGEgbmV3IGNoYWluZWQgZGFnZ2VyIHRvIHJlcGxhY2UgYSBkZXN0cm95ZWQgb25lLiBBIGNydWNpZGFlbW9u4oCZcyBkYWdnZXJzIGNhbuKAmXQgYmUgZGlzYXJtZWQsIGFuZCB0aGV5IGJlY29tZSBub24tbWFnaWNhbCB3aGVuIHNldmVyZWQgZnJvbSB0aGUgZGFlbW9uIG9yIHVwb24gdGhlIGRhZW1vbuKAmXMgZGVhdGguPC9zcGFuPjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gTG9jYXRpb25zIiB0aXRsZT0iU2lkZWJhciAtIExvY2F0aW9ucyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8zX0xvY2F0aW9ucy5wbmciPiBEYWVtb25pYyBUcmFwbWFrZXJzPC9oMz5DcnVjaWRhZW1vbnMgZXhjZWwgYXQgdHJhcG1ha2luZywgYW5kIHRoZXkgbGluZSB0aGVpciBsYWlycyBvciB0aGUgbGFpcnMgb2YgdGhlaXIgbWFzdGVycyB3aXRoIG1hemVzIG9mIGludHJpY2F0ZSBhbmQgZGVhZGx5IHRyYXBzIGFuZCBlbmNoYW50ZWQgPGk+PGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlNwZWxscy5hc3B4P0lEPTEzOCI+Z2x5cGhzIG9mIHdhcmRpbmc8L2k+PC9hPiB0aHJvdWdoIHdoaWNoIHRoZXkgZHJhdyB0aGVpciB2aWN0aW1zLiBQZXJoYXBzIGV2ZW4gZWVyaWVyIHRoYW4gdGhlIGNydWNpZGFlbW9u4oCZcyBtZXRob2RpY2FsIG5hdHVyZSBpbiB0cmFwbWFraW5nIGlzIGl0cyBuZWFybHkgbWVkaWNhbCBpbnRlcmVzdCBpbiB0aGUgbXV0aWxhdGlvbiBhbmQgY3JpcHBsaW5nIG9mIGNhcHR1cmVkIGZvZXMuPGgyIGNsYXNzPSJ0aXRsZSI+QWxsIE1vbnN0ZXJzIGluICI8YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD0yNiI+RGFlbW9uPC9hPiI8L2gyPjx0YWJsZSBjbGFzcz0iaW5uZXIiPjx0cj48dGQ+PGI+TmFtZTwvYj48L3RkPjx0ZD48Yj5MZXZlbDwvYj48L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTkxIj5Bc3RyYWRhZW1vbiAoVm9pZCBEYWVtb24pPC9hPjwvdGQ+PHRkPjE2PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD04OCI+Q2Fjb2RhZW1vbiAoSGFydmVzdGVyIERhZW1vbik8L2E+PC90ZD48dGQ+MTwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9ODkiPkNldXN0b2RhZW1vbiAoR3VhcmRpYW4gRGFlbW9uKTwvYT48L3RkPjx0ZD42PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD00NzkiPkNydWNpZGFlbW9uIChUb3J0dXJlIERhZW1vbik8L2E+PC90ZD48dGQ+MTU8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTkwIj5MZXVrb2RhZW1vbiAoUGVzdGlsZW5jZSBEYWVtb24pPC9hPjwvdGQ+PHRkPjk8L3RkPjwvdHI+PC90YWJsZT48aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD0yNiI+RGFlbW9uPC9hPjwvaDE+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiA3MDwvaT48L2E+PGJyIC8+RGVuaXplbnMgb2YgdGhlIGJsZWFrIGFuZCB0ZXJyaWJsZSBwbGFuZSBvZiBBYmFkZG9uLCBkYWVtb25zIGFyZSBzaGFwZWQgYnkgYW5kIGRldm90ZWQgdG8gdGhlIGRlc3RydWN0aW9uIG9mIGxpZmUgaW4gYWxsIGl0cyBmb3Jtcy4gVGhleSBzZWVrIHRoZSBkZWF0aCBvZiBldmVyeSBtb3J0YWwgYmVpbmcgYnkgdGhlIG1vc3QgcGFpbmZ1bCBhbmQgaG9ycmlibGUgbWVhbnMgcG9zc2libGUsIGFsbCBpbiBzZXJ2aWNlIHRvIHRoZSBhcG9jYWx5cHRpYyBlbnRpdGllcyBrbm93biBhcyB0aGUgRm91ciBIb3JzZW1lbi4gRWFjaCBraW5kIG9mIGRhZW1vbiByZXByZXNlbnRzIGEgZGlmZmVyZW50IHdheSB0byBkaWUsIGFuZCB0aGVpciBwb3dlcnMgYXJlIG5lYXJseSBhbHdheXMgYWltZWQgYXQgc3ByZWFkaW5nIHRoYXQgcGFydGljdWxhciBmb3JtIG9mIGRlYXRoLiBUaHJvdWdoIHRoZSB1c2Ugb2YgdGhlc2UgcG93ZXJzLCB0aGV5IHNlZWsgdG8gZHJhZyBhbGwgZXhpc3RlbmNlIGRvd24gaW50byBhIHBpdCBvZiBob3BlbGVzc25lc3MgYW5kIGRlc3BhaXIsIGFuZCB0byBjb21taXQgYWxsIHNvdWxzIHRvIG9ibGl2aW9uLjxiciAvPjxiciAvPiBXaGlsZSB0aG9zZSB3aG8gc3VtbW9uIGRhZW1vbnMgdG8gdGhlIE1hdGVyaWFsIFBsYW5lIHVzdWFsbHkgc2VlayB0byB1c2UgdGhlIGNyZWF0dXJlc+KAmSBkZXN0cnVjdGl2ZSBhbmQgY29ycnVwdGluZyBwb3dlcnMgZm9yIHRoZWlyIG93biBlbmRzLCBkYWVtb25zIGFsd2F5cyBsb29rIGZvciB3YXlzIHRvIHNwcmVhZCBmZWFyLCBkb3VidCwgYW5kIGRlc3BhaXIgd2hlcmV2ZXIgdGhleSBnby4gT2Z0ZW4sIGRhZW1vbnMgZGlzZ3Vpc2UgdGhlaXIgcGxvdHMgYXMgdGhlIHdvcmtpbmdzIG9mIG90aGVyIGZpZW5kcywga25vd2luZyB0aGF0IHN1Y2ggY29uZnVzaW9uIGNvbXBvdW5kcyBtb3J0YWxz4oCZIGZlYXIuPGJyIC8+PGJyIC8+IFdoaWxlIGFsbCBmaWVuZHMgc2VlayB0byB0ZW1wdCBtb3J0YWxzIGludG8gbGl2ZXMgb2YgZXZpbCB0byBpbmNyZWFzZSB0aGVpciBvd24gbnVtYmVycyBhbmQgcG93ZXIgb24gdGhlaXIgbmF0aXZlIHBsYW5lcywgZGFlbW9ucyBhcmUgZnVydGhlciBkcml2ZW4gYnkgYSBzdXBlcm5hdHVyYWwgaHVuZ2VyIGZvciBtb3J0YWwgc291bHMgYW5kIHVzZSBhIHZhcmlldHkgb2YgbWV0aG9kc+KAlG5vdCBsZWFzdCBvZiB3aGljaCBpcyB0aGUgY2Fjb2RhZW1vbnPigJkgc291bCBnZW1z4oCUdG8gZW50cmFwIHRoZW0uIE9uIEFiYWRkb24gYW5kIGluIG90aGVyIGZvcmJpZGRpbmcgcGxhY2VzIGFjcm9zcyB0aGUgbXVsdGl2ZXJzZSwgc291bHMgYXJlIHNpbXVsdGFuZW91c2x5IGEgZGVsaWNhY3ksIGEgdHJhZGUgZ29vZCwgYW5kIGEgc291cmNlIG9mIG1hZ2ljYWwgcG93ZXIsIGFuZCB0aGUgZGFlbW9ucyBhcmUgYW1vbmcgdGhlIGdyZWF0ZXN0IGdsdXR0b25zLCBtZXJjaGFudHMsIGFuZCBhYnVzZXJzIG9mIHRoaXMgc3Bpcml0dWFsIOKAnHJlc291cmNlLuKAnTxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiB0aXRsZT0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8yX0FkZGl0aW9uYWxMb3JlLnBuZyI+IERhZW1vbmljIERpdmluaXRpZXM8L2gzPk51bWVyb3VzIHBvd2VyZnVsIGFuZCB1bmlxdWUNCmRhZW1vbiBkZW1pZ29kcywga25vd24NCmNvbGxlY3RpdmVseSBhcyBoYXJiaW5nZXJzLCBydWxlDQpvdmVyIHN3YXRocyBvZiBBYmFkZG9uLiBBYm92ZQ0KdGhlc2UgZGVtaWdvZHMsIHRob3VnaCwgYXJlDQplbnRpdGllcyBvZiBldmVuIGdyZWF0ZXIgcG93ZXLigJR0aGUNCmZvdXIgSG9yc2VtZW4gb2YgdGhlIEFwb2NhbHlwc2UuDQpBcyB0aGUgZW9ucyBnbyBvbiwgdGhlIG5hbWVzIGFuZA0KaWRlbnRpdGllcyBvZiBzcGVjaWZpYyBob3JzZW1lbg0KY2hhbmdlLiBDdXJyZW50bHksIHRoZXkgY29uc2lzdCBvZg0KQXBvbGx5b24gKEhvcnNlbWFuIG9mIFBlc3RpbGVuY2UpLA0KQ2hhcm9uIChIb3JzZW1hbiBvZiBEZWF0aCksDQpTenVyaWVsIChIb3JzZW1hbiBvZiBXYXIpLA0KYW5kIFRyZWxtYXJpeGlhbiAoSG9yc2VtYW4gb2YNCkZhbWluZSkuIE9mIHRoZXNlLCBvbmx5IENoYXJvbiBoYXMNCm5ldmVyIGZhbGxlbiB0byBhbiB1cHN0YXJ0LiBTb21lDQpob2xkIHRoYXQgYSDigJxGaWZ0aCBIb3JzZW1hbuKAnSBvbmNlDQpydWxlZCBvdmVyIHRoZSBvdGhlciBmb3VyLCB3aGlsZQ0Kb3RoZXJzIG1haW50YWluIHRoYXQgdGhlIGV0ZXJuYWxseQ0KZWNsaXBzZWQgc3VuIGluIHRoZSBza2llcyBhYm92ZQ0KQWJhZGRvbiBpcyBhbGwgdGhhdCByZW1haW5zIG9mIHRoaXMNCmxvbmctZGVhZCBnb2QuPGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBSZWxhdGVkIENyZWF0dXJlcyIgdGl0bGU9IlNpZGViYXIgLSBSZWxhdGVkIENyZWF0dXJlcyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl80X1JlbGF0ZWRDcmVhdHVyZXMucG5nIj4gT3RoZXIgRGFlbW9uczwvaDM+QXMgbWFueSBkYWVtb25zIGV4aXN0IGFzIHRoZXJlDQphcmUgYXdmdWwgd2F5cyB0byBkaWUuIFRoZSBibG9vZHkNCnNhbmd1ZGFlbW9uIHBlcnNvbmlmaWVzIGRlYXRoDQpieSBibG9vZCBsb3NzLCB3aGlsZSB0aGUgc2tlbGV0YWwNCnRoYW5hZGFlbW9uIHJlcHJlc2VudHMgZGVhdGgNCmZyb20gb2xkIGFnZS4gVGhlIG1vc3QgcG93ZXJmdWwNCmRhZW1vbnMgYXJlIHRoZSBvbGV0aHJvZGFlbW9ucywNCndobyByZXByZXNlbnQgdGhlIG1hc3NpdmUgZGVhdGhzDQpjYXVzZWQgYnkgYXBvY2FseXBzZXMgYW5kIHRoZSBlbmQNCm9mIGVudGlyZSB3b3JsZHMuPGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgdGl0bGU9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl81X1RyZWFzdXJlQW5kUmV3YXJkcy5wbmciPiBTb3VsIEdlbXMgYXMgVHJlYXN1cmU8L2gzPlNvdWwgZ2VtcyBhcmUgdHJhZGVkIGluIGlsbGljaXQNCm1hcmtldHMsIGEgdHJhZGl0aW9uIGNlbGVzdGlhbHMgYW5kDQpwc3ljaG9wb21wcyBhbGlrZSBmaW5kIHZpbGUuIFNvdWwNCmdlbXPigJkgdmFsdWUgdmFyaWVzLCBidXQgaXMgZ2VuZXJhbGx5DQp3b3J0aCBhbiBhbW91bnQgcmVsYXRpdmUgdG8gdGhlDQpsZXZlbCBvZiBhIGdlbeKAmXMgY2FwdGl2ZSBzb3VsLjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiB0aXRsZT0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8yX0FkZGl0aW9uYWxMb3JlLnBuZyI+IFRoZSBEYWVtb25pYyBQYXJhZG94PC9oMz5EYWVtb25zIGVtYm9keSBhIGZ1bmRhbWVudGFsDQpwYXJhZG944oCUd2hpbGUgdGhleSBhcmUNCmluY2FybmF0aW9ucyBvZiBkZWF0aCBhbmQgc2Vlaw0KdG8gZGV2b3VyIGFsbCB0aGF0IGxpdmVzLCB0aGV5IGFyZQ0KdGhlbXNlbHZlcyBsaXZpbmcgY3JlYXR1cmVzLiBTb21lDQpzcGVhayBvZiBhIGdsb3Jpb3VzIGVuZCB0aW1lIGFmdGVyDQp3aGljaCByZWFsaXR5IHdpbGwgZmluYWxseSBiZSBmcmVlDQpvZiB0aGUgY29udGFnaW9uIHRoYXQgaXMgbGlmZSBpdHNlbGYuDQpNb3N0IGRhZW1vbnMgZ2l2ZSBubyB0aG91Z2h0IHRvDQp0aGlzIHBhcmFkb3guZGQCCw88KwANAQAPFgYeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAR4HVmlzaWJsZWhkFgJmD2QWBAIBD2QWDGYPZBYCZg8PFgQfAAUcQ3J1Y2lkYWVtb24gKFRvcnR1cmUgRGFlbW9uKR4LTmF2aWdhdGVVcmwFFE1vbnN0ZXJzLmFzcHg/SUQ9NDc5ZGQCAQ8PFgIfAAUGRGFlbW9uZGQCAg8PFgIfAAUGJm5ic3A7ZGQCAw8PFgIfAAUMTmV1dHJhbCBFdmlsZGQCBA8PFgIfAAUGJm5ic3A7ZGQCBQ8PFgIfAAUGJm5ic3A7ZGQCAg8PFgIfA2hkZAINDw9kPCsABgBkGAEFHmN0bDAwJE1haW5Db250ZW50JFRhYmxlRWxlbWVudA8UKwAKZGRkZGRkFQEKTW9uc3RlcnNJRBQrAAEUKwABAt8DAgEUKwABAt8DZCizpVnffMm50k0vHn1MiIJke0gZ" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Crucidaemon (Torture Daemon)</h1>Of all the ways to die, crucidaemons represent perhaps one of the least desirable: death by torture. The fiend’s shapely body, which appears to be sculpted from iron or mithril, belies a sinister wrath and love of inflicting pain. Crucidaemons particularly enjoy inflicting pain with their curved, serrated daggers, which are attached to their bodies via a chain that pierces each wrist.<br /><br /> A crucidaemon’s existence is dedicated to subjecting its prey to an eternity of pain and terror. Unlike other daemons, many of which are eager to feed on mortal souls as soon as they can, the crucidaemon takes much greater pleasure in prolonging the agony of its victims. Oftentimes, a crucidaemon will inflict such torment and pain upon its prey that when the end finally comes, the victim tearfully thanks the daemon for the mercy of oblivion. An encounter with a crucidaemon that does not end with its death is far from over—crucidaemons have unequaled patience for those who dare oppose them.
+<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Fiend</a></u> (<u><a href="Skills.aspx?ID=13">Religion</a></u>)</b>: DC 34<h1 class="title"><a href="Monsters.aspx?ID=479">Crucidaemon</a><span style="float:right;">Creature 15</span></h1><a target="_blank" href="Images\Monsters\Daemon_Crucidaemon.png"><img class="thumbnail" src="Images\Monsters\Daemon_Crucidaemon.png"></a><span alt="Neutral Evil" class="traitalignment" title="Neutral Evil">NE</span><span alt="Medium" class="traitsize" title="Medium">Medium</span><span alt="Daemon Trait" class="trait" title="A family of fiends spawned on the desolate plane of Abaddon, most daemons are neutral evil. They typically have darkvision and weakness to good damage."><a href="Traits.aspx?ID=213">Daemon</a></span><span alt="Fiend Trait" class="trait" title="Creatures that hail from or have a strong connection to the evil-aligned planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere."><a href="Traits.aspx?ID=70">Fiend</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq02065" target="_blank" class="external-link"><i>Pathfinder #149: Against the Scarlet Triad pg. 85</i></a><br /><b>Perception</b> +26; darkvision, <a style="text-decoration:underline" href="Spells.aspx?ID=65"><i>detect alignment</i></a> (good only), lifesense 30 feet<br /><b>Languages</b> <a href="Languages.aspx?ID=12"><u>Abyssal</a></u>, <a href="Languages.aspx?ID=2"><u>Draconic</a></u>, <a href="Languages.aspx?ID=19"><u>Infernal</a></u>; telepathy 100 feet<br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +30, <a href="Skills.aspx?ID=2"><u>Arcana</a></u> +26, <a href="Skills.aspx?ID=4"><u>Crafting</a></u> +30, <a href="Skills.aspx?ID=5"><u>Deception</a></u> +26, <a href="Skills.aspx?ID=7"><u>Intimidation</a></u> +28, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +30, <a href="Skills.aspx?ID=17"><u>Thievery</a></u> +26<br /><b>Str</b> +4, <b>Dex</b> +7, <b>Con</b> +7, <b>Int</b> +3, <b>Wis</b> +7, <b>Cha</b> +5<hr /><b>AC</b> 38, <b>Fort</b> +26, <b>Ref</b> +30, <b>Will</b> +26; +1 status to all saves vs. magic<br /><b>HP</b> 225; <b>Immunities</b> death effects; <b>Resistances</b> physical 10 (except adamantine); <b>Weaknesses</b> good 10<br /><b>Trap Dodger</b> Crucidaemons are all but impossible to fool with traps. Whenever a crucidaemon rolls a saving throw against a trap hazard, its degree of success is one better than it rolled.<hr /><b>Speed</b> 50 feet, <a style="text-decoration:underline" href="Spells.aspx?ID=6"><i>air walk</i></a><br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> chained dagger +30 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>, <a href="Traits.aspx?ID=103"><u>magical</a></u>, <a href="Traits.aspx?ID=192"><u>reach 10 feet</a></u>, <a href="Traits.aspx?ID=200"><u>versatile S</a></u>), <b>Damage</b> 4d4+14 piercing plus 2d6 <a style="text-decoration:underline" href="Conditions.aspx?ID=29">persistent</a> bleed</span><b>Divine Innate Spells</b> DC 32, attack +28; <b>7th</b> <i><u><a href="Spells.aspx?ID=138">glyph of warding</a></u></i> (x3), <i><u><a href="Spells.aspx?ID=213">paralyze</a></u></i>; <b>4th</b> <i><u><a href="Spells.aspx?ID=63">death knell</a></u></i>, <i><u><a href="Spells.aspx?ID=110">fear</a></u></i>, <i><u><a href="Spells.aspx?ID=164">invisibility</a></u></i> (at will), <i><u><a href="Spells.aspx?ID=220">phantom pain</a></u></i> (at will); <b>Constant</b> <b>(2nd)</b> <i><u><a href="Spells.aspx?ID=65">detect alignment</a></u></i> (good only)<br /><span class="hanging-indent"><b>Daemonic Trap Making</b> (<a href="Traits.aspx?ID=48"><u>divine</a></u>) When the crucidaemon casts its innate <a style="text-decoration:underline" href="Spells.aspx?ID=138"><i>glyph of warding</i></a> spell, it can store any arcane or divine spell of an appropriate level in the glyph, even if it can’t otherwise cast the spell.</span><span class="hanging-indent"><b>Flurry of Daggers</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  The crucidaemon makes two chained dagger Strikes against a single target. These attacks count toward the crucidaemon’s multiple attack penalty and its multiple attack penalty doesn’t increase until after both attacks.</span><span class="hanging-indent"><b>Manifest Dagger</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  The crucidaemon summons a new chained dagger to replace a destroyed one. A crucidaemon’s daggers can’t be disarmed, and they become non-magical when severed from the daemon or upon the daemon’s death.</span><h3 class="title"><img alt="Sidebar - Locations" title="Sidebar - Locations" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_3_Locations.png"> Daemonic Trapmakers</h3>Crucidaemons excel at trapmaking, and they line their lairs or the lairs of their masters with mazes of intricate and deadly traps and enchanted <i><a style="text-decoration:underline" href="Spells.aspx?ID=138">glyphs of warding</i></a> through which they draw their victims. Perhaps even eerier than the crucidaemon’s methodical nature in trapmaking is its nearly medical interest in the mutilation and crippling of captured foes.<h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=26">Daemon</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=91">Astradaemon (Void Daemon)</a></td><td>16</td></tr><tr><td><a href="Monsters.aspx?ID=88">Cacodaemon (Harvester Daemon)</a></td><td>1</td></tr><tr><td><a href="Monsters.aspx?ID=89">Ceustodaemon (Guardian Daemon)</a></td><td>6</td></tr><tr><td><a href="Monsters.aspx?ID=479">Crucidaemon (Torture Daemon)</a></td><td>15</td></tr><tr><td><a href="Monsters.aspx?ID=90">Leukodaemon (Pestilence Daemon)</a></td><td>9</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=26">Daemon</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 70</i></a><br />Denizens of the bleak and terrible plane of Abaddon, daemons are shaped by and devoted to the destruction of life in all its forms. They seek the death of every mortal being by the most painful and horrible means possible, all in service to the apocalyptic entities known as the Four Horsemen. Each kind of daemon represents a different way to die, and their powers are nearly always aimed at spreading that particular form of death. Through the use of these powers, they seek to drag all existence down into a pit of hopelessness and despair, and to commit all souls to oblivion.<br /><br /> While those who summon daemons to the Material Plane usually seek to use the creatures’ destructive and corrupting powers for their own ends, daemons always look for ways to spread fear, doubt, and despair wherever they go. Often, daemons disguise their plots as the workings of other fiends, knowing that such confusion compounds mortals’ fear.<br /><br /> While all fiends seek to tempt mortals into lives of evil to increase their own numbers and power on their native planes, daemons are further driven by a supernatural hunger for mortal souls and use a variety of methods—not least of which is the cacodaemons’ soul gems—to entrap them. On Abaddon and in other forbidding places across the multiverse, souls are simultaneously a delicacy, a trade good, and a source of magical power, and the daemons are among the greatest gluttons, merchants, and abusers of this spiritual “resource.”<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Daemonic Divinities</h3>Numerous powerful and unique
+daemon demigods, known
+collectively as harbingers, rule
+over swaths of Abaddon. Above
+these demigods, though, are
+entities of even greater power—the
+four Horsemen of the Apocalypse.
+As the eons go on, the names and
+identities of specific horsemen
+change. Currently, they consist of
+Apollyon (Horseman of Pestilence),
+Charon (Horseman of Death),
+Szuriel (Horseman of War),
+and Trelmarixian (Horseman of
+Famine). Of these, only Charon has
+never fallen to an upstart. Some
+hold that a “Fifth Horseman” once
+ruled over the other four, while
+others maintain that the eternally
+eclipsed sun in the skies above
+Abaddon is all that remains of this
+long-dead god.<h3 class="title"><img alt="Sidebar - Related Creatures" title="Sidebar - Related Creatures" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_4_RelatedCreatures.png"> Other Daemons</h3>As many daemons exist as there
+are awful ways to die. The bloody
+sangudaemon personifies death
+by blood loss, while the skeletal
+thanadaemon represents death
+from old age. The most powerful
+daemons are the olethrodaemons,
+who represent the massive deaths
+caused by apocalypses and the end
+of entire worlds.<h3 class="title"><img alt="Sidebar - Treasure and Rewards" title="Sidebar - Treasure and Rewards" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_5_TreasureAndRewards.png"> Soul Gems as Treasure</h3>Soul gems are traded in illicit
+markets, a tradition celestials and
+psychopomps alike find vile. Soul
+gems’ value varies, but is generally
+worth an amount relative to the
+level of a gem’s captive soul.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> The Daemonic Paradox</h3>Daemons embody a fundamental
+paradox—while they are
+incarnations of death and seek
+to devour all that lives, they are
+themselves living creatures. Some
+speak of a glorious end time after
+which reality will finally be free
+of the contagion that is life itself.
+Most daemons give no thought to
+this paradox.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

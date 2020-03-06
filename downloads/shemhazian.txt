@@ -1,0 +1,49 @@
+1192" class="post-1192 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-demon">
+                                        <h1>Shemhazian (Mutilation Demon)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Shemhazian <span class="monster-level">Creature 16</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Gargantuan</span> <span class="trait">Demon</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +30; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p> 
+ <p><b>Languages</b> Abyssal, Celestial, Draconic; telepathy 100 feet</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +31, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +30</p> 
+ <p><b>Str</b> +9, <b>Dex</b> +5, <b>Con</b> +7, <b>Int</b> +0, <b>Wis</b> +6, <b>Cha</b> +3</p> 
+ <hr> 
+ <p><b>AC</b> 39; <b>Fort</b> +32, <b>Ref</b> +26, <b>Will</b> +27; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 350; <b>Weaknesses</b> cold iron 15, good 15</p> 
+
+<div class="special-abilities">
+<p><b>Paralyzing Gaze</b> (aura, divine, enchantment, visual) 30 feet. A non-evil creature that ends its turn in the aura must attempt a DC 35 Fortitude save. If it fails, it&#8217;s slowed 1 for 1 round, and if it critically fails, it is instead paralyzed for 1 round.</p> 
+<p><b>Succor Vulnerability</b> A shemhazian&#8217;s mutilation is a part of them, and they can&#8217;t bear to see it reversed. The first time each round that a creature heals from damage the shemhazian dealt on their last turn, the demon takes 3d6 mental damage.</p> 
+<p><b>Tail Whip</b> [reaction] <b>Trigger</b> A creature within reach of the shemhazian&#8217;s tail leaves a square during a move action it&#8217;s using. <b>Effect</b> The shemhazian attempts to Trip the triggering creature. On a success, the creature also takes damage as if the shemhazian had hit with a tail Strike, and if the creature was flying, it falls 30 feet.</p>
+</div>
+
+<hr> 
+ <p><b>Speed</b> 35 feet, climb 20 feet, fly 35 feet (from fly)</p> 
+ <p><b>Melee</b> [one-action] jaws (evil, magical, reach 20 feet) +33, <b>Damage</b> 3d12+17 piercing plus 1d6 evil and enfeebling bite</p> 
+ <p><b>Melee</b> [one-action] claw (agile, evil, magical, reach 20 feet) +33, <b>Damage</b> 3d8+17 slashing plus 1d6 evil</p> 
+ <p><b>Melee</b> [one-action] pincer (evil, magical, reach 20 feet) +33, <b>Damage</b> 3d8+17 bludgeoning plus 1d6 evil and Improved Grab</p> 
+ <p><b>Melee</b> [one-action] tail (evil, magical, reach 30 feet) +33, <b>Damage</b> 3d6+17 slashing plus 1d6 evil</p> 
+<p><b>Divine Innate Spells</b> DC 37; <b>8th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/divine-decree/">divine decree</a> (evil only); <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prying-eye/">prying eye</a> (×3); <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/clairvoyance/">clairvoyance</a> (×3), <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a> (at will); <b>Constant</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/fly/">fly</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a></p> 
+
+<p><b>Divine Rituals</b> DC 36; Abyssal pact</p> 
+
+<div class="special-abilities">
+<p><b>Enfeebling Bite</b> (divine, necromancy) If the shemhazian&#8217;s jaws Strike damages a creature, the target is enfeebled 3. The target can attempt a DC 37 Fortitude save to reduce this to enfeebled 1 (or be unaffected on a critical success).</p> 
+<p><b>Focused Gaze</b> [one-action] (concentrate, divine, enchantment, incapacitation, visual) The shemhazian focuses their gaze on a non-evil creature they can see within 30 feet. If that creature isn&#8217;t already slowed by the shemhazian&#8217;s paralyzing gaze, it must attempt a save against the shemhazian&#8217;s paralyzing gaze. If that creature is slowed, it must succeed at a DC 35 Fortitude save or be paralyzed for 1 round. A shemhazian can&#8217;t use this ability against the same creature more than once per round.</p> 
+<p><b>Rend</b> [one-action] claw</p>
+</div>
+
+<p class="header">About</p>
+<p>Shemhazians rise from the souls of torturers and those who reveled in mutilating the physical bodies of their victims. Standing 35 feet tall, a shemhazian is well equipped with a wide range of talons, claws, and fangs to continue inflicting such torments on those it encounters.</p> 
+ <p>Shemhazians delight in visiting torment upon mortals, of course, but more than most demons, these fiends revel in sharing the pain with their own kind. Other demons fear and hate shemhazians for this reason, with only the most powerful willing to work with a shemhazian to achieve a shared goal. Even then, the shemhazian is always on the watch for an opportunity to bring pain and suffering to its allies along with any foe.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

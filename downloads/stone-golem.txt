@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Stone Golem - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Stone Golem" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=241" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABf1YPGgxIGNsYXNzPSJ0aXRsZSI+U3RvbmUgR29sZW08L2gxPlN0b25lIGdvbGVtcyBhcmUgc2xvdyBhbmQgc3RlYWR5IGNvbnN0cnVjdHMgdHlwaWNhbGx5IGNhcnZlZCBmcm9tIG1hcmJsZSBvciBncmFuaXRlLiBUaGV54oCZcmUgb2Z0ZW4gbWFkZSB0byBzZXJ2ZSBhcyB3b3JrcyBvZiBhcnQgd2hlbiBhdCByZXN0LCBzbyBzb21lIGdvbGVtIGNyYWZ0ZXJzIGVtcGxveSBtYXN0ZXIgc2N1bHB0b3JzIHRvIGVuc3VyZSB0aGUgY29uc3RydWN0cyBtYWtlIGJlYXV0aWZ1bCBzdGF0dWVzLiBPbGRlciBzdG9uZSBnb2xlbXMgbWlnaHQgYmUgd2VhdGhlcmVkLCB3aXRoIHNjdWZmZWQgb3IgY3JhY2tlZCBzdXJmYWNlcyBvciBtaXNzaW5nIG5vc2VzIGFuZCBkaWdpdHMsIGJ1dCB0aGlzIHdlYXRoZXJpbmcgaXMgbGFyZ2VseSBjb3NtZXRpYyBhbmQgZG9lc27igJl0IGFkdmVyc2VseSBpbXBhY3QgdGhlIGdvbGVtc+KAmSBmdW5jdGlvbmFsaXR5LjxiciAvPjxiciAvPiBUYWxlcyB0ZWxsIG9mIHBhcnRpY3VsYXJseSBpbW1lbnNlIHN0b25lIGdvbGVtcyByZXNpZGluZyBpbiBjZXJ0YWluIGFuY2llbnQgcnVpbnMuIFN1cnZpdm9ycyBmcm9tIHRpbWUtbG9zdCBjaXZpbGl6YXRpb25zIGJlbnQgb24gY2Fycnlpbmcgb3V0IG9yZGVycyBmcm9tIGxvbmctZ29uZSBtYXN0ZXJzLCB0aGVzZSBpbW1lbnNlIHN0b25lIGdvbGVtcyBhcmUgbXVjaCBtb3JlIHBvd2VyZnVsIHRoYW4gbW9zdCBzdG9uZSBnb2xlbXMuIFRoZXkgYXJlIGFsd2F5cyBsZXZlbCAxNSBvciBoaWdoZXIgYW5kIG5ldmVyIHNtYWxsZXIgdGhhbiBIdWdlIGluIHNpemXigJRtb3N0IGFyZSBHYXJnYW50dWFuLiBCZWNhdXNlIHRoZWlyIHNpemUgaXMgc28gZ3JlYXQgYW5kIHRoZSBzdHJ1Y3R1cmVzIHRoZXkgZHdlbGwgaW4gc28gZGlsYXBpZGF0ZWQsIHRoZSBhd2FrZW5pbmcgb2Ygc3VjaCBhIHN0b25lIGdvbGVtIGNhbiBjYXVzZSBzdXJyb3VuZGluZyBzdHJ1Y3R1cmVzIHRvIGNvbGxhcHNlLCBhbmNpZW50IGZvdW5kYXRpb25zIHRvIGJ1Y2tsZSwgYW5kIGNlaWxpbmdzIHRvIGNvbWUgY3Jhc2hpbmcgZG93biBvbiBmb2VzLiBJbiBhZGRpdGlvbiB0byB0aGUgc3RhdGlzdGljcyBoZXJlLCB0aGVzZSBtYXNzaXZlIHN0b25lIGdvbGVtcyBhdHRhY2sgd2l0aCB3aWRlLCBzd2VlcGluZyBzdHJpa2VzIGNhcGFibGUgb2Yga25vY2tpbmcgZG93biBtdWx0aXBsZSB0YXJnZXRzIGF0IG9uY2UuPGJyIC8+PGJyIC8+PGI+PHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NSZHZW5lcmFsPXRydWUiPlJlY2FsbCBLbm93bGVkZ2UgLSBDb25zdHJ1Y3Q8L2E+PC91PiAoPHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MiI+QXJjYW5hPC9hPjwvdT4sIDx1PjxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTQiPkNyYWZ0aW5nPC9hPjwvdT4pPC9iPjogREMgMzA8aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0MSI+U3RvbmUgR29sZW08L2E+PHNwYW4gc3R5bGU9ImZsb2F0OnJpZ2h0OyI+Q3JlYXR1cmUgMTE8L3NwYW4+PC9oMT48YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iSW1hZ2VzXE1vbnN0ZXJzXEdvbGVtX1N0b25lR29sZW0ucG5nIj48aW1nIGNsYXNzPSJ0aHVtYm5haWwiIHNyYz0iSW1hZ2VzXE1vbnN0ZXJzXEdvbGVtX1N0b25lR29sZW0ucG5nIj48L2E+PHNwYW4gYWx0PSJVbmNvbW1vbiBUcmFpdCIgY2xhc3M9InRyYWl0dW5jb21tb24iIHRpdGxlPSJTb21ldGhpbmcgb2YgdW5jb21tb24gcmFyaXR5IHJlcXVpcmVzIHNwZWNpYWwgdHJhaW5pbmcgb3IgY29tZXMgZnJvbSBhIHBhcnRpY3VsYXIgY3VsdHVyZSBvciBwYXJ0IG9mIHRoZSB3b3JsZC4gU29tZSBjaGFyYWN0ZXIgY2hvaWNlcyBnaXZlIGFjY2VzcyB0byB1bmNvbW1vbiBvcHRpb25zLCBhbmQgdGhlIEdNIGNhbiBjaG9vc2UgdG8gYWxsb3cgYWNjZXNzIGZvciBhbnlvbmUuIExlc3MgaXMga25vd24gYWJvdXQgdW5jb21tb24gY3JlYXR1cmVzIHRoYW4gY29tbW9uIGNyZWF0dXJlcy4gVGhleSB0eXBpY2FsbHkgY2Fu4oCZdCBiZSBzdW1tb25lZC4gVGhlIERDIG9mIFJlY2FsbCBLbm93bGVkZ2UgY2hlY2tzIHJlbGF0ZWQgdG8gdGhlc2UgY3JlYXR1cmUgaXMgaW5jcmVhc2VkIGJ5IDIuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNTkiPlVuY29tbW9uPC9hPjwvc3Bhbj48c3BhbiBhbHQ9Ik5ldXRyYWwiIGNsYXNzPSJ0cmFpdGFsaWdubWVudCIgdGl0bGU9Ik5ldXRyYWwiPk48L3NwYW4+PHNwYW4gYWx0PSJMYXJnZSIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9IkxhcmdlIj5MYXJnZTwvc3Bhbj48c3BhbiBhbHQ9IkNvbnN0cnVjdCBUcmFpdCIgY2xhc3M9InRyYWl0IiB0aXRsZT0iQSBjb25zdHJ1Y3QgaXMgYW4gYXJ0aWZpY2lhbCBjcmVhdHVyZSBlbXBvd2VyZWQgYnkgYSBmb3JjZSBvdGhlciB0aGFuIG5lY3JvbWFuY3kuIENvbnN0cnVjdHMgYXJlIG9mdGVuIG1pbmRsZXNzOyB0aGV5IGFyZSBpbW11bmUgdG8gZGlzZWFzZSwgdGhlIHBhcmFseXplZCBjb25kaXRpb24sIGFuZCBwb2lzb247IGFuZCB0aGV5IG1heSBoYXZlIEhhcmRuZXNzIGJhc2VkIG9uIHRoZSBtYXRlcmlhbHMgdXNlZCB0byBjb25zdHJ1Y3QgdGhlaXIgYm9kaWVzLiBDb25zdHJ1Y3RzIGFyZSBub3QgbGl2aW5nIGNyZWF0dXJlcywgbm9yIGFyZSB0aGV5IHVuZGVhZC4gV2hlbiByZWR1Y2VkIHRvIDAgSGl0IFBvaW50cywgYSBjb25zdHJ1Y3QgY3JlYXR1cmUgaXMgZGVzdHJveWVkLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MzUiPkNvbnN0cnVjdDwvYT48L3NwYW4+PHNwYW4gYWx0PSJHb2xlbSBUcmFpdCIgY2xhc3M9InRyYWl0IiB0aXRsZT0iR29sZW1zIGFyZSBhIHNwZWNpYWwgdHlwZSBvZiBjb25zdHJ1Y3QuIEdvbGVtcyBhcmUgaW1tdW5lIHRvIGFsbW9zdCBhbGwgbWFnaWMsIGJ1dCBtb3N0IGhhdmUgYSB3ZWFrbmVzcyB0byBjZXJ0YWluIHNwZWxscy4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIyMCI+R29sZW08L2E+PC9zcGFuPjxzcGFuIGFsdD0iTWluZGxlc3MgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkEgbWluZGxlc3MgY3JlYXR1cmUgaGFzIGVpdGhlciBwcm9ncmFtbWVkIG9yIHJ1ZGltZW50YXJ5IG1lbnRhbCBhdHRyaWJ1dGVzLiBNb3N0LCBpZiBub3QgYWxsLCBvZiB0aGVpciBtZW50YWwgYWJpbGl0eSBtb2RpZmllcnMgYXJlIOKAkzUuIFRoZXkgYXJlIGltbXVuZSB0byBhbGwgbWVudGFsIGVmZmVjdHMuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xMDgiPk1pbmRsZXNzPC9hPjwvc3Bhbj48YnIgLz48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDE4NzwvaT48L2E+PGJyIC8+PGI+UGVyY2VwdGlvbjwvYj4gKzE3OyBkYXJrdmlzaW9uPGJyIC8+PGI+U2tpbGxzPC9iPiA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0zIj48dT5BdGhsZXRpY3M8L2E+PC91PiArMjY8YnIgLz48Yj5TdHI8L2I+ICs3LCA8Yj5EZXg8L2I+IC0xLCA8Yj5Db248L2I+ICs0LCA8Yj5JbnQ8L2I+IC01LCA8Yj5XaXM8L2I+ICswLCA8Yj5DaGE8L2I+IC01PGhyIC8+PGI+QUM8L2I+IDMwLCA8Yj5Gb3J0PC9iPiArMjQsIDxiPlJlZjwvYj4gKzE4LCA8Yj5XaWxsPC9iPiArMTk8YnIgLz48Yj5IUDwvYj4gMTc1OyA8Yj5JbW11bml0aWVzPC9iPiBhY2lkLCBibGVlZCwgZGVhdGggZWZmZWN0cywgZGlzZWFzZSwgZG9vbWVkLCBkcmFpbmVkLCBmYXRpZ3VlZCwgaGVhbGluZywgbWFnaWMgKHNlZSBiZWxvdyksIG1lbnRhbCwgbmVjcm9tYW5jeSwgbm9ubGV0aGFsIGF0dGFja3MsIHBhcmFseXplZCwgcG9pc29uLCBzaWNrZW5lZCwgdW5jb25zY2lvdXM7IDxiPlJlc2lzdGFuY2VzPC9iPiBwaHlzaWNhbCAxMCAoZXhjZXB0IGFkYW1hbnRpbmUpPGJyIC8+PGI+R29sZW0gQW50aW1hZ2ljPC9iPiBoYXJtZWQgYnkgY29sZCBhbmQgd2F0ZXIgKDVkMTAsIDJkOCBmcm9tIGFyZWFzIGFuZCBwZXJzaXN0ZW50IGRhbWFnZSk7IGhlYWxlZCBieSBhY2lkIChhcmVhIDJkOCBIUCk7IHNsb3dlZCBieSBlYXJ0aDxiciAvPiA8Yj5WdWxuZXJhYmxlIHRvIFN0b25lIHRvIEZsZXNoPC9iPiBBIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJTcGVsbHMuYXNweD9JRD0zMTEiPjxpPnN0b25lIHRvIGZsZXNoPC9pPjwvYT4gc3BlbGwgbmVnYXRlcyB0aGUgZ29sZW3igJlzIGdvbGVtIGFudGltYWdpYyBhbmQgaXRzIHJlc2lzdGFuY2UgdG8gcGh5c2ljYWwgZGFtYWdlIGZvciAxIHJvdW5kLiBBIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJTcGVsbHMuYXNweD9JRD0xMjMiPjxpPmZsZXNoIHRvIHN0b25lPC9pPjwvYT4gc3BlbGwgcmV2ZXJzZXMgdGhpcyBlZmZlY3QgaW1tZWRpYXRlbHkuPGhyIC8+PGI+U3BlZWQ8L2I+IDIwIGZlZXQ8YnIgLz48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPk1lbGVlPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiBmaXN0ICsyNCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTAzIj48dT5tYWdpY2FsPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE5MiI+PHU+cmVhY2ggMTAgZmVldDwvYT48L3U+KSwgPGI+RGFtYWdlPC9iPiAyZDEwKzEzIGJsdWRnZW9uaW5nPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+SW1wb3NlIFBhcmFseXNpczwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJSZWFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xSZWFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlJlYWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFJlYWN0aW9uX0kucG5nIj4gICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD05MyI+PHU+aW5jYXBhY2l0YXRpb248L2E+PC91PikgPGI+VHJpZ2dlcjwvYj4gVGhlIHN0b25lIGdvbGVtIGhpdHMgYSA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iQ29uZGl0aW9ucy5hc3B4P0lEPTM1Ij5zbG93ZWQ8L2E+IGNyZWF0dXJlLiA8Yj5FZmZlY3Q8L2I+IFRoZSBjcmVhdHVyZSBtdXN0IHN1Y2NlZWQgYXQgYSBEQyAzMCBGb3J0aXR1ZGUgc2F2ZSBvciBiZWNvbWUgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IkNvbmRpdGlvbnMuYXNweD9JRD0yOCI+cGFyYWx5emVkPC9hPiBmb3IgMSByb3VuZC48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5JbmV4b3JhYmxlIE1hcmNoPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgVGhlIHN0b25lIGdvbGVtIFN0cmlkZXMgdXAgdG8gaXRzIFNwZWVkLCBwdXNoaW5nIGJhY2sgZWFjaCBjcmVhdHVyZSB3aG9zZSBzcGFjZSBpdCBtb3ZlcyBpbnRvIGFuZCBkYW1hZ2luZyB0aGVtIGlmIHRoZXkgdHJ5IHRvIHN0b3AgaXRzIG1vdmVtZW50LiBBIGNyZWF0dXJlIGNhbiBhdHRlbXB0IHRvIGJhciB0aGUgd2F5IGJ5IHN1Y2NlZWRpbmcgYXQgYSBEQyAzNCBGb3J0aXR1ZGUgc2F2ZS4gT24gYSBjcml0aWNhbCBzdWNjZXNzLCB0aGUgcmVzaXN0aW5nIGNyZWF0dXJlIHRha2VzIG5vIGRhbWFnZTsgb3RoZXJ3aXNlIGl0IGlzIGRhbWFnZWQgYXMgaWYgaGl0IGJ5IHRoZSBnb2xlbeKAmXMgZmlzdC48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5TbG93aW5nIFB1bHNlPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTExIj48dT5hcmNhbmU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MzIiPjx1PmNvbmNlbnRyYXRlPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE1NyI+PHU+dHJhbnNtdXRhdGlvbjwvYT48L3U+KSBFYWNoIGNyZWF0dXJlIGluIGEgMTAtZm9vdCBlbWFuYXRpb24gbXVzdCBzdWNjZWVkIGF0IGEgREMgMzAgRm9ydGl0dWRlIHNhdmUgb3IgYmUgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IkNvbmRpdGlvbnMuYXNweD9JRD0zNSI+c2xvd2VkIDE8L2E+IGZvciAxIG1pbnV0ZS4gVGhlIGdvbGVtIGNhbuKAmXQgdXNlIFNsb3dpbmcgUHVsc2UgYWdhaW4gZm9yIDFkNCByb3VuZHMuPC9zcGFuPjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gVHJlYXN1cmUgYW5kIFJld2FyZHMiIHRpdGxlPSJTaWRlYmFyIC0gVHJlYXN1cmUgYW5kIFJld2FyZHMiIHN0eWxlPSJoZWlnaHQ6MjBweDsgcGFkZGluZzoycHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEljb25zXFNpZGViYXJfNV9UcmVhc3VyZUFuZFJld2FyZHMucG5nIj4gU3RvbmUgR29sZW1zPC9oMz5EZXBlbmRpbmcgb24gdGhlIG1hdGVyaWFsIGZyb20gd2hpY2ggaXQgaXMgbWFkZSBhbmQgdGhlIGNhcmUgdGhhdCB3ZW50IGludG8gY3JhZnRpbmcgaXQsIGEgZGVzdHJveWVkIHN0b25lIGdvbGVtIG1heSBiZSB3b3J0aCBhcyBtdWNoIGFzIGFuIGltbWFjdWxhdGVseSBzY3VscHRlZCBtYXJibGUgcGlsbGFyIG9yIGFzIGxpdHRsZSBhcyBhIHBpbGUgb2YgcnViYmxlLjxoMiBjbGFzcz0idGl0bGUiPkFsbCBNb25zdGVycyBpbiAiPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHg/SUQ9NTciPkdvbGVtPC9hPiI8L2gyPjx0YWJsZSBjbGFzcz0iaW5uZXIiPjx0cj48dGQ+PGI+TmFtZTwvYj48L3RkPjx0ZD48Yj5MZXZlbDwvYj48L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0MyI+QWRhbWFudGluZSBHb2xlbTwvYT48L3RkPjx0ZD4xODwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjM5Ij5BbGNoZW1pY2FsIEdvbGVtPC9hPjwvdGQ+PHRkPjk8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0MCI+Q2xheSBHb2xlbTwvYT48L3RkPjx0ZD4xMDwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjM4Ij5GbGVzaCBHb2xlbTwvYT48L3RkPjx0ZD44PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0yNDIiPklyb24gR29sZW08L2E+PC90ZD48dGQ+MTM8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0MSI+U3RvbmUgR29sZW08L2E+PC90ZD48dGQ+MTE8L3RkPjwvdHI+PC90YWJsZT48aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD01NyI+R29sZW08L2E+PC9oMT48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDE4NDwvaT48L2E+PGJyIC8+Q3JhZnRlZCBvZiBiYXNlIG1hdGVyaWFscyBhbmQgdGhlbiBtYWdpY2FsbHkgYW5pbWF0ZWQgaW50byBhIHBvd2VyZnVsIGd1YXJkaWFuLCB0aGUgbGVnZW5kYXJ5IGdvbGVtIGlzIGEgbGl2aW5nIGNvbnN0cnVjdCB0aGF0IG1pbmRsZXNzbHkgb2JleXMgaXRzIGNyZWF0b3LigJlzIGNvbW1hbmRz4oCUIG9mdGVuIGNvbnRpbnVpbmcgdG8gZG8gc28gZm9yIHllYXJzIG9yIGV2ZW4gY2VudHVyaWVzIGFmdGVyIGl0cyBjcmVhdG9y4oCZcyBkZWF0aC4gVGhlcmUgZXhpc3QgdHdvIGtub3duIG1ldGhvZHMgb2YgYW5pbWF0aW5nIGEgZ29sZW0uIFRoZSB0cmFkaXRpb25hbCBtZXRob2QgaW52b2x2ZXMgaGFydmVzdGluZyBhbmQgaW1wbGFudGluZyBhbiBlbGVtZW50YWwgc291bCBvciBlc3NlbmNlIHdpdGhpbiB0aGUgbmV3bHkgY3JhZnRlZCBob3N0IHN0YXR1ZSwgYSBwcm9jZWR1cmUgc2VlbiBhcyB2aWxlIGFuZCBibGFzcGhlbW91cyB0byB0aG9zZSB3aG8gdmFsdWUgdGhlIHNhbmN0aXR5IG9mIHRoZSBzb3VsOyBldmlsIG9yIGFtb3JhbCBnb2xlbSBjcmFmdGVycyB0ZW5kIHRvIHByZWZlciB0aGlzIG1ldGhvZC4gVGhlIG90aGVyLCBsZXNzIGRpc3JlcHV0YWJsZSB0ZWNobmlxdWUgaW52b2x2ZXMgc2lwaG9uaW5nIHB1cmUgcG9zaXRpdmUgZW5lcmd5IGludG8gdGhlIHN0YXR1ZSB0byBhcnRpZmljaWFsbHkgaW1pdGF0ZSB0aGUgY3JlYXRpb24gb2YgYSBzb3VsLiBUaGUgcmVzdWx0IGRvZXMgbm90IGdpdmUgdGhlIGdvbGVtIGEgdHJ1ZSBzb3VsIGFuZCBpcyBnZW5lcmFsbHkgYSBtb3JlIGNvc3RseSBhbmQgdGltZS1jb25zdW1pbmcgbWV0aG9kIG9mIGNyZWF0aW9uLiBSZWdhcmRsZXNzIG9mIHRoZSBtZXRob2QgdXNlZCwgdGhlIHJlc3VsdGluZyBnb2xlbSBmdW5jdGlvbnMgdGhlIHNhbWUuIEEgZ29sZW3igJlzIHVuaXF1ZSBhbmltYXRpbmcgZm9yY2UgbGVhdmVzIGl0IHN1c2NlcHRpYmxlIHRvIGNlcnRhaW4gZm9ybXMgb2YgbWFnaWMsIGJ1dCBhcGFydCBmcm9tIHRoZXNlIGZldyB3ZWFrbmVzc2VzLCBpdCBpcyBpbXBlcnZpb3VzIHRvIG1hZ2ljIGFuZCBkaWZmaWN1bHQgdG8gZGFtYWdlIHdpdGggd2VhcG9ucy48YnIgLz4gR29sZW1zIHdvcmsgYmVzdCBpbiBwbGF5IGFzIGZvZXMgdG8gdmFucXVpc2ggcmF0aGVyIHRoYW4gYWxsaWVzIHRvIGFjY29tcGFueSBwbGF5ZXIgY2hhcmFjdGVycyBvbiBhZHZlbnR1cmVzLiBUaGUgcHJvY2VzcyBvZiBjcmVhdGluZyBhIGdvbGVtIGlzIHRpbWUtY29uc3VtaW5nLCBleHBlbnNpdmUsIGFuZCBkaWZmaWN1bHQsIGFuZCBvbmx5IHRoZSBtb3N0IHRhbGVudGVkIHNwZWxsY2FzdGVycyBvciBhcnRpc2FucyBjYW4gZXZlbiBob3BlIHRvIGFjY29tcGxpc2ggc3VjaCBhbiB1bmRlcnRha2luZy4gV2hpbGUgY2VydGFpbiBtYWdpY2FsIHRleHRz4oCUc28tY2FsbGVkIOKAnGdvbGVtIG1hbnVhbHPigJ3igJRhcmUgc2FpZCB0byBhaWQgZ29sZW1zIGNyYWZ0ZXJzLCBmb3IgdGhlIG1vc3QgcGFydCB0aGUgY3JlYXRpb24gb2YgYSBnb2xlbSBzaG91bGQgYmUgc29tZXRoaW5nIGxlZnQgaW4gdGhlIGhhbmRzIG9mIHRoZSBHYW1lIE1hc3Rlci48YnIgLz4gR29sZW1zIGhhdmUgY29tcG9uZW50cyB0aGF0IGNhbiBiZSBoYXJ2ZXN0ZWQgYXMgdHJvcGhpZXMgb3IgbWFnaWNhbCBjb21wb25lbnRzOyB0aGUgdmFsdWUgZGVwZW5kcyBvbiB0aGUgZ29sZW0gaW4gcXVlc3Rpb24uIEV4YW1wbGVzIG9mIGNvbXBvbmVudHMgdGhhdCBjYW4gYmUgaGFydmVzdGVkIGZyb20gZ29sZW1zIGFyZSBsaXN0ZWQgaW4gdGhlIHNpZGViYXJzLiA8aDIgY2xhc3M9InRpdGxlIj5Hb2xlbSBBbnRpbWFnaWM8L2gyPiBBIGdvbGVtIGlzIGltbXVuZSB0byBzcGVsbHMgYW5kIG1hZ2ljYWwgYWJpbGl0aWVzIG90aGVyIHRoYW4gaXRzIG93biwgYnV0IGVhY2ggdHlwZSBvZiBnb2xlbSBpcyBhZmZlY3RlZCBieSBhIGZldyB0eXBlcyBvZiBtYWdpYyBpbiBzcGVjaWFsIHdheXMuIFRoZXNlIGV4Y2VwdGlvbnMgYXJlIGxpc3RlZCBpbiBzaG9ydGVuZWQgZm9ybSBpbiB0aGUgZ29sZW3igJlzIHN0YXQgYmxvY2ssIHdpdGggdGhlIGZ1bGwgcnVsZXMgYXBwZWFyaW5nIGhlcmUuIElmIGFuIGVudHJ5IGxpc3RzIG11bHRpcGxlIHR5cGVzIChzdWNoIGFzIOKAnGNvbGQgYW5kIHdhdGVy4oCdKSwgZWl0aGVyIHR5cGUgb2Ygc3BlbGwgY2FuIGFmZmVjdCB0aGUgZ29sZW0uPGJyIC8+IDxiPkhhcm1lZCBCeTwvYj4gQW55IG1hZ2ljIG9mIHRoaXMgdHlwZSB0aGF0IHRhcmdldHMgdGhlIGdvbGVtIGNhdXNlcyBpdCB0byB0YWtlIHRoZSBsaXN0ZWQgYW1vdW50IG9mIGRhbWFnZSAodGhpcyBkYW1hZ2UgaGFzIG5vIHR5cGUpIGluc3RlYWQgb2YgdGhlIHVzdWFsIGVmZmVjdC4gSWYgdGhlIGdvbGVtIHN0YXJ0cyBpdHMgdHVybiBpbiBhbiBhcmVhIG9mIG1hZ2ljIG9mIHRoaXMgdHlwZSBvciBpcyBhZmZlY3RlZCBieSBhIHBlcnNpc3RlbnQgZWZmZWN0IG9mIHRoZSBhcHByb3ByaWF0ZSB0eXBlLCBpdCB0YWtlcyB0aGUgZGFtYWdlIGxpc3RlZCBpbiB0aGUgcGFyZW50aGV0aWNhbC48YnIgLz4gPGI+SGVhbGVkIEJ5PC9iPiBBbnkgbWFnaWMgb2YgdGhpcyB0eXBlIHRoYXQgdGFyZ2V0cyB0aGUgZ29sZW0gbWFrZXMgdGhlIGdvbGVtIGxvc2UgdGhlIHNsb3dlZCBjb25kaXRpb24gYW5kIGdhaW4gSFAgZXF1YWwgdG8gaGFsZiB0aGUgZGFtYWdlIHRoZSBzcGVsbCB3b3VsZCBoYXZlIGRlYWx0LiBJZiB0aGUgZ29sZW0gc3RhcnRzIGl0cyB0dXJuIGluIGFuIGFyZWEgb2YgdGhpcyB0eXBlIG9mIG1hZ2ljLCBpdCBnYWlucyB0aGUgSFAgbGlzdGVkIGluIHRoZSBwYXJlbnRoZXRpY2FsLjxiciAvPiA8Yj5TbG93ZWQgQnk8L2I+IEFueSBtYWdpYyBvZiB0aGlzIHR5cGUgdGhhdCB0YXJnZXRzIHRoZSBnb2xlbSBjYXVzZXMgaXQgdG8gYmUgc2xvd2VkIDEgZm9yIDJkNiByb3VuZHMgaW5zdGVhZCBvZiB0aGUgdXN1YWwgZWZmZWN0LiBJZiB0aGUgZ29sZW0gc3RhcnRzIGl0cyB0dXJuIGluIGFuIGFyZWEgb2YgdGhpcyB0eXBlIG9mIG1hZ2ljLCBpdOKAmXMgc2xvd2VkIDEgZm9yIHRoYXQgcm91bmQuPGJyIC8+IDxiPlZ1bG5lcmFibGUgVG88L2I+IEVhY2ggZ29sZW0gaXMgdnVsbmVyYWJsZSB0byBvbmUgb3IgbW9yZSBzcGVjaWZpYyBzcGVsbHMsIHdpdGggdGhlIGVmZmVjdHMgZGVzY3JpYmVkIGluIGl0cyBzdGF0IGJsb2NrLmRkAgsPPCsADQEADxYGHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgEeB1Zpc2libGVoZBYCZg9kFgQCAQ9kFgxmD2QWAmYPDxYEHwAFC1N0b25lIEdvbGVtHgtOYXZpZ2F0ZVVybAUUTW9uc3RlcnMuYXNweD9JRD0yNDFkZAIBDw8WAh8ABQVHb2xlbWRkAgIPDxYCHwAFBiZuYnNwO2RkAgMPDxYCHwAFB05ldXRyYWxkZAIEDw8WAh8ABQYmbmJzcDtkZAIFDw8WAh8ABQYmbmJzcDtkZAICDw8WAh8DaGRkAg0PD2Q8KwAGAGQYAQUeY3RsMDAkTWFpbkNvbnRlbnQkVGFibGVFbGVtZW50DxQrAApkZGRkZGQVAQpNb25zdGVyc0lEFCsAARQrAAEC8QECARQrAAEC8QFkcGqKjqM0zpgfAzxOkSbvYHkihfM=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Stone Golem</h1>Stone golems are slow and steady constructs typically carved from marble or granite. They’re often made to serve as works of art when at rest, so some golem crafters employ master sculptors to ensure the constructs make beautiful statues. Older stone golems might be weathered, with scuffed or cracked surfaces or missing noses and digits, but this weathering is largely cosmetic and doesn’t adversely impact the golems’ functionality.<br /><br /> Tales tell of particularly immense stone golems residing in certain ancient ruins. Survivors from time-lost civilizations bent on carrying out orders from long-gone masters, these immense stone golems are much more powerful than most stone golems. They are always level 15 or higher and never smaller than Huge in size—most are Gargantuan. Because their size is so great and the structures they dwell in so dilapidated, the awakening of such a stone golem can cause surrounding structures to collapse, ancient foundations to buckle, and ceilings to come crashing down on foes. In addition to the statistics here, these massive stone golems attack with wide, sweeping strikes capable of knocking down multiple targets at once.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Construct</a></u> (<u><a href="Skills.aspx?ID=2">Arcana</a></u>, <u><a href="Skills.aspx?ID=4">Crafting</a></u>)</b>: DC 30<h1 class="title"><a href="Monsters.aspx?ID=241">Stone Golem</a><span style="float:right;">Creature 11</span></h1><a target="_blank" href="Images\Monsters\Golem_StoneGolem.png"><img class="thumbnail" src="Images\Monsters\Golem_StoneGolem.png"></a><span alt="Uncommon Trait" class="traituncommon" title="Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can’t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2."><a href="Traits.aspx?ID=159">Uncommon</a></span><span alt="Neutral" class="traitalignment" title="Neutral">N</span><span alt="Large" class="traitsize" title="Large">Large</span><span alt="Construct Trait" class="trait" title="A construct is an artificial creature empowered by a force other than necromancy. Constructs are often mindless; they are immune to disease, the paralyzed condition, and poison; and they may have Hardness based on the materials used to construct their bodies. Constructs are not living creatures, nor are they undead. When reduced to 0 Hit Points, a construct creature is destroyed."><a href="Traits.aspx?ID=35">Construct</a></span><span alt="Golem Trait" class="trait" title="Golems are a special type of construct. Golems are immune to almost all magic, but most have a weakness to certain spells."><a href="Traits.aspx?ID=220">Golem</a></span><span alt="Mindless Trait" class="trait" title="A mindless creature has either programmed or rudimentary mental attributes. Most, if not all, of their mental ability modifiers are –5. They are immune to all mental effects."><a href="Traits.aspx?ID=108">Mindless</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 187</i></a><br /><b>Perception</b> +17; darkvision<br /><b>Skills</b> <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +26<br /><b>Str</b> +7, <b>Dex</b> -1, <b>Con</b> +4, <b>Int</b> -5, <b>Wis</b> +0, <b>Cha</b> -5<hr /><b>AC</b> 30, <b>Fort</b> +24, <b>Ref</b> +18, <b>Will</b> +19<br /><b>HP</b> 175; <b>Immunities</b> acid, bleed, death effects, disease, doomed, drained, fatigued, healing, magic (see below), mental, necromancy, nonlethal attacks, paralyzed, poison, sickened, unconscious; <b>Resistances</b> physical 10 (except adamantine)<br /><b>Golem Antimagic</b> harmed by cold and water (5d10, 2d8 from areas and persistent damage); healed by acid (area 2d8 HP); slowed by earth<br /> <b>Vulnerable to Stone to Flesh</b> A <a style="text-decoration:underline" href="Spells.aspx?ID=311"><i>stone to flesh</i></a> spell negates the golem’s golem antimagic and its resistance to physical damage for 1 round. A <a style="text-decoration:underline" href="Spells.aspx?ID=123"><i>flesh to stone</i></a> spell reverses this effect immediately.<hr /><b>Speed</b> 20 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> fist +24 (<a href="Traits.aspx?ID=103"><u>magical</a></u>, <a href="Traits.aspx?ID=192"><u>reach 10 feet</a></u>), <b>Damage</b> 2d10+13 bludgeoning</span><span class="hanging-indent"><b>Impose Paralysis</b> <img class="actiondark" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction.png"><img class="actionlight" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction_I.png">  (<a href="Traits.aspx?ID=93"><u>incapacitation</a></u>) <b>Trigger</b> The stone golem hits a <a style="text-decoration:underline" href="Conditions.aspx?ID=35">slowed</a> creature. <b>Effect</b> The creature must succeed at a DC 30 Fortitude save or become <a style="text-decoration:underline" href="Conditions.aspx?ID=28">paralyzed</a> for 1 round.</span><span class="hanging-indent"><b>Inexorable March</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  The stone golem Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a DC 34 Fortitude save. On a critical success, the resisting creature takes no damage; otherwise it is damaged as if hit by the golem’s fist.</span><span class="hanging-indent"><b>Slowing Pulse</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  (<a href="Traits.aspx?ID=11"><u>arcane</a></u>, <a href="Traits.aspx?ID=32"><u>concentrate</a></u>, <a href="Traits.aspx?ID=157"><u>transmutation</a></u>) Each creature in a 10-foot emanation must succeed at a DC 30 Fortitude save or be <a style="text-decoration:underline" href="Conditions.aspx?ID=35">slowed 1</a> for 1 minute. The golem can’t use Slowing Pulse again for 1d4 rounds.</span><h3 class="title"><img alt="Sidebar - Treasure and Rewards" title="Sidebar - Treasure and Rewards" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_5_TreasureAndRewards.png"> Stone Golems</h3>Depending on the material from which it is made and the care that went into crafting it, a destroyed stone golem may be worth as much as an immaculately sculpted marble pillar or as little as a pile of rubble.<h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=57">Golem</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=243">Adamantine Golem</a></td><td>18</td></tr><tr><td><a href="Monsters.aspx?ID=239">Alchemical Golem</a></td><td>9</td></tr><tr><td><a href="Monsters.aspx?ID=240">Clay Golem</a></td><td>10</td></tr><tr><td><a href="Monsters.aspx?ID=238">Flesh Golem</a></td><td>8</td></tr><tr><td><a href="Monsters.aspx?ID=242">Iron Golem</a></td><td>13</td></tr><tr><td><a href="Monsters.aspx?ID=241">Stone Golem</a></td><td>11</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=57">Golem</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 184</i></a><br />Crafted of base materials and then magically animated into a powerful guardian, the legendary golem is a living construct that mindlessly obeys its creator’s commands— often continuing to do so for years or even centuries after its creator’s death. There exist two known methods of animating a golem. The traditional method involves harvesting and implanting an elemental soul or essence within the newly crafted host statue, a procedure seen as vile and blasphemous to those who value the sanctity of the soul; evil or amoral golem crafters tend to prefer this method. The other, less disreputable technique involves siphoning pure positive energy into the statue to artificially imitate the creation of a soul. The result does not give the golem a true soul and is generally a more costly and time-consuming method of creation. Regardless of the method used, the resulting golem functions the same. A golem’s unique animating force leaves it susceptible to certain forms of magic, but apart from these few weaknesses, it is impervious to magic and difficult to damage with weapons.<br /> Golems work best in play as foes to vanquish rather than allies to accompany player characters on adventures. The process of creating a golem is time-consuming, expensive, and difficult, and only the most talented spellcasters or artisans can even hope to accomplish such an undertaking. While certain magical texts—so-called “golem manuals”—are said to aid golems crafters, for the most part the creation of a golem should be something left in the hands of the Game Master.<br /> Golems have components that can be harvested as trophies or magical components; the value depends on the golem in question. Examples of components that can be harvested from golems are listed in the sidebars. <h2 class="title">Golem Antimagic</h2> A golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. These exceptions are listed in shortened form in the golem’s stat block, with the full rules appearing here. If an entry lists multiple types (such as “cold and water”), either type of spell can affect the golem.<br /> <b>Harmed By</b> Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.<br /> <b>Healed By</b> Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.<br /> <b>Slowed By</b> Any magic of this type that targets the golem causes it to be slowed 1 for 2d6 rounds instead of the usual effect. If the golem starts its turn in an area of this type of magic, it’s slowed 1 for that round.<br /> <b>Vulnerable To</b> Each golem is vulnerable to one or more specific spells, with the effects described in its stat block.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+915" class="post-915 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-chromatic-dragon">
+                                        <h1>Black Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Young Black Dragon <span class="monster-level">Creature 7</span></h4>
+<p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Acid</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +15; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Draconic</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +14, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +12, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +17, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +16</p>
+<p><b>Str</b> +6, <b>Dex</b> +3, <b>Con</b> +4, <b>Int</b> +1, <b>Wis</b> +2, <b>Cha</b> +2</p>
+<hr />
+<p><b>AC</b> 25; <b>Fort</b> +17, <b>Ref</b> +12, <b>Will</b> +15</p>
+<p><b>HP</b> 125; <b>Immunities</b> acid, paralyzed, sleep</p>
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 23</p>
+<p><b>Tail Lash</b> [reaction] <b>Trigger</b> A creature within reach of the dragon&#8217;s tail takes an action to Strike or attempt a skill check; <b>Effect</b> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>
+<hr />
+<p><b>Speed</b> 40 feet, fly 100 feet, swim 40 feet</p>
+<p><b>Melee</b> [one-action] jaws +19 (acid, reach 10 feet), <b>Damage</b> 2d10+9 piercing plus 1d6 acid</p>
+<p><b>Melee</b> [one-action] claw +19 (agile), <b>Damage</b> 2d6+9 slashing</p>
+<p><b>Melee</b> [one-action] tail +17 (reach 15 feet), <b>Damage</b> 2d8+7 bludgeoning</p>
+<p><b>Melee</b> [one-action] horns +17 (reach 10 feet), <b>Damage</b> 1d8+7 piercing</p>
+<p><b>Arcane Prepared Spells</b> DC 25, attack +18; <b>Note</b> To make a chromatic dragon spellcaster, remove the dragon’s Draconic Frenzy and Draconic Momentum abilities, and give it the spells listed below. You can swap out any number of these with other arcane spells, provided you keep the same number of spells for each level. You might also want to increase the dragon’s Intelligence or <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Charisma">Charisma</a> modifier by 1 or 2 to reflect its mastery of magic.</p>
+<p><b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/slow/">slow</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/stinking-cloud/">stinking cloud</a>; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/blur/">blur</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/glitterdust/">glitterdust</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a>; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/alarm/">alarm</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/ray-of-enfeeblement/">ray of enfeeblement</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-strike">true strike</a>; <b>Cantrips (3rd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dancing-lights/">dancing lights</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tanglefoot/">tanglefoot</a></p>
+<p><b>Breath Weapon</b> [two-actions] (acid, arcane, evocation); The dragon breathes a spray of acid that deals 8d6 acid damage in a 60-foot line (DC 25 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p>
+<p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one horns Strike in any order.</p>
+<p><b>Draconic Momentum</b> The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>
+<h4 class="monster">Adult Black Dragon <span class="monster-level">Creature 11</span></h4>
+<p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Acid</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +22; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Common, Draconic, Jotun</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +19, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +20</p>
+<p><b>Str</b> +7, <b>Dex</b> +3, <b>Con</b> +5, <b>Int</b> +2, <b>Wis</b> +3, <b>Cha</b> +3</p>
+<hr />
+<p><b>AC</b> 31; <b>Fort</b> +23, <b>Ref</b> +18, <b>Will</b> +21; +1 status to all saves vs. magic</p>
+<p><b>HP</b> 215; <b>Immunities</b> acid, paralyzed, sleep</p>
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 28</p>
+<p><b>Tail Lash</b> [reaction] <b>Trigger</b> A creature within reach of the dragon&#8217;s tail takes an action to Strike or attempt a skill check; <b>Effect</b> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>
+<hr />
+<p><b>Speed</b> 50 feet, fly 120 feet, swim 50 feet</p>
+<p><b>Melee</b> [one-action] jaws +25 (acid, magical, reach 10 feet), <b>Damage</b> 2d12+13 piercing plus 2d6 acid</p>
+<p><b>Melee</b> [one-action] claw +25 (agile, magical), <b>Damage</b> 2d10+13 slashing</p>
+<p><b>Melee</b> [one-action] tail +23 (magical, reach 15 feet), <b>Damage</b> 2d12+11 bludgeoning</p>
+<p><b>Melee</b> [one-action] horns +23 (magical, reach 10 feet), <b>Damage</b> 1d10+11 piercing</p>
+<p><b>Arcane Prepared Spells</b> DC 30, attack +24; <b>Note</b> To make a chromatic dragon spellcaster, remove the dragon’s Draconic Frenzy and Draconic Momentum abilities, and give it the spells listed below. You can swap out any number of these with other arcane spells, provided you keep the same number of spells for each level. You might also want to increase the dragon’s Intelligence or <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Charisma">Charisma</a> modifier by 1 or 2 to reflect its mastery of magic.</p>
+<p>As young black dragon, plus <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/black-tentacles/">black tentacles</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/mariner-s-curse/">mariner&#8217;s curse</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/clairvoyance/">clairvoyance</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/suggestion/">suggestion</a>; <b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/paralyze/">paralyze</a>; <b>Cantrips</b> (5th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/dancing-lights/">dancing lights</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tanglefoot/">tanglefoot</a></p>
+<p><b>Breath Weapon</b> [two-actions] (acid, arcane, evocation); The dragon breathes a spray of acid that deals 12d6 acid damage in an 80-foot line (DC 30 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p>
+<p><b>Corrupt Water</b> [one-action] (arcane, concentrate, necromancy); <b>Frequency</b> Once per day; <b>Effect</b> The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life. This destroys liquid magic or alchemical items if they&#8217;re of a lower level than the dragon (a creature can attempt a DC 28 Will save to protect liquids in its possession). This doesn&#8217;t affect the liquids in a creature&#8217;s body.</p>
+<p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one horns Strike in any order.</p>
+<p><b>Draconic Momentum</b> The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>
+<h4 class="monster">Ancient Black Dragon <span class="monster-level">Creature 16</span></h4>
+<p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">CE</span> <span class="size">Huge</span> <span class="trait">Acid</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +30; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p>
+<p><b>Languages</b> Common, Draconic, Goblin, Jotun, Orcish</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +26, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +27</p>
+<p><b>Str</b> +8, <b>Dex</b> +5, <b>Con</b> +6, <b>Int</b> +4, <b>Wis</b> +5, <b>Cha</b> +5</p>
+<hr />
+<p><b>AC</b> 39; <b>Fort</b> +30, <b>Ref</b> +27, <b>Will</b> +29; +1 status to all saves vs. magic</p>
+<p><b>HP</b> 325; <b>Immunities</b> acid, paralyzed, sleep</p>
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 35</p>
+<p><b>Tail Lash</b> [reaction] <b>Trigger</b> A creature within reach of the dragon&#8217;s tail takes an action to Strike or attempt a skill check; <b>Effect</b> The dragon Strikes with its tail at the triggering creature at a -2 penalty. If it hits, the creature takes a -2 circumstance penalty to the triggering roll.</p>
+<hr />
+<p><b>Speed</b> 60 feet, fly 150 feet, swim 60 feet</p>
+<p><b>Melee</b> [one-action] jaws +33 (acid, magical, reach 15 feet), <b>Damage</b> 3d10+14 piercing plus 2d6 acid and 2d6 persistent acid</p>
+<p><b>Melee</b> [one-action] claw +33 (agile, magical, reach 10 feet), <b>Damage</b> 3d8+14 slashing</p>
+<p><b>Melee</b> [one-action] tail +31 (magical, reach 20 feet), <b>Damage</b> 3d10+12 bludgeoning</p>
+<p><b>Melee</b> [one-action] horns +31 (magical, reach 15 feet), <b>Damage</b> 2d10+12 piercing</p>
+<p><b>Arcane Prepared Spells</b> DC 37, attack +32; <b>Note</b> To make a chromatic dragon spellcaster, remove the dragon’s Draconic Frenzy and Draconic Momentum abilities, and give it the spells listed below. You can swap out any number of these with other arcane spells, provided you keep the same number of spells for each level. You might also want to increase the dragon’s Intelligence or <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Charisma">Charisma</a> modifier by 1 or 2 to reflect its mastery of magic.</p>
+<p>As adult black dragon, plus <strong>7th</strong> <a class="spell" href="https://pf2.d20pfsrd.com/spell/finger-of-death/">finger of death</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/mask-of-terror/">mask of terror</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/reverse-gravity/">reverse gravity</a>; <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dominate/">dominate</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-force/">wall of force</a>; <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/prying-eye/">prying eye</a>; <b>Cantrips</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/dancing-lights/">dancing lights</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tanglefoot/">tanglefoot</a></p>
+<p><b>Breath Weapon</b> [two-actions] (acid, arcane, evocation); The dragon breathes a spray of acid that deals 17d6 acid damage in a 100-foot line (DC 39 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p>
+<p><b>Corrupt Water</b> [one-action] (arcane, concentrate, necromancy); As adult black dragon, but DC 35.</p>
+<p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one horns Strike in any order.</p>
+<p><b>Draconic Momentum</b> The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p>
+<p>Black dragon lairs are as foul as their souls. The floors are littered with rotting meat, and plundered treasures line the muck and slime of their dank caves amid twisted roots and creepers. Such places are often crawling with pests, snakes, and slimes. Though they claim natural caverns when they can, they make do with areas of dense, twisted vegetation within a swamp. Black dragon treasure hoards primarily consist of gems and expensive glass work, as valuables of softer substance can&#8217;t survive the dragon&#8217;s acidic presence.</p>
+<p class="header">About</p>
+<p>Murderous tyrants of marshes, swamps, bogs, and fens, black dragons terrorize their <a href="https://pf2.d20pfsrd.com/rules/domains/">domains</a> with intense fervor. Gleefully sadistic, they rule their fetid principalities from a deep cave or otherwise isolated part of the swamp with a mix of Lightning-quick raids and subterfuge. Their hatred for other creatures is as acidic as their breath weapons, and they rarely tolerate even other dragons of their kind—except perhaps to mate or temporarily collaborate to take down a mutual enemy.</p>
+<p>Black dragons are amphibious—although they breathe air, their gills also allow them to breathe water. Their frills and fins make them accomplished swimmers, well suited to their wetland environments and submerged lairs. They&#8217;re immune to the fetid water that comes as a result of their magical ability to corrupt water.</p>                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

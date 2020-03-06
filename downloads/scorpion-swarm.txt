@@ -1,0 +1,271 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Scorpion Swarm - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Scorpion Swarm" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=357" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABfQkPGgxIGNsYXNzPSJ0aXRsZSI+U2NvcnBpb24gU3dhcm08L2gxPldoaWxlIGEgc2luZ2xlIHNjb3JwaW9uIGlzIGl0c2VsZiBhIG1lbmFjZSwgc3dhcm1zIG9mIHRoZXNlIHZlcm1pbiBjYW4gYmUgb3V0cmlnaHQgZGV2YXN0YXRpbmcuIFRoZXNlIHNraXR0ZXJpbmcgZHJvdmVzIG9mIGRlYXRoIHN3aWZ0bHkgYnJpbmcgZG93biB0aGVpciBwcmV5IGJlZm9yZSBkZXZvdXJpbmcgZXZlcnl0aGluZyBzaG9ydCBvZiB0aGUgdmljdGlt4oCZcyBib25lcy48YnIgLz48YnIgLz48Yj48dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD01JkdlbmVyYWw9dHJ1ZSI+UmVjYWxsIEtub3dsZWRnZSAtIEFuaW1hbDwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xMCI+TmF0dXJlPC9hPjwvdT4pPC9iPjogREMgMTk8aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTM1NyI+U2NvcnBpb24gU3dhcm08L2E+PHNwYW4gc3R5bGU9ImZsb2F0OnJpZ2h0OyI+Q3JlYXR1cmUgNDwvc3Bhbj48L2gxPjxzcGFuIGFsdD0iTmV1dHJhbCIgY2xhc3M9InRyYWl0YWxpZ25tZW50IiB0aXRsZT0iTmV1dHJhbCI+Tjwvc3Bhbj48c3BhbiBhbHQ9IkxhcmdlIiBjbGFzcz0idHJhaXRzaXplIiB0aXRsZT0iTGFyZ2UiPkxhcmdlPC9zcGFuPjxzcGFuIGFsdD0iQW5pbWFsIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJBbiBhbmltYWwgaXMgYSBjcmVhdHVyZSB3aXRoIGEgcmVsYXRpdmVseSBsb3cgaW50ZWxsaWdlbmNlLiBJdCB0eXBpY2FsbHkgZG9lc27igJl0IGhhdmUgYW4gSW50ZWxsaWdlbmNlIGFiaWxpdHkgbW9kaWZpZXIgb3ZlciDigJM0LCBjYW7igJl0IHNwZWFrIGxhbmd1YWdlcywgYW5kIGNhbuKAmXQgYmUgdHJhaW5lZCBpbiBJbnRlbGxpZ2VuY2UtYmFzZWQgc2tpbGxzLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9OSI+QW5pbWFsPC9hPjwvc3Bhbj48c3BhbiBhbHQ9IlN3YXJtIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJBIHN3YXJtIGlzIGEgbWFzcyBvciBjbG91ZCBvZiBjcmVhdHVyZXMgdGhhdCBmdW5jdGlvbnMgYXMgb25lIG1vbnN0ZXIuIEl0cyBzaXplIGVudHJ5IGdpdmVzIHRoZSBzaXplIG9mIHRoZSBlbnRpcmUgbWFzcywgdGhvdWdoIGZvciBtb3N0IHN3YXJtcyB0aGUgaW5kaXZpZHVhbCBjcmVhdHVyZXMgdGhhdCBtYWtlIHVwIHRoYXQgbWFzcyBhcmUgVGlueS4gQSBzd2FybSBjYW4gb2NjdXB5IHRoZSBzYW1lIHNwYWNlIGFzIG90aGVyIGNyZWF0dXJlcywgYW5kIG11c3QgZG8gc28gaW4gb3JkZXIgdG8gdXNlIGl0cyBkYW1hZ2luZyBhY3Rpb24uIEEgc3dhcm0gdHlwaWNhbGx5IGhhcyB3ZWFrbmVzcyB0byBlZmZlY3RzIHRoYXQgZGVhbCBkYW1hZ2Ugb3ZlciBhbiBhcmVhIChsaWtlIGFyZWEgc3BlbGxzIGFuZCBzcGxhc2ggd2VhcG9ucykuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yMzkiPlN3YXJtPC9hPjwvc3Bhbj48YnIgLz48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDI4NTwvaT48L2E+PGJyIC8+PGI+UGVyY2VwdGlvbjwvYj4gKzExOyBkYXJrdmlzaW9uPGJyIC8+PGI+U2tpbGxzPC9iPiA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xIj48dT5BY3JvYmF0aWNzPC9hPjwvdT4gKzExLCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0zIj48dT5BdGhsZXRpY3M8L2E+PC91PiArNiwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPjx1PlN0ZWFsdGg8L2E+PC91PiArMTE8YnIgLz48Yj5TdHI8L2I+ICswLCA8Yj5EZXg8L2I+ICs1LCA8Yj5Db248L2I+ICsyLCA8Yj5JbnQ8L2I+IC01LCA8Yj5XaXM8L2I+ICswLCA8Yj5DaGE8L2I+IC00PGhyIC8+PGI+QUM8L2I+IDIxLCA8Yj5Gb3J0PC9iPiArMTAsIDxiPlJlZjwvYj4gKzEzLCA8Yj5XaWxsPC9iPiArODxiciAvPjxiPkhQPC9iPiA1NTsgPGI+SW1tdW5pdGllczwvYj4gcHJlY2lzaW9uLCBzd2FybSBtaW5kOyA8Yj5SZXNpc3RhbmNlczwvYj4gYmx1ZGdlb25pbmcgMywgcGllcmNpbmcgNywgc2xhc2hpbmcgNzsgPGI+V2Vha25lc3NlczwvYj4gYXJlYSBkYW1hZ2UgNSwgc3BsYXNoIGRhbWFnZSA1PGhyIC8+PGI+U3BlZWQ8L2I+IDI1IGZlZXQ8YnIgLz48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPlNjb3JwaW9uIFZlbm9tPC9iPiAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTI2Ij48dT5wb2lzb248L2E+PC91PikgPGI+U2F2aW5nIFRocm93PC9iPiBEQyAxOCBGb3J0aXR1ZGU7IDxiPk1heGltdW0gRHVyYXRpb248L2I+IDYgcm91bmRzOyA8Yj5TdGFnZSAxPC9iPiAxZDYgcG9pc29uIGRhbWFnZSAoMSByb3VuZCk7IDxiPlN0YWdlIDI8L2I+IDFkNiBwb2lzb24gZGFtYWdlIGFuZCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iQ29uZGl0aW9ucy5hc3B4P0lEPTEzIj5lbmZlZWJsZWQgMTwvYT4gKDEgcm91bmQpPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+U3dhcm1pbmcgU3RpbmdzPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgRWFjaCBlbmVteSBpbiB0aGUgc3dhcm3igJlzIHNwYWNlIHRha2VzIDJkOCBwaWVyY2luZyBkYW1hZ2UgKERDIDIxIGJhc2ljIFJlZmxleCBzYXZlKSBhbmQgaXMgZXhwb3NlZCB0byBzY29ycGlvbiB2ZW5vbS48L3NwYW4+PGgyIGNsYXNzPSJ0aXRsZSI+QWxsIE1vbnN0ZXJzIGluICI8YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD04NyI+U2NvcnBpb248L2E+IjwvaDI+PHRhYmxlIGNsYXNzPSJpbm5lciI+PHRyPjx0ZD48Yj5OYW1lPC9iPjwvdGQ+PHRkPjxiPkxldmVsPC9iPjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MzU2Ij5HaWFudCBTY29ycGlvbjwvYT48L3RkPjx0ZD4zPC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0zNTciPlNjb3JwaW9uIFN3YXJtPC9hPjwvdGQ+PHRkPjQ8L3RkPjwvdHI+PC90YWJsZT48aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD04NyI+U2NvcnBpb248L2E+PC9oMT48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDI4NTwvaT48L2E+PGJyIC8+Q2hpdGlub3VzIHNjb3VyZ2VzIG9mIGRlc2VydHMsIGZvcmVzdHMsIHNhdmFubmFzLCBhbmQgYmFkbGFuZHMsIHNjb3JwaW9ucyBhcmUgZGVhZGx5IGFyYWNobmlkcyB3aXRoIHBvd2VyZnVsIHBpbmNlcnMgYW5kIGEgcGFpbmZ1bCBzdGluZy4gU2NvcnBpb25zIGNhbiBiZSBmb3VuZCBpbiBuZWFybHkgZXZlcnkgY2xpbWF0ZSwgd2hlcmUgdGhleSBodW50IHRoZWlyIHByZXkgd2l0aCBhIG1peHR1cmUgb2YgcGF0aWVudCBzdGVhbHRoIGFuZCByYXcgc3RyZW5ndGguIE1vc3Qgc2NvcnBpb25zIGxpdmUgaW4gdW5kZXJncm91bmQgYnVycm93cywgZWl0aGVyIGFzIGxvbmUgaHVudGVycyBvciBwYXJ0IG9mIGEgbGFyZ2VyIGNvbG9ueS4gVGhlc2UgYXJhY2huaWRzIGFyZSBzbyBmZWFyZWQgYW5kIGRhbmdlcm91cyB0aGF0IGluIG1hbnkgY3VsdHVyZXMsIHRoZXkgYXJlIHRyZWF0ZWQgYXMgZGVpdGllcyBvciBkdWFsaXN0aWMgc3ltYm9scyBvZiBib3RoIGRlYXRoIGFuZCBwcm90ZWN0aW9uIGZyb20gc2FpZCBkZWF0aC48aDMgY2xhc3M9InRpdGxlIj48aW1nIGFsdD0iU2lkZWJhciAtIEFkdmljZSBhbmQgUnVsZXMiIHRpdGxlPSJTaWRlYmFyIC0gQWR2aWNlIGFuZCBSdWxlcyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8xX0FkdmljZUFuZFJ1bGVzLnBuZyI+IFNjb3JwaW9uIFZlbm9tPC9oMz5XaGlsZSBzY29ycGlvbnMgYXJlIG9mdGVuDQpzeW1ib2xzIG9mIGRlYXRoIG9yIGV2aWwsIHRoZWlyDQp2ZW5vbSBjYW4gYmUgZXh0cmFjdGVkIGFuZCB1c2VkDQpmb3IgYSB3aWRlIHZhcmlldHkgb2YgbWVkaWNhbA0KYXBwbGljYXRpb25zLiBBIGNoYXJhY3RlciBjYW4NCm1pbGsgYW4gaW5jYXBhY2l0YXRlZCBnaWFudA0Kc2NvcnBpb24gdG8gZXh0cmFjdCByYXcgc2NvcnBpb24NCnZlbm9tLCB3aGljaCBjYW4gYmUgdXNlZCBhcyByYXcNCm1hdGVyaWFscyB0byBjcmFmdCBnaWFudCBzY29ycGlvbg0KdmVub20gb3IgbGVzc2VyIGFudGlwbGFndWUuIFRvDQpkZXRlcm1pbmUgdGhlIHZhbHVlIG9mIGluZ3JlZGllbnRzDQp5b3UgZ2FpbiBlYWNoIGRheSBhbmQgdGhlIERDIG9mDQp0aGUgYXBwcm9wcmlhdGUgTWVkaWNpbmUgb3IgTG9yZQ0KY2hlY2ssIHVzZSB0aGUgbGV2ZWwgMyB0YXNrIGVudHJ5DQppbiBUYWJsZSA04oCTMjogSW5jb21lIEVhcm5lZC5kZAILDzwrAA0BAA8WBh4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBHgdWaXNpYmxlaGQWAmYPZBYEAgEPZBYMZg9kFgJmDw8WBB8ABQ5TY29ycGlvbiBTd2FybR4LTmF2aWdhdGVVcmwFFE1vbnN0ZXJzLmFzcHg/SUQ9MzU3ZGQCAQ8PFgIfAAUIU2NvcnBpb25kZAICDw8WAh8ABQYmbmJzcDtkZAIDDw8WAh8ABQdOZXV0cmFsZGQCBA8PFgIfAAUGJm5ic3A7ZGQCBQ8PFgIfAAUGJm5ic3A7ZGQCAg8PFgIfA2hkZAINDw9kPCsABgBkGAEFHmN0bDAwJE1haW5Db250ZW50JFRhYmxlRWxlbWVudA8UKwAKZGRkZGRkFQEKTW9uc3RlcnNJRBQrAAEUKwABAuUCAgEUKwABAuUCZKjOxCgGt/ThgD87WOBe3ZfBZ7tk" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Scorpion Swarm</h1>While a single scorpion is itself a menace, swarms of these vermin can be outright devastating. These skittering droves of death swiftly bring down their prey before devouring everything short of the victim’s bones.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Animal</a></u> (<u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 19<h1 class="title"><a href="Monsters.aspx?ID=357">Scorpion Swarm</a><span style="float:right;">Creature 4</span></h1><span alt="Neutral" class="traitalignment" title="Neutral">N</span><span alt="Large" class="traitsize" title="Large">Large</span><span alt="Animal Trait" class="trait" title="An animal is a creature with a relatively low intelligence. It typically doesn’t have an Intelligence ability modifier over –4, can’t speak languages, and can’t be trained in Intelligence-based skills."><a href="Traits.aspx?ID=9">Animal</a></span><span alt="Swarm Trait" class="trait" title="A swarm is a mass or cloud of creatures that functions as one monster. Its size entry gives the size of the entire mass, though for most swarms the individual creatures that make up that mass are Tiny. A swarm can occupy the same space as other creatures, and must do so in order to use its damaging action. A swarm typically has weakness to effects that deal damage over an area (like area spells and splash weapons)."><a href="Traits.aspx?ID=239">Swarm</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 285</i></a><br /><b>Perception</b> +11; darkvision<br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +11, <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +6, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +11<br /><b>Str</b> +0, <b>Dex</b> +5, <b>Con</b> +2, <b>Int</b> -5, <b>Wis</b> +0, <b>Cha</b> -4<hr /><b>AC</b> 21, <b>Fort</b> +10, <b>Ref</b> +13, <b>Will</b> +8<br /><b>HP</b> 55; <b>Immunities</b> precision, swarm mind; <b>Resistances</b> bludgeoning 3, piercing 7, slashing 7; <b>Weaknesses</b> area damage 5, splash damage 5<hr /><b>Speed</b> 25 feet<br /><span class="hanging-indent"><b>Scorpion Venom</b> (<a href="Traits.aspx?ID=126"><u>poison</a></u>) <b>Saving Throw</b> DC 18 Fortitude; <b>Maximum Duration</b> 6 rounds; <b>Stage 1</b> 1d6 poison damage (1 round); <b>Stage 2</b> 1d6 poison damage and <a style="text-decoration:underline" href="Conditions.aspx?ID=13">enfeebled 1</a> (1 round)</span><span class="hanging-indent"><b>Swarming Stings</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  Each enemy in the swarm’s space takes 2d8 piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom.</span><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=87">Scorpion</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=356">Giant Scorpion</a></td><td>3</td></tr><tr><td><a href="Monsters.aspx?ID=357">Scorpion Swarm</a></td><td>4</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=87">Scorpion</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 285</i></a><br />Chitinous scourges of deserts, forests, savannas, and badlands, scorpions are deadly arachnids with powerful pincers and a painful sting. Scorpions can be found in nearly every climate, where they hunt their prey with a mixture of patient stealth and raw strength. Most scorpions live in underground burrows, either as lone hunters or part of a larger colony. These arachnids are so feared and dangerous that in many cultures, they are treated as deities or dualistic symbols of both death and protection from said death.<h3 class="title"><img alt="Sidebar - Advice and Rules" title="Sidebar - Advice and Rules" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_1_AdviceAndRules.png"> Scorpion Venom</h3>While scorpions are often
+symbols of death or evil, their
+venom can be extracted and used
+for a wide variety of medical
+applications. A character can
+milk an incapacitated giant
+scorpion to extract raw scorpion
+venom, which can be used as raw
+materials to craft giant scorpion
+venom or lesser antiplague. To
+determine the value of ingredients
+you gain each day and the DC of
+the appropriate Medicine or Lore
+check, use the level 3 task entry
+in Table 4–2: Income Earned.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

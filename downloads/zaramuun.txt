@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Zaramuun - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Zaramuun" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=422" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABZo8PGgxIGNsYXNzPSJ0aXRsZSI+WmFyYW11dW48L2gxPlphcmFtdXVucyBhcmUgYmVpbmdzIG9mIGVsZW1lbnRhbCBzYW5kIHRoYXQgaGlkZSBpbiBkZXNlcnRzIGFuZCB3YXN0ZWxhbmRzLiBUaGV5IGRpc2d1aXNlIHRoZW1zZWx2ZXMgYXMgbWFzc2l2ZSBkdW5lcyBiZWZvcmUgcmlzaW5nIHVwIHRvIGF0dGFjayBsaXZpbmcgY3JlYXR1cmVzLiBUaGUgbW9zdCBpbmZhbW91cyB6YXJhbXV1bnMga2lsbCBhbnkgbGl2aW5nIGNyZWF0dXJlcyB0aGV5IGZpbmQsIGJ1dCBvdGhlcnMgc2ltcGx5IHJvYiB0aGVpciB2aWN0aW1zIG9mIGFsbCBtZXRhbCBhbmQgc3RvbmUgcG9zc2Vzc2lvbnMgYmVmb3JlIGZsZWVpbmcuIEFsdGhvdWdoIHphcmFtdXVucyBpbnNpc3QgdGhleSBhcmUgb25seSByZWNsYWltaW5nIHdoYXQgd2FzIHRha2VuIGZyb20gdGhlaXIgYW5jZXN0cmFsIGVhcnRoLCB0aGlzIGlzIHNpbXBsZSBzZWxmLWRlbHVzaW9uOyBtb3N0IHphcmFtdXVucyB1c2UgdGhlaXIgc3RvbGVuIGdvb2RzIGFzIHBheW1lbnQgYW5kIG1hdGVyaWFsIGNvbXBvbmVudHMgdG8gY29uanVyZSBmaWVuZHMsIGZvciBaYXJhbXV1bnMgd2VyZSBleGlsZWQgZnJvbSB0aGUgUGxhbmUgb2YgRWFydGggYWZ0ZXIgd29yc2hpcHBpbmcgZmllbmRzIHdobyBwcm9taXNlZCB0byBnaXZlIHRoZW0gcG93ZXIgb3ZlciBvdGhlciBlbGVtZW50YWxzLiBUaGlzIHdvcnNoaXAgZ3JhZHVhbGx5IHRyYW5zZm9ybWVkIGludG8gc2Vydml0dWRlLCBhbmQgbm93IG1hbnkgemFyYW11dW5zIGJlbGlldmUgdGhhdCBpZiB0aGV5IHNlbmQgZW5vdWdoIHNvdWxzIHRvIHRoZWlyIG1hc3RlcnMsIHRoZXkgd2lsbCBiZSBzZXQgZnJlZS48YnIgLz48YnIgLz48Yj48dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD01JkdlbmVyYWw9dHJ1ZSI+UmVjYWxsIEtub3dsZWRnZSAtIEVsZW1lbnRhbDwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0yIj5BcmNhbmE8L2E+PC91PiwgPHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTAiPk5hdHVyZTwvYT48L3U+KTwvYj46IERDIDM1PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD00MjIiPlphcmFtdXVuPC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIDE2PC9zcGFuPjwvaDE+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9IkltYWdlc1xNb25zdGVyc1xaYXJhbXV1bi5wbmciPjxpbWcgY2xhc3M9InRodW1ibmFpbCIgc3JjPSJJbWFnZXNcTW9uc3RlcnNcWmFyYW11dW4ucG5nIj48L2E+PHNwYW4gYWx0PSJDaGFvdGljIEV2aWwiIGNsYXNzPSJ0cmFpdGFsaWdubWVudCIgdGl0bGU9IkNoYW90aWMgRXZpbCI+Q0U8L3NwYW4+PHNwYW4gYWx0PSJMYXJnZSIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9IkxhcmdlIj5MYXJnZTwvc3Bhbj48c3BhbiBhbHQ9IkVhcnRoIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJFZmZlY3RzIHdpdGggdGhlIGVhcnRoIHRyYWl0IGVpdGhlciBtYW5pcHVsYXRlIG9yIGNvbmp1cmUgZWFydGguIFRob3NlIHRoYXQgbWFuaXB1bGF0ZSBlYXJ0aCBoYXZlIG5vIGVmZmVjdCBpbiBhbiBhcmVhIHdpdGhvdXQgZWFydGguIENyZWF0dXJlcyB3aXRoIHRoaXMgdHJhaXQgY29uc2lzdCBwcmltYXJpbHkgb2YgZWFydGggb3IgaGF2ZSBhIG1hZ2ljYWwgY29ubmVjdGlvbiB0byB0aGF0IGVsZW1lbnQuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD01NSI+RWFydGg8L2E+PC9zcGFuPjxzcGFuIGFsdD0iRWxlbWVudGFsIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJFbGVtZW50YWxzIGFyZSBjcmVhdHVyZXMgZGlyZWN0bHkgdGllZCB0byBhbiBlbGVtZW50IGFuZCBuYXRpdmUgdG8gdGhlIEVsZW1lbnRhbCBQbGFuZXMuIEVsZW1lbnRhbHMgZG9u4oCZdCBuZWVkIHRvIGJyZWF0aGUuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD01NyI+RWxlbWVudGFsPC9hPjwvc3Bhbj48YnIgLz48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDMzOTwvaT48L2E+PGJyIC8+PGI+UGVyY2VwdGlvbjwvYj4gKzMwOyBkYXJrdmlzaW9uLCB0cmVtb3JzZW5zZSA2MCBmZWV0PGJyIC8+PGI+TGFuZ3VhZ2VzPC9iPiA8YSBocmVmPSJMYW5ndWFnZXMuYXNweD9JRD0xMiI+PHU+QWJ5c3NhbDwvYT48L3U+LCA8YSBocmVmPSJMYW5ndWFnZXMuYXNweD9JRD0yMiI+PHU+VGVycmFuPC9hPjwvdT48YnIgLz48Yj5Ta2lsbHM8L2I+IDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTMiPjx1PkF0aGxldGljczwvYT48L3U+ICszMSAoKzM1IHRvIGRpc2FybSBzdG9uZSBvciBtZXRhbCBvYmplY3RzKSwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTMiPjx1PlJlbGlnaW9uPC9hPjwvdT4gKzI2LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xNSI+PHU+U3RlYWx0aDwvYT48L3U+ICsyNyAoKzMwIGluIHNhbmR5IHRlcnJhaW4pPGJyIC8+PGI+U3RyPC9iPiArOSwgPGI+RGV4PC9iPiArNSwgPGI+Q29uPC9iPiArNiwgPGI+SW50PC9iPiArMCwgPGI+V2lzPC9iPiArNSwgPGI+Q2hhPC9iPiAtMTxociAvPjxiPkFDPC9iPiAzOSwgPGI+Rm9ydDwvYj4gKzM0LCA8Yj5SZWY8L2I+ICszMCwgPGI+V2lsbDwvYj4gKzI1PGJyIC8+PGI+SFA8L2I+IDI5MTsgPGI+SW1tdW5pdGllczwvYj4gcGFyYWx5emVkLCBwb2lzb24sIHNsZWVwPGJyIC8+PGI+QXR0YWNrIG9mIE9wcG9ydHVuaXR5PC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlJlYWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFJlYWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iUmVhY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcUmVhY3Rpb25fSS5wbmciPjxociAvPjxiPlNwZWVkPC9iPiAzNSBmZWV0LCBidXJyb3cgMzUgZmVldDsgc2FuZCBnbGlkZTxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGZpc3QgKzMzLCA8Yj5EYW1hZ2U8L2I+IDRkMTIrMTMgYmx1ZGdlb25pbmc8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5SYW5nZWQ8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IHJvY2sgb3IgbWV0YWwgZGVicmlzICsyOSAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjQ4Ij48dT5yYW5nZSBpbmNyZW1lbnQgMTIwIGZlZXQ8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gNGQ4KzEzIGJsdWRnZW9uaW5nPC9zcGFuPjxiPkRpdmluZSBJbm5hdGUgU3BlbGxzPC9iPiBEQyAzNywgYXR0YWNrICszMTsgPGI+OHRoPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD03MCI+ZGltZW5zaW9uYWwgYW5jaG9yPC9hPjwvdT48L2k+IChhdCB3aWxsKTsgPGI+NnRoPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD03NiI+ZGlzaW50ZWdyYXRlPC9hPjwvdT48L2k+LCA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0zMDEiPnNwaXJpdCBibGFzdDwvYT48L3U+PC9pPjsgPGI+NHRoPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0zMTUiPnN1Z2dlc3Rpb248L2E+PC91PjwvaT4gKGF0IHdpbGwpOyA8Yj5Db25zdGFudDwvYj4gPGI+KDh0aCk8L2I+IDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTcwIj5kaW1lbnNpb25hbCBhbmNob3I8L2E+PC91PjwvaT48YnIgLz48Yj5EaXZpbmUgUml0dWFsczwvYj4gREMgMzc7IDxiPjV0aDwvYj4gPGk+PHU+PGEgaHJlZj0iUml0dWFscy5hc3B4P0lEPTE2Ij5wbGFuYXIgYWxseTwvYT48L3U+PC9pPjxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+RHVuZTwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0zMiI+PHU+Y29uY2VudHJhdGU8L2E+PC91PikgVW50aWwgdGhlIG5leHQgdGltZSBpdCBhY3RzLCB0aGUgemFyYW11dW4gYXBwZWFycyB0byBiZSBhIHNhbmQgZHVuZS4gSXQgaGFzIGFuIGF1dG9tYXRpYyByZXN1bHQgb2YgNDcgKDUwIGluIHNhbmR5IHRlcnJhaW4pIG9uIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJTa2lsbHMuYXNweD9JRD01Ij5EZWNlcHRpb248L2E+IGFuZCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPlN0ZWFsdGg8L2E+IGNoZWNrcyBhbmQgRENzIHRvIHBhc3MgYXMgYSBzYW5kIGR1bmUuIEFueSBjcmVhdHVyZSB0aGF0IHdhbGtzIG9udG8gdGhlIHphcmFtdXVuIG1vdmVzIGludG8gaXRzIGJvZHkgYW5kIGlzIEVuZ3VsZmVkLjwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPkVuZ3VsZjwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJUd28gQWN0aW9ucyIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xUd29BY3Rpb25zLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iVHdvIEFjdGlvbnMiIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcVHdvQWN0aW9uc19JLnBuZyI+ICBEQyAzNSwgNGQxMiBibHVkZ2VvbmluZyBkYW1hZ2UgYW5kIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJTcGVsbHMuYXNweD9JRD03MCI+PGk+ZGltZW5zaW9uYWwgYW5jaG9yPC9pPjwvYT4sIEVzY2FwZSBEQyAzMiwgUnVwdHVyZSAyODwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPlJha2luZyBTYW5kPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgPGI+UmVxdWlyZW1lbnRzPC9iPiBUaGUgemFyYW11dW4gaGl0IHdpdGggYSBtZWxlZSBTdHJpa2Ugd2l0aCBpdHMgbGFzdCBhY3Rpb24sIG9yIGl0IGhhcyBhIGNyZWF0dXJlIEVuZ3VsZmVkLiA8Yj5FZmZlY3Q8L2I+IFRoZSB6YXJhbXV1biBhdHRlbXB0cyB0byBEaXNhcm0gb25lIHByaW1hcmlseSBtZXRhbCBvciBzdG9uZSBvYmplY3QgZnJvbSB0aGUgU3RydWNrIG9yIEVuZ3VsZmVkIGNyZWF0dXJlIGFuZCBjYXN0cyBpdHMgaW5uYXRlIGRpbWVuc2lvbmFsIGFuY2hvciBvbiB0aGUgdGFyZ2V0IGNyZWF0dXJlLiA8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5TYW5kIEdsaWRlPC9iPiBUaGUgemFyYW11dW4gY2FuIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJBY3Rpb25zLmFzcHg/SUQ9OTMiPkJ1cnJvdzwvYT4gdGhyb3VnaCBzYW5kIGFuZCBkaXJ0IChidXQgbm90IHN0b25lKSBhdCBpdHMgZnVsbCBidXJyb3cgU3BlZWQsIGxlYXZpbmcgbm8gdHVubmVsIG9yIHNpZ24gb2YgaXRzIHBhc3NpbmcuIEFueSBFbmd1bGZlZCBjcmVhdHVyZXMgYXJlIGxlZnQgYmVoaW5kIHdoZW4gaXQgQnVycm93cy4gTG9vc2Ugc2FuZCBhbmQgc2NyZWUgYXJlIG5vdCBkaWZmaWN1bHQgdGVycmFpbiBmb3IgYSB6YXJhbXV1bi4gPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+U2FuZGJsYXN0PC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlR3byBBY3Rpb25zIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFR3b0FjdGlvbnMucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJUd28gQWN0aW9ucyIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xUd29BY3Rpb25zX0kucG5nIj4gICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD01NSI+PHU+ZWFydGg8L2E+PC91PikgVGhlIHphcmFtdXVuIHNwcmF5cyBhIGJsYXN0IG9mIHNhbmQgdGhhdCBkZWFscyAxMWQxMCBzbGFzaGluZyBkYW1hZ2UgdG8gYWxsIGNyZWF0dXJlcyBpbiBhIDYwLWZvb3QgbGluZSAoUmVmbGV4IERDIDM4KS4gSXQgY2Fu4oCZdCBTYW5kYmxhc3QgYWdhaW4gZm9yIDFkNCByb3VuZHMuIDxiciAvPjxiPkNyaXRpY2FsIFN1Y2Nlc3M8L2I+IE5vIGVmZmVjdC48YnIgLz48Yj5TdWNjZXNzPC9iPiBIYWxmIGRhbWFnZS48YnIgLz48Yj5GYWlsdXJlPC9iPiBGdWxsIGRhbWFnZS48YnIgLz48Yj5Dcml0aWNhbCBGYWlsdXJlPC9iPiBGdWxsIGRhbWFnZSBhbmQgYmxpbmRlZCBmb3IgMSByb3VuZC48L3NwYW4+PGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgdGl0bGU9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl81X1RyZWFzdXJlQW5kUmV3YXJkcy5wbmciPiBaYXJhbXV1biBUcmVhc3VyZTwvaDM+WmFyYW11dW5zIGNvbGxlY3QgdHJlYXN1cmUgZnJvbSBtb3J0YWxzIHRoZXkgaGF2ZSByb2JiZWQgb3Igc2FjcmlmaWNlZC4gVGhleSBhcmUgYXR0cmFjdGVkIHRvIGdlbXMsIHJhcmUgbWV0YWxzLCBhbmQgcG90ZW50IHBpZWNlcyBvZiBjcmFmdGVkIGVhcnRoLCBwYXJ0aWN1bGFybHkgcG93ZXJmdWwgbWFnaWMgaXRlbXMgYXNzb2NpYXRlZCB3aXRoIHRoZSBQbGFuZSBvZiBFYXJ0aC5kZAILDzwrAA0BAA8WBh4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBHgdWaXNpYmxlaGQWAmYPZBYEAgEPZBYMZg9kFgJmDw8WBB8ABQhaYXJhbXV1bh4LTmF2aWdhdGVVcmwFFE1vbnN0ZXJzLmFzcHg/SUQ9NDIyZGQCAQ8PFgIfAAUHJm1kYXNoO2RkAgIPDxYCHwAFBiZuYnNwO2RkAgMPDxYCHwAFDENoYW90aWMgRXZpbGRkAgQPDxYCHwAFBiZuYnNwO2RkAgUPDxYCHwAFBiZuYnNwO2RkAgIPDxYCHwNoZGQCDQ8PZDwrAAYAZBgBBR5jdGwwMCRNYWluQ29udGVudCRUYWJsZUVsZW1lbnQPFCsACmRkZGRkZBUBCk1vbnN0ZXJzSUQUKwABFCsAAQKmAwIBFCsAAQKmA2QDJEJ+if15deIxbDP9HJgTxF8hYw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Zaramuun</h1>Zaramuuns are beings of elemental sand that hide in deserts and wastelands. They disguise themselves as massive dunes before rising up to attack living creatures. The most infamous zaramuuns kill any living creatures they find, but others simply rob their victims of all metal and stone possessions before fleeing. Although zaramuuns insist they are only reclaiming what was taken from their ancestral earth, this is simple self-delusion; most zaramuuns use their stolen goods as payment and material components to conjure fiends, for Zaramuuns were exiled from the Plane of Earth after worshipping fiends who promised to give them power over other elementals. This worship gradually transformed into servitude, and now many zaramuuns believe that if they send enough souls to their masters, they will be set free.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Elemental</a></u> (<u><a href="Skills.aspx?ID=2">Arcana</a></u>, <u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 35<h1 class="title"><a href="Monsters.aspx?ID=422">Zaramuun</a><span style="float:right;">Creature 16</span></h1><a target="_blank" href="Images\Monsters\Zaramuun.png"><img class="thumbnail" src="Images\Monsters\Zaramuun.png"></a><span alt="Chaotic Evil" class="traitalignment" title="Chaotic Evil">CE</span><span alt="Large" class="traitsize" title="Large">Large</span><span alt="Earth Trait" class="trait" title="Effects with the earth trait either manipulate or conjure earth. Those that manipulate earth have no effect in an area without earth. Creatures with this trait consist primarily of earth or have a magical connection to that element."><a href="Traits.aspx?ID=55">Earth</a></span><span alt="Elemental Trait" class="trait" title="Elementals are creatures directly tied to an element and native to the Elemental Planes. Elementals don’t need to breathe."><a href="Traits.aspx?ID=57">Elemental</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 339</i></a><br /><b>Perception</b> +30; darkvision, tremorsense 60 feet<br /><b>Languages</b> <a href="Languages.aspx?ID=12"><u>Abyssal</a></u>, <a href="Languages.aspx?ID=22"><u>Terran</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +31 (+35 to disarm stone or metal objects), <a href="Skills.aspx?ID=13"><u>Religion</a></u> +26, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +27 (+30 in sandy terrain)<br /><b>Str</b> +9, <b>Dex</b> +5, <b>Con</b> +6, <b>Int</b> +0, <b>Wis</b> +5, <b>Cha</b> -1<hr /><b>AC</b> 39, <b>Fort</b> +34, <b>Ref</b> +30, <b>Will</b> +25<br /><b>HP</b> 291; <b>Immunities</b> paralyzed, poison, sleep<br /><b>Attack of Opportunity</b> <img class="actiondark" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction.png"><img class="actionlight" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction_I.png"><hr /><b>Speed</b> 35 feet, burrow 35 feet; sand glide<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> fist +33, <b>Damage</b> 4d12+13 bludgeoning</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> rock or metal debris +29 (<a href="Traits.aspx?ID=248"><u>range increment 120 feet</a></u>), <b>Damage</b> 4d8+13 bludgeoning</span><b>Divine Innate Spells</b> DC 37, attack +31; <b>8th</b> <i><u><a href="Spells.aspx?ID=70">dimensional anchor</a></u></i> (at will); <b>6th</b> <i><u><a href="Spells.aspx?ID=76">disintegrate</a></u></i>, <i><u><a href="Spells.aspx?ID=301">spirit blast</a></u></i>; <b>4th</b> <i><u><a href="Spells.aspx?ID=315">suggestion</a></u></i> (at will); <b>Constant</b> <b>(8th)</b> <i><u><a href="Spells.aspx?ID=70">dimensional anchor</a></u></i><br /><b>Divine Rituals</b> DC 37; <b>5th</b> <i><u><a href="Rituals.aspx?ID=16">planar ally</a></u></i><br /><span class="hanging-indent"><b>Dune</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  (<a href="Traits.aspx?ID=32"><u>concentrate</a></u>) Until the next time it acts, the zaramuun appears to be a sand dune. It has an automatic result of 47 (50 in sandy terrain) on <a style="text-decoration:underline" href="Skills.aspx?ID=5">Deception</a> and <a style="text-decoration:underline" href="Skills.aspx?ID=15">Stealth</a> checks and DCs to pass as a sand dune. Any creature that walks onto the zaramuun moves into its body and is Engulfed.</span><span class="hanging-indent"><b>Engulf</b> <img class="actiondark" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions.png"><img class="actionlight" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions_I.png">  DC 35, 4d12 bludgeoning damage and <a style="text-decoration:underline" href="Spells.aspx?ID=70"><i>dimensional anchor</i></a>, Escape DC 32, Rupture 28</span><span class="hanging-indent"><b>Raking Sand</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  <b>Requirements</b> The zaramuun hit with a melee Strike with its last action, or it has a creature Engulfed. <b>Effect</b> The zaramuun attempts to Disarm one primarily metal or stone object from the Struck or Engulfed creature and casts its innate dimensional anchor on the target creature. </span><span class="hanging-indent"><b>Sand Glide</b> The zaramuun can <a style="text-decoration:underline" href="Actions.aspx?ID=93">Burrow</a> through sand and dirt (but not stone) at its full burrow Speed, leaving no tunnel or sign of its passing. Any Engulfed creatures are left behind when it Burrows. Loose sand and scree are not difficult terrain for a zaramuun. </span><span class="hanging-indent"><b>Sandblast</b> <img class="actiondark" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions.png"><img class="actionlight" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions_I.png">  (<a href="Traits.aspx?ID=55"><u>earth</a></u>) The zaramuun sprays a blast of sand that deals 11d10 slashing damage to all creatures in a 60-foot line (Reflex DC 38). It can’t Sandblast again for 1d4 rounds. <br /><b>Critical Success</b> No effect.<br /><b>Success</b> Half damage.<br /><b>Failure</b> Full damage.<br /><b>Critical Failure</b> Full damage and blinded for 1 round.</span><h3 class="title"><img alt="Sidebar - Treasure and Rewards" title="Sidebar - Treasure and Rewards" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_5_TreasureAndRewards.png"> Zaramuun Treasure</h3>Zaramuuns collect treasure from mortals they have robbed or sacrificed. They are attracted to gems, rare metals, and potent pieces of crafted earth, particularly powerful magic items associated with the Plane of Earth.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

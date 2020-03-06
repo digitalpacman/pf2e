@@ -1,0 +1,110 @@
+1046" class="post-1046 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-metallic-dragon">
+                                        <h1>Gold Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Young Gold Dragon <span class="monster-level">Creature 11</span></h4> 
+ <p class="traits"><span class="alignment">LG</span> <span class="size">Large</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +21; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p> 
+ <p><b>Languages</b> Common, Draconic, Elven, Sylvan</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +17, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +21, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +21, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +18</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +2, <b>Con</b> +4, <b>Int</b> +3, <b>Wis</b> +4, <b>Cha</b> +4</p> 
+ <hr> 
+ <p><b>AC</b> 32; <b>Fort</b> +22, <b>Ref</b> +20, <b>Will</b> +22; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 230; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 10</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 27</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 140 feet, swim 40 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +24 (fire, reach 10 feet), <b>Damage</b> 2d10+12 piercing plus 2d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +24 (agile), <b>Damage</b> 2d10+12 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +22 (reach 10 feet), <b>Damage</b> 2d10+10 slashing</p> 
+ <p><b>Melee</b> [one-action] horns +22 (agile, reach 10 feet), <b>Damage</b> 1d12+10 piercing</p> 
+ <p><b>Arcane Innate Spells</b> DC 29</p> 
+ <p><b>3rd</b> locate (gems only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p> 
+ <p><b>Breath Weapon</b> [two-actions] The gold dragon breathes in one of two ways. The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <ul> 
+  <li>Flame (arcane, evocation, fire); The dragon breathes a blast of flame in a 30-foot cone that deals 11d6 fire damage (DC 31 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save).</li> 
+  <li>Weakening Gas (arcane, necromancy); The dragon breathes a blast of weakening gas. Each creature within a 30-foot cone must succeed at a DC 31 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save or become enfeebled 1 for 1 minute (or enfeebled 2 on a critical failure).</li> 
+ </ul> 
+ <p><b>Draconic Frenzy</b> [two-actions] The gold dragon makes two claw Strikes and one horns Strike in any order.</p> 
+ <p><b>Draconic Momentum</b> When the gold dragon scores a critical hit with a Strike, it recharges Breath Weapon.</p> 
+ 
+<h4 class="monster">Adult Gold Dragon <span class="monster-level">Creature 15</span></h4> 
+<p class="traits"><span class="alignment">LG</span> <span class="size">Huge</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +29; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p> 
+ <p><b>Languages</b> Common, Draconic, Dwarven, Elven, Sylvan</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +26</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +3, <b>Con</b> +6, <b>Int</b> +5, <b>Wis</b> +6, <b>Cha</b> +4</p> 
+ <hr> 
+ <p><b>AC</b> 38; <b>Fort</b> +28, <b>Ref</b> +25, <b>Will</b> +28; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 330; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 15</p> 
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 33</p> 
+<p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <p><b>Golden Luck</b> [reaction] <b>Trigger</b> The gold dragon fails a saving throw. <b>Effect</b> The dragon improves its result by one degree of success, turning a failure into a success or a critical failure into a normal failure. The dragon can&#8217;t use this ability again for 1d4 rounds.</p> 
+ <hr> 
+ <p><b>Speed</b> 50 feet, fly 180 feet, swim 50 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +30 (fire, magical, reach 15 feet), <b>Damage</b> 3d12+15 piercing plus 3d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +30 (agile, magical, reach 10 feet), <b>Damage</b> 3d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +28 (magical, reach 20 feet), <b>Damage</b> 3d10+13 slashing</p> 
+ <p><b>Melee</b> [one-action] horns +28 (agile, magical, reach 15 feet), <b>Damage</b> 2d12+13 piercing</p> 
+ <p><b>Arcane Innate Spells</b> DC 35</p> 
+ <p><b>7th</b> sunburst; <b>3rd</b> locate (gems only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p> 
+ <p><b>Breath Weapon</b> [two-actions] As young gold dragon, but a 40-foot cone, DC 37, the dragon&#8217;s flame deals 15d6 fire damage, and the dragon&#8217;s weakening gas causes enfeebled 2 (enfeebled 3 on a critical failure).</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young gold dragon.</p> 
+ <p><b>Draconic Momentum</b> As young gold dragon.</p> 
+
+<h4 class="monster">Ancient Gold Dragon <span class="monster-level">Creature 20</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">LG</span> <span class="size">Gargantuan</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +36; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 80 feet</p> 
+ <p><b>Languages</b> Common, Draconic, Dwarven, Elven, Gnomish, Jotun, Sylvan</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +31, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Medicine_Wis">Medicine</a> +36, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +36, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +35</p> 
+ <p><b>Str</b> +9, <b>Dex</b> +5, <b>Con</b> +8, <b>Int</b> +7, <b>Wis</b> +8, <b>Cha</b> +5</p> 
+ <hr> 
+ <p><b>AC</b> 46; <b>Fort</b> +37, <b>Ref</b> +34, <b>Will</b> +39; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 450; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 20</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 39</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <p><b>Extra Reaction</b> The dragon gains 2 reactions at the start of its turn each round.</p> 
+ <p><b>Golden Luck</b> [reaction] As adult gold dragon.</p> 
+ <hr> 
+ <p><b>Speed</b> 60 feet, fly 200 feet, swim 60 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +38 (fire, magical, reach 20 feet), <b>Damage</b> 4d12+17 piercing plus 4d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +38 (agile, magical, reach 15 feet), <b>Damage</b> 4d10+17 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +36 (magical, reach 25 feet), <b>Damage</b> 4d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] horns +36 (agile, magical, reach 20 feet), <b>Damage</b> 2d12+15 piercing</p> 
+ <p><b>Arcane Innate Spells</b> DC 41</p> 
+ <p><b>10th</b> sunburst; <b>3rd</b> locate (gems only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (evil only)</p> 
+ <p><b>Breath Weapon</b> [two-actions] As a young gold dragon, but a 50-foot cone, DC 44, the dragon&#8217;s flame deals 20d6 fire damage, and the dragon&#8217;s weakening gas causes enfeebled 3 (enfeebled 4 on a critical failure).</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young gold dragon.</p> 
+ <p><b>Draconic Momentum</b> As young gold dragon.</p> 
+
+<h3>Gold Dragon Spellcasters</h3>
+<p>Gold dragon spellcasters tend to cast the following spells. Unlike most dragons, they cast divine spells instead of arcane.</p> 
+
+<h4>Young Gold Dragon</h4>
+<p><b>Divine Prepared Spells</b> DC 29, attack +24; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/discern-lies/">discern lies</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/restoration/">restoration</a>; <b>3rd</b> <a class="spell" href="http://pf2.d20pfsrd.com/spell/dispel-magic/">dispel magic</a>, <a class="spell" href="http://pf2.d20pfsrd.com/spell/haste/">haste</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/restoration/">restoration</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/resist-energy/">resist energy</a>, <a class="spell" href="http://pf2.d20pfsrd.com/spell/see-invisibility/">see invisibility</a>, silence; <b>1st</b> alarm, <a class="spell" href="https://pf2.d20pfsrd.com/spell/mending/">mending</a>, protection, <a class="spell" href="https://pf2.d20pfsrd.com/spell/spirit-link/">spirit link</a>; <b>Cantrips</b> (4th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/daze/">daze</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/forbidding-ward/">forbidding ward</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<h4>Adult Gold Dragon</h4>
+<p><b>Divine Prepared Spells</b> DC 35, attack +30; As young gold dragon, plus 6th <a class="spell" href="https://pf2.d20pfsrd.com/spell/blade-barrier/">blade barrier</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/true-seeing/">true seeing</a>; <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/banishment/">banishment</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/breath-of-life/">breath of life</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/sending/">sending</a>; <b>Cantrips</b> (6th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/daze/">daze</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/forbidding-ward/">forbidding ward</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<h4>Ancient Gold Dragon</h4>
+<p><b>Divine Prepared Spells</b> DC 41, attack +38; As adult gold dragon, plus 9th foresight, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/overwhelming-presence/">overwhelming presence</a>; 8rd <a class="spell" href="http://pf2.d20pfsrd.com/spell/discern-location/">discern location</a>, divine aura, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>; <b>7th</b> dimensional lock, energy aegis, <a class="spell" href="https://pf2.d20pfsrd.com/spell/spell-turning/">spell turning</a>; <b>Cantrips</b> (9th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/daze/">daze</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/forbidding-ward/">forbidding ward</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/prestidigitation/">prestidigitation</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<p class="header">About</p>
+<p>Gold dragons are the epitome of metallic dragonkind, unrivaled in their strength as well as their wisdom. They command the unwavering reverence of all other metallic dragons, who view gold dragons as their leaders and counselors. Golds rival the raw power of even red dragons, much to the chagrin of their chromatic cousins, and the two races are often regarded as bitter rivals.</p> 
+
+<p>But despite their incredible power, gold dragons are fond of discourse and prefer to talk through solutions to problems rather than rely upon brute strength. Long-lived as they are, they necessarily take a wide view of all situations and never act without considering all possible options and outcomes. Because of this, gold dragons willingly converse with any creature that seeks them out, even evil chromatic dragons. Mortals might find this behavior strange, considering the longstanding war between chromatic and metallic dragons, but dragons know all too well that desperate situations sometimes call for drastic alliances. and although gold dragons might consider brief truces with their chromatic brethren in the case of world-ending threats, they also know when such alliances have run their course.</p> 
+
+<p>When another metallic dragon faces a quandary or a foe beyond its own ability to overcome, its best option is often to seek the counsel of the eternally wise and gloriously righteous gold dragons. Locating these legendary beings is no easy task, however, for gold dragons are notoriously reclusive. Their intellect and wisdom is such that they prefer to ponder the great questions of life in seclusion, where they strive to formulate solutions to the world&#8217;s most pressing problems. As a result, gold dragons are sometimes absent when metallic dragons gather together, or are missing from tribunals where their counsel would be beneficial. Impatient dragons sometimes begrudge gold dragons for this apparent unreliability, but such aspersions are usually a result of jealousy rather than a gold dragon&#8217;s incredible foresight and unparalleled enlightenment means they are unlikely to interfere in the business of individual mortals, though the rare person who captures the attention of a gold dragon is fortunate indeed, for there are few beings in the cosmos who can offer such prudent and considerate advice. Rulers and individuals in stations of high power have an easier time of garnering the aid of a gold dragon; entire wars have been avoided thanks to a gold dragon&#8217;s last-minute intermediation.</p> 
+
+<p>Gold dragons are often found in warm grasslands and savannas, lands where they can enjoy long, meditative flights without attracting the attention of potential enemies. They tend to sleep either out in the open in a barren, remote place, or within a heavily secreted or fortified lair, such as a forgotten sink hole or in the labyrinthine caverns of a terrestrial chasm. Gold dragons may enlist trusted servants and allies to guard their lairs, though many live truly solitary lives, preferring to protect their hoards with nonlethal traps and magical wards.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

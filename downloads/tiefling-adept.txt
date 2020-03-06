@@ -1,0 +1,39 @@
+1225" class="post-1225 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-planar-scion">
+                                        <h1>Tiefling Adept</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Tiefling Adept <span class="monster-level">Creature 3</span></h4> 
+  <p class="traits"><span class="alignment">CE</span> <span class="size">Medium</span> <span class="trait">Human</span> <span class="trait">Humanoid</span> <span class="trait">Tiefling</span></p> 
+  <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +6; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+  <p><b>Languages</b> Abyssal, Common</p> 
+  <p><b>Skills</b> Abyss <a href="https://pf2.d20pfsrd.com/rules/skills/#Lore_Int">Lore</a> +9, <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +7, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +9, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +9, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +7, <a href="https://pf2.d20pfsrd.com/rules/skills/#Occultism_Int">Occultism</a> +9, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +6, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +9, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +7</p> 
+  <p><b>Str</b> +0, <b>Dex</b> +2, <b>Con</b> +0, <b>Int</b> +4, <b>Wis</b> +1, <b>Cha</b> + 2</p> 
+  <p><b>Items</b> dagger, explorer&#8217;s clothing, spellbook, staff</p> 
+  <hr> 
+  <p><b>AC</b> 17; <b>Fort</b> +5, <b>Ref</b> +7, <b>Will</b> +8</p> 
+  <p><b>HP</b> 29</p> 
+  <hr> 
+  <p><b>Speed</b> 25 feet</p> 
+  <p><b>Melee</b> [one-action] staff +6 (two-handed 1d8), <b>Damage</b> 1d6 bludgeoning</p> 
+  <p><b>Melee</b> [one-action] dagger +7 (agile, finesse, versatile S), <b>Damage</b> 1d4 piercing</p> 
+  <p><b>Ranged</b> [one-action] dagger +7 (agile, thrown 10 feet, versatile S), <b>Damage</b> 1d4+1 piercing</p> 
+
+<p><b>Arcane Prepared Spells</b> DC 21, attack +11; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/flaming-sphere/">flaming sphere</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a>; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/charm/">charm</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/magic-missile/">magic missile</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/ray-of-enfeeblement/">ray of enfeeblement</a>; <b>Cantrips (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/chill-touch/">chill touch</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/mage-hand/">mage hand</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/shield/">shield</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tanglefoot/">tanglefoot</a></p> 
+<p><b>Divine Innate Spells</b> DC 17; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/darkness/">darkness</a></p> 
+
+<div class="special-abilities">
+<p><b>Drain Bonded Item</b> [free-action] <b>Frequency</b> Once per day; <b>Requirements</b> The adept hasn&#8217;t acted yet on this turn. <b>Effect</b> The adept expends the power stored in its staff. This gives the adept the ability to cast one prepared spell it had already previously cast today (choosing a different spell level each time), without spending a spell slot. The adept must still Cast the Spell and meet the spell&#8217;s other requirements.</p> 
+</div>
+
+<p class="header">About</p>
+<p>Tieflings are planar scions with fiendish blood. One of the most common types is pitborn, who bear a demonic corruption infesting their mortal bloodline. Some strive to live above their forebear&#8217;s fiendish reputation, but many, such as this tiefling adept, simply accept their label and delve fully into evil.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

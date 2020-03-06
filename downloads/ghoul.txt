@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Ghoul - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Ghoul" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=218" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABcxkPGgxIGNsYXNzPSJ0aXRsZSI+R2hvdWw8L2gxPkdob3VscyBhcmUgcmF2ZW5vdXMgdW5kZWFkIHdobyBoYXVudCBncmF2ZXlhcmRzIGFuZCBlYXQgY29ycHNlcy48YnIgLz48YnIgLz48Yj48dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD01JkdlbmVyYWw9dHJ1ZSI+UmVjYWxsIEtub3dsZWRnZSAtIFVuZGVhZDwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xMyI+UmVsaWdpb248L2E+PC91Pik8L2I+OiBEQyAxNTxoMSBjbGFzcz0idGl0bGUiPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjE4Ij5HaG91bDwvYT48c3BhbiBzdHlsZT0iZmxvYXQ6cmlnaHQ7Ij5DcmVhdHVyZSAxPC9zcGFuPjwvaDE+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9IkltYWdlc1xNb25zdGVyc1xHaG91bF9HaG91bC5wbmciPjxpbWcgY2xhc3M9InRodW1ibmFpbCIgc3JjPSJJbWFnZXNcTW9uc3RlcnNcR2hvdWxfR2hvdWwucG5nIj48L2E+PHNwYW4gYWx0PSJDaGFvdGljIEV2aWwiIGNsYXNzPSJ0cmFpdGFsaWdubWVudCIgdGl0bGU9IkNoYW90aWMgRXZpbCI+Q0U8L3NwYW4+PHNwYW4gYWx0PSJNZWRpdW0iIGNsYXNzPSJ0cmFpdHNpemUiIHRpdGxlPSJNZWRpdW0iPk1lZGl1bTwvc3Bhbj48c3BhbiBhbHQ9Ikdob3VsIFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJHaG91bHMgYXJlIHZpbGUgdW5kZWFkIGNyZWF0dXJlcyB0aGF0IGZlYXN0IG9uIGZsZXNoLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjE4Ij5HaG91bDwvYT48L3NwYW4+PHNwYW4gYWx0PSJVbmRlYWQgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9Ik9uY2UgbGl2aW5nLCB0aGVzZSBjcmVhdHVyZXMgd2VyZSBpbmZ1c2VkIGFmdGVyIGRlYXRoIHdpdGggbmVnYXRpdmUgZW5lcmd5IGFuZCBzb3VsLWNvcnJ1cHRpbmcgZXZpbCBtYWdpYy4gV2hlbiByZWR1Y2VkIHRvIDAgSGl0IFBvaW50cywgYW4gdW5kZWFkIGNyZWF0dXJlIGlzIGRlc3Ryb3llZC4gVW5kZWFkIGNyZWF0dXJlcyBhcmUgZGFtYWdlZCBieSBwb3NpdGl2ZSBlbmVyZ3ksIGFyZSBoZWFsZWQgYnkgbmVnYXRpdmUgZW5lcmd5LCBhbmQgZG9u4oCZdCBiZW5lZml0IGZyb20gaGVhbGluZyBlZmZlY3RzLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTYwIj5VbmRlYWQ8L2E+PC9zcGFuPjxiciAvPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDF5MG0/UGF0aGZpbmRlci1CZXN0aWFyeSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJleHRlcm5hbC1saW5rIj48aT5CZXN0aWFyeSBwZy4gMTY5PC9pPjwvYT48YnIgLz48Yj5QZXJjZXB0aW9uPC9iPiArNzsgZGFya3Zpc2lvbjxiciAvPjxiPkxhbmd1YWdlczwvYj4gPGEgaHJlZj0iTGFuZ3VhZ2VzLmFzcHg/SUQ9MSI+PHU+Q29tbW9uPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTIwIj48dT5OZWNyaWw8L2E+PC91PjxiciAvPjxiPlNraWxsczwvYj4gPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MSI+PHU+QWNyb2JhdGljczwvYT48L3U+ICs3LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0zIj48dT5BdGhsZXRpY3M8L2E+PC91PiArNCwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPjx1PlN0ZWFsdGg8L2E+PC91PiArNywgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTYiPjx1PlN1cnZpdmFsPC9hPjwvdT4gKzU8YnIgLz48Yj5TdHI8L2I+ICsxLCA8Yj5EZXg8L2I+ICs0LCA8Yj5Db248L2I+ICsxLCA8Yj5JbnQ8L2I+ICsxLCA8Yj5XaXM8L2I+ICsyLCA8Yj5DaGE8L2I+ICsyPGhyIC8+PGI+QUM8L2I+IDE2LCA8Yj5Gb3J0PC9iPiArNCwgPGI+UmVmPC9iPiArOSwgPGI+V2lsbDwvYj4gKzU8YnIgLz48Yj5IUDwvYj4gMjAgKG5lZ2F0aXZlIGhlYWxpbmcpOyA8Yj5JbW11bml0aWVzPC9iPiBkZWF0aCBlZmZlY3RzLCBkaXNlYXNlLCBwYXJhbHl6ZWQsIHBvaXNvbiwgdW5jb25zY2lvdXM8aHIgLz48Yj5TcGVlZDwvYj4gMzAgZmVldCwgYnVycm93IDUgZmVldDxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGphd3MgKzkgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE3OSI+PHU+ZmluZXNzZTwvYT48L3U+KSwgPGI+RGFtYWdlPC9iPiAxZDYrMSBwaWVyY2luZyBwbHVzIGdob3VsIGZldmVyIGFuZCBwYXJhbHlzaXM8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5NZWxlZTwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gY2xhdyArOSAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTcwIj48dT5hZ2lsZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzkiPjx1PmZpbmVzc2U8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMWQ0KzEgc2xhc2hpbmcgcGx1cyBwYXJhbHlzaXM8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5Db25zdW1lIEZsZXNoPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTEwNCI+PHU+bWFuaXB1bGF0ZTwvYT48L3U+KSA8Yj5SZXF1aXJlbWVudHM8L2I+IFRoZSBnaG91bCBpcyBhZGphY2VudCB0byB0aGUgY29ycHNlIG9mIGEgY3JlYXR1cmUgdGhhdCBkaWVkIHdpdGhpbiB0aGUgbGFzdCBob3VyLiA8Yj5FZmZlY3Q8L2I+IFRoZSBnaG91bCBkZXZvdXJzIGEgY2h1bmsgb2YgdGhlIGNvcnBzZSBhbmQgcmVnYWlucyAxZDYgSGl0IFBvaW50cy4gSXQgY2FuIHJlZ2FpbiBIaXQgUG9pbnRzIGZyb20gYW55IGdpdmVuIGNvcnBzZSBvbmx5IG9uY2UuPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+R2hvdWwgRmV2ZXI8L2I+ICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD00NiI+PHU+ZGlzZWFzZTwvYT48L3U+KSA8Yj5TYXZpbmcgVGhyb3c8L2I+IEZvcnRpdHVkZSBEQyAxNTsgPGI+U3RhZ2UgMTwvYj4gY2FycmllciB3aXRoIG5vIGlsbCBlZmZlY3QgKDEgZGF5KTsgPGI+U3RhZ2UgMjwvYj4gMmQ2IG5lZ2F0aXZlIGRhbWFnZSBhbmQgcmVnYWlucyBoYWxmIGFzIG1hbnkgSGl0IFBvaW50cyBmcm9tIGFsbCBoZWFsaW5nICgxIGRheSk7IDxiPlN0YWdlIDM8L2I+IGFzIHN0YWdlIDIgKDEgZGF5KTsgPGI+U3RhZ2UgNDwvYj4gMmQ2IG5lZ2F0aXZlIGRhbWFnZSBhbmQgZ2FpbnMgbm8gYmVuZWZpdCBmcm9tIGhlYWxpbmcgKDEgZGF5KTsgPGI+U3RhZ2UgNTwvYj4gYXMgc3RhZ2UgNCAoMSBkYXkpOyA8Yj5TdGFnZSA2PC9iPiBkZWFkLCBhbmQgcmlzZXMgYXMgYSBnaG91bCB0aGUgbmV4dCBtaWRuaWdodC48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5QYXJhbHlzaXM8L2I+ICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD05MyI+PHU+aW5jYXBhY2l0YXRpb248L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTIwIj48dT5vY2N1bHQ8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTE3Ij48dT5uZWNyb21hbmN5PC9hPjwvdT4pIEFueSBsaXZpbmcsIG5vbi1lbGYgY3JlYXR1cmUgaGl0IGJ5IGEgZ2hvdWzigJlzIGF0dGFjayBtdXN0IHN1Y2NlZWQgYXQgYSBEQyAxNSBGb3J0aXR1ZGUgc2F2ZSBvciBiZWNvbWUgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IkNvbmRpdGlvbnMuYXNweD9JRD0yOCI+cGFyYWx5emVkPC9hPi4gSXQgY2FuIGF0dGVtcHQgYSBuZXcgc2F2ZSBhdCB0aGUgZW5kIG9mIGVhY2ggb2YgaXRzIHR1cm5zLCBhbmQgdGhlIERDIGN1bXVsYXRpdmVseSBkZWNyZWFzZXMgYnkgMSBvbiBlYWNoIHN1Y2ggc2F2ZS48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5Td2lmdCBMZWFwPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTExNCI+PHU+bW92ZTwvYT48L3U+KSBUaGUgZ2hvdWwganVtcHMgdXAgdG8gaGFsZiBpdHMgU3BlZWQuIFRoaXMgbW92ZW1lbnQgZG9lc27igJl0IHRyaWdnZXIgcmVhY3Rpb25zLjwvc3Bhbj48aDIgY2xhc3M9InRpdGxlIj5BbGwgTW9uc3RlcnMgaW4gIjxhIGhyZWY9Ik1vbnN0ZXJGYW1pbGllcy5hc3B4P0lEPTUyIj5HaG91bDwvYT4iPC9oMj48dGFibGUgY2xhc3M9ImlubmVyIj48dHI+PHRkPjxiPk5hbWU8L2I+PC90ZD48dGQ+PGI+TGV2ZWw8L2I+PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0yMTkiPkdoYXN0PC9hPjwvdGQ+PHRkPjI8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTIxOCI+R2hvdWw8L2E+PC90ZD48dGQ+MTwvdGQ+PC90cj48L3RhYmxlPjxoMSBjbGFzcz0idGl0bGUiPjxhIGhyZWY9Ik1vbnN0ZXJGYW1pbGllcy5hc3B4P0lEPTUyIj5HaG91bDwvYT48L2gxPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDF5MG0/UGF0aGZpbmRlci1CZXN0aWFyeSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJleHRlcm5hbC1saW5rIj48aT5CZXN0aWFyeSBwZy4gMTY4PC9pPjwvYT48YnIgLz5GZXcgY3JlYXR1cmVzIGFyZSBtb3JlIHViaXF1aXRvdXMgdG8gc2luaXN0ZXIgbG9jYXRpb25zIHN1Y2ggYXMgbG9uZWx5IGdyYXZleWFyZHMgYW5kIHJ1aW5lZCBjcnlwdHMgdGhhbiB0aGUgZmxlc2gtZWF0aW5nIHVuZGVhZCBrbm93biBhcyBnaG91bHMuIDxoMiBjbGFzcz0idGl0bGUiPkNyZWF0aW5nIEdob3VsczwvaDI+IFlvdSBjYW4gdHVybiBhIGxpdmluZyBjcmVhdHVyZSBpbnRvIGEgZ2hvdWwgYnkgY29tcGxldGluZyB0aGUgZm9sbG93aW5nIHN0ZXBzLiBXaGVuIGNyZWF0aW5nIGEgZ2hhc3QsIGRvdWJsZSB0aGVzZSBudW1lcmljYWwgYWRqdXN0bWVudHMuIFRoZSBtb25zdGVycyBpbiB0aGlzIHNlY3Rpb24gYXJlIGJ1aWx0IGZyb20gdGhlIGdyb3VuZCB1cCwgc28gdGhlaXIgbnVtYmVycyBkb27igJl0IG1hdGNoIHRoZXNlIGd1aWRlbGluZXMgZXhhY3RseS4gQ3VzdG9tLWJ1aWxkaW5nIGdob3VscyBpcyByZWNvbW1lbmRlZCBpZiB5b3UgaGF2ZSB0aW1lLCB1c2luZyB0aGUgc3BlY2lhbCBhYmlsaXRpZXMgbGlzdGVkIGhlcmUgYnV0IGNyZWF0aW5nIHRoZSBvdGhlciBzdGF0aXN0aWNzIHRvIG1hdGNoIHdoYXQgeW91IHdhbnQgdGhlIGdob3VsIHRvIGJlLiBGaXJzdCwgaW5jcmVhc2UgdGhlIGNyZWF0dXJl4oCZcyBsZXZlbCBieSAxIGFuZCBjaGFuZ2UgaXRzIHN0YXRpc3RpY3MgYXMgZm9sbG93cy4gPHVsPjxsaT5JbmNyZWFzZSBpdHMgQUMsIGF0dGFjayBib251c2VzLCBEQ3MsIHNhdmluZyB0aHJvd3MsIGFuZCBza2lsbCBtb2RpZmllcnMgYnkgMS48L2xpPiA8bGk+SW5jcmVhc2UgaXRzIGRhbWFnZSB3aXRoIFN0cmlrZXMgYW5kIG90aGVyIG9mZmVuc2l2ZSBhYmlsaXRpZXMgYnkgMS4gSWYgdGhlIGNyZWF0dXJlIGlzIGxpbWl0ZWQgaW4gaG93IG9mdGVuIGl0IGNhbiB1c2UgYW4gYWJpbGl0eSAoc3VjaCBhcyBhIGJyZWF0aCB3ZWFwb24pLCBpbmNyZWFzZSB0aGUgZGFtYWdlIGJ5IDIgaW5zdGVhZC48L2xpPjwvdWw+IDxoMyBjbGFzcz0idGl0bGUiPkdob3VsIEFiaWxpdGllczwvaDM+IEEgZ2hvdWwgZ2FpbnMgdGhlIHVuZGVhZCBhbmQgZ2hvdWwgdHJhaXRzLCBhbmQgaXQgdXN1YWxseSBiZWNvbWVzIGV2aWwuIElmIHRoZSBiYXNlIGNyZWF0dXJlIGhhcyBhbnkgYWJpbGl0aWVzIHRoYXQgY29tZSBmcm9tIGl0IGJlaW5nIGEgbGl2aW5nIGNyZWF0dXJlLCBpdCBsb3NlcyB0aGVtLiBJdCBhbHNvIGxvc2VzIGFueSB0cmFpdHMgdGhhdCByZXByZXNlbnRlZCBpdHMgbGlmZSBhcyBhIGxpdmluZyBjcmVhdHVyZSwgc3VjaCBhcyBodW1hbiBhbmQgaHVtYW5vaWQuIFlvdSBtaWdodCBhbHNvIG5lZWQgdG8gYWRqdXN0IGFiaWxpdGllcyB0aGF0IGNvbmZsaWN0IHdpdGggdGhlIHRoZW1lIG9mIGEgZ2hvdWwuIEFsbCBnaG91bHMgZ2FpbiB0aGUgZm9sbG93aW5nIGFiaWxpdGllcy4gVGhlIHNhdmUgREMgZm9yIGFsbCBhYmlsaXRpZXMgdXNlcyB0aGUgREMgb2YgdGhlIGdob3Vs4oCZcyBsZXZlbC48YnIgLz4gPGI+RGFya3Zpc2lvbjwvYj48YnIgLz4gPGI+TmVnYXRpdmUgSGVhbGluZzwvYj48YnIgLz4gPGI+SW1tdW5pdGllczwvYj4gZGVhdGggZWZmZWN0cywgZGlzZWFzZSwgcGFyYWx5emVkLCBwb2lzb24sIHVuY29uc2Npb3VzPGJyIC8+IDxiPkNsYXdzPC9iPiBJZiB0aGUgY3JlYXR1cmUgaGFkIGhhbmRzLCBpdCBnYWlucyBhIGNsYXcgU3RyaWtlIChhbiBhZ2lsZSB1bmFybWVkIGF0dGFjayB0aGF0IGRlYWxzIHNsYXNoaW5nIGRhbWFnZSBwbHVzIHBhcmFseXNpcykuIElmIGl0IGhhZCBhbnkgYWdpbGUgYXR0YWNrcywgdGhlIGRhbWFnZSBkZWFsdCBieSBpdHMgY2xhd3Mgc2hvdWxkIGJlIHJvdWdobHkgdGhlIHNhbWUgYXMgdGhlIGRhbWFnZSBkZWFsdCBieSB0aG9zZSBhdHRhY2tzLiBJZiBpdCBoYWQgb25seSBub24tYWdpbGUgYXR0YWNrcywgaXRzIGNsYXdzIHNob3VsZCBkZWFsIHRocmVlLXF1YXJ0ZXJzIHRoYXQgZGFtYWdlLjxiciAvPiA8Yj5KYXdzPC9iPiBJZiB0aGUgY3JlYXR1cmUgaGFkIGEgbW91dGgsIGl0IGdhaW5zIGEgamF3cyBTdHJpa2UgKGFuIHVuYXJtZWQgYXR0YWNrIHRoYXQgZGVhbHMgc2xhc2hpbmcgZGFtYWdlIHBsdXMgZ2hvdWwgZmV2ZXIgYW5kIHBhcmFseXNpcykuIFRoZSBkYW1hZ2UgYW1vdW50IHNob3VsZCBiZSB0aGUgc2FtZSBhcyB0aGUgY3JlYXR1cmXigJlzIG5vbi1hZ2lsZSBhdHRhY2tzLjxiciAvPiA8Yj5Db25zdW1lIEZsZXNoPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAoPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTEwNCI+bWFuaXB1bGF0ZTwvYT4pIDxiPlJlcXVpcmVtZW50czwvYj4gVGhlIGdob3VsIGlzIGFkamFjZW50IHRvIHRoZSBjb3Jwc2Ugb2YgYSBjcmVhdHVyZSB0aGF0IGRpZWQgd2l0aGluIHRoZSBsYXN0IGhvdXIuIDxiPkVmZmVjdDwvYj4gVGhlIGdob3VsIGRldm91cnMgYSBjaHVuayBvZiB0aGUgY29ycHNlIGFuZCByZWdhaW5zIDFkNiBIaXQgUG9pbnRzIHBsdXMgMWQ2IGZvciBldmVyeSAyIGxldmVscyBpdCBoYXMuIEl0IGNhbiByZWdhaW4gSGl0IFBvaW50cyBmcm9tIGFueSBnaXZlbiBjb3Jwc2Ugb25seSBvbmNlLjxiciAvPiA8Yj5HaG91bCBGZXZlcjwvYj4gKDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD00NiI+ZGlzZWFzZTwvYT4pIDxiPlNhdmluZyBUaHJvdzwvYj4gRm9ydGl0dWRlOyA8Yj5TdGFnZTwvYj4gMSBjYXJyaWVyIHdpdGggbm8gaWxsIGVmZmVjdCAoMSBkYXkpOyA8Yj5TdGFnZTwvYj4gMiAyZDYgbmVnYXRpdmUgZGFtYWdlIGFuZCByZWdhaW5zIGhhbGYgYXMgbWFueSBIaXQgUG9pbnRzIGZyb20gYWxsIGhlYWxpbmcgKDEgZGF5KTsgPGI+U3RhZ2UgMzwvYj4gYXMgc3RhZ2UgMiAoMSBkYXkpOyA8Yj5TdGFnZSA0PC9iPiAyZDYgbmVnYXRpdmUgZGFtYWdlIGFuZCBnYWlucyBubyBiZW5lZml0IGZyb20gaGVhbGluZyAoMSBkYXkpOyA8Yj5TdGFnZSA1PC9iPiBhcyBzdGFnZSA0ICgxIGRheSk7IDxiPlN0YWdlIDY8L2I+IGRlYWQsIGFuZCByaXNlcyBhcyBhIGdob3VsIHRoZSBuZXh0IG1pZG5pZ2h0LjxiciAvPiA8Yj5QYXJhbHlzaXM8L2I+ICg8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9OTMiPmluY2FwYWNpdGF0aW9uPC9hPiwgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTEyMCI+b2NjdWx0PC9hPiwgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTExNyI+bmVjcm9tYW5jeTwvYT4pIEFueSBsaXZpbmcsIG5vbi1lbGYgY3JlYXR1cmUgaGl0IGJ5IGEgZ2hvdWzigJlzIGF0dGFjayBtdXN0IHN1Y2NlZWQgYXQgYSBGb3J0aXR1ZGUgc2F2ZSBvciBiZWNvbWUgcGFyYWx5emVkLiBJdCBjYW4gYXR0ZW1wdCBhIG5ldyBzYXZlIGF0IHRoZSBlbmQgb2YgZWFjaCBvZiBpdHMgdHVybnMsIGFuZCB0aGUgREMgY3VtdWxhdGl2ZWx5IGRlY3JlYXNlcyBieSAxIG9uIGVhY2ggc3VjaCBzYXZlLjxiciAvPiA8Yj5Td2lmdCBMZWFwPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiAoPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTExNCI+bW92ZTwvYT4pIFRoZSBnaG91bCBqdW1wcyB1cCB0byBoYWxmIGl0cyBTcGVlZC4gVGhpcyBtb3ZlbWVudCBkb2VzbuKAmXQgdHJpZ2dlciByZWFjdGlvbnMuIDxoMyBjbGFzcz0idGl0bGUiPkdoYXN0IEFiaWxpdGllczwvaDI+IEEgZ2hhc3QgaGFzIGFsbCB0aGUgYWJpbGl0aWVzIGFib3ZlLCBwbHVzIGZvbGxvd2luZyBhZGRpdGlvbnMuPGJyIC8+IDxiPlN0ZW5jaDwvYj4gKDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0yMDYiPmF1cmE8L2E+LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjQ2Ij5vbGZhY3Rvcnk8L2E+KSAxMCBmZWV0IEEgY3JlYXR1cmUgZW50ZXJpbmcgdGhlIGF1cmEgb3Igc3RhcnRpbmcgaXRzIHR1cm4gaW4gdGhlIGF1cmEgbXVzdCBzdWNjZWVkIGF0IGEgRm9ydGl0dWRlIHNhdmUgKHVzZSBhIERDIGJhc2VkIG9uIHRoZSBtb25zdGVy4oCZcyBsZXZlbDsgQ29yZSBSdWxlYm9vayA1MDMpIG9yIGJlY29tZSBzaWNrZW5lZCAxIChwbHVzIHNsb3dlZCAxIGFzIGxvbmcgYXMgaXQbcyBzaWNrZW5lZCBvbiBhIGNyaXRpY2FsIGZhaWx1cmUpLiBXaGlsZSB3aXRoaW4gdGhlIGF1cmEsIHRoZSBjcmVhdHVyZSB0YWtlcyBhIOKAkzIgY2lyY3Vtc3RhbmNlIHBlbmFsdHkgdG8gc2F2ZXMgYWdhaW5zdCBkaXNlYXNlIGFuZCB0byByZWNvdmVyIGZyb20gdGhlIHNpY2tlbmVkIGNvbmRpdGlvbi4gQSBjcmVhdHVyZSB0aGF0IHN1Y2NlZWRzIGF0IGl0cyBzYXZlIGlzIHRlbXBvcmFyaWx5IGltbXVuZSBmb3IgMSBtaW51dGUuPGJyIC8+IDxiPkNsYXdzIGFuZCBKYXdzPC9iPiBBcyBnaG91bCwgYnV0IGFwcGx5IGdoYXN0IGZldmVyIGluc3RlYWQgb2YgZ2hvdWwgZmV2ZXIuPGJyIC8+IDxiPkNvbnN1bWUgRmxlc2g8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IEFzIGdob3VsLCBidXQgaXQgcmVnYWlucyAxZDYgYWRkaXRpb25hbCBIaXQgUG9pbnRzLjxiciAvPiA8Yj5HaGFzdCBGZXZlcjwvYj4gKDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD00NiI+ZGlzZWFzZTwvYT4pIDxiPlNhdmluZyBUaHJvdzwvYj4gRm9ydGl0dWRlOyA8Yj5TdGFnZSAxPC9iPiBjYXJyaWVyIHdpdGggbm8gaWxsIGVmZmVjdCAoMSBkYXkpOyA8Yj5TdGFnZSAyPC9iPiAzZDggbmVnYXRpdmUgZGFtYWdlIGFuZCByZWdhaW5zIGhhbGYgYXMgbWFueSBIaXQgUG9pbnRzIGZyb20gYWxsIGhlYWxpbmcgKDEgZGF5KTsgPGI+U3RhZ2UgMzwvYj4gYXMgc3RhZ2UgMiAoMSBkYXkpOyA8Yj5TdGFnZSA0PC9iPiAzZDggbmVnYXRpdmUgZGFtYWdlIGFuZCBnYWlucyBubyBiZW5lZml0IGZyb20gaGVhbGluZyAoMSBkYXkpOyA8Yj5TdGFnZSA1PC9iPiBhcyBzdGFnZSA0ICgxIGRheSk7IDxiPlN0YWdlIDY8L2I+IGRlYWQsIGFuZCByaXNlcyBhcyBhIGdoYXN0IHRoZSBuZXh0IG1pZG5pZ2h0PGJyIC8+IDxiPlBhcmFseXNpczwvYj4gKDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD05MyI+aW5jYXBhY2l0YXRpb248L2E+LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTIwIj5vY2N1bHQ8L2E+LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTE3Ij5uZWNyb21hbmN5PC9hPikgQXMgZ2hvdWwsIGJ1dCBlbHZlcyBhcmUgbm90IGltbXVuZS48aDMgY2xhc3M9InRpdGxlIj48aW1nIGFsdD0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgdGl0bGU9IlNpZGViYXIgLSBBZGRpdGlvbmFsIExvcmUiIHN0eWxlPSJoZWlnaHQ6MjBweDsgcGFkZGluZzoycHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEljb25zXFNpZGViYXJfMl9BZGRpdGlvbmFsTG9yZS5wbmciPiBHaG91bGlzaCBTb2NpZXR5PC9oMz5HaG91bHMgYXJlIHF1aXRlIGludGVsbGlnZW50IGFuZCwgbW9yZSBzbyB0aGFuIGFsbW9zdCBhbnkgb3RoZXIgdW5kZWFkLCBwcm9uZSB0byBmb3JtaW5nIHNvY2lldGllcyBhbmQgY3VsdHVyZXMgKGlmIHZpbGUgYW5kIHJlcHVnbmFudCBvbmVzIGNlbnRlcmVkIGFyb3VuZCBmbGVzaCBlYXRpbmcgYW5kIGFjdHMgb2YgZGVwcmF2aXR5KSBpbiB0YW5nbGVkIHdhcnJlbnMgYmVsb3cgYm9uZXlhcmRzLCBvciBldmVuIGVudGlyZSBjaXRpZXMgaGlkZGVuIGF3YXkgaW4gdGhlIGRlcHRocyBvZiB0aGUgRGFya2xhbmRzLjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiB0aXRsZT0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8yX0FkZGl0aW9uYWxMb3JlLnBuZyI+IFRoZSBGaXJzdCBHaG91bHM8L2gzPkxlZ2VuZCBob2xkcyB0aGF0IHRoZSBmaXJzdCBodW1hbm9pZCAoYW4gZWxmLCBhcyBpdCBzbyBoYXBwZW5lZCkgdG8gZmVlZCB1cG9uIHRoZSBmbGVzaCBvZiBoaXMgYnJvdGhlciByb3NlIGFzIGEgZ2hvdWwgYWZ0ZXIgZGVhdGgsIGluIHRpbWUgZW1icmFjaW5nIGhpcyBuZXcgbGlmZSBhbmQgYXNjZW5kaW5nIHRvIGdyZWF0IHBvd2VyIGFzIGEgZGVtb24gbG9yZCBvZiBnaG91bHMsIGdyYXZlcywgYW5kIHNlY3JldHMga2VwdCBieSB0aGUgZGVhZC4gVGhhdCBnaG91bHMgb2YgaHVtYW5vaWRzIHdhcnAgYW5kIHR3aXN0IHRvIHRha2UgdmFndWVseSBlbHZlbiBmZWF0dXJlcywgYW5kIHRoYXQgZWx2ZXMgdGhlbXNlbHZlcyBhcmUgaW1tdW5lIHRvIGdob3VsIHBhcmFseXNpcywgYXJlIHVudXN1YWwgc2lkZSBlZmZlY3RzIG9mIHRoaXMgYW5jaWVudCBzb3VyY2UsIHlldCB0b2RheSwgZ2hvdWxzIGFyZSBhcyBsaWtlbHkgdG8gd29yc2hpcCBvdGhlciB2aWxlIGdvZHPigJRvciBzaW1wbHkgZXNjaGV3IGZhaXRoIGVudGlyZWx54oCUYXMgdGhleSBhcmUgdG8gaG9ub3IgdGhlIGZpcnN0IG9mIHRoZWlyIGtpbmQuZGQCCw88KwANAQAPFgYeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAR4HVmlzaWJsZWhkFgJmD2QWBAIBD2QWDGYPZBYCZg8PFgQfAAUFR2hvdWweC05hdmlnYXRlVXJsBRRNb25zdGVycy5hc3B4P0lEPTIxOGRkAgEPDxYCHwAFBUdob3VsZGQCAg8PFgIfAAUGJm5ic3A7ZGQCAw8PFgIfAAUMQ2hhb3RpYyBFdmlsZGQCBA8PFgIfAAUGJm5ic3A7ZGQCBQ8PFgIfAAUGJm5ic3A7ZGQCAg8PFgIfA2hkZAINDw9kPCsABgBkGAEFHmN0bDAwJE1haW5Db250ZW50JFRhYmxlRWxlbWVudA8UKwAKZGRkZGRkFQEKTW9uc3RlcnNJRBQrAAEUKwABAtoBAgEUKwABAtoBZGNJoBZE+OofCAlD6cyEMsCKfzVM" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Ghoul</h1>Ghouls are ravenous undead who haunt graveyards and eat corpses.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Undead</a></u> (<u><a href="Skills.aspx?ID=13">Religion</a></u>)</b>: DC 15<h1 class="title"><a href="Monsters.aspx?ID=218">Ghoul</a><span style="float:right;">Creature 1</span></h1><a target="_blank" href="Images\Monsters\Ghoul_Ghoul.png"><img class="thumbnail" src="Images\Monsters\Ghoul_Ghoul.png"></a><span alt="Chaotic Evil" class="traitalignment" title="Chaotic Evil">CE</span><span alt="Medium" class="traitsize" title="Medium">Medium</span><span alt="Ghoul Trait" class="trait" title="Ghouls are vile undead creatures that feast on flesh."><a href="Traits.aspx?ID=218">Ghoul</a></span><span alt="Undead Trait" class="trait" title="Once living, these creatures were infused after death with negative energy and soul-corrupting evil magic. When reduced to 0 Hit Points, an undead creature is destroyed. Undead creatures are damaged by positive energy, are healed by negative energy, and don’t benefit from healing effects."><a href="Traits.aspx?ID=160">Undead</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 169</i></a><br /><b>Perception</b> +7; darkvision<br /><b>Languages</b> <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=20"><u>Necril</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +7, <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +4, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +7, <a href="Skills.aspx?ID=16"><u>Survival</a></u> +5<br /><b>Str</b> +1, <b>Dex</b> +4, <b>Con</b> +1, <b>Int</b> +1, <b>Wis</b> +2, <b>Cha</b> +2<hr /><b>AC</b> 16, <b>Fort</b> +4, <b>Ref</b> +9, <b>Will</b> +5<br /><b>HP</b> 20 (negative healing); <b>Immunities</b> death effects, disease, paralyzed, poison, unconscious<hr /><b>Speed</b> 30 feet, burrow 5 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> jaws +9 (<a href="Traits.aspx?ID=179"><u>finesse</a></u>), <b>Damage</b> 1d6+1 piercing plus ghoul fever and paralysis</span><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> claw +9 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>), <b>Damage</b> 1d4+1 slashing plus paralysis</span><span class="hanging-indent"><b>Consume Flesh</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  (<a href="Traits.aspx?ID=104"><u>manipulate</a></u>) <b>Requirements</b> The ghoul is adjacent to the corpse of a creature that died within the last hour. <b>Effect</b> The ghoul devours a chunk of the corpse and regains 1d6 Hit Points. It can regain Hit Points from any given corpse only once.</span><span class="hanging-indent"><b>Ghoul Fever</b> (<a href="Traits.aspx?ID=46"><u>disease</a></u>) <b>Saving Throw</b> Fortitude DC 15; <b>Stage 1</b> carrier with no ill effect (1 day); <b>Stage 2</b> 2d6 negative damage and regains half as many Hit Points from all healing (1 day); <b>Stage 3</b> as stage 2 (1 day); <b>Stage 4</b> 2d6 negative damage and gains no benefit from healing (1 day); <b>Stage 5</b> as stage 4 (1 day); <b>Stage 6</b> dead, and rises as a ghoul the next midnight.</span><span class="hanging-indent"><b>Paralysis</b> (<a href="Traits.aspx?ID=93"><u>incapacitation</a></u>, <a href="Traits.aspx?ID=120"><u>occult</a></u>, <a href="Traits.aspx?ID=117"><u>necromancy</a></u>) Any living, non-elf creature hit by a ghoul’s attack must succeed at a DC 15 Fortitude save or become <a style="text-decoration:underline" href="Conditions.aspx?ID=28">paralyzed</a>. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</span><span class="hanging-indent"><b>Swift Leap</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  (<a href="Traits.aspx?ID=114"><u>move</a></u>) The ghoul jumps up to half its Speed. This movement doesn’t trigger reactions.</span><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=52">Ghoul</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=219">Ghast</a></td><td>2</td></tr><tr><td><a href="Monsters.aspx?ID=218">Ghoul</a></td><td>1</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=52">Ghoul</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 168</i></a><br />Few creatures are more ubiquitous to sinister locations such as lonely graveyards and ruined crypts than the flesh-eating undead known as ghouls. <h2 class="title">Creating Ghouls</h2> You can turn a living creature into a ghoul by completing the following steps. When creating a ghast, double these numerical adjustments. The monsters in this section are built from the ground up, so their numbers don’t match these guidelines exactly. Custom-building ghouls is recommended if you have time, using the special abilities listed here but creating the other statistics to match what you want the ghoul to be. First, increase the creature’s level by 1 and change its statistics as follows. <ul><li>Increase its AC, attack bonuses, DCs, saving throws, and skill modifiers by 1.</li> <li>Increase its damage with Strikes and other offensive abilities by 1. If the creature is limited in how often it can use an ability (such as a breath weapon), increase the damage by 2 instead.</li></ul> <h3 class="title">Ghoul Abilities</h3> A ghoul gains the undead and ghoul traits, and it usually becomes evil. If the base creature has any abilities that come from it being a living creature, it loses them. It also loses any traits that represented its life as a living creature, such as human and humanoid. You might also need to adjust abilities that conflict with the theme of a ghoul. All ghouls gain the following abilities. The save DC for all abilities uses the DC of the ghoul’s level.<br /> <b>Darkvision</b><br /> <b>Negative Healing</b><br /> <b>Immunities</b> death effects, disease, paralyzed, poison, unconscious<br /> <b>Claws</b> If the creature had hands, it gains a claw Strike (an agile unarmed attack that deals slashing damage plus paralysis). If it had any agile attacks, the damage dealt by its claws should be roughly the same as the damage dealt by those attacks. If it had only non-agile attacks, its claws should deal three-quarters that damage.<br /> <b>Jaws</b> If the creature had a mouth, it gains a jaws Strike (an unarmed attack that deals slashing damage plus ghoul fever and paralysis). The damage amount should be the same as the creature’s non-agile attacks.<br /> <b>Consume Flesh</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> (<a style="text-decoration:underline" href="Traits.aspx?ID=104">manipulate</a>) <b>Requirements</b> The ghoul is adjacent to the corpse of a creature that died within the last hour. <b>Effect</b> The ghoul devours a chunk of the corpse and regains 1d6 Hit Points plus 1d6 for every 2 levels it has. It can regain Hit Points from any given corpse only once.<br /> <b>Ghoul Fever</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=46">disease</a>) <b>Saving Throw</b> Fortitude; <b>Stage</b> 1 carrier with no ill effect (1 day); <b>Stage</b> 2 2d6 negative damage and regains half as many Hit Points from all healing (1 day); <b>Stage 3</b> as stage 2 (1 day); <b>Stage 4</b> 2d6 negative damage and gains no benefit from healing (1 day); <b>Stage 5</b> as stage 4 (1 day); <b>Stage 6</b> dead, and rises as a ghoul the next midnight.<br /> <b>Paralysis</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=93">incapacitation</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=120">occult</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=117">necromancy</a>) Any living, non-elf creature hit by a ghoul’s attack must succeed at a Fortitude save or become paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.<br /> <b>Swift Leap</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> (<a style="text-decoration:underline" href="Traits.aspx?ID=114">move</a>) The ghoul jumps up to half its Speed. This movement doesn’t trigger reactions. <h3 class="title">Ghast Abilities</h2> A ghast has all the abilities above, plus following additions.<br /> <b>Stench</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=206">aura</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=246">olfactory</a>) 10 feet A creature entering the aura or starting its turn in the aura must succeed at a Fortitude save (use a DC based on the monster’s level; Core Rulebook 503) or become sickened 1 (plus slowed 1 as long as its sickened on a critical failure). While within the aura, the creature takes a –2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.<br /> <b>Claws and Jaws</b> As ghoul, but apply ghast fever instead of ghoul fever.<br /> <b>Consume Flesh</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> As ghoul, but it regains 1d6 additional Hit Points.<br /> <b>Ghast Fever</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=46">disease</a>) <b>Saving Throw</b> Fortitude; <b>Stage 1</b> carrier with no ill effect (1 day); <b>Stage 2</b> 3d8 negative damage and regains half as many Hit Points from all healing (1 day); <b>Stage 3</b> as stage 2 (1 day); <b>Stage 4</b> 3d8 negative damage and gains no benefit from healing (1 day); <b>Stage 5</b> as stage 4 (1 day); <b>Stage 6</b> dead, and rises as a ghast the next midnight<br /> <b>Paralysis</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=93">incapacitation</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=120">occult</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=117">necromancy</a>) As ghoul, but elves are not immune.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Ghoulish Society</h3>Ghouls are quite intelligent and, more so than almost any other undead, prone to forming societies and cultures (if vile and repugnant ones centered around flesh eating and acts of depravity) in tangled warrens below boneyards, or even entire cities hidden away in the depths of the Darklands.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> The First Ghouls</h3>Legend holds that the first humanoid (an elf, as it so happened) to feed upon the flesh of his brother rose as a ghoul after death, in time embracing his new life and ascending to great power as a demon lord of ghouls, graves, and secrets kept by the dead. That ghouls of humanoids warp and twist to take vaguely elven features, and that elves themselves are immune to ghoul paralysis, are unusual side effects of this ancient source, yet today, ghouls are as likely to worship other vile gods—or simply eschew faith entirely—as they are to honor the first of their kind.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

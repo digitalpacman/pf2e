@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Satyr - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Satyr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=355" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABYxCPGgxIGNsYXNzPSJ0aXRsZSI+U2F0eXI8L2gxPlRvIGEgc2F0eXIsIGxpZmUgaXMgYSBwYXJ0eSBhbmQgZXZlcnlvbmUgaXMgaW52aXRlZC4gTm90b3Jpb3VzIGZvciB0aGVpciBoZWRvbmlzbSwgdGhlc2UgZmV5IGJlbGlldmUgdGhlcmXigJlzIG5vIGdyZWF0ZXIgYmVhdXR5IHRoYW4gY2FuIGJlIGZvdW5kIGluIHNvbmcsIGRyaW5rLCBpbmR1bGdlbnQgbWVhbHMsIGFuZCBjYXJuYWwgcGxlYXN1cmVzLiBTYXR5cnMgdXNlIHRoZWlyIGVuY2hhbnRpbmcgc29uZ3MgYW5kIG5hdHVyYWwgY2hhcm0gdG8gZW5jb3VyYWdlIGFsbCBtYW5uZXIgb2YgcGVvcGxlIHRvIGZvbGxvdyB0aGVpciB0cnVlIGRlc2lyZXMgYW5kIGZyZWUgdGhlbXNlbHZlcyBmcm9tIHNvY2lldHnigJlzIHJ1bGVzLiBUaGlzIHVzdWFsbHkgaW52b2x2ZXMgZW50aWNpbmcgbW9ydGFscyB0byBqb2luIHJhdWNvdXMgcGFydGllcyBvciBlbmdhZ2UgaW4gdHJ5c3RzIGluIG1vb25saXQgZ2xhZGVzLiBJZiBhIHBvdGVudGlhbCBjb21wYW5pb24gcmVqZWN0cyBhIHNhdHly4oCZcyBhZHZhbmNlcywgaG93ZXZlciwgdGhlIHNhdHlyIGhhcyBsaXR0bGUgaW50ZXJlc3QgaW4gY29udGludWluZyBhIGNvbnZlcnNhdGlvbiBhbmQgZ29lcyBvZmYgdG8gZmluZCBtb3JlIGFtZW5hYmxlIHJldmVsZXJzLjxiciAvPjxiciAvPiBUaGUgbGlmZXN0eWxlIG9mIGEgc2F0eXIgbGVhdmVzIG5vIHJvb20gZm9yIG9uZ29pbmcgYWZmYWlycyBvciBsb25nLXRlcm0gZnJpZW5kcy4gT25jZSBoaXMgcGFydHkgaXMgb3ZlciBvciBoaXMgbHVzdCBpcyBzYXRpYXRlZCwgdGhlIHNhdHlyIGRpc2FwcGVhcnMgYmFjayBpbnRvIHRoZSBmb3Jlc3QuIFRoZSBvZmZzcHJpbmcgc2F0eXJzIGxlYXZlIGJlaGluZCBhcmUgc2F0eXJzIHRoZW1zZWx2ZXMsIGFuZCB1c3VhbGx5IGVuZCB1cCBiZWluZyB0YWtlbiBmcm9tIHRoZWlyIGNyYWRsZXMgYnkgb3RoZXIgZmV5IHJhdGhlciB0aGFuIGJlaW5nIGxlZnQgaW4gbW9ydGFsc+KAmSBjYXJlLiBTYXR5cnMgYXJlIGFsd2F5cyBtYWxlLjxiciAvPjxiciAvPiBUaGUgdW50b3VjaGVkIGJlYXV0eSBvZiB0aGUgZm9yZXN0IGlzIHNhY3JlZCBhbmQgcHJlY2lvdXMgdG8gYSBzYXR5ci4gQnJ1dGlzaCBpbnRydWRlcnMgd2hvIGNsZWFyLWN1dCB0cmVlcyBvciBtYXNzYWNyZSBhbmltYWxzIHdpdGhvdXQgZWF0aW5nIHRoZW0gcmlzayBkcmF3aW5nIGEgc2F0eXLigJlzIGlyZS4gQSBzYXR5ciBzbyBwcm92b2tlZCB1c2VzIGhpcyBzcGVsbHMgdG8gdW5kZXJtaW5lIGZvZXMgYW5kIGF0dGVtcHRzIHRvIGRpc3BhdGNoIHRoZW0gZWl0aGVyIHdpdGggYnJ1dGFsIGFtYnVzaGVzIG9yIGJ5IGxlYWRpbmcgYSBydXNoIG9mIGZvcmVzdCBhbmltYWxzIHRvIGF0dGFjay48YnIgLz48YnIgLz4gT3RoZXIgZmV5LCBwYXJ0aWN1bGFybHkgZ29vZCBmZXksIGxvb2sgdXBvbiBzYXR5cnMgYXMgbG91dGlzaCwgZW1iYXJyYXNzaW5nIGNvdXNpbnMuIFRoZXnigJlyZSByYXJlbHkgaG9zdGlsZSB0b3dhcmQgc2F0eXJzLCBidXQgbW9zdCBmaW5kIHRoZW0gaW5zdWZmZXJhYmxlIGFuZCBhZHZpc2UgYW55IG1vcnRhbHMgdGhleSBsaWtlIHRvIHN0ZWVyIGNsZWFyIG9mIHNhdHlyc+KAmSBnbGFkZXMuPGJyIC8+PGJyIC8+PGI+PHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NSZHZW5lcmFsPXRydWUiPlJlY2FsbCBLbm93bGVkZ2UgLSBGZXk8L2E+PC91PiAoPHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTAiPk5hdHVyZTwvYT48L3U+KTwvYj46IERDIDE5PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0zNTUiPlNhdHlyPC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIDQ8L3NwYW4+PC9oMT48YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iSW1hZ2VzXE1vbnN0ZXJzXFNhdHlyLnBuZyI+PGltZyBjbGFzcz0idGh1bWJuYWlsIiBzcmM9IkltYWdlc1xNb25zdGVyc1xTYXR5ci5wbmciPjwvYT48c3BhbiBhbHQ9IkNoYW90aWMgTmV1dHJhbCIgY2xhc3M9InRyYWl0YWxpZ25tZW50IiB0aXRsZT0iQ2hhb3RpYyBOZXV0cmFsIj5DTjwvc3Bhbj48c3BhbiBhbHQ9Ik1lZGl1bSIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9Ik1lZGl1bSI+TWVkaXVtPC9zcGFuPjxzcGFuIGFsdD0iRmV5IFRyYWl0IiBjbGFzcz0idHJhaXQiIHRpdGxlPSJDcmVhdHVyZXMgb2YgdGhlIEZpcnN0IFdvcmxkIGFyZSBjYWxsZWQgdGhlIGZleS4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTY5Ij5GZXk8L2E+PC9zcGFuPjxiciAvPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDF5MG0/UGF0aGZpbmRlci1CZXN0aWFyeSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJleHRlcm5hbC1saW5rIj48aT5CZXN0aWFyeSBwZy4gMjg0PC9pPjwvYT48YnIgLz48Yj5QZXJjZXB0aW9uPC9iPiArMTA7IGxvdy1saWdodCB2aXNpb248YnIgLz48Yj5MYW5ndWFnZXM8L2I+IDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTEiPjx1PkNvbW1vbjwvYT48L3U+LCA8YSBocmVmPSJMYW5ndWFnZXMuYXNweD9JRD0xMCI+PHU+U3lsdmFuPC9hPjwvdT48YnIgLz48Yj5Ta2lsbHM8L2I+IDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTMiPjx1PkF0aGxldGljczwvYT48L3U+ICs4LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD01Ij48dT5EZWNlcHRpb248L2E+PC91PiArMTMsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTYiPjx1PkRpcGxvbWFjeTwvYT48L3U+ICsxMywgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NyI+PHU+SW50aW1pZGF0aW9uPC9hPjwvdT4gKzExLCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xMCI+PHU+TmF0dXJlPC9hPjwvdT4gKzksIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTEyIj48dT5QZXJmb3JtYW5jZTwvYT48L3U+ICsxMywgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPjx1PlN0ZWFsdGg8L2E+PC91PiArMTEsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTE2Ij48dT5TdXJ2aXZhbDwvYT48L3U+ICs4PGJyIC8+PGI+U3RyPC9iPiArMywgPGI+RGV4PC9iPiArNCwgPGI+Q29uPC9iPiArMSwgPGI+SW50PC9iPiArMSwgPGI+V2lzPC9iPiArMiwgPGI+Q2hhPC9iPiArNTxiciAvPjxiPlN5bHZhbiBXaW5lPC9iPiAoPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTYxIj5lbmNoYW50bWVudDwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0xMDYiPm1lbnRhbDwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0xMzQiPnByaW1hbDwvYT4pIEEgc2F0eXLigJlzIHdpbmVza2luIG1hZ2ljYWxseSBlbmNoYW50cyBhbnkgYWxjb2hvbCBpbnNpZGUuIFdpdGggYW4gSW50ZXJhY3QgYWN0aW9uLCBhIGxpdmluZyBjcmVhdHVyZSBjYW4gaW1iaWJlIHRoZSBhbGNvaG9sIGFuZCBnYWluIGEgKzEgaXRlbSBib251cyB0byBXaWxsIHNhdmVzIGFuZCBhICszIGl0ZW0gYm9udXMgdG8gV2lsbCBzYXZlcyBhZ2FpbnN0IGZlYXIgZWZmZWN0cyBmb3IgdGhlIGZvbGxvd2luZyBob3VyLiBXaGVuIHRoZSB3aW5lc2tpbiBpcyByZW1vdmVkIGZyb20gYSBzYXR5cuKAmXMgcGVyc29uLCB0aGUgbWFnaWMgcmVtYWlucyBvbmx5IHVudGlsIHRoZSB3aW5lIHNwb2lscy4gVGhlIHdpbmVza2luIGhvbGRzIHVwIHRvIGVpZ2h0IGRyYWZ0cyBvZiB3aW5lLjxiciAvPjxiPkl0ZW1zPC9iPiA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9MyI+PHU+ZGFnZ2VyPC91PjwvYT4sIDxhIGhyZWY9IkVxdWlwbWVudC5hc3B4P0lEPTM3Ij48dT5wYW5waXBlczwvdT48L2E+LCA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9NzciPjx1PnNob3J0Ym93ICgyMCBhcnJvd3MpPC91PjwvYT4sIDxhIGhyZWY9IkVxdWlwbWVudC5hc3B4P0lEPTYyIj48dT53aW5lc2tpbjwvdT48L2E+PGhyIC8+PGI+QUM8L2I+IDE5LCA8Yj5Gb3J0PC9iPiArOSwgPGI+UmVmPC9iPiArMTEsIDxiPldpbGw8L2I+ICsxMjxiciAvPjxiPkhQPC9iPiA4MDsgPGI+V2Vha25lc3NlczwvYj4gY29sZCBpcm9uIDU8aHIgLz48Yj5TcGVlZDwvYj4gMzUgZmVldDxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGRhZ2dlciArMTQgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE3MCI+PHU+YWdpbGU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTc5Ij48dT5maW5lc3NlPC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIwMCI+PHU+dmVyc2F0aWxlIFM8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMWQ0KzYgcGllcmNpbmc8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5SYW5nZWQ8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IHNob3J0Ym93ICsxNCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTc0Ij48dT5kZWFkbHkgMWQxMDwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yNDgiPjx1PnJhbmdlIGluY3JlbWVudCA2MCBmZWV0PC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTI1NCI+PHU+cmVsb2FkIDA8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMWQ2KzMgcGllcmNpbmc8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5SYW5nZWQ8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGRhZ2dlciArMTQgKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE3MCI+PHU+YWdpbGU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTk1Ij48dT50aHJvd24gMTAgZmVldDwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yMDAiPjx1PnZlcnNhdGlsZSBTPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkNCs2IHBpZXJjaW5nPC9zcGFuPjxiPlByaW1hbCBJbm5hdGUgU3BlbGxzPC9iPiBEQyAyMTsgPGI+NHRoPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0zNCI+Y2hhcm08L2E+PC91PjwvaT4sIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTExMCI+ZmVhcjwvYT48L3U+PC9pPiwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9Mjg4Ij5zbGVlcDwvYT48L3U+PC9pPiwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MzE1Ij5zdWdnZXN0aW9uPC9hPjwvdT48L2k+OyA8Yj5DYW50cmlwczwvYj4gPGI+KDJuZCk8L2I+IDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTU4Ij5kYW5jaW5nIGxpZ2h0czwvYT48L3U+PC9pPiwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MTMyIj5naG9zdCBzb3VuZDwvYT48L3U+PC9pPiwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9Mzg1Ij5pbnNwaXJlIGNvbXBldGVuY2U8L2E+PC91PjwvaT4sIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTM4NiI+aW5zcGlyZSBjb3VyYWdlPC9hPjwvdT48L2k+LCA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0zOTIiPnRyaXBsZSB0aW1lPC9hPjwvdT48L2k+PGJyIC8+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5GbGVldCBQZXJmb3JtZXI8L2I+IFdoZW4gdGhlIHNhdHlyIFBsYXlzIHRoZSBQaXBlcyB0byBjYXN0IGEgc3BlbGwsIGhlIGNhbiBTdGVwIG9yIFN0cmlkZSBhcyBwYXJ0IG9mIHRoZSBhY3Rpdml0eS48L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5QbGF5IHRoZSBQaXBlczwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJUaHJlZSBBY3Rpb25zIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFRocmVlQWN0aW9ucy5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlRocmVlIEFjdGlvbnMiIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcVGhyZWVBY3Rpb25zX0kucG5nIj4gICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNiI+PHU+YXVkaXRvcnk8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTM0Ij48dT5wcmltYWw8L2E+PC91PikgPGI+UmVxdWlyZW1lbnRzPC9iPiBUaGUgc2F0eXIgaXMgaG9sZGluZyBhIG11c2ljYWwgaW5zdHJ1bWVudC4gPGI+RWZmZWN0PC9iPiBUaGUgc2F0eXIgcGxheXMgYSBtZWxvZHkgb24gaGlzIGluc3RydW1lbnQgdG8gY2FzdCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MzQiPjxpPmNoYXJtPC9pPjwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJTcGVsbHMuYXNweD9JRD0xMTAiPjxpPmZlYXI8L2k+PC9hPiwgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlNwZWxscy5hc3B4P0lEPTI4OCI+PGk+c2xlZXA8L2k+PC9hPiwgb3IgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlNwZWxscy5hc3B4P0lEPTMxNSI+PGk+c3VnZ2VzdGlvbjwvaT48L2E+IHdpdGhvdXQgZXhwZW5kaW5nIHRoZSBzcGVsbCBzbG90IGFuZCB1c2luZyBoaXMgbXVzaWMgaW4gcGxhY2Ugb2YgcHJvdmlkaW5nIHRoZSBzcGVsbOKAmXMgY29tcG9uZW50IGFjdGlvbnMuIFRoZSBzcGVsbCBnYWlucyB0aGUgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE2Ij5hdWRpdG9yeTwvYT4gdHJhaXQgYW5kIHRhcmdldHMgYWxsIGNyZWF0dXJlcyBpbiBhIDYwLWZvb3QgZW1hbmF0aW9uIGluc3RlYWQgb2YgaXRzIHVzdWFsIHRhcmdldHMuIEEgY3JlYXR1cmUgdGhhdCBzdWNjZWVkcyBhdCBpdHMgV2lsbCBzYXZlIGFnYWluc3QgYW55IHNwZWxsIGlzIHRoZW4gdGVtcG9yYXJpbHkgaW1tdW5lIGZyb20gc3BlbGxzIHBsYXllZCBmcm9tIHRoYXQgc2F0eXLigJlzIHBpcGVzIGZvciAxIG1pbnV0ZS4gU2F0eXJzIGFyZSBpbW11bmUgdG8gdGhpcyBtdXNpYy48L3NwYW4+PGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgdGl0bGU9IlNpZGViYXIgLSBUcmVhc3VyZSBhbmQgUmV3YXJkcyIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl81X1RyZWFzdXJlQW5kUmV3YXJkcy5wbmciPiBTYXR5ciBNdXNpYzwvaDM+QSBzYXR5cuKAmXMgZ2VhciBpcyB2YWx1YWJsZSwgcGFydGljdWxhcmx5IGhpcyBmaW5lIHBhbnBpcGVzLiBTYXR5cnMgb2Z0ZW4gc3RvdyBjYWNoZXMgb2YgYWxjb2hvbCwgcmljaCBmb29kLCBhbmQgcGllY2VzIG9mIGZpbmUgYXJ0IChlc3BlY2lhbGx5IGVyb3RpYyBhcnQpIGluIGhvbGxvd3MgYW5kIGdsYWRlcyB0aGV5IGZyZXF1ZW50LiBEZXBlbmRpbmcgb24gdGhlIHR5cGUgb2YgbXVzaWMgdGhleSBwcmVmZXIgdG8gcGxheSwgc2F0eXJzIG1heSBiZSBhYmxlIHRvIGNhc3QgZGlmZmVyZW50IDR0aC1sZXZlbCBlbmNoYW50bWVudCBzcGVsbHMsIHN1Y2ggYXMgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlNwZWxscy5hc3B4P0lEPTIxNCI+PGk+cGFyYW5vaWE8L2k+PC9hPiBvciA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9MTUwIj48aT5oaWRlb3VzIGxhdWdodGVyPC9pPjwvYT4uZGQCCw88KwANAQAPFgYeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAR4HVmlzaWJsZWhkFgJmD2QWBAIBD2QWDGYPZBYCZg8PFgQfAAUFU2F0eXIeC05hdmlnYXRlVXJsBRRNb25zdGVycy5hc3B4P0lEPTM1NWRkAgEPDxYCHwAFByZtZGFzaDtkZAICDw8WAh8ABQYmbmJzcDtkZAIDDw8WAh8ABQ9DaGFvdGljIE5ldXRyYWxkZAIEDw8WAh8ABQYmbmJzcDtkZAIFDw8WAh8ABQYmbmJzcDtkZAICDw8WAh8DaGRkAg0PD2Q8KwAGAGQYAQUeY3RsMDAkTWFpbkNvbnRlbnQkVGFibGVFbGVtZW50DxQrAApkZGRkZGQVAQpNb25zdGVyc0lEFCsAARQrAAEC4wICARQrAAEC4wJkogl9/mwpCj+O+EJlGOksU/+W/KA=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Satyr</h1>To a satyr, life is a party and everyone is invited. Notorious for their hedonism, these fey believe there’s no greater beauty than can be found in song, drink, indulgent meals, and carnal pleasures. Satyrs use their enchanting songs and natural charm to encourage all manner of people to follow their true desires and free themselves from society’s rules. This usually involves enticing mortals to join raucous parties or engage in trysts in moonlit glades. If a potential companion rejects a satyr’s advances, however, the satyr has little interest in continuing a conversation and goes off to find more amenable revelers.<br /><br /> The lifestyle of a satyr leaves no room for ongoing affairs or long-term friends. Once his party is over or his lust is satiated, the satyr disappears back into the forest. The offspring satyrs leave behind are satyrs themselves, and usually end up being taken from their cradles by other fey rather than being left in mortals’ care. Satyrs are always male.<br /><br /> The untouched beauty of the forest is sacred and precious to a satyr. Brutish intruders who clear-cut trees or massacre animals without eating them risk drawing a satyr’s ire. A satyr so provoked uses his spells to undermine foes and attempts to dispatch them either with brutal ambushes or by leading a rush of forest animals to attack.<br /><br /> Other fey, particularly good fey, look upon satyrs as loutish, embarrassing cousins. They’re rarely hostile toward satyrs, but most find them insufferable and advise any mortals they like to steer clear of satyrs’ glades.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Fey</a></u> (<u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 19<h1 class="title"><a href="Monsters.aspx?ID=355">Satyr</a><span style="float:right;">Creature 4</span></h1><a target="_blank" href="Images\Monsters\Satyr.png"><img class="thumbnail" src="Images\Monsters\Satyr.png"></a><span alt="Chaotic Neutral" class="traitalignment" title="Chaotic Neutral">CN</span><span alt="Medium" class="traitsize" title="Medium">Medium</span><span alt="Fey Trait" class="trait" title="Creatures of the First World are called the fey."><a href="Traits.aspx?ID=69">Fey</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 284</i></a><br /><b>Perception</b> +10; low-light vision<br /><b>Languages</b> <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=10"><u>Sylvan</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +8, <a href="Skills.aspx?ID=5"><u>Deception</a></u> +13, <a href="Skills.aspx?ID=6"><u>Diplomacy</a></u> +13, <a href="Skills.aspx?ID=7"><u>Intimidation</a></u> +11, <a href="Skills.aspx?ID=10"><u>Nature</a></u> +9, <a href="Skills.aspx?ID=12"><u>Performance</a></u> +13, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +11, <a href="Skills.aspx?ID=16"><u>Survival</a></u> +8<br /><b>Str</b> +3, <b>Dex</b> +4, <b>Con</b> +1, <b>Int</b> +1, <b>Wis</b> +2, <b>Cha</b> +5<br /><b>Sylvan Wine</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=61">enchantment</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=106">mental</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=134">primal</a>) A satyr’s wineskin magically enchants any alcohol inside. With an Interact action, a living creature can imbibe the alcohol and gain a +1 item bonus to Will saves and a +3 item bonus to Will saves against fear effects for the following hour. When the wineskin is removed from a satyr’s person, the magic remains only until the wine spoils. The wineskin holds up to eight drafts of wine.<br /><b>Items</b> <a href="Weapons.aspx?ID=3"><u>dagger</u></a>, <a href="Equipment.aspx?ID=37"><u>panpipes</u></a>, <a href="Weapons.aspx?ID=77"><u>shortbow (20 arrows)</u></a>, <a href="Equipment.aspx?ID=62"><u>wineskin</u></a><hr /><b>AC</b> 19, <b>Fort</b> +9, <b>Ref</b> +11, <b>Will</b> +12<br /><b>HP</b> 80; <b>Weaknesses</b> cold iron 5<hr /><b>Speed</b> 35 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> dagger +14 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>, <a href="Traits.aspx?ID=200"><u>versatile S</a></u>), <b>Damage</b> 1d4+6 piercing</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> shortbow +14 (<a href="Traits.aspx?ID=174"><u>deadly 1d10</a></u>, <a href="Traits.aspx?ID=248"><u>range increment 60 feet</a></u>, <a href="Traits.aspx?ID=254"><u>reload 0</a></u>), <b>Damage</b> 1d6+3 piercing</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> dagger +14 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=195"><u>thrown 10 feet</a></u>, <a href="Traits.aspx?ID=200"><u>versatile S</a></u>), <b>Damage</b> 1d4+6 piercing</span><b>Primal Innate Spells</b> DC 21; <b>4th</b> <i><u><a href="Spells.aspx?ID=34">charm</a></u></i>, <i><u><a href="Spells.aspx?ID=110">fear</a></u></i>, <i><u><a href="Spells.aspx?ID=288">sleep</a></u></i>, <i><u><a href="Spells.aspx?ID=315">suggestion</a></u></i>; <b>Cantrips</b> <b>(2nd)</b> <i><u><a href="Spells.aspx?ID=58">dancing lights</a></u></i>, <i><u><a href="Spells.aspx?ID=132">ghost sound</a></u></i>, <i><u><a href="Spells.aspx?ID=385">inspire competence</a></u></i>, <i><u><a href="Spells.aspx?ID=386">inspire courage</a></u></i>, <i><u><a href="Spells.aspx?ID=392">triple time</a></u></i><br /><span class="hanging-indent"><b>Fleet Performer</b> When the satyr Plays the Pipes to cast a spell, he can Step or Stride as part of the activity.</span><span class="hanging-indent"><b>Play the Pipes</b> <img class="actiondark" alt="Three Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\ThreeActions.png"><img class="actionlight" alt="Three Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\ThreeActions_I.png">  (<a href="Traits.aspx?ID=16"><u>auditory</a></u>, <a href="Traits.aspx?ID=134"><u>primal</a></u>) <b>Requirements</b> The satyr is holding a musical instrument. <b>Effect</b> The satyr plays a melody on his instrument to cast <a style="text-decoration:underline" href="Spells.aspx?ID=34"><i>charm</i></a>, <a style="text-decoration:underline" href="Spells.aspx?ID=110"><i>fear</i></a>, <a style="text-decoration:underline" href="Spells.aspx?ID=288"><i>sleep</i></a>, or <a style="text-decoration:underline" href="Spells.aspx?ID=315"><i>suggestion</i></a> without expending the spell slot and using his music in place of providing the spell’s component actions. The spell gains the <a style="text-decoration:underline" href="Traits.aspx?ID=16">auditory</a> trait and targets all creatures in a 60-foot emanation instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr’s pipes for 1 minute. Satyrs are immune to this music.</span><h3 class="title"><img alt="Sidebar - Treasure and Rewards" title="Sidebar - Treasure and Rewards" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_5_TreasureAndRewards.png"> Satyr Music</h3>A satyr’s gear is valuable, particularly his fine panpipes. Satyrs often stow caches of alcohol, rich food, and pieces of fine art (especially erotic art) in hollows and glades they frequent. Depending on the type of music they prefer to play, satyrs may be able to cast different 4th-level enchantment spells, such as <a style="text-decoration:underline" href="Spells.aspx?ID=214"><i>paranoia</i></a> or <a style="text-decoration:underline" href="Spells.aspx?ID=150"><i>hideous laughter</i></a>.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Remorhaz - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Remorhaz" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=351" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABfk5PGgxIGNsYXNzPSJ0aXRsZSI+UmVtb3JoYXo8L2gxPkEgcmVtb3JoYXogaXMgYW4gZW5vcm1vdXMgYXJjdGljIHByZWRhdG9yIHRoYXQgcmVzZW1ibGVzIGEgbXVsdGlsZWdnZWQgaW5zZWN0IHdpdGggZHJhY29uaWMgZmVhdHVyZXMuIFRoaXMgbW9uc3RlciBoYXMgY2hpdGlub3VzIHBsYXRlcyBhbmQgbW9yZSB0aGFuIGEgc2NvcmUgc2VnbWVudGVkIGxlZ3MsIGEgbXVsdGlwYXJ0aXRlIG1hdywgYW5kIHdpbmdsaWtlIGdyb3d0aHMgZmlhbmtpbmcgaXRzIGhlYWQuIFRoZSBtb3N0IHVudXN1YWwgYXNwZWN0IG9mIHRoZSBjcmVhdHVyZSwgaG93ZXZlciwgaXMgaXRzIGludGVybmFsIGhlYXQsIHdoaWNoIGJ1cm5zIHdpdGggc3VjaCBpbnRlbnNpdHkgdGhhdCBpdCBjYXVzZXMgdGhlIGFybW9yZWQgcGxhdGVzIG9uIHRoZSBjcmVhdHVyZeKAmXMgYmFjayB0byBiZWNvbWUgc3VwZXJoZWF0ZWQgd2hlbmV2ZXIgdGhlIGJlYXN0IGlzIGFnaXRhdGVkLjxiciAvPjxiciAvPiBSZW1vcmhhemVzIGFyZSBjYXJuaXZvcmVzLiBUaGVpciBkaWV0IGluY2x1ZGVzIGFyY3RpYyBhbmltYWxzIHN1Y2ggYXMgZWxrLCBidXQgYSBodW5ncnkgcmVtb3JoYXogcmVhZGlseSBkZXZvdXJzIGFueXRoaW5nIGl0IGNhbiBjYXRjaCBhbmQga2lsbC4gSXQgY29tbW9ubHkgbHVya3MgYmVuZWF0aCBpY2Ugb3Igc25vdyBhbmQgYW1idXNoZXMgcHJleSB3aXRoIGEgc3VkZGVuIHVwd2FyZCBzdHJpa2UuIE1hbnkgdmljdGltcyBkaWUgYmVmb3JlIGV2ZW4ga25vd2luZyB3aGF0IGF0dGFja2VkIHRoZW0uPGJyIC8+PGJyIC8+IFRob3NlIHdobyBzdXJ2aXZlIHRoZSB3b3Jt4oCZcyBpbml0aWFsIG9uc2xhdWdodCBtdXN0IGZhY2Ugbm90IG9ubHkgaXRzIGRlYWRseSBqYXdzLCBidXQgYWxzbyBpdHMgaGlkZW91c2x5IGhvdCBib2R5LiBUaGlzIGhlYXQgY2FuIG1lbHQgd2VhcG9ucywgc2NvcmNoIGFybW9yLCBhbmQgYnVybiBmbGVzaOKAlGFsbCB0YWN0aWNzIHRoZSByZW1vcmhheiB1c2VzIHRvIGRpc2FibGUgYW5kIGRlZmVhdCBpdHMgZm9lcy4gQSByZW1vcmhheuKAmXMgaW50ZXJuYWwgZmlyZSBhbGxvd3MgaXQgdG8gYnVycm93IHRocm91Z2ggaWNlIGFuZCBzbm93IHdpdGggZWFzZS4gSXQgbGVhdmVzIHNtb290aCB0dW5uZWxzIGluIGl0cyB3YWtlIGFzIG1lbHRlZCBpY2UgcmVmcmVlemVzIHRvIGxlYXZlIHRoZSB0ZWxsdGFsZSBzaWducyBvZiBpdHMgcGFzc2FnZS4gTW9zdCBwZW9wbGUgdW5kZXJlc3RpbWF0ZSBhIHJlbW9yaGF64oCZcyBpbnRlbGxpZ2VuY2UsIGFzc3VtaW5nIGl0IHRvIGJlIGEgbWVyZSBhbmltYWwuIEhvd2V2ZXIsIHJlbW9yaGF6ZXMgYXJlIGNhcGFibGUgb2YgbGVhcm5pbmcgbGFuZ3VhZ2VzLiBGcm9zdCBnaWFudHMgaW4gcGFydGljdWxhciB1c2UgdGhpcyB0cmFpdCB0byBmb3JtIGFsbGlhbmNlcyB3aXRoIHRoZW0uIFRoZSBnaWFudHMgcHJvdmlkZSBmb29kLCBwcm90ZWN0aW9uLCBhbmQgc2hlbHRlciBmb3IgdGhlIHdvcm0sIGFuZCBpbiByZXR1cm4gdGhlIHJlbW9yaGF6IGFjdHMgYXMgYSBndWFyZCBiZWFzdCBhbmQgaGVscHMgdGhlIGdpYW50cyBidWlsZCBmb3J0cmVzc2VzIGFuZCBmb3JnZSBtZXRhbCB3ZWFwb25zLiBUaGUgZ2lhbnRzIGFsc28gZW1wbG95IHRoZSB3b3JtcyBhcyB3YXIgYmVhc3RzLCB1c2luZyB0aGVtIHRvIHVuZGVybWluZSBlbmVteSBwb3NpdGlvbnMuPGJyIC8+PGJyIC8+PGI+PHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NSZHZW5lcmFsPXRydWUiPlJlY2FsbCBLbm93bGVkZ2UgLSBCZWFzdDwvYT48L3U+ICg8dT48YSBocmVmPSJTa2lsbHMuYXNweD9JRD0yIj5BcmNhbmE8L2E+PC91PiwgPHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTAiPk5hdHVyZTwvYT48L3U+KTwvYj46IERDIDI1PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0zNTEiPlJlbW9yaGF6PC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIDc8L3NwYW4+PC9oMT48YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iSW1hZ2VzXE1vbnN0ZXJzXFJlbW9yaGF6LnBuZyI+PGltZyBjbGFzcz0idGh1bWJuYWlsIiBzcmM9IkltYWdlc1xNb25zdGVyc1xSZW1vcmhhei5wbmciPjwvYT48c3BhbiBhbHQ9IlVuY29tbW9uIFRyYWl0IiBjbGFzcz0idHJhaXR1bmNvbW1vbiIgdGl0bGU9IlNvbWV0aGluZyBvZiB1bmNvbW1vbiByYXJpdHkgcmVxdWlyZXMgc3BlY2lhbCB0cmFpbmluZyBvciBjb21lcyBmcm9tIGEgcGFydGljdWxhciBjdWx0dXJlIG9yIHBhcnQgb2YgdGhlIHdvcmxkLiBTb21lIGNoYXJhY3RlciBjaG9pY2VzIGdpdmUgYWNjZXNzIHRvIHVuY29tbW9uIG9wdGlvbnMsIGFuZCB0aGUgR00gY2FuIGNob29zZSB0byBhbGxvdyBhY2Nlc3MgZm9yIGFueW9uZS4gTGVzcyBpcyBrbm93biBhYm91dCB1bmNvbW1vbiBjcmVhdHVyZXMgdGhhbiBjb21tb24gY3JlYXR1cmVzLiBUaGV5IHR5cGljYWxseSBjYW7igJl0IGJlIHN1bW1vbmVkLiBUaGUgREMgb2YgUmVjYWxsIEtub3dsZWRnZSBjaGVja3MgcmVsYXRlZCB0byB0aGVzZSBjcmVhdHVyZSBpcyBpbmNyZWFzZWQgYnkgMi4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE1OSI+VW5jb21tb248L2E+PC9zcGFuPjxzcGFuIGFsdD0iTmV1dHJhbCIgY2xhc3M9InRyYWl0YWxpZ25tZW50IiB0aXRsZT0iTmV1dHJhbCI+Tjwvc3Bhbj48c3BhbiBhbHQ9Ikh1Z2UiIGNsYXNzPSJ0cmFpdHNpemUiIHRpdGxlPSJIdWdlIj5IdWdlPC9zcGFuPjxzcGFuIGFsdD0iQmVhc3QgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkEgY3JlYXR1cmUgc2ltaWxhciB0byBhbiBhbmltYWwgYnV0IHdpdGggYW4gSW50ZWxsaWdlbmNlIG1vZGlmaWVyIG9mIOKAkzMgb3IgaGlnaGVyIGlzIHVzdWFsbHkgYSBiZWFzdC4gVW5saWtlIGFuIGFuaW1hbCwgYSBiZWFzdCBtaWdodCBiZSBhYmxlIHRvIHNwZWFrIGFuZCByZWFzb24uIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yMCI+QmVhc3Q8L2E+PC9zcGFuPjxiciAvPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDF5MG0/UGF0aGZpbmRlci1CZXN0aWFyeSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJleHRlcm5hbC1saW5rIj48aT5CZXN0aWFyeSBwZy4gMjgwPC9pPjwvYT48YnIgLz48Yj5QZXJjZXB0aW9uPC9iPiArMTQ7IGRhcmt2aXNpb24sIHRyZW1vcnNlbnNlIChpbXByZWNpc2UpIDYwIGZlZXQ8YnIgLz48Yj5MYW5ndWFnZXM8L2I+IDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTgiPjx1PkpvdHVuPC9hPjwvdT47IChjYW7igJl0IHNwZWFrIGFueSBsYW5ndWFnZSk8YnIgLz48Yj5Ta2lsbHM8L2I+IDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTMiPjx1PkF0aGxldGljczwvYT48L3U+ICsxOCwgPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTUiPjx1PlN0ZWFsdGg8L2E+PC91PiArMTM8YnIgLz48Yj5TdHI8L2I+ICs3LCA8Yj5EZXg8L2I+ICsyLCA8Yj5Db248L2I+ICs1LCA8Yj5JbnQ8L2I+IC0zLCA8Yj5XaXM8L2I+ICsxLCA8Yj5DaGE8L2I+IC0yPGhyIC8+PGI+QUM8L2I+IDI1LCA8Yj5Gb3J0PC9iPiArMTgsIDxiPlJlZjwvYj4gKzE1LCA8Yj5XaWxsPC9iPiArMTA8YnIgLz48Yj5IUDwvYj4gMTIwOyA8Yj5JbW11bml0aWVzPC9iPiBjb2xkLCBmaXJlPGJyIC8+PGI+SGVhdDwvYj4gKDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0yMDYiPmF1cmE8L2E+LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjUiPmV2b2NhdGlvbjwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD03MiI+ZmlyZTwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0xMzQiPnByaW1hbDwvYT4pIDUgZmVldC4gQSBjcmVhdHVyZSB0aGF0IHN0YXJ0cyBpdHMgdHVybiBpbiB0aGUgYXVyYSB0YWtlcyAxZDYgZmlyZSBkYW1hZ2UuIFdoZW5ldmVyIHRoZSByZW1vcmhheiB0YWtlcyBkYW1hZ2UgZnJvbSBhbiBlbmVteSwgdGhpcyBkYW1hZ2UgaW5jcmVhc2VzIHRvIDJkNiB1bnRpbCB0aGUgc3RhcnQgb2YgaXRzIG5leHQgdHVybi4gQW55IGNyZWF0dXJlIHRoYXQgaGl0cyBhIHJlbW9yaGF6IHdpdGggYW4gdW5hcm1lZCBTdHJpa2UgdGFrZXMgMmQ2IGZpcmUgZGFtYWdlLCBhbmQgYSB3ZWFwb24gdGhhdCBoaXRzIGEgcmVtb3JoYXogdGFrZXMgMmQ2IGZpcmUgZGFtYWdlLjxociAvPjxiPlNwZWVkPC9iPiAzNSBmZWV0LCBidXJyb3cgMzAgZmVldDxiciAvPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+TWVsZWU8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGphd3MgKzE4ICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xOTIiPjx1PnJlYWNoIDE1IGZlZXQ8L2E+PC91PiksIDxiPkRhbWFnZTwvYj4gMmQxMCs5IHBpZXJjaW5nIHBsdXMgR3JhYjwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPk1lbGVlPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiB0YWlsICsxOCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NzIiPjx1PmZpcmU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTkyIj48dT5yZWFjaCAxNSBmZWV0PC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkMTArMyBibHVkZ2VvbmluZyBwbHVzIDJkNiBmaXJlPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+QnJlYXRoIFdlYXBvbjwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJUd28gQWN0aW9ucyIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xUd29BY3Rpb25zLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iVHdvIEFjdGlvbnMiIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcVHdvQWN0aW9uc19JLnBuZyI+ICAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjUiPjx1PmV2b2NhdGlvbjwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD03MiI+PHU+ZmlyZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xMzQiPjx1PnByaW1hbDwvYT48L3U+KSBUaGUgcmVtb3JoYXogdW5sZWFzaGVzIGEgZ291dCBvZiBmbGFtZSB0aGF0IGRlYWxzIDhkNiBmaXJlIGRhbWFnZSBpbiBhIDMwLWZvb3QgY29uZSAoREMgMjYgYmFzaWMgUmVmbGV4IHNhdmUpLiBJdCBjYW7igJl0IHVzZSBCcmVhdGggV2VhcG9uIGFnYWluIGZvciAxZDQgcm91bmRzLjwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPkljZSBUdW5uZWxlcjwvYj4gQSByZW1vcmhheiBjYW4gbGVhdmUgYSB0dW5uZWwgd2hlbiBpdCBidXJyb3dzIHRocm91Z2ggaWNlIG9yIHNub3csIGFuZCBpdCB1c3VhbGx5IGRvZXMuPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+U3dhbGxvdyBXaG9sZTwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gIExhcmdlLCAyZDgrNSBibHVkZ2VvbmluZyBwbHVzIDJkNiBmaXJlLCBSdXB0dXJlIDEyPC9zcGFuPjxzcGFuIGNsYXNzPSJoYW5naW5nLWluZGVudCI+PGI+VGhyYXNoPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlR3byBBY3Rpb25zIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXFR3b0FjdGlvbnMucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJUd28gQWN0aW9ucyIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xUd29BY3Rpb25zX0kucG5nIj4gIFRoZSByZW1vcmhheiBTdHJpa2VzIG9uY2Ugd2l0aCBpdHMgamF3cyBhbmQgb25jZSB3aXRoIGl0cyB0YWlsLCBlYWNoIHRhcmdldGluZyBhIGRpZmZlcmVudCBjcmVhdHVyZS4gRWFjaCBhdHRhY2sgY291bnRzIHRvd2FyZCB0aGUgcmVtb3JoYXrigJlzIG11bHRpcGxlIGF0dGFjayBwZW5hbHR5LCBidXQgdGhlIG11bHRpcGxlIGF0dGFjayBwZW5hbHR5IGRvZXNu4oCZdCBpbmNyZWFzZSB1bnRpbCBhZnRlciBhbGwgdGhlIGF0dGFja3MgaGF2ZSBiZWVuIG1hZGUuPC9zcGFuPjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gUmVsYXRlZCBDcmVhdHVyZXMiIHRpdGxlPSJTaWRlYmFyIC0gUmVsYXRlZCBDcmVhdHVyZXMiIHN0eWxlPSJoZWlnaHQ6MjBweDsgcGFkZGluZzoycHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEljb25zXFNpZGViYXJfNF9SZWxhdGVkQ3JlYXR1cmVzLnBuZyI+IEFuY2llbnQgUmVtb3JoYXplczwvaDM+QSByZW1vcmhheiBoYXMgYW4gdW51c3VhbCBsaWZlDQpjeWNsZS4gQSByZW1vcmhheiB0aGF0IHN1cnZpdmVzDQpsb25nIGVub3VnaCAodHlwaWNhbGx5IGEgY2VudHVyeSkNCndpdGhvdXQgc3VjY3VtYmluZyB0byB2aW9sZW5jZQ0KbWVsdHMgYSBkZWVwIGhvbGUgaW4gdGhlIGljZSBhbmQNCmhpYmVybmF0ZXMgZm9yIHNldmVyYWwgaHVuZHJlZA0KeWVhcnMsIGdyb3dpbmcgc2xvd2x5IGFzIGl0cyBpbnRlcm5hbA0KaGVhdCBzb3VyY2VzIHRyYW5zZm9ybSBpdCBpbnRvDQpzb21ldGhpbmcgbmV34oCUYSBjcmVhdHVyZSBrbm93bg0KYXMgYSBmcm9zdCB3b3JtLmRkAgsPPCsADQEADxYGHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgEeB1Zpc2libGVoZBYCZg9kFgQCAQ9kFgxmD2QWAmYPDxYEHwAFCFJlbW9yaGF6HgtOYXZpZ2F0ZVVybAUUTW9uc3RlcnMuYXNweD9JRD0zNTFkZAIBDw8WAh8ABQcmbWRhc2g7ZGQCAg8PFgIfAAUGJm5ic3A7ZGQCAw8PFgIfAAUHTmV1dHJhbGRkAgQPDxYCHwAFBiZuYnNwO2RkAgUPDxYCHwAFBiZuYnNwO2RkAgIPDxYCHwNoZGQCDQ8PZDwrAAYAZBgBBR5jdGwwMCRNYWluQ29udGVudCRUYWJsZUVsZW1lbnQPFCsACmRkZGRkZBUBCk1vbnN0ZXJzSUQUKwABFCsAAQLfAgIBFCsAAQLfAmRG9Qni6XwOJmb/ZHQdGHBQXxBf4w==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Remorhaz</h1>A remorhaz is an enormous arctic predator that resembles a multilegged insect with draconic features. This monster has chitinous plates and more than a score segmented legs, a multipartite maw, and winglike growths fianking its head. The most unusual aspect of the creature, however, is its internal heat, which burns with such intensity that it causes the armored plates on the creature’s back to become superheated whenever the beast is agitated.<br /><br /> Remorhazes are carnivores. Their diet includes arctic animals such as elk, but a hungry remorhaz readily devours anything it can catch and kill. It commonly lurks beneath ice or snow and ambushes prey with a sudden upward strike. Many victims die before even knowing what attacked them.<br /><br /> Those who survive the worm’s initial onslaught must face not only its deadly jaws, but also its hideously hot body. This heat can melt weapons, scorch armor, and burn flesh—all tactics the remorhaz uses to disable and defeat its foes. A remorhaz’s internal fire allows it to burrow through ice and snow with ease. It leaves smooth tunnels in its wake as melted ice refreezes to leave the telltale signs of its passage. Most people underestimate a remorhaz’s intelligence, assuming it to be a mere animal. However, remorhazes are capable of learning languages. Frost giants in particular use this trait to form alliances with them. The giants provide food, protection, and shelter for the worm, and in return the remorhaz acts as a guard beast and helps the giants build fortresses and forge metal weapons. The giants also employ the worms as war beasts, using them to undermine enemy positions.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Beast</a></u> (<u><a href="Skills.aspx?ID=2">Arcana</a></u>, <u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 25<h1 class="title"><a href="Monsters.aspx?ID=351">Remorhaz</a><span style="float:right;">Creature 7</span></h1><a target="_blank" href="Images\Monsters\Remorhaz.png"><img class="thumbnail" src="Images\Monsters\Remorhaz.png"></a><span alt="Uncommon Trait" class="traituncommon" title="Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can’t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2."><a href="Traits.aspx?ID=159">Uncommon</a></span><span alt="Neutral" class="traitalignment" title="Neutral">N</span><span alt="Huge" class="traitsize" title="Huge">Huge</span><span alt="Beast Trait" class="trait" title="A creature similar to an animal but with an Intelligence modifier of –3 or higher is usually a beast. Unlike an animal, a beast might be able to speak and reason."><a href="Traits.aspx?ID=20">Beast</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 280</i></a><br /><b>Perception</b> +14; darkvision, tremorsense (imprecise) 60 feet<br /><b>Languages</b> <a href="Languages.aspx?ID=8"><u>Jotun</a></u>; (can’t speak any language)<br /><b>Skills</b> <a href="Skills.aspx?ID=3"><u>Athletics</a></u> +18, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +13<br /><b>Str</b> +7, <b>Dex</b> +2, <b>Con</b> +5, <b>Int</b> -3, <b>Wis</b> +1, <b>Cha</b> -2<hr /><b>AC</b> 25, <b>Fort</b> +18, <b>Ref</b> +15, <b>Will</b> +10<br /><b>HP</b> 120; <b>Immunities</b> cold, fire<br /><b>Heat</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=206">aura</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=65">evocation</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=72">fire</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=134">primal</a>) 5 feet. A creature that starts its turn in the aura takes 1d6 fire damage. Whenever the remorhaz takes damage from an enemy, this damage increases to 2d6 until the start of its next turn. Any creature that hits a remorhaz with an unarmed Strike takes 2d6 fire damage, and a weapon that hits a remorhaz takes 2d6 fire damage.<hr /><b>Speed</b> 35 feet, burrow 30 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> jaws +18 (<a href="Traits.aspx?ID=192"><u>reach 15 feet</a></u>), <b>Damage</b> 2d10+9 piercing plus Grab</span><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> tail +18 (<a href="Traits.aspx?ID=72"><u>fire</a></u>, <a href="Traits.aspx?ID=192"><u>reach 15 feet</a></u>), <b>Damage</b> 1d10+3 bludgeoning plus 2d6 fire</span><span class="hanging-indent"><b>Breath Weapon</b> <img class="actiondark" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions.png"><img class="actionlight" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions_I.png">  (<a href="Traits.aspx?ID=65"><u>evocation</a></u>, <a href="Traits.aspx?ID=72"><u>fire</a></u>, <a href="Traits.aspx?ID=134"><u>primal</a></u>) The remorhaz unleashes a gout of flame that deals 8d6 fire damage in a 30-foot cone (DC 26 basic Reflex save). It can’t use Breath Weapon again for 1d4 rounds.</span><span class="hanging-indent"><b>Ice Tunneler</b> A remorhaz can leave a tunnel when it burrows through ice or snow, and it usually does.</span><span class="hanging-indent"><b>Swallow Whole</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png">  Large, 2d8+5 bludgeoning plus 2d6 fire, Rupture 12</span><span class="hanging-indent"><b>Thrash</b> <img class="actiondark" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions.png"><img class="actionlight" alt="Two Actions" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\TwoActions_I.png">  The remorhaz Strikes once with its jaws and once with its tail, each targeting a different creature. Each attack counts toward the remorhaz’s multiple attack penalty, but the multiple attack penalty doesn’t increase until after all the attacks have been made.</span><h3 class="title"><img alt="Sidebar - Related Creatures" title="Sidebar - Related Creatures" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_4_RelatedCreatures.png"> Ancient Remorhazes</h3>A remorhaz has an unusual life
+cycle. A remorhaz that survives
+long enough (typically a century)
+without succumbing to violence
+melts a deep hole in the ice and
+hibernates for several hundred
+years, growing slowly as its internal
+heat sources transform it into
+something new—a creature known
+as a frost worm.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

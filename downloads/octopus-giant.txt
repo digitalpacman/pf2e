@@ -1,0 +1,35 @@
+1141" class="post-1141 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo">
+                                        <h1>Octopus, Giant</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Giant Octopus <span class="monster-level">Creature 8</span></h4> 
+ <p class="traits"><span class="alignment">N</span> <span class="size">Huge</span> <span class="trait">Animal</span> <span class="trait">Aquatic</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +15; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Low-light_Vision">low-light vision</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +17, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +17</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +3, <b>Con</b> +4, <b>Int</b> -3, <b>Wis</b> +3, <b>Cha</b> -2</p> 
+ <hr> 
+ <p><b>AC</b> 27; <b>Fort</b> +16, <b>Ref</b> +17, <b>Will</b> +15</p> 
+ <p><b>HP</b> 135; <b>Resistances</b> cold 10</p> 
+ <hr> 
+ <p><b>Speed</b> 15 feet, swim 40 feet; compression</p> 
+ <p><b>Melee</b> [one-action] arm +20 (agile, reach 15 feet), <b>Damage</b> 2d8+9 bludgeoning plus Grab</p> 
+ <p><b>Melee</b> [one-action] beak +20, <b>Damage</b> 2d8+9 piercing plus giant octopus venom</p> 
+ <p><b>Compression</b> A giant octopus can move through a gap at least 2 feet wide without Squeezing, and can Squeeze through a gap at least 1 foot wide.</p> 
+ <p><b>Constrict</b> [one-action] 1d8+9 bludgeoning</p> 
+ <p><b>Giant Octopus Venom</b> (poison); <b>Saving Throw DC</b> 26 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a>; <b>Maximum Duration</b> 6 rounds; <b>Stage 1</b> 2d6 poison damage and flat-footed (1 round); <b>Stage 2</b> 2d6 poison damage, <a href="https://pf2.d20pfsrd.com/rules/conditions/#Clumsy">clumsy</a> 1, and flat-footed (1 round); <b>Stage 3</b> 2d6 poison damage, <a href="https://pf2.d20pfsrd.com/rules/conditions/#Clumsy">clumsy</a> 2, and flat-footed (1 round)</p> 
+ <p><b>Ink Cloud</b> [one-action] The octopus emits a cloud of black ink in a 30-foot emanation. This cloud has no effect outside of water. Creatures inside the cloud are undetected and can&#8217;t use their sense of smell. The cloud dissipates after 1 minute. The octopus can&#8217;t use Ink Cloud again for 2d6 rounds.</p> 
+ <p><b>Jet</b> [two-actions] (move) The octopus moves up to 200 feet in a straight line through the water without triggering reactions.</p> 
+ <p><b>Writhing Arms</b> [two-actions] The giant octopus makes up to four Strikes with different arms, each against a different target. Each attack counts separately for the octopus&#8217;s multiple attack penalty, but the penalty doesn&#8217;t increase the penalty until the octopus has made all the attacks. If the octopus subsequently uses the Grab action, it can Grab any number of creatures it hit with Writhing Arms.</p> 
+
+<p class="header">About</p>
+<p>Giant octopuses are found in the heart of deep, dark oceans.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

@@ -1,0 +1,33 @@
+892" class="post-892 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-alghollthu">
+                                        <h1>Alghollthu Master (Aboleth)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                              <h4 class="monster">Alghollthu Master <span class="monster-level">Creature 7</span></h4> 
+  <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">LE</span> <span class="size">Huge</span> <span class="type_aberration">Aberration</span> <span class="trait">Aquatic</span></p> 
+  <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +17; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+  <p><b>Languages</b> Aklo, Alghollthu, Aquan, Common, Undercommon</p> 
+  <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +16, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Lore_Int">Lore</a> (any one subcategory) +14, <a href="https://pf2.d20pfsrd.com/rules/skills/#Occultism_Int">Occultism</a> +16</p> 
+  <p><b>Str</b> +5, <b>Dex</b> +1, <b>Con</b> +6, <b>Int</b> +3, <b>Wis</b> +5, <b>Cha</b> +4</p> 
+  <p><b>Mucus Cloud</b> (aura, disease) 5 feet. While underwater, an aboleth exudes a cloud of transparent slime. An air-breathing creature adjacent to an aboleth must succeed at a DC 25 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save each round or lose the ability to breathe air but gain the ability to breathe water for 3 hours.</p> 
+  <hr> 
+  <p><b>AC</b> 23; <b>Fort</b> +15, <b>Ref</b> +10, <b>Will</b> +16</p> 
+  <p><b>HP</b> 135</p> 
+  <hr> 
+  <p><b>Speed</b> 10 feet, swim 60 feet</p> 
+  <p><b>Melee</b> [one-action] tentacle +16 (agile, magical, reach 15 feet), <b>Damage</b> 2d8+10 bludgeoning plus slime</p> 
+  <p><b>Occult Innate Spells</b> DC 25; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/project-image/">project image</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/veil/">veil</a> (at will); <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dominate/">dominate</a> (×3), <a class="spell" href="https://pf2.d20pfsrd.com/spell/illusory-scene/">illusory scene</a> (at will); <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/illusory-object/">illusory object</a> (at will); <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/hallucinatory-terrain/">hallucinatory terrain</a> (at will); <b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/hypnotic-pattern/">hypnotic pattern</a> (at will)</p> 
+  <p><b>Slime</b> (curse, occult, virulent); <b>Saving Throw</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> DC 25; <b>Stage 1</b> no ill effect (1 round); <b>Stage 2</b> the victim&#8217;s skin softens, inflicting drained 1 (1 round); <b>Stage 3</b> the victim&#8217;s skin transforms into a clear, slimy membrane, inflicting drained 2 until the curse ends; every hour this membrane remains dry, the creature&#8217;s drained condition increases by 1 (permanent).</p> 
+  <p>A <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-disease/">remove disease</a> spell can counteract this curse, but immunity to disease offers no protection against it.</p> 
+
+<p class="header">About</p>
+<p>Aboleths form the core of alghollthu society, and while they are the &#8221; common folk of their own societies, they see themselves as masters of all others. Unlike their leaders, who mask their actions using magical disguises, aboleths revel in their monstrous forms, appearing as primeval fish with tentacles. Masters of psychic manipulation, they are a species so ancient that they were present in the world when it was young, before the gods had turned their attention to the planet. They see all other life as something they have the right to control, so the idea that potential slaves might have faith in a higher power other than themselves enrages aboleths.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

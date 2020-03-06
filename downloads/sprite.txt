@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Sprite - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Sprite" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=389" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABfIqPGgxIGNsYXNzPSJ0aXRsZSI+U3ByaXRlPC9oMT5Db21tb24gc3ByaXRlcyBhcmUgcHJpbWV2YWwgZ3VhcmRpYW5zIHRoYXQgbGF0Y2ggb250byBhIHBlcnNvbiwgcGxhY2UsIG9yIG9iamVjdCBhbmQgZGVmZW5kIGl0IGZvciB0aGVpciBvd24gaW5zY3J1dGFibGUgcmVhc29ucy4gVGhlaXIgZGlzcG9zaXRpb25zIHZhcnkgZnJvbSBraW5kIHRvIHNwaXRlZnVsLCBidXQgYWxsIHNwcml0ZXMgaGF2ZSBhIGNhcHJpY2lvdXMgc3RyZWFrLiBCZWluZyBvbmx5IGFib3V0IDkgaW5jaGVzIHRhbGwsIHRoZXkgYXJlIHdhcnkgb2YgYW5pbWFscyB0aGF0IG1pZ2h0IGh1bnQgdGhlbSwgcGFydGljdWxhcmx5IGhvdXNlIGNhdHMsIGFuZCBwcmVmZXIgZmxpZ2h0IHRvIGEgZmlnaHQuIE9uIHRoZSBvdGhlciBoYW5kLCBzcHJpdGVzIGFyZSBpbmNyZWRpYmx5IGN1cmlvdXMgYWJvdXQgYWxsIGZvcm1zIG9mIG1hZ2ljIGFuZCBoZWVkbGVzc2x5IGdhdGhlciBhcm91bmQgbGV5IGxpbmUgbmV4dXNlcyBvciBvdGhlciBwbGFjZXMgb2YgcG93ZXIuPGJyIC8+PGJyIC8+PGI+PHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9NSZHZW5lcmFsPXRydWUiPlJlY2FsbCBLbm93bGVkZ2UgLSBGZXk8L2E+PC91PiAoPHU+PGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MTAiPk5hdHVyZTwvYT48L3U+KTwvYj46IERDIDEzPGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9JRD0zODkiPlNwcml0ZTwvYT48c3BhbiBzdHlsZT0iZmxvYXQ6cmlnaHQ7Ij5DcmVhdHVyZSAtMTwvc3Bhbj48L2gxPjxzcGFuIGFsdD0iQ2hhb3RpYyBOZXV0cmFsIiBjbGFzcz0idHJhaXRhbGlnbm1lbnQiIHRpdGxlPSJDaGFvdGljIE5ldXRyYWwiPkNOPC9zcGFuPjxzcGFuIGFsdD0iVGlueSIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9IlRpbnkiPlRpbnk8L3NwYW4+PHNwYW4gYWx0PSJGZXkgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkNyZWF0dXJlcyBvZiB0aGUgRmlyc3QgV29ybGQgYXJlIGNhbGxlZCB0aGUgZmV5LiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjkiPkZleTwvYT48L3NwYW4+PHNwYW4gYWx0PSJTcHJpdGUgVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkEgZmFtaWx5IG9mIGRpbWludXRpdmUgd2luZ2VkIGZleSB3aXRoIGEgc3Ryb25nIGNvbm5lY3Rpb24gdG8gcHJpbWFsIG1hZ2ljLiI+PGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjM4Ij5TcHJpdGU8L2E+PC9zcGFuPjxiciAvPjxiPlNvdXJjZTwvYj4gPGEgaHJlZj0iaHR0cHM6Ly9wYWl6by5jb20vcHJvZHVjdHMvYnRxMDF5MG0/UGF0aGZpbmRlci1CZXN0aWFyeSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJleHRlcm5hbC1saW5rIj48aT5CZXN0aWFyeSBwZy4gMzA4PC9pPjwvYT48YnIgLz48Yj5QZXJjZXB0aW9uPC9iPiArNDsgbG93LWxpZ2h0IHZpc2lvbjxiciAvPjxiPkxhbmd1YWdlczwvYj4gPGEgaHJlZj0iTGFuZ3VhZ2VzLmFzcHg/SUQ9MSI+PHU+Q29tbW9uPC9hPjwvdT4sIDxhIGhyZWY9Ikxhbmd1YWdlcy5hc3B4P0lEPTEwIj48dT5TeWx2YW48L2E+PC91PjxiciAvPjxiPlNraWxsczwvYj4gPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MSI+PHU+QWNyb2JhdGljczwvYT48L3U+ICs2LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xNSI+PHU+U3RlYWx0aDwvYT48L3U+ICs2PGJyIC8+PGI+U3RyPC9iPiAtMywgPGI+RGV4PC9iPiArNCwgPGI+Q29uPC9iPiArMCwgPGI+SW50PC9iPiAtMiwgPGI+V2lzPC9iPiArMCwgPGI+Q2hhPC9iPiArMjxiciAvPjxiPkx1bWlub3VzIEZpcmU8L2I+ICg8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjUiPmV2b2NhdGlvbjwvYT4sIDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJUcmFpdHMuYXNweD9JRD0xMDAiPmxpZ2h0PC9hPiwgPGEgc3R5bGU9InRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUiIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTEzNCI+cHJpbWFsPC9hPikgQSBzcHJpdGUgbmF0dXJhbGx5IHNoZWRzIGxpZ2h0IGxpa2UgYSB0b3JjaC4gVGhlIHNwcml0ZSBjYW4gZXh0aW5ndWlzaCwgcmVraW5kbGUsIG9yIGNoYW5nZSB0aGUgY29sb3Igb2YgdGhpcyBsaWdodCB1c2luZyBhIHNpbmdsZSBhY3Rpb24sIHdoaWNoIGhhcyB0aGUgY29uY2VudHJhdGUgdHJhaXQuIFdoaWxlIHRoaXMgbGlnaHQgaXMgZXh0aW5ndWlzaGVkLCB0aGUgc3ByaXRl4oCZcyBTdHJpa2VzIGRvbuKAmXQgZGVhbCBmaXJlIGRhbWFnZSBhbmQgdGhleSBjYW7igJl0IHVzZSB0aGVpciBsdW1pbm91cyBzcGFyayBTdHJpa2UuPGJyIC8+PGI+SXRlbXM8L2I+IDxhIGhyZWY9IldlYXBvbnMuYXNweD9JRD0zNiI+PHU+cmFwaWVyPC91PjwvYT48aHIgLz48Yj5BQzwvYj4gMTUsIDxiPkZvcnQ8L2I+ICsyLCA8Yj5SZWY8L2I+ICs4LCA8Yj5XaWxsPC9iPiArNDxiciAvPjxiPkhQPC9iPiAxMTsgPGI+V2Vha25lc3NlczwvYj4gY29sZCBpcm9uIDM8aHIgLz48Yj5TcGVlZDwvYj4gMTAgZmVldCwgZmx5IDQwIGZlZXQ8YnIgLz48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPk1lbGVlPC9iPiA8aW1nIGNsYXNzPSJhY3Rpb25kYXJrIiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uLnBuZyI+PGltZyBjbGFzcz0iYWN0aW9ubGlnaHQiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb25fSS5wbmciPiByYXBpZXIgKzggKDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE3NCI+PHU+ZGVhZGx5IDFkODwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzUiPjx1PmRpc2FybTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzkiPjx1PmZpbmVzc2U8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NzIiPjx1PmZpcmU8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTAzIj48dT5tYWdpY2FsPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkNuKAkzMgcGllcmNpbmcgcGx1cyAxIGZpcmU8L3NwYW4+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5SYW5nZWQ8L2I+IDxpbWcgY2xhc3M9ImFjdGlvbmRhcmsiIGFsdD0iU2luZ2xlIEFjdGlvbiIgc3R5bGU9ImhlaWdodDoxNXB4OyBwYWRkaW5nOjBweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcQWN0aW9uc1xPbmVBY3Rpb24ucG5nIj48aW1nIGNsYXNzPSJhY3Rpb25saWdodCIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbl9JLnBuZyI+IGx1bWlub3VzIHNwYXJrICs4ICg8YSBocmVmPSJUcmFpdHMuYXNweD9JRD03MiI+PHU+ZmlyZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xMDAiPjx1PmxpZ2h0PC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTI0OCI+PHU+cmFuZ2UgMjAgZmVldDwvYT48L3U+KSwgPGI+RGFtYWdlPC9iPiAxZDQgZmlyZTwvc3Bhbj48Yj5QcmltYWwgSW5uYXRlIFNwZWxsczwvYj4gREMgMTY7IDxiPjFzdDwvYj4gPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NDQiPmNvbG9yIHNwcmF5PC9hPjwvdT48L2k+OyA8Yj5DYW50cmlwczwvYj4gPGI+KDFzdCk8L2I+IDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTU4Ij5kYW5jaW5nIGxpZ2h0czwvYT48L3U+PC9pPiwgPGk+PHU+PGEgaHJlZj0iU3BlbGxzLmFzcHg/SUQ9NjEiPmRhemU8L2E+PC91PjwvaT4sIDxpPjx1PjxhIGhyZWY9IlNwZWxscy5hc3B4P0lEPTY2Ij5kZXRlY3QgbWFnaWM8L2E+PC91PjwvaT48YnIgLz48aDIgY2xhc3M9InRpdGxlIj5BbGwgTW9uc3RlcnMgaW4gIjxhIGhyZWY9Ik1vbnN0ZXJGYW1pbGllcy5hc3B4P0lEPTk1Ij5TcHJpdGU8L2E+IjwvaDI+PHRhYmxlIGNsYXNzPSJpbm5lciI+PHRyPjx0ZD48Yj5OYW1lPC9iPjwvdGQ+PHRkPjxiPkxldmVsPC9iPjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MzkwIj5HcmlnPC9hPjwvdGQ+PHRkPjE8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTM5MSI+UGl4aWU8L2E+PC90ZD48dGQ+NDwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9Mzg5Ij5TcHJpdGU8L2E+PC90ZD48dGQ+LTE8L3RkPjwvdHI+PC90YWJsZT48aDEgY2xhc3M9InRpdGxlIj48YSBocmVmPSJNb25zdGVyRmFtaWxpZXMuYXNweD9JRD05NSI+U3ByaXRlPC9hPjwvaDE+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiAzMDg8L2k+PC9hPjxiciAvPkVsdXNpdmUsIGZsaWdodHksIGFuZCBlYnVsbGllbnQsIHNwcml0ZXMgYXJlIHdoYXQgbWFueSB2aWxsYWdlcnMgZmlyc3QgaW1hZ2luZSB3aGVuIHRoZXkgaGVhciB0aGUgdGVybXMg4oCcZmV54oCdIG9yIOKAnGZhaXJ5LuKAnSBXaGlsZSB0aGVpciBkaXNwb3NpdGlvbnMgdmFyeSBmcm9tIHRoZSBiZW5ldm9sZW50IGdyaWcgdG8gdGhlIHRyaWNrc3RlciBwaXhpZSwgYWxsIHNwcml0ZXMgc2hhcmUgYSBjb25uZWN0aW9uIHRvIG1hZ2ljIGFuZCBkaW1pbnV0aXZlIHNpemUuIFRoaXMgZmFtaWx5IG9mIGZleSBzaGFyZXMgaXRzIG5hbWUgd2l0aCBpdHMgc2xpZ2h0ZXN0IGFuZCBtb3N0IHBvcHVsb3VzIG1lbWJlciwgdGhlIGNvbW1vbiBzcHJpdGUuPGgzIGNsYXNzPSJ0aXRsZSI+PGltZyBhbHQ9IlNpZGViYXIgLSBBZGRpdGlvbmFsIExvcmUiIHRpdGxlPSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiBzdHlsZT0iaGVpZ2h0OjIwcHg7IHBhZGRpbmc6MnB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xJY29uc1xTaWRlYmFyXzJfQWRkaXRpb25hbExvcmUucG5nIj4gU3ByaXRlIFByYW5rczwvaDM+U3ByaXRlIHByYW5rcyB0ZW5kIHRvIGJlIGtpbmTigJFoZWFydGVkIGluIG5hdHVyZTsgdGhleSBtaWdodCB1c2UgdGhlaXIgYWJpbGl0aWVzIHRvIGVtYmFycmFzcyBhIGJyYWdnYXJ0IG9yIHRvIHRyaWNrIHRoZW0gaW50byBhIGNvbnZvbHV0ZWQgc2NoZW1lIHRvIGhlbHAgc29tZW9uZSBub3RpY2UgYW4gYWRtaXJlciB3aG8gaGFzIGJlZW4gdGhlcmUgZm9yIHRoZW0gYWxsIGFsb25nLiBUaGVpciBwbGFucyBhcmUgb2Z0ZW4gaGFsZi1iYWtlZDsgc3ByaXRlc+KAmSBtZXJjdXJpYWwgbmF0dXJlIG1lYW5zIHRoZXkgY2FuIGVhc2lseSBiZWNvbWUgZGlzdHJhY3RlZCBieSBzb21ldGhpbmcgbmV3IGJlZm9yZSBmb2xsb3dpbmcgdGhyb3VnaCBvbiBhIHByZXZpb3VzIHBsYW4uZGQCCw88KwANAQAPFgYeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAR4HVmlzaWJsZWhkFgJmD2QWBAIBD2QWDGYPZBYCZg8PFgQfAAUGU3ByaXRlHgtOYXZpZ2F0ZVVybAUUTW9uc3RlcnMuYXNweD9JRD0zODlkZAIBDw8WAh8ABQZTcHJpdGVkZAICDw8WAh8ABQYmbmJzcDtkZAIDDw8WAh8ABQ9DaGFvdGljIE5ldXRyYWxkZAIEDw8WAh8ABQYmbmJzcDtkZAIFDw8WAh8ABQYmbmJzcDtkZAICDw8WAh8DaGRkAg0PD2Q8KwAGAGQYAQUeY3RsMDAkTWFpbkNvbnRlbnQkVGFibGVFbGVtZW50DxQrAApkZGRkZGQVAQpNb25zdGVyc0lEFCsAARQrAAEChQMCARQrAAEChQNkIK6XUmJeSJiAm/aTvIai9+kzIb4=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Sprite</h1>Common sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Fey</a></u> (<u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 13<h1 class="title"><a href="Monsters.aspx?ID=389">Sprite</a><span style="float:right;">Creature -1</span></h1><span alt="Chaotic Neutral" class="traitalignment" title="Chaotic Neutral">CN</span><span alt="Tiny" class="traitsize" title="Tiny">Tiny</span><span alt="Fey Trait" class="trait" title="Creatures of the First World are called the fey."><a href="Traits.aspx?ID=69">Fey</a></span><span alt="Sprite Trait" class="trait" title="A family of diminutive winged fey with a strong connection to primal magic."><a href="Traits.aspx?ID=238">Sprite</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 308</i></a><br /><b>Perception</b> +4; low-light vision<br /><b>Languages</b> <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=10"><u>Sylvan</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +6, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +6<br /><b>Str</b> -3, <b>Dex</b> +4, <b>Con</b> +0, <b>Int</b> -2, <b>Wis</b> +0, <b>Cha</b> +2<br /><b>Luminous Fire</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=65">evocation</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=100">light</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=134">primal</a>) A sprite naturally sheds light like a torch. The sprite can extinguish, rekindle, or change the color of this light using a single action, which has the concentrate trait. While this light is extinguished, the sprite’s Strikes don’t deal fire damage and they can’t use their luminous spark Strike.<br /><b>Items</b> <a href="Weapons.aspx?ID=36"><u>rapier</u></a><hr /><b>AC</b> 15, <b>Fort</b> +2, <b>Ref</b> +8, <b>Will</b> +4<br /><b>HP</b> 11; <b>Weaknesses</b> cold iron 3<hr /><b>Speed</b> 10 feet, fly 40 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> rapier +8 (<a href="Traits.aspx?ID=174"><u>deadly 1d8</a></u>, <a href="Traits.aspx?ID=175"><u>disarm</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>, <a href="Traits.aspx?ID=72"><u>fire</a></u>, <a href="Traits.aspx?ID=103"><u>magical</a></u>), <b>Damage</b> 1d6–3 piercing plus 1 fire</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> luminous spark +8 (<a href="Traits.aspx?ID=72"><u>fire</a></u>, <a href="Traits.aspx?ID=100"><u>light</a></u>, <a href="Traits.aspx?ID=248"><u>range 20 feet</a></u>), <b>Damage</b> 1d4 fire</span><b>Primal Innate Spells</b> DC 16; <b>1st</b> <i><u><a href="Spells.aspx?ID=44">color spray</a></u></i>; <b>Cantrips</b> <b>(1st)</b> <i><u><a href="Spells.aspx?ID=58">dancing lights</a></u></i>, <i><u><a href="Spells.aspx?ID=61">daze</a></u></i>, <i><u><a href="Spells.aspx?ID=66">detect magic</a></u></i><br /><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=95">Sprite</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=390">Grig</a></td><td>1</td></tr><tr><td><a href="Monsters.aspx?ID=391">Pixie</a></td><td>4</td></tr><tr><td><a href="Monsters.aspx?ID=389">Sprite</a></td><td>-1</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=95">Sprite</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 308</i></a><br />Elusive, flighty, and ebullient, sprites are what many villagers first imagine when they hear the terms “fey” or “fairy.” While their dispositions vary from the benevolent grig to the trickster pixie, all sprites share a connection to magic and diminutive size. This family of fey shares its name with its slightest and most populous member, the common sprite.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Sprite Pranks</h3>Sprite pranks tend to be kind‑hearted in nature; they might use their abilities to embarrass a braggart or to trick them into a convoluted scheme to help someone notice an admirer who has been there for them all along. Their plans are often half-baked; sprites’ mercurial nature means they can easily become distracted by something new before following through on a previous plan.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

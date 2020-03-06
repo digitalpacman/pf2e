@@ -1,0 +1,31 @@
+4434" class="post-4434 monster type-monster status-publish hentry srd-content-source-murmuring-fountain publisher-legendary-games">
+                                        <h1>Spirit-Gargoyle</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Spirit Gargoyle <span class="monster-level">Creature 0</span></h4>
+<p class="traits"><span class="frequency">Unique</span> <span class="alignment">CE</span> <span class="size">Medium</span> <span class="trait">Beast</span> <span class="trait">Magical</span></p>
+<p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +6; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p>
+<p><b>Languages</b> Common</p>
+<p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +6, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +6, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +6</p>
+<p><b>Str</b> +2, <b>Dex</b> +1, <b>Con</b> +2, <b>Int</b> –2, <b>Wis</b> +1, <b>Cha</b> –2</p>
+<hr />
+<p><b>AC</b> 16; <b>Fort</b> +3, <b>Ref</b> +9, <b>Will</b> +6</p>
+<p><b>HP</b> 12; <strong>Resistances</strong> physical 2 (except silver)</p>
+<div class="special-abilities">
+<p><b>Clawed Feet</b> [reaction] (attack); <b>Trigger</b> The spirit-gargoyle is Flying, and a creature moves into an adjacent square below it. <b>Effect</b> The spirit-gargoyle makes a claw Strike against the triggering creature.</p>
+</div>
+<p><b>Speed</b> 20 feet, fly 30 feet</p>
+<p><b>Melee</b> [one-action] jaws +6, <b>Damage</b> 1d6+2 piercing</p>
+<p><b>Melee</b> [one-action] claw +6 (agile), <b>Damage</b> 1d4+2 slashing</p>
+<div class="special-abilities">
+<p><strong>Spectral Charge</strong> [two-actions] The spiritgargoyle Flies up to twice its speed and can move through the space of a creature. The creature takes 2d6 negative damage (DC 16 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save).</p>
+</div>                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://www.opengamingstore.com/collections/all-products/products/the-murmuring-fountain-pf2">The Murmuring Fountain (PF2)</a> © 2019, Legendary Games; Authors Jason Nelson and Clark Peterson. Adapted by Jacob Michaels.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805785-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137805785-3');
+    </script>
+    <title>
+	Mitflit - Monsters - Archives of Nethys: Pathfinder 2nd Edition Database
+</title><link href="Styles/layout2.css" rel="stylesheet" type="text/css" /><link href="Styles/typography.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Julee" rel="stylesheet" type="text/css" /><link rel="search" type="application/opensearchdescription+xml" title="Search the Archives of Nethys" href="https://2e.aonprd.com/opensearch.xml" />
+    <script src="./Scripts/hidefilter.js" charset="utf-8"></script>
+    <script src="./Scripts/toggle.js" charset="utf-8"></script>
+    <meta name="keywords" content="Archives, Nethys, Wiki, Archives of Nethys, Pathfinder, Official, AoN, AoNPRD, PRD, PFSRD, 2E, 2nd Edition, Monsters, Mitflit" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>        
+        .nav-parent > * {
+            display: block;
+        }
+        .mobile-menu-toggle{
+            display:none;
+        }
+        #main-menu .nav-parent > .brand > .title{
+            display: none;
+        }
+    </style>
+</head>
+<body class="dark">
+	<div id="wrapper" class="clearfix" >
+		<form name="aspnetForm" method="post" action="Monsters.aspx?ID=245" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjM3ODEyMjA0D2QWAmYPZBYCAgMPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BYMKPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+PGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QWxsIj5BbGw8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckFiaWxpdGllcy5hc3B4Ij5BYmlsaXRpZXM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHgiPkZhbWlsaWVzPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJGaWx0ZXIuYXNweCI+RmlsdGVyPC9hPjxociAvPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUEiPkE8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9QiI+QjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1DIj5DPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUQiPkQ8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9RSI+RTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1GIj5GPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUciPkc8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SCI+SDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1JIj5JPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPUoiPko8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9SyI+SzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1MIj5MPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPU0iPk08L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9TiI+TjwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1PIj5PPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVAiPlA8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9USI+UTwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1SIj5SPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVMiPlM8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VCI+VDwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1VIj5VPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVYiPlY8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9VyI+VzwvYT4gfCA8YSBocmVmPSJNb25zdGVycy5hc3B4P0xldHRlcj1YIj5YPC9hPiB8IDxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/TGV0dGVyPVkiPlk8L2E+IHwgPGEgaHJlZj0iTW9uc3RlcnMuYXNweD9MZXR0ZXI9WiI+WjwvYT4gPC9oMT5kZAIJDw8WAh8ABd84PGgxIGNsYXNzPSJ0aXRsZSI+TWl0ZmxpdDwvaDE+TWl0ZmxpdHMsIGFsc28ga25vd24gYXMgbWl0ZXMsIGFyZSBzZWxmLWxvYXRoaW5nIGFuZCBwaXRpZnVsIGNvd2FyZHMsIGVhc2lseSBidWxsaWVkIGludG8gc2Vydml0dWRlIGJ5IG90aGVyIGNyZWF0dXJlcyBvciBldmVuIHNsaWdodGx5IG1vcmUgcG93ZXJmdWwgbWl0ZmxpdCBsZWFkZXJzLiBUaGV5IHRhbWUgaW5zZWN0cywgc3BpZGVycywgYW5kIG90aGVyIHN1Y2ggY3JlYXR1cmVzIHRvIHNlcnZlIGFzIGZhaXRoZnVsIGFsbGllcy4gTWl0ZmxpdHMgaGF2ZSBsb3N0IG1vc3Qgb2YgdGhlaXIgYW5jZXN0cmFsIGdyZW1saW4gbWFnaWMsIGxlYXZpbmcgdGhlc2UgaW5jb21wbGV0ZSBiZWluZ3MgZnVsbCBvZiBkb3VidCBhbmQgaW5zZWN1cml0eS4gTWl0ZmxpdHMgZmluZCBjb21wYW5pb25zaGlwIGluIHRoZSBvdGhlciBiYXNlIGNyZWF0dXJlcyBvZiB0aGUgd29ybGQsIGFuZCBmb3JnZSBib25kcyBvZiBmcmllbmRzaGlwIHdpdGggdmVybWluLCB0aGUgb25seSBvdGhlciBiZWluZ3MgdGhhdCBzZWVtIHdpbGxpbmcgdG8gYWNjZXB0IHRoZW0uIEEgc29jaWFsIHN0cnVjdHVyZSwgZXZlbiBvbmUgaW4gd2hpY2ggdGhleSBhcmUgYnVsbGllZCwgcGFydGlhbGx5IGZpbGxzIHRoZSBob2xlIHdpdGhpbiBtaXRmbGl0c+KAmSBwZXJzb25hbGl0aWVzLCBhbmQgdGhleSByYXJlbHkgcmViZWwgb3IgcmFpbCBvdXQgdW5sZXNzIHRoZWlyIHJhZ2UgaGl0cyBhIGJyZWFraW5nIHBvaW50LjxiciAvPjxiciAvPjxiPjx1PjxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTUmR2VuZXJhbD10cnVlIj5SZWNhbGwgS25vd2xlZGdlIC0gRmV5PC9hPjwvdT4gKDx1PjxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTEwIj5OYXR1cmU8L2E+PC91Pik8L2I+OiBEQyAxMzxoMSBjbGFzcz0idGl0bGUiPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjQ1Ij5NaXRmbGl0PC9hPjxzcGFuIHN0eWxlPSJmbG9hdDpyaWdodDsiPkNyZWF0dXJlIC0xPC9zcGFuPjwvaDE+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9IkltYWdlc1xNb25zdGVyc1xHcmVtbGluX01pdGZsaXQucG5nIj48aW1nIGNsYXNzPSJ0aHVtYm5haWwiIHNyYz0iSW1hZ2VzXE1vbnN0ZXJzXEdyZW1saW5fTWl0ZmxpdC5wbmciPjwvYT48c3BhbiBhbHQ9Ikxhd2Z1bCBFdmlsIiBjbGFzcz0idHJhaXRhbGlnbm1lbnQiIHRpdGxlPSJMYXdmdWwgRXZpbCI+TEU8L3NwYW4+PHNwYW4gYWx0PSJTbWFsbCIgY2xhc3M9InRyYWl0c2l6ZSIgdGl0bGU9IlNtYWxsIj5TbWFsbDwvc3Bhbj48c3BhbiBhbHQ9IkZleSBUcmFpdCIgY2xhc3M9InRyYWl0IiB0aXRsZT0iQ3JlYXR1cmVzIG9mIHRoZSBGaXJzdCBXb3JsZCBhcmUgY2FsbGVkIHRoZSBmZXkuIj48YSBocmVmPSJUcmFpdHMuYXNweD9JRD02OSI+RmV5PC9hPjwvc3Bhbj48c3BhbiBhbHQ9IkdyZW1saW4gVHJhaXQiIGNsYXNzPSJ0cmFpdCIgdGl0bGU9IkNydWVsIGFuZCBtaXNjaGlldm91cyBmZXksIGdyZW1saW5zIGhhdmUgYWNjbGltYXRlZCB0byBsaWZlIG9uIHRoZSBNYXRlcmlhbCBQbGFuZS4iPjxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTIyMSI+R3JlbWxpbjwvYT48L3NwYW4+PGJyIC8+PGI+U291cmNlPC9iPiA8YSBocmVmPSJodHRwczovL3BhaXpvLmNvbS9wcm9kdWN0cy9idHEwMXkwbT9QYXRoZmluZGVyLUJlc3RpYXJ5IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9ImV4dGVybmFsLWxpbmsiPjxpPkJlc3RpYXJ5IHBnLiAxOTI8L2k+PC9hPjxiciAvPjxiPlBlcmNlcHRpb248L2I+ICs0OyBkYXJrdmlzaW9uLCBzY2VudCAoaW1wcmVjaXNlKSAzMCBmZWV0PGJyIC8+PGI+TGFuZ3VhZ2VzPC9iPiA8YSBocmVmPSJMYW5ndWFnZXMuYXNweD9JRD0xMSI+PHU+VW5kZXJjb21tb248L2E+PC91PjxiciAvPjxiPlNraWxsczwvYj4gPGEgaHJlZj0iU2tpbGxzLmFzcHg/SUQ9MSI+PHU+QWNyb2JhdGljczwvYT48L3U+ICs1LCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD02Ij48dT5EaXBsb21hY3k8L2E+PC91PiArMSAoKzcgdnMuIGFydGhyb3BvZHMpLCA8YSBocmVmPSJTa2lsbHMuYXNweD9JRD0xMCI+PHU+TmF0dXJlPC9hPjwvdT4gKzMsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTE1Ij48dT5TdGVhbHRoPC9hPjwvdT4gKzUsIDxhIGhyZWY9IlNraWxscy5hc3B4P0lEPTE3Ij48dT5UaGlldmVyeTwvYT48L3U+ICs1PGJyIC8+PGI+U3RyPC9iPiAtMSwgPGI+RGV4PC9iPiArMywgPGI+Q29uPC9iPiArMCwgPGI+SW50PC9iPiAtMSwgPGI+V2lzPC9iPiArMSwgPGI+Q2hhPC9iPiAtMTxiciAvPjxiPlNlbGYtTG9hdGhpbmc8L2I+ICg8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjAiPmVtb3Rpb248L2E+LCA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZSIgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTA2Ij5tZW50YWw8L2E+KSBBIG1pdGZsaXTigJlzIHNlbGYtbG9hdGhpbmcgbWFrZXMgaXQgZWFzeSB0byBpbmZsdWVuY2UuIEl0IHRha2VzIGEg4oCTNCBwZW5hbHR5IHRvIGl0cyBXaWxsIERDIGFnYWluc3QgY2hlY2tzIHRvIENvZXJjZSwgRGVtb3JhbGl6ZSwgTWFrZSBhbiBJbXByZXNzaW9uLCBhbmQgUmVxdWVzdC48YnIgLz4gPGI+VmVybWluIEVtcGF0aHk8L2I+IE1pdGZsaXRzIGNhbiB1c2UgRGlwbG9tYWN5IHRvIE1ha2UgYW4gSW1wcmVzc2lvbiBvbiBhbmQgUmVxdWVzdCB0aGluZ3Mgb2YgYXJ0aHJvcG9kcyAoaW5zZWN0cywgc3BpZGVycywgc2NvcnBpb25zLCBjcmFicywgYW5kIHNpbWlsYXIgaW52ZXJ0ZWJyYXRlIGFuaW1hbHMpLiBNb3N0IGFydGhyb3BvZHMgaGF2ZSBhIHN0YXJ0aW5nIGF0dGl0dWRlIG9mIGluZGlmZmVyZW50IHRvIG1pdGZsaXRzLjxiciAvPjxiPkl0ZW1zPC9iPiA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9NjgiPjx1PmRhcnQgKDEwKTwvdT48L2E+LCA8YSBocmVmPSJXZWFwb25zLmFzcHg/SUQ9NDMiPjx1PnNob3J0c3dvcmQ8L3U+PC9hPjxociAvPjxiPkFDPC9iPiAxNSwgPGI+Rm9ydDwvYj4gKzIsIDxiPlJlZjwvYj4gKzcsIDxiPldpbGw8L2I+ICs0PGJyIC8+PGI+SFA8L2I+IDEwOyA8Yj5XZWFrbmVzc2VzPC9iPiBjb2xkIGlyb24gMjxociAvPjxiPlNwZWVkPC9iPiAyMCBmZWV0OyBjbGltYiAyMCBmZWV0PGJyIC8+PHNwYW4gY2xhc3M9ImhhbmdpbmctaW5kZW50Ij48Yj5NZWxlZTwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gc2hvcnRzd29yZCArOCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTcwIj48dT5hZ2lsZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0xNzkiPjx1PmZpbmVzc2U8L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MjAwIj48dT52ZXJzYXRpbGUgUzwvYT48L3U+KSwgPGI+RGFtYWdlPC9iPiAxZDYtMSBwaWVyY2luZzwvc3Bhbj48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPlJhbmdlZDwvYj4gPGltZyBjbGFzcz0iYWN0aW9uZGFyayIgYWx0PSJTaW5nbGUgQWN0aW9uIiBzdHlsZT0iaGVpZ2h0OjE1cHg7IHBhZGRpbmc6MHB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xBY3Rpb25zXE9uZUFjdGlvbi5wbmciPjxpbWcgY2xhc3M9ImFjdGlvbmxpZ2h0IiBhbHQ9IlNpbmdsZSBBY3Rpb24iIHN0eWxlPSJoZWlnaHQ6MTVweDsgcGFkZGluZzowcHggMnB4IDBweCAycHgiIHNyYz0iSW1hZ2VzXEFjdGlvbnNcT25lQWN0aW9uX0kucG5nIj4gZGFydCArOCAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTcwIj48dT5hZ2lsZTwvYT48L3U+LCA8YSBocmVmPSJUcmFpdHMuYXNweD9JRD0yNDgiPjx1PnJhbmdlIGluY3JlbWVudCAyMCBmZWV0PC9hPjwvdT4sIDxhIGhyZWY9IlRyYWl0cy5hc3B4P0lEPTE5NSI+PHU+dGhyb3duPC9hPjwvdT4pLCA8Yj5EYW1hZ2U8L2I+IDFkNC0xIHBpZXJjaW5nPC9zcGFuPjxiPlByaW1hbCBJbm5hdGUgU3BlbGxzPC9iPiBEQyAxNjsgPGI+Mm5kPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0yOTMiPnNwZWFrIHdpdGggYW5pbWFsczwvYT48L3U+PC9pPiAoYXQgd2lsbDsgYXJ0aHJvcG9kcyBvbmx5KTsgPGI+MXN0PC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0xOCI+YmFuZTwvYT48L3U+PC9pPjsgPGI+Q2FudHJpcHM8L2I+IDxiPigxc3QpPC9iPiA8aT48dT48YSBocmVmPSJTcGVsbHMuYXNweD9JRD0yMjkiPnByZXN0aWRpZ2l0YXRpb248L2E+PC91PjwvaT48YnIgLz48c3BhbiBjbGFzcz0iaGFuZ2luZy1pbmRlbnQiPjxiPlZlbmdlZnVsIEFuZ2VyPC9iPiAoPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9NjAiPjx1PmVtb3Rpb248L2E+PC91PiwgPGEgaHJlZj0iVHJhaXRzLmFzcHg/SUQ9MTA2Ij48dT5tZW50YWw8L2E+PC91PikgQXMgbG9uZyBhcyBpdCBpc27igJl0IDxhIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lIiBocmVmPSJDb25kaXRpb25zLmFzcHg/SUQ9MTkiPmZyaWdodGVuZWQ8L2E+LCBhIG1pdGZsaXQgZ2FpbnMgYSArMiBzdGF0dXMgYm9udXMgdG8gZGFtYWdlIHJvbGxzIGFnYWluc3QgYSBjcmVhdHVyZSB0aGF0IGhhcyBwcmV2aW91c2x5IGRhbWFnZWQgb3IgdG9ybWVudGVkIGl0Ljwvc3Bhbj48aDIgY2xhc3M9InRpdGxlIj5BbGwgTW9uc3RlcnMgaW4gIjxhIGhyZWY9Ik1vbnN0ZXJGYW1pbGllcy5hc3B4P0lEPTU4Ij5HcmVtbGluPC9hPiI8L2gyPjx0YWJsZSBjbGFzcz0iaW5uZXIiPjx0cj48dGQ+PGI+TmFtZTwvYj48L3RkPjx0ZD48Yj5MZXZlbDwvYj48L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0NyI+Smlua2luPC9hPjwvdGQ+PHRkPjE8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSJNb25zdGVycy5hc3B4P0lEPTI0NSI+TWl0ZmxpdDwvYT48L3RkPjx0ZD4tMTwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ik1vbnN0ZXJzLmFzcHg/SUQ9MjQ2Ij5QdWd3YW1waTwvYT48L3RkPjx0ZD4wPC90ZD48L3RyPjwvdGFibGU+PGgxIGNsYXNzPSJ0aXRsZSI+PGEgaHJlZj0iTW9uc3RlckZhbWlsaWVzLmFzcHg/SUQ9NTgiPkdyZW1saW48L2E+PC9oMT48Yj5Tb3VyY2U8L2I+IDxhIGhyZWY9Imh0dHBzOi8vcGFpem8uY29tL3Byb2R1Y3RzL2J0cTAxeTBtP1BhdGhmaW5kZXItQmVzdGlhcnkiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iZXh0ZXJuYWwtbGluayI+PGk+QmVzdGlhcnkgcGcuIDE5MjwvaT48L2E+PGJyIC8+R3JlbWxpbnMgYXJlIGNydWVsIGZleSB0cmlja3N0ZXJzIGFuZCBzYWJvdGV1cnMgd2hvIGhhdmUgZnVsbHkgYWNjbGltYXRlZCB0byBsaWZlIG9uIHRoZSBNYXRlcmlhbCBQbGFuZSwgZmluZGluZyBkaXN0aW5jdCBuaWNoZXMgZm9yIHRoZWlyIGludmVudGl2ZSBkZXN0cnVjdGl2ZW5lc3MuIEFsbCBncmVtbGlucyBkZWxpZ2h0IGluIHJ1aW5pbmcgb3IgYnJlYWtpbmcgdGhpbmdzLCB3aGV0aGVyIGl04oCZcyBzb21ldGhpbmcgcGh5c2ljYWwgbGlrZSBhIGRldmljZSBvciB2ZWhpY2xlIG9yIHNvbWV0aGluZyBpbnRhbmdpYmxlIHN1Y2ggYXMgYW4gYWxsaWFuY2Ugb3IgcmVsYXRpb25zaGlwLiBBIGdyZW1saW7igJlzIGdyZWF0ZXN0IGpveSBpcyB3YXRjaGluZyB0aGUgY29sbGFwc2Ugb2YgY29tcGxleCBjcmVhdGlvbnMsIHByZWZlcmFibHkgYWZ0ZXIgdGhlIGxpZ2h0ZXN0IGFuZCBzbGlnaHRlc3QsIGNhcmVmdWxseSB0YXJnZXRlZCBwdXNoIGZyb20gdGhlIGdyZW1saW4uIEdyZW1saW5zIHRlbmQgdG8gZGVuaWdyYXRlLCBidWxseSwgb3IgZXZlbiBzbGF1Z2h0ZXIgdGhlaXIgbGVzc2VyIGtpbiwgcGFydGljdWxhcmx5IG1pdGZsaXRzLCB3aG9tIGdyZW1saW5zIChhbmQgbWFueSBvdGhlcnMpIGRlcmlzaXZlbHkgY2FsbCDigJxtaXRlcy7igJ08aDMgY2xhc3M9InRpdGxlIj48aW1nIGFsdD0iU2lkZWJhciAtIFRyZWFzdXJlIGFuZCBSZXdhcmRzIiB0aXRsZT0iU2lkZWJhciAtIFRyZWFzdXJlIGFuZCBSZXdhcmRzIiBzdHlsZT0iaGVpZ2h0OjIwcHg7IHBhZGRpbmc6MnB4IDJweCAwcHggMnB4IiBzcmM9IkltYWdlc1xJY29uc1xTaWRlYmFyXzVfVHJlYXN1cmVBbmRSZXdhcmRzLnBuZyI+IEdyZW1saW4gIlRyZWFzdXJlIjwvaDM+QWxsIGdyZW1saW5zIGFyZSBob2FyZGVycywgYW5kIHRoZWlyIG5lc3RzIGFyZSBjbHV0dGVyZWQgd2l0aCBvYmplY3RzIGJvdGggdmFsdWFibGUgYW5kIHdvcnRobGVzcy4gU29ydGluZyB0aHJvdWdoIGEgZ3JlbWxpbiBuZXN0IGNhbiByZXZlYWwgdW5leHBlY3RlZCB0cmVhc3VyZXMgbGlrZSBwaWVjZXMgb2YgamV3ZWxyeSBvciBtaW5vciBtYWdpYyBpdGVtcywgYnV0IGNhcmUgbXVzdCBhbHNvIGJlIHRha2VuIHRvIGF2b2lkIGJlaW5nIGN1dCBvbiBydXN0eSBzaGFyZHMgb2YgbWV0YWwsIHBpY2tpbmcgdXAgY3Vyc2VkIGl0ZW1zLCBvciBkaXN0dXJiaW5nIGEgaGlkZGVuIG5lc3Qgb2YgdmVub21vdXMgdmVybWluLjxoMyBjbGFzcz0idGl0bGUiPjxpbWcgYWx0PSJTaWRlYmFyIC0gQWRkaXRpb25hbCBMb3JlIiB0aXRsZT0iU2lkZWJhciAtIEFkZGl0aW9uYWwgTG9yZSIgc3R5bGU9ImhlaWdodDoyMHB4OyBwYWRkaW5nOjJweCAycHggMHB4IDJweCIgc3JjPSJJbWFnZXNcSWNvbnNcU2lkZWJhcl8yX0FkZGl0aW9uYWxMb3JlLnBuZyI+IEdyZW1saW4gQmVsbHM8L2gzPlN1cGVyc3RpdGlvdXMgc29jaWV0aWVzIHNvbWV0aW1lcyBoYW5nIHRpbnkgYmVsbHMgbWFkZSBvZiBzZW1pcHJlY2lvdXMgbWV0YWxzIGluIHRoZSBiZWxpZWYgdGhhdCBzdWNoIGJlbGxzIHdpbGwgZGlzc3VhZGUgZ3JlbWxpbnMgZnJvbSBkZXN0cm95aW5nIGFuIGFmZml4ZWQgb2JqZWN0IG9yIGluZmVzdGluZyBhIGhvbWUuIFN0cmFuZ2VseSBlbm91Z2gsIG1vc3QgZ3JlbWxpbnMgYmVsaWV2ZSB0aGlzIHN1cGVyc3RpdGlvbiBhcyB3ZWxsLCBhbmQgZXZlbiB3aGVuIGEgZ3JlbWxpbiBiZWxsIGhhc27igJl0IGJlZW4gbWFnaWNhbGx5IGVuaGFuY2VkLCBhIGdyZW1saW4gdXN1YWxseSB3b27igJl0IHJpc2sgdGlua2VyaW5nIHdpdGggb2JqZWN0cyB0aGF0IHNlZW0gdG8gYmUgcHJvdGVjdGVkIGluIHN1Y2ggYSBtYW5uZXIuZGQCCw88KwANAQAPFgYeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnQCAR4HVmlzaWJsZWhkFgJmD2QWBAIBD2QWDGYPZBYCZg8PFgQfAAUHTWl0ZmxpdB4LTmF2aWdhdGVVcmwFFE1vbnN0ZXJzLmFzcHg/SUQ9MjQ1ZGQCAQ8PFgIfAAUHR3JlbWxpbmRkAgIPDxYCHwAFBiZuYnNwO2RkAgMPDxYCHwAFC0xhd2Z1bCBFdmlsZGQCBA8PFgIfAAUGJm5ic3A7ZGQCBQ8PFgIfAAUGJm5ic3A7ZGQCAg8PFgIfA2hkZAINDw9kPCsABgBkGAEFHmN0bDAwJE1haW5Db250ZW50JFRhYmxlRWxlbWVudA8UKwAKZGRkZGRkFQEKTW9uc3RlcnNJRBQrAAEUKwABAvUBAgEUKwABAvUBZLt8/MWnNzkuda4McoFemUveTNbQ" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F82C4B6D" />
+</div>
+			<div class="page clearfix" id="page" >
+				<div class="header">
+					<div class="clear hideSkiplink" id="main-menu" >
+                        <a class="mobile-menu-toggle" id="mobile-menu-toggle" href="javascript:void(0);" data-toggle="mobile">|||</a>
+                        <div class="splash"></div>
+                        <div class="nav-parent" id="nav-parent">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="home">
+                                    Home
+                                </span>
+                            </a>
+                            <a href="/Actions.aspx">Actions/Activities</a>
+                            <a href="/Ancestries.aspx">Ancestries</a>
+                            <a href="/Archetypes.aspx">Archetypes</a>
+                            <a href="/Backgrounds.aspx">Backgrounds</a>
+                            <a href="/Classes.aspx">Classes</a>
+                            <a href="/Conditions.aspx">Conditions</a>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Feats.aspx">Feats</a>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Rules.aspx">Rules</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="/Skills.aspx">Skills</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Traits.aspx">Traits</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/Licenses.aspx">Licenses</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <img src="Images/heading_flourish.png" alt="flourish" class="flourish" />
+                            <a href="/ContactUs.aspx">Contact Us</a>
+                            <a href="/Contributors.aspx">Contributors</a>
+						    <a href="/Support.aspx">Support the Archives</a>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <a id="minMaxMenu" href="javascript:void(0);">Maximize Menu</a>
+                        </div>
+                        
+                        <div class="nav-parent expand-collapse" id="mobile-nav-parent" data-target="mobile">
+                            <a href="/Default.aspx" style="font-size:larger" class="brand">
+                                <span class="title">
+                                    Archives of Nethys
+                                </span>
+                            </a>
+                            <a href="javascript:void(0);" data-toggle="cc">Character Creation +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed expanded" data-target="cc" data-group="menus">
+                                <a href="/Ancestries.aspx">Ancestries</a>
+                                <a href="/Archetypes.aspx">Archetypes</a>
+                                <a href="/Backgrounds.aspx">Backgrounds</a>
+                                <a href="/Classes.aspx">Classes</a>
+                                <a href="/Feats.aspx">Feats</a>
+                                <a href="/Skills.aspx">Skills</a>
+                            </div>
+                            <a href="/Equipment.aspx">Equipment</a>
+                            <a href="/Spells.aspx">Spells/Rituals</a>
+                            <a href="/Setting.aspx">Setting</a>
+                            <a href="javascript:void(0);" data-toggle="rules">Rules +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="rules" data-group="menus">
+                                <a href="/Actions.aspx">Actions/Activities</a>
+                                <a href="/Conditions.aspx">Conditions</a>
+                                <a href="/Rules.aspx">Rules</a>
+                                <a href="/Traits.aspx">Traits</a>
+                            </div>
+                            <a href="/Hazards.aspx">Hazards</a>
+                            <a href="/Monsters.aspx">Monsters</a>
+                            <a href="/Sources.aspx">Sources</a>
+                            <a href="javascript:void(0);" data-toggle="about" data-group="">About the Archives +</a>
+                            <div class="expand-collapse expand-collapse-group hide-when-collapsed" data-target="about" data-group="menus">
+                                <a href="/Licenses.aspx">Licenses</a>
+                                <a href="/ContactUs.aspx">Contact Us</a>
+                                <a href="/Contributors.aspx">Contributors</a>
+						        <a href="/Support.aspx">Support the Archives</a>
+                            </div>
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Search" />
+                                <button type="button" class="search-button">
+                                    <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 24px; width: 24px; fill: "><path d="M0 0h512v512H0z" fill="transparent" fill-opacity="0"></path><g class="" transform="translate(0,0)" style="touch-action: none;"><path d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z" fill-opacity="1"></path></g></svg>
+                                </button>
+                            </div>
+                            <div class="edition-toggle">
+                                <a href="https://www.aonprd.com" >
+                                    Pathfinder 1<sup>st</sup>&nbsp;ed.
+
+                                </a> 
+                                <a href="https://2e.aonprd.com" class="active">
+                                    Pathfinder 2<sup>nd</sup>&nbsp;ed.
+                                </a>
+                            </div>
+                            <a href="https://www.aonsrd.com">Starfinder</a>
+                        </div>
+					</div>
+                    <div class="theme-toggle-wrapper" title="Toggle Theme">
+                        <input type="checkbox" id="theme-toggle" name="theme-toggle" class="switch" />
+                        <label for="theme-toggle" id="theme-toggle-label">&nbsp;</label>
+                        <div class="tooltip">Toggle Theme</div>
+                    </div>
+		        </div>
+                <div class="main-wrapper" id="main-wrapper">
+					<div class="menutitle">
+						<h1>
+							Archives of Nethys
+						</h1>
+                        <h2>
+                            <a href="https://www.aonprd.com">Pathfinder 1E</a> | <b><a href="https://2e.aonprd.com">Pathfinder 2E</a></b> | <a href="https://www.aonsrd.com">Starfinder</a>
+                        </h2>
+					</div>
+                    <div class="main" id="main">
+						
+    <span id="ctl00_MainContent_Navigation"><h1 style="text-align:center"><a href="Monsters.aspx?Letter=All">All</a> | <a href="MonsterAbilities.aspx">Abilities</a> | <a href="MonsterFamilies.aspx">Families</a> | <a href="MonsterFilter.aspx">Filter</a><hr /><a href="Monsters.aspx?Letter=A">A</a> | <a href="Monsters.aspx?Letter=B">B</a> | <a href="Monsters.aspx?Letter=C">C</a> | <a href="Monsters.aspx?Letter=D">D</a> | <a href="Monsters.aspx?Letter=E">E</a> | <a href="Monsters.aspx?Letter=F">F</a> | <a href="Monsters.aspx?Letter=G">G</a> | <a href="Monsters.aspx?Letter=H">H</a> | <a href="Monsters.aspx?Letter=I">I</a> | <a href="Monsters.aspx?Letter=J">J</a> | <a href="Monsters.aspx?Letter=K">K</a> | <a href="Monsters.aspx?Letter=L">L</a> | <a href="Monsters.aspx?Letter=M">M</a> | <a href="Monsters.aspx?Letter=N">N</a> | <a href="Monsters.aspx?Letter=O">O</a> | <a href="Monsters.aspx?Letter=P">P</a> | <a href="Monsters.aspx?Letter=Q">Q</a> | <a href="Monsters.aspx?Letter=R">R</a> | <a href="Monsters.aspx?Letter=S">S</a> | <a href="Monsters.aspx?Letter=T">T</a> | <a href="Monsters.aspx?Letter=U">U</a> | <a href="Monsters.aspx?Letter=V">V</a> | <a href="Monsters.aspx?Letter=W">W</a> | <a href="Monsters.aspx?Letter=X">X</a> | <a href="Monsters.aspx?Letter=Y">Y</a> | <a href="Monsters.aspx?Letter=Z">Z</a> </h1></span>
+    <span id="ctl00_MainContent_SubNavigation"></span>
+    <hr />
+    <span id="ctl00_MainContent_Header"></span>
+    <span id="ctl00_MainContent_HeaderDescrip"></span>
+
+    <span id="ctl00_MainContent_DetailedOutput"><h1 class="title">Mitflit</h1>Mitflits, also known as mites, are self-loathing and pitiful cowards, easily bullied into servitude by other creatures or even slightly more powerful mitflit leaders. They tame insects, spiders, and other such creatures to serve as faithful allies. Mitflits have lost most of their ancestral gremlin magic, leaving these incomplete beings full of doubt and insecurity. Mitflits find companionship in the other base creatures of the world, and forge bonds of friendship with vermin, the only other beings that seem willing to accept them. A social structure, even one in which they are bullied, partially fills the hole within mitflits’ personalities, and they rarely rebel or rail out unless their rage hits a breaking point.<br /><br /><b><u><a href="Skills.aspx?ID=5&General=true">Recall Knowledge - Fey</a></u> (<u><a href="Skills.aspx?ID=10">Nature</a></u>)</b>: DC 13<h1 class="title"><a href="Monsters.aspx?ID=245">Mitflit</a><span style="float:right;">Creature -1</span></h1><a target="_blank" href="Images\Monsters\Gremlin_Mitflit.png"><img class="thumbnail" src="Images\Monsters\Gremlin_Mitflit.png"></a><span alt="Lawful Evil" class="traitalignment" title="Lawful Evil">LE</span><span alt="Small" class="traitsize" title="Small">Small</span><span alt="Fey Trait" class="trait" title="Creatures of the First World are called the fey."><a href="Traits.aspx?ID=69">Fey</a></span><span alt="Gremlin Trait" class="trait" title="Cruel and mischievous fey, gremlins have acclimated to life on the Material Plane."><a href="Traits.aspx?ID=221">Gremlin</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 192</i></a><br /><b>Perception</b> +4; darkvision, scent (imprecise) 30 feet<br /><b>Languages</b> <a href="Languages.aspx?ID=11"><u>Undercommon</a></u><br /><b>Skills</b> <a href="Skills.aspx?ID=1"><u>Acrobatics</a></u> +5, <a href="Skills.aspx?ID=6"><u>Diplomacy</a></u> +1 (+7 vs. arthropods), <a href="Skills.aspx?ID=10"><u>Nature</a></u> +3, <a href="Skills.aspx?ID=15"><u>Stealth</a></u> +5, <a href="Skills.aspx?ID=17"><u>Thievery</a></u> +5<br /><b>Str</b> -1, <b>Dex</b> +3, <b>Con</b> +0, <b>Int</b> -1, <b>Wis</b> +1, <b>Cha</b> -1<br /><b>Self-Loathing</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=60">emotion</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=106">mental</a>) A mitflit’s self-loathing makes it easy to influence. It takes a –4 penalty to its Will DC against checks to Coerce, Demoralize, Make an Impression, and Request.<br /> <b>Vermin Empathy</b> Mitflits can use Diplomacy to Make an Impression on and Request things of arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals). Most arthropods have a starting attitude of indifferent to mitflits.<br /><b>Items</b> <a href="Weapons.aspx?ID=68"><u>dart (10)</u></a>, <a href="Weapons.aspx?ID=43"><u>shortsword</u></a><hr /><b>AC</b> 15, <b>Fort</b> +2, <b>Ref</b> +7, <b>Will</b> +4<br /><b>HP</b> 10; <b>Weaknesses</b> cold iron 2<hr /><b>Speed</b> 20 feet; climb 20 feet<br /><span class="hanging-indent"><b>Melee</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> shortsword +8 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=179"><u>finesse</a></u>, <a href="Traits.aspx?ID=200"><u>versatile S</a></u>), <b>Damage</b> 1d6-1 piercing</span><span class="hanging-indent"><b>Ranged</b> <img class="actiondark" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction.png"><img class="actionlight" alt="Single Action" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\OneAction_I.png"> dart +8 (<a href="Traits.aspx?ID=170"><u>agile</a></u>, <a href="Traits.aspx?ID=248"><u>range increment 20 feet</a></u>, <a href="Traits.aspx?ID=195"><u>thrown</a></u>), <b>Damage</b> 1d4-1 piercing</span><b>Primal Innate Spells</b> DC 16; <b>2nd</b> <i><u><a href="Spells.aspx?ID=293">speak with animals</a></u></i> (at will; arthropods only); <b>1st</b> <i><u><a href="Spells.aspx?ID=18">bane</a></u></i>; <b>Cantrips</b> <b>(1st)</b> <i><u><a href="Spells.aspx?ID=229">prestidigitation</a></u></i><br /><span class="hanging-indent"><b>Vengeful Anger</b> (<a href="Traits.aspx?ID=60"><u>emotion</a></u>, <a href="Traits.aspx?ID=106"><u>mental</a></u>) As long as it isn’t <a style="text-decoration:underline" href="Conditions.aspx?ID=19">frightened</a>, a mitflit gains a +2 status bonus to damage rolls against a creature that has previously damaged or tormented it.</span><h2 class="title">All Monsters in "<a href="MonsterFamilies.aspx?ID=58">Gremlin</a>"</h2><table class="inner"><tr><td><b>Name</b></td><td><b>Level</b></td></tr><tr><td><a href="Monsters.aspx?ID=247">Jinkin</a></td><td>1</td></tr><tr><td><a href="Monsters.aspx?ID=245">Mitflit</a></td><td>-1</td></tr><tr><td><a href="Monsters.aspx?ID=246">Pugwampi</a></td><td>0</td></tr></table><h1 class="title"><a href="MonsterFamilies.aspx?ID=58">Gremlin</a></h1><b>Source</b> <a href="https://paizo.com/products/btq01y0m?Pathfinder-Bestiary" target="_blank" class="external-link"><i>Bestiary pg. 192</i></a><br />Gremlins are cruel fey tricksters and saboteurs who have fully acclimated to life on the Material Plane, finding distinct niches for their inventive destructiveness. All gremlins delight in ruining or breaking things, whether it’s something physical like a device or vehicle or something intangible such as an alliance or relationship. A gremlin’s greatest joy is watching the collapse of complex creations, preferably after the lightest and slightest, carefully targeted push from the gremlin. Gremlins tend to denigrate, bully, or even slaughter their lesser kin, particularly mitflits, whom gremlins (and many others) derisively call “mites.”<h3 class="title"><img alt="Sidebar - Treasure and Rewards" title="Sidebar - Treasure and Rewards" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_5_TreasureAndRewards.png"> Gremlin "Treasure"</h3>All gremlins are hoarders, and their nests are cluttered with objects both valuable and worthless. Sorting through a gremlin nest can reveal unexpected treasures like pieces of jewelry or minor magic items, but care must also be taken to avoid being cut on rusty shards of metal, picking up cursed items, or disturbing a hidden nest of venomous vermin.<h3 class="title"><img alt="Sidebar - Additional Lore" title="Sidebar - Additional Lore" style="height:20px; padding:2px 2px 0px 2px" src="Images\Icons\Sidebar_2_AdditionalLore.png"> Gremlin Bells</h3>Superstitious societies sometimes hang tiny bells made of semiprecious metals in the belief that such bells will dissuade gremlins from destroying an affixed object or infesting a home. Strangely enough, most gremlins believe this superstition as well, and even when a gremlin bell hasn’t been magically enhanced, a gremlin usually won’t risk tinkering with objects that seem to be protected in such a manner.</span>
+
+    <br />
+
+    
+
+					</div>
+					<div class="clear">
+					</div>
+                </div>
+			</div>
+			<div class="footer" id="footer" >
+				<div id="et-al" >
+                    <a href="mailto:nethys@archivesofnethys.com">Site Owner: Rose Winds LLC (Blake Davis)</a><a href="http://mxguarddog.com">Email Spam Checker: MX Guarddog</a>
+                    <div id="footer-social"><a href="http://www.facebook.com/pages/Nethys-the-God-King-of-Magic/109485322401363?ref=nf" target="_blank"><img src="Images/facebook.png" width="10" height="21" /></a></div>
+				</div>
+                <div style="text-align:center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Main Archives Page -->
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:728px;height:90px"
+                        data-ad-client="ca-pub-4953734518316037"
+                        data-ad-slot="7738185508"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+			</div>
+		</form>
+	</div>
+
+  <script>
+      initiateToggle(document.getElementById('theme-toggle'));
+      initializeMenuToggle(document.getElementById('minMaxMenu'));
+      var initializeSearch = function (search) {
+          var button;
+          var text;
+          if (search.firstElementChild.classList.contains('search-input'))
+              text = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-input'))
+              text = search.lastElementChild;
+          if (search.firstElementChild.classList.contains('search-button'))
+              button = search.firstElementChild;
+          if (search.lastElementChild.classList.contains('search-button'))
+              button = search.lastElementChild;
+
+          if (search) {
+              search.addEventListener('keypress', function (e) {
+                  if (e.keyCode == 13) {
+                      e.preventDefault();
+                      if (text.value != null && text.value.length > 0)
+                          window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+                  }
+              })
+          }
+          if (button) {
+              button.addEventListener('click', function (e) {
+                  window.location = window.location.origin + "/Search.aspx?query=" + text.value;
+              });
+          }
+      };
+      var initializeExpand = function (toggle) {
+          var targetAttrString = "[data-target='" + toggle.dataset.toggle + "']";
+          //target = menu to be collapsed
+          var target = document.querySelector(targetAttrString);
+          toggle.addEventListener('click', function () {
+              var expanded = target.classList.contains('expanded');
+              expanded = !expanded;
+              if (expanded) {
+                  //hide other in group if exists
+                  if (target.dataset.group) {
+                      var otherExpanded = document.querySelector('.expanded[data-group="' + target.dataset.group + '"]');
+                      if (otherExpanded) {
+                          otherExpanded.classList.remove('expanded');
+                      }
+                  }
+                  target.classList.add('expanded');
+              } else {
+                  target.classList.remove('expanded');
+              }
+          });
+      };
+      (function () {
+          //toggles = link that expands/collapses target
+          var toggles = document.querySelectorAll('[data-toggle]');
+          toggles.forEach(function (toggle) {
+              initializeExpand(toggle);
+          });
+          //searches
+          var searches = document.querySelectorAll('.search');
+          searches.forEach(function (search) {
+              initializeSearch(search);
+          });
+      })();
+  </script>
+</body>
+</html>

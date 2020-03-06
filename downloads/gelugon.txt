@@ -1,0 +1,46 @@
+1012" class="post-1012 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-devil">
+                                        <h1>Gelugon (Ice Devil)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Gelugon <span class="monster-level">Creature 13</span></h4> 
+ <p class="traits"><span class="alignment">LE</span>  <span class="size">Large</span> <span class="trait">Devil</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +26; greater <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+ <p><b>Languages</b> Celestial, Common, Draconic, Infernal; telepathy 100 feet</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +26, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +22, Warfare <a href="https://pf2.d20pfsrd.com/rules/skills/#Lore_Int">Lore</a> +30</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +5, <b>Con</b> +5, <b>Int</b> +8, <b>Wis</b> +5, <b>Cha</b> +4</p> 
+ <p><b>Items</b> +1 Striking longspear</p> 
+ <hr> 
+ <p><b>AC</b> 34; <b>Fort</b> +24, <b>Ref</b> +24, <b>Will</b> +26; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 215; <b>Immunities</b> cold, fire; <b>Weaknesses</b> good 10; <b>Resistances</b> physical 10 (except silver), poison 10</p> 
+
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, divine, emotion, enchantment, fear, mental) 10 feet, DC 31</p> 
+</div>
+
+<p><b>Attack of Opportunity</b> [reaction]</p> 
+ <hr> 
+ <p><b>Speed</b> 35 feet, fly 35 feet (from fly)</p> 
+ <p><b>Melee</b> [one-action] frost longspear +28 (cold, evil, magical, reach 15 feet), <b>Damage</b> 2d8+12 piercing plus 1d6 cold, 1d6 evil, and slowing frost</p> 
+ <p><b>Melee</b> [one-action] tail +25 (agile, cold, evil, magical, reach 10 feet), <b>Damage</b> 2d6+12 bludgeoning plus 2d6 cold, 1d6 evil, and slowing frost</p> 
+ <p><b>Ranged</b> [one-action] frost longspear +27 (cold, magical, thrown 20 feet), <b>Damage</b> 2d8+12 piercing plus 1d6 cold</p> 
+
+<p><b>Divine Innate Spells</b> DC 33; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/cone-of-cold/">cone of cold</a> (×2); <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/illusory-scene/">illusory scene</a>; <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-ice/">wall of ice</a> (×3); <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>Cantrips</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/ray-of-frost/">ray of frost</a>; <b>Constant</b> (4th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/fly/">fly</a></p> 
+<p><b>Rituals</b> DC 33; infernal pact</p>
+
+<div class="special-abilities">
+<p><b>Slowing Frost</b> (cold, divine, evocation) The ice devil channels the extreme cold of its body through its appendages and weapons. A creature hit by an ice devil&#8217;s weapon or unarmed attack in melee must attempt a DC 32 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save or be slowed 1 for 1d4 rounds. A weapon used by an ice devil gains the effects of a frost Rune while the gelugon holds it, and the ice devil can throw any such weapon with a 20-foot range increment, trailing motes of frost.</p> 
+<p><b>Tactician of Cocytus</b> [one-action] (concentrate) An ice devil&#8217;s logical mind devises genius tactics from its perfect memory. It can telepathically send a tactical repositioning to its allies, allowing all commanded or allied evil creatures in the range of its telepathy to immediately Stride (or Burrow, Climb, Fly, or Swim, if the creature has the corresponding Speed).</p>
+</div>
+
+<p class="header">About</p>
+<p>Insectile ice devils are strategists and masterminds in Hell&#8217;s armies, using their superior intellect to strike against their enemies and spread Hell&#8217;s influence throughout the planes. An ice devil rarely breaks their solitary contemplation of strategy save to pursue a plan they have devised. They can be enticed otherwise only by an exchange of services to be determined at a later time, adding to the pieces they can play on the board. Occasionally, a mortal strategist of outstanding skill might amuse an ice devil enough for the gelugon to agree to a contest of strategy, typically a strategic board game like chess, to decide a dispute. In the unlikely event the devil loses such a contest, they inevitably go to great lengths to later obtain that mortal&#8217;s services for their own infernal ends.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

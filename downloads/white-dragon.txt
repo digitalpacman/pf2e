@@ -1,0 +1,118 @@
+1249" class="post-1249 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-chromatic-dragon">
+                                        <h1>White Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Young White Dragon <span class="monster-level">Creature 6</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +13; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, snow vision</p> 
+ <p><b>Languages</b> Draconic</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +10, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +7, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +16, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +12, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +14</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +2, <b>Con</b> +4, <b>Int</b> -1, <b>Wis</b> +1, <b>Cha</b> +0</p> 
+ <p><b>Snow Vision</b> Snow doesn&#8217;t impair a white dragon&#8217;s vision; it ignores concealment from snowfall.</p> 
+ <hr> 
+ <p><b>AC</b> 23; <b>Fort</b> +16, <b>Ref</b> +14, <b>Will</b> +11</p> 
+ <p><b>HP</b> 115; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 5</p> 
+
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 20</p> 
+<p><b>Freezing Blood</b> [reaction] (arcane, cold); <b>Trigger</b> An adjacent creature deals piercing or slashing damage to the dragon. <b>Effect</b> The dragon&#8217;s blood sprays on the creature, dealing 1d6 cold damage. A creature that takes cold damage in this way is slowed 1 for 1 round.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 30 feet, fly 80 feet; ice climb 30 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +17 (cold, reach 10 feet), <b>Damage</b> 2d8+9 piercing plus 1d6 cold</p> 
+ <p><b>Melee</b> [one-action] claw +17 (agile), <b>Damage</b> 2d6+9 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +15 (reach 15 feet), <b>Damage</b> 1d8+8 bludgeoning</p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, cold, evocation) The dragon breathes a cloud of frost that deals 7d6 cold damage in a 30-foot cone (DC 24 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+<p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one tail Strike in any order.</p> 
+<p><b>Draconic Momentum</b> When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon.</p> 
+<p><b>Ice Climb</b> A white dragon can climb on ice as though it had the listed climb Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn&#8217;t risk falling when crossing ice.</p> 
+<p><b>Ground Slam</b> [one-action] The dragon slams into the ground. It can do this if it&#8217;s on the ground or Flying within 10 feet of the ground. Each creature on the ground within 10 feet must succeed at a DC 24 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save or fall prone and take 2d6 bludgeoning damage. The dragon can then Step.</p> 
+<p><b>Shape Ice</b> [two-actions] (arcane, transmutation, water) The dragon reshapes a cube of ice or snow it touches, up to 10 feet across. Any creature standing atop the ice must succeed at a DC 15 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save or <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> check. On a failure, the creature falls prone atop the ice; on a critical failure, it falls off the ice entirely and is also prone.</p>
+</div>
+
+<h4 class="monster">Adult White Dragon <span class="monster-level">Creature 10</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +20; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, snow vision</p> 
+ <p><b>Languages</b> Common, Draconic</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +16, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +19, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +18</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +2, <b>Con</b> +5, <b>Int</b> +1, <b>Wis</b> +2, <b>Cha</b> +1</p> 
+ <p><b>Snow Vision</b> As young white dragon.</p> 
+ <hr> 
+ <p><b>AC</b> 29; <b>Fort</b> +22, <b>Ref</b> +19, <b>Will</b> +17; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 215; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 10</p> 
+
+<div class="special-abilities">
+<p><b>Dragon Chill</b> (arcane, aura, cold, evocation); 5 feet, 2d6 cold damage (DC 27 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a>)</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 27</p> 
+ <p><b>Freezing Blood</b> [reaction] (arcane, cold); As young white dragon, but 2d6 cold damage.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 30 feet, fly 120 feet; ice climb 30 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +23 (cold, magical, reach 10 feet), <b>Damage</b> 2d10+13 piercing plus 2d6 cold</p> 
+ <p><b>Melee</b> [one-action] claw +23 (agile, magical), <b>Damage</b> 2d8+13 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +22 (magical, reach 15 feet), <b>Damage</b> 2d6+11 bludgeoning</p> 
+
+<p><b>Arcane Innate Spells</b> DC 27; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/obscuring-mist/">obscuring mist</a> (at will); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/gust-of-wind/">gust of wind</a> (at will)</p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, cold, evocation); The dragon breathes a cloud of frost that deals 11d6 cold damage in a 40-foot cone (DC 29 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young white dragon.</p> 
+ <p><b>Draconic Momentum</b> As young white dragon.</p> 
+ <p><b>Ground Slam</b> [one-action] As young white dragon, but DC 29 and 3d6 bludgeoning damage.</p> 
+ <p><b>Ice Climb</b> As young white dragon.</p> 
+ <p><b>Shape Ice</b> [two-actions] (arcane, transmutation, water) As young white dragon.</p> 
+</div>
+
+<h4 class="monster">Ancient White Dragon <span class="monster-level">Creature 15</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">CE</span> <span class="size">Huge</span> <span class="trait">Cold</span> <span class="trait">Dragon</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +30; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, snow vision</p> 
+ <p><b>Languages</b> Common, Draconic, Jotun</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +31, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +26</p> 
+ <p><b>Str</b> +8, <b>Dex</b> +3, <b>Con</b> +7, <b>Int</b> +2, <b>Wis</b> +3, <b>Cha</b> +3</p> 
+ <p><b>Snow Vision</b> As young white dragon.</p> 
+ <hr> 
+ <p><b>AC</b> 36; <b>Fort</b> +30, <b>Ref</b> +26, <b>Will</b> +24, +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 330; <b>Immunities</b> cold, paralyzed, sleep; <b>Weaknesses</b> fire 15</p> 
+
+<div class="special-abilities">
+<p><b>Blizzard</b> (arcane, aura, cold); 50 feet. After the dragon uses its Breath Weapon, a fierce blizzard of blinding snow surrounds its body for 1 round. Everything in the aura is difficult terrain for other creatures that are on the ground, climbing, or flying. The blowing snow also makes all creatures in the area concealed. While the blizzard rages, the dragon&#8217;s dragon chill extends to the full area of the blizzard.</p> 
+<p><b>Dragon Chill</b> (arcane, aura, cold, evocation); 10 feet, 3d6 cold damage (DC 34 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a>)</p> 
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 34</p> 
+<p><b>Freezing Blood</b> [reaction] (arcane, cold); As young white dragon, but 3d6 cold damage.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 160 feet; ice climb 40 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +31 (cold, magical, reach 15 feet), <b>Damage</b> 3d12+16 piercing plus 3d6 cold</p> 
+ <p><b>Melee</b> [one-action] claw +31 (agile, magical, reach 10 feet), <b>Damage</b> 3d10+16 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +29 (magical, reach 20 feet), <b>Damage</b> 2d10+14 bludgeoning</p> 
+
+<p><b>Arcane Innate Spells</b> DC 36; <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-ice/">wall of ice</a> (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/obscuring-mist/">obscuring mist</a> (at will); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/gust-of-wind/">gust of wind</a> (at will)</p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, cold, evocation) The dragon breathes a cloud of frost that deals 16d6 cold damage in a 50-foot cone (DC 36 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young white dragon.</p> 
+ <p><b>Draconic Momentum</b> As young white dragon.</p> 
+ <p><b>Ground Slam</b> [one-action] As young white dragon, but DC 37 and 5d6 bludgeoning damage.</p> 
+ <p><b>Ice Climb</b> As young white dragon.</p> 
+ <p><b>Shape Ice</b> [two-actions] (arcane, transmutation, water) As young white dragon.</p> 
+</div>
+
+<p class="header">About</p>
+<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous—in fact, it may mean the opposite. It&#8217;s nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don&#8217;t care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking—and when the attack comes, it&#8217;s bloody and relentless.</p> 
+<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds.</p> 
+<p>They fly out to feed or terrorize other creatures, especially those who trespass near the dragon&#8217;s territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility—such as tools, trade goods, and fine food—over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they&#8217;ve decorated their homes over the years.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

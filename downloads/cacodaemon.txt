@@ -1,0 +1,43 @@
+932" class="post-932 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-daemon">
+                                        <h1>Cacodaemon (Harvester Daemon)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Cacodaemon <span class="monster-level">Creature 1</span></h4> 
+ <p class="traits"><span class="alignment">NE</span> <span class="size">Tiny</span> <span class="trait">Daemon</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +6; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+ <p><b>Languages</b> Common, Daemonic; telepathy 100 feet</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +8, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +5, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +6, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +8</p> 
+ <p><b>Str</b> +0, <b>Dex</b> +3, <b>Con</b> +2, <b>Int</b> -1, <b>Wis</b> +1, <b>Cha</b> +2</p> 
+ <hr> 
+ <p><b>AC</b> 16; <b>Fort</b> +7, <b>Ref</b> +8, <b>Will</b> +6</p> 
+ <p><b>HP</b> 22; <b>Immunities</b> death effects; <b>Weaknesses</b> good 3</p> 
+ <hr> 
+ <p><b>Speed</b> 5 feet, fly 40 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +8 (agile, disease, evil, finesse, magical) Damage 1d8 piercing plus 1d4 evil and cacodaemonia</p> 
+
+<p><b>Divine Innate Spells</b> DC 17; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-omens/">read omens</a>; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/invisibility/">invisibility</a> (at will; self only); <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-alignment/">detect alignment</a> (at will; good only), fear; <b>Cantrips</b> (1st) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a> (at will)</p> 
+
+<div class="special-abilities">
+<p><b>Cacodaemonia</b> (disease) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; <b>Saving Throw DC</b> 17 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a>; <b>Stage 1</b> carrier (1 day); <b>Stage 2</b> stupefied 1 (1 day); <b>Stage 3</b> stupefied 2 (1 day)</p> 
+<p><b>Change Shape</b> [one-action] (concentrate, divine, polymorph, transmutation)</p> 
+ <ul> 
+  <li><b>Lizard</b> Speed 20 feet; Melee jaws +8 (agile, finesse), <b>Damage</b> 1d8+1 piercing</li> 
+  <li><b>Octopus</b> size Small; Speed 20 feet, swim 30 feet; Melee tentacle +8 (finesse), <b>Damage</b> 1d8+1 bludgeoning plus Grab; Melee beak +8 (agile, finesse), <b>Damage</b> 1d6 piercing plus 2 poison</li> 
+  <li><b>Scorpion</b> size Small; Speed 30 feet; Melee pincer +8 (agile, finesse), <b>Damage</b> 1d6+1 bludgeoning plus Grab; Melee stinger +8 (agile, finesse), <b>Damage</b> 1d6+1 piercing plus 1d4 poison</li> 
+ </ul> 
+ <p><b>Soul Lock</b> [three-actions] (death, divine, necromancy) Once per day, a cacodaemon can ingest the soul of a sentient creature within 30 feet that died within the last minute. When it does, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in its gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but does not return the deceased creature to life. The caster of a spell to return a creature to life whose soul is trapped within a soul gem must succeed at a DC 30 <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> check. On a success, the soul gem <a class="spell" href="https://pf2.d20pfsrd.com/spell/shatter/">shatter</a>s and the creature is returned to life as normal for the spell.</p> 
+ <p>By using an Interact action, a fiend can ingest a soul gem it is holding, condemning the soul to the fiend&#8217;s home plane. The fiend gains fast Healing 5 for 1 minute.</p>
+</div>
+
+<p class="header">About</p>
+<p>These embodiments of demented violence and spite are spawned from eddies of angry and warped souls amid Abaddon&#8217;s mists. Cacodaemons constantly hunger for mortal souls and yearn to create suffering. As gnashing spheres of teeth, fins, and spines, they are the weakest of daemonkind, an amalgam of various petty forms of death without the strength that comes from focusing on a single cause of demise.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

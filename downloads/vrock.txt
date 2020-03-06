@@ -1,0 +1,47 @@
+1240" class="post-1240 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-demon">
+                                        <h1>Vrock (Wrath Demon)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Vrock <span class="monster-level">Creature 9</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Demon</span> <span class="trait">Fiend</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +18; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+ <p><b>Languages</b> Abyssal, Celestial, Draconic; telepathy 100 feet</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Performance_Cha">Performance</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Religion_Wis">Religion</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Survival_Wis">Survival</a> +16</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +3, <b>Con</b> +5, <b>Int</b> +2, <b>Wis</b> +3, <b>Cha</b> +3</p> 
+ <hr> 
+ <p><b>AC</b> 28; <b>Fort</b> +20, <b>Ref</b> +18, <b>Will</b> +15; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 185; <b>Weaknesses</b> cold iron 10, good 10; <b>Resistances</b> electricity 10</p> 
+
+<div class="special-abilities">
+<p><b>Attack of Opportunity</b> [reaction] If the vrock is flying and a creature triggers an attack of opportunity, the vrock can make 2 Strikes with its talons against that creature instead of 1 Strike.</p> 
+<p><b>Peace Vulnerability</b> A vrock&#8217;s wrath is the heart of their essence, and forcing peace upon them wrenches at their soul. If they fail a save against <a class="spell" href="https://pf2.d20pfsrd.com/spell/calm-emotions/">calm emotions</a> or a similar effect forcing them to be peaceful, a vrock takes 4d6 mental damage.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 25 feet, fly 35 feet</p> 
+ <p><b>Melee</b> [one-action] beak +21 (evil, magical, reach 10 feet), <b>Damage</b> 3d8+9 piercing plus 1d6 evil</p> 
+ <p><b>Melee</b> [one-action] claw +21 (agile, evil, magical, reach 10 feet), <b>Damage</b> 3d6+9 slashing plus 1d6 evil</p> 
+ <p><b>Melee</b> [one-action] talon +19 (agile, evil, magical, reach 10 feet), <b>Damage</b> 2d6+8 slashing plus 1d6 evil</p> 
+<p><b>Divine Innate Spells</b> DC 26; <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/dimension-door/">dimension door</a> (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/mirror-image/">mirror image</a></p> 
+<p><b>Divine Rituals</b> DC 26; Abyssal pact</p> 
+
+<div class="special-abilities">
+<p><b>Dance of Ruin</b> [three-actions] (divine, electricity, evocation, manipulate, move) The vrock dances in flight and chants to create a ruinous explosion of electricity. If more vrocks within 30 feet want to join the dance, the vrock can delay the dance to wait for more vrocks; in that case, the effect occurs after the last vrock uses Dance of Ruin or one of the vrocks chooses to complete that round of the dance. Each non-demon creature in a 20-foot emanation from any of the dancing vrocks takes 2d12 electricity damage (DC 28 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). For each additional vrock that joins the dance, the damage increases by 1d12 and the save DC increases by 1 (to a maximum of four vrocks dealing 5d12 damage with a DC 31 save). The vrocks can continue dancing by using Dance of Ruin each round, for up to 3 rounds in total. The emanation&#8217;s size increases by 20 feet each round, and the damage increases by 1d12 per vrock each round.</p> 
+<p><b>Spore Cloud</b> [one-action] (disease, poison) The vrock emits a cloud of spores from their body, dealing 2d8 poison damage to all adjacent creatures. Each creature damaged this way must succeed at a DC 28 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save or take 2d8 persistent piercing damage as the spores penetrate its skin and grow into thick, green vines. The vines cease growing after 10 rounds, and they wither away in 1d4 days if not shaved off before then. The vines can be destroyed if the creature is affected by a good spell or if holy water is applied to the vines (with an Interact action). Once the vrock uses Spore Cloud, the ability can&#8217;t be used for 1d6 rounds.</p> 
+<p><b>Stunning Screech</b> [one-action] (auditory, divine, incapacitation, Sonic) <b>Frequency</b> once per minute.; <b>Effect</b> The vrock emits a shrill screech. Each non-demon creature within a 30-foot burst must attempt a DC 28 <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Fortitude">Fortitude</a> save. On a failure, the creature is stunned 2, and on a critical failure, it&#8217;s stunned 3.</p>
+</div>
+
+<p class="header">About</p>
+<p>When the gates to the Abyss swing wide, the first demons through are often vrocks, vulture-headed scions of rage who wheel through the air on black wings or dance with the exultation of their fiendish power. Their hatred for mortals is matched only by their desire to inflict suffering through their horrible screech or their devastating dance.</p> 
+ <p>Vrocks form from the souls of hateful mortals who are thus given another chance to inflict their rage on the world.</p> 
+ <p>Vrocks often travel in small groups so as to make the best use of their dance of ruin ability, but they rarely appear in groups larger than four. Against small groups and individuals, they swoop down without fear, hoping to play with their prey before going for the kill. Against formidable foes, they are just as happy to fly above, using their dance of ruin to cast a storm of Lightning down on them.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

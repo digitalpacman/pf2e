@@ -1,0 +1,967 @@
+" style="color:White;background-color:Black;border-color:#999999;border-width:1px;border-style:Solid;border-collapse:collapse;">
+		<tr style="color:White;background-color:Black;font-weight:bold;">
+			<th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$Name')" style="color:White;">Name</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$Family')" style="color:White;">Family</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$CreatureLevel')" style="color:White;">Level</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$AlignmentOrder')" style="color:White;">Alignment</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$CreatureType')" style="color:White;">Creature Type</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$MainContent$TableElement','Sort$SizeOrder')" style="color:White;">Size</a></th>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=333"><u>Aasimar</u></a></td><td>Planar Scion</td><td>5</td><td>Neutral Good</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=243"><u>Adamantine Golem</u></a></td><td>Golem</td><td>18</td><td>Neutral</td><td>Construct</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=128"><u>Adult Black Dragon</u></a></td><td>Dragon, Chromatic</td><td>11</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=131"><u>Adult Blue Dragon</u></a></td><td>Dragon, Chromatic</td><td>13</td><td>Lawful Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=143"><u>Adult Brass Dragon</u></a></td><td>Dragon, Metallic</td><td>11</td><td>Chaotic Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=146"><u>Adult Bronze Dragon</u></a></td><td>Dragon, Metallic</td><td>13</td><td>Lawful Good</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=149"><u>Adult Copper Dragon</u></a></td><td>Dragon, Metallic</td><td>12</td><td>Chaotic Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=152"><u>Adult Gold Dragon</u></a></td><td>Dragon, Metallic</td><td>15</td><td>Lawful Good</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=134"><u>Adult Green Dragon</u></a></td><td>Dragon, Chromatic</td><td>12</td><td>Lawful Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=470"><u>Adult Magma Dragon</u></a></td><td>Dragon, Magma</td><td>13</td><td>Chaotic Neutral</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=137"><u>Adult Red Dragon</u></a></td><td>Dragon, Chromatic</td><td>14</td><td>Chaotic Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=155"><u>Adult Silver Dragon</u></a></td><td>Dragon, Metallic</td><td>14</td><td>Lawful Good</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=140"><u>Adult White Dragon</u></a></td><td>Dragon, Chromatic</td><td>10</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=192"><u>Air Mephit</u></a></td><td>Elemental, Mephit</td><td>1</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=488"><u>Aiudara Wraith</u></a></td><td>&mdash;</td><td>18</td><td>Neutral Evil</td><td>Astral, Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=239"><u>Alchemical Golem</u></a></td><td>Golem</td><td>9</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=2"><u>Alghollthu Master (Aboleth)</u></a></td><td>Alghollthu</td><td>7</td><td>Lawful Evil</td><td>Aberration</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=476"><u>Aluum Enforcer</u></a></td><td>Aluum</td><td>10</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=432"><u>Anadi Elder</u></a></td><td>Anadi</td><td>6</td><td>Chaotic Good</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=430"><u>Anadi Hunter</u></a></td><td>Anadi</td><td>2</td><td>Chaotic Good</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=431"><u>Anadi Sage</u></a></td><td>Anadi</td><td>4</td><td>Chaotic Good</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=129"><u>Ancient Black Dragon</u></a></td><td>Dragon, Chromatic</td><td>16</td><td>Chaotic Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=132"><u>Ancient Blue Dragon</u></a></td><td>Dragon, Chromatic</td><td>18</td><td>Lawful Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=144"><u>Ancient Brass Dragon</u></a></td><td>Dragon, Metallic</td><td>16</td><td>Chaotic Good</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=147"><u>Ancient Bronze Dragon</u></a></td><td>Dragon, Metallic</td><td>18</td><td>Lawful Good</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=150"><u>Ancient Copper Dragon</u></a></td><td>Dragon, Metallic</td><td>17</td><td>Chaotic Good</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=153"><u>Ancient Gold Dragon</u></a></td><td>Dragon, Metallic</td><td>20</td><td>Lawful Good</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=135"><u>Ancient Green Dragon</u></a></td><td>Dragon, Chromatic</td><td>17</td><td>Lawful Evil</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=471"><u>Ancient Magma Dragon</u></a></td><td>Dragon, Magma</td><td>18</td><td>Chaotic Neutral</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=138"><u>Ancient Red Dragon</u></a></td><td>Dragon, Chromatic</td><td>19</td><td>Chaotic Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=156"><u>Ancient Silver Dragon</u></a></td><td>Dragon, Metallic</td><td>19</td><td>Lawful Good</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=141"><u>Ancient White Dragon</u></a></td><td>Dragon, Chromatic</td><td>15</td><td>Chaotic Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=19"><u>Animated Armor</u></a></td><td>Animated Object</td><td>2</td><td>Neutral</td><td>Construct</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=18"><u>Animated Broom</u></a></td><td>Animated Object</td><td>-1</td><td>Neutral</td><td>Construct</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=20"><u>Animated Statue</u></a></td><td>Animated Object</td><td>3</td><td>Neutral</td><td>Construct</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=23"><u>Ankhrav</u></a></td><td>Ankhrav</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=119"><u>Ankylosaurus</u></a></td><td>Dinosaur</td><td>6</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=256"><u>Annis Hag</u></a></td><td>Hag</td><td>6</td><td>Chaotic Evil</td><td>Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=6"><u>Arbiter</u></a></td><td>Aeon</td><td>1</td><td>Lawful Neutral</td><td>Monitor</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=29"><u>Arboreal Regent</u></a></td><td>Arboreal</td><td>8</td><td>Neutral Good</td><td>Plant</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=27"><u>Arboreal Warden</u></a></td><td>Arboreal</td><td>4</td><td>Neutral Good</td><td>Plant</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=439"><u>Asanbosam</u></a></td><td>&mdash;</td><td>6</td><td>Chaotic Evil</td><td>Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=91"><u>Astradaemon (Void Daemon)</u></a></td><td>Daemon</td><td>16</td><td>Neutral Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=16"><u>Astral Deva (Emissary Angel)</u></a></td><td>Angel</td><td>14</td><td>Neutral Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=460"><u>Augur</u></a></td><td>Velstrac</td><td>1</td><td>Lawful Evil</td><td>Fiend</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=28"><u>Awakened Tree</u></a></td><td>Arboreal</td><td>6</td><td>Neutral</td><td>Plant</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=7"><u>Axiomite</u></a></td><td>Aeon</td><td>8</td><td>Lawful Neutral</td><td>Monitor</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=74"><u>Azure Worm</u></a></td><td>Cave Worm</td><td>15</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=15"><u>Balisse (Confessor Angel)</u></a></td><td>Angel</td><td>8</td><td>Neutral Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=380"><u>Ball Python</u></a></td><td>Snake</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=104"><u>Balor (Fire Demon)</u></a></td><td>Demon</td><td>20</td><td>Chaotic Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=39"><u>Banshee</u></a></td><td>&mdash;</td><td>17</td><td>Chaotic Evil</td><td>Spirit, Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=40"><u>Baomel</u></a></td><td>&mdash;</td><td>20</td><td>Chaotic Neutral</td><td>Aberration</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=110"><u>Barbazu (Bearded Devil)</u></a></td><td>Devil</td><td>5</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=41"><u>Barghest</u></a></td><td>Barghest</td><td>4</td><td>Chaotic Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=44"><u>Basilisk</u></a></td><td>&mdash;</td><td>5</td><td>Neutral</td><td>Beast</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=440"><u>Bida</u></a></td><td>&mdash;</td><td>8</td><td>Lawful Evil</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=442"><u>Biloko Veteran</u></a></td><td>Biloko</td><td>4</td><td>Neutral Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=441"><u>Biloko Warrior</u></a></td><td>Biloko</td><td>1</td><td>Neutral Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=323"><u>Black Pudding</u></a></td><td>Ooze</td><td>7</td><td>Neutral</td><td>Ooze</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=454"><u>Blood Boar</u></a></td><td>&mdash;</td><td>6</td><td>Neutral Evil</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=429"><u>Blood Ooze</u></a></td><td>Ooze</td><td>4</td><td>Neutral</td><td>Ooze</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=427"><u>Bloodlash Bush</u></a></td><td>Deadly Flora</td><td>2</td><td>Neutral</td><td>Plant</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=51"><u>Bloodseeker</u></a></td><td>&mdash;</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=52"><u>Boar</u></a></td><td>Boar</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=54"><u>Boggard Scout</u></a></td><td>Boggard</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=56"><u>Boggard Swampseer</u></a></td><td>Boggard</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=55"><u>Boggard Warrior</u></a></td><td>Boggard</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=57"><u>Brain Collector</u></a></td><td>&mdash;</td><td>8</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=196"><u>Brine Shark</u></a></td><td>Elemental, Water</td><td>3</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=122"><u>Brontosaurus</u></a></td><td>Dinosaur</td><td>10</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=58"><u>Bugbear Thug</u></a></td><td>Bugbear</td><td>2</td><td>Neutral Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=59"><u>Bugbear Tormentor</u></a></td><td>Bugbear</td><td>3</td><td>Neutral Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=61"><u>Bulette</u></a></td><td>&mdash;</td><td>8</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=62"><u>Bunyip</u></a></td><td>&mdash;</td><td>3</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=88"><u>Cacodaemon (Harvester Daemon)</u></a></td><td>Daemon</td><td>1</td><td>Neutral Evil</td><td>Fiend</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=65"><u>Caligni Creeper</u></a></td><td>Caligni</td><td>2</td><td>Chaotic Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=64"><u>Caligni Dancer</u></a></td><td>Caligni</td><td>1</td><td>Chaotic Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=66"><u>Caligni Stalker</u></a></td><td>Caligni</td><td>4</td><td>Chaotic Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=478"><u>Calikang</u></a></td><td>&mdash;</td><td>12</td><td>Lawful Neutral</td><td>Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=464"><u>Carnivorous Crystal</u></a></td><td>&mdash;</td><td>11</td><td>Neutral</td><td>Ooze</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=13"><u>Cassisian (Archive Angel)</u></a></td><td>Angel</td><td>1</td><td>Neutral Good</td><td>Celestial</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=71"><u>Catfolk Pouncer</u></a></td><td>Catfolk</td><td>1</td><td>Chaotic Good</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=72"><u>Cauthooj</u></a></td><td>&mdash;</td><td>12</td><td>Neutral</td><td>Beast</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=48"><u>Cave Bear</u></a></td><td>Bear</td><td>6</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=76"><u>Centaur</u></a></td><td>&mdash;</td><td>3</td><td>Neutral</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=78"><u>Centipede Swarm</u></a></td><td>Centipede</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=89"><u>Ceustodaemon (Guardian Daemon)</u></a></td><td>Daemon</td><td>6</td><td>Neutral Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=79"><u>Changeling Exile</u></a></td><td>Changeling</td><td>3</td><td>Chaotic Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=445"><u>Charau-ka Acolyte of Angazhan</u></a></td><td>Charau-ka</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=446"><u>Charau-ka Butcher</u></a></td><td>Charau-ka</td><td>6</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=444"><u>Charau-ka Warrior</u></a></td><td>Charau-ka</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=80"><u>Chimera</u></a></td><td>&mdash;</td><td>8</td><td>Chaotic Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=14"><u>Choral (Choir Angel)</u></a></td><td>Angel</td><td>6</td><td>Neutral Good</td><td>Celestial</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=81"><u>Chuul</u></a></td><td>&mdash;</td><td>7</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=187"><u>Cinder Rat</u></a></td><td>Elemental, Fire</td><td>3</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=240"><u>Clay Golem</u></a></td><td>Golem</td><td>10</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=82"><u>Cloaker</u></a></td><td>&mdash;</td><td>5</td><td>Chaotic Neutral</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=224"><u>Cloud Giant</u></a></td><td>Giant</td><td>11</td><td>Neutral</td><td>Giant, Humanoid</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=83"><u>Cockatrice</u></a></td><td>&mdash;</td><td>3</td><td>Neutral</td><td>Beast</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=482"><u>Cornugon (Horned Devil)</u></a></td><td>Devil</td><td>16</td><td>Lawful Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=284"><u>Crag Linnorm</u></a></td><td>Linnorm</td><td>14</td><td>Chaotic Evil</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=75"><u>Crimson Worm</u></a></td><td>Cave Worm</td><td>18</td><td>Neutral</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=84"><u>Crocodile</u></a></td><td>Crocodile</td><td>2</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=479"><u>Crucidaemon (Torture Daemon)</u></a></td><td>Daemon</td><td>15</td><td>Neutral Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=86"><u>Cyclops</u></a></td><td>Cyclops</td><td>5</td><td>Lawful Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=53"><u>Daeodon</u></a></td><td>Boar</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=465"><u>Dalos</u></a></td><td>&mdash;</td><td>13</td><td>Chaotic Evil</td><td>Fey</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=344"><u>Dandasuka</u></a></td><td>Rakshasa</td><td>5</td><td>Lawful Evil</td><td>Fiend</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=306"><u>Dark Naga</u></a></td><td>Naga</td><td>7</td><td>Lawful Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=296"><u>Deadly Mantis</u></a></td><td>Mantis, Giant</td><td>11</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=466"><u>Deculi</u></a></td><td>&mdash;</td><td>12</td><td>Neutral Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=96"><u>Deep Gnome Rockwarden</u></a></td><td>Deep Gnome</td><td>5</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=93"><u>Deep Gnome Scout</u></a></td><td>Deep Gnome</td><td>1</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=94"><u>Deep Gnome Warrior</u></a></td><td>Deep Gnome</td><td>2</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=118"><u>Deinonychus</u></a></td><td>Dinosaur</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=85"><u>Deinosuchus</u></a></td><td>Crocodile</td><td>9</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=283"><u>Demilich</u></a></td><td>Lich</td><td>15</td><td>Neutral Evil</td><td>Undead</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=107"><u>Dero Magister</u></a></td><td>Dero</td><td>5</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=105"><u>Dero Stalker</u></a></td><td>Dero</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=106"><u>Dero Strangler</u></a></td><td>Dero</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=164"><u>Desert Drake</u></a></td><td>Drake</td><td>8</td><td>Neutral Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=467"><u>Devourer</u></a></td><td>&mdash;</td><td>11</td><td>Neutral Evil</td><td>Undead</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=115"><u>Dezullon</u></a></td><td>&mdash;</td><td>10</td><td>Neutral</td><td>Plant</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=116"><u>Dhampir Wizard</u></a></td><td>Dhampir</td><td>2</td><td>Neutral Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=416"><u>Dire Wolf</u></a></td><td>Wolf</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=212"><u>Djinni</u></a></td><td>Genie</td><td>5</td><td>Chaotic Good</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=433"><u>Doorwarden</u></a></td><td>&mdash;</td><td>5</td><td>Lawful Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=126"><u>Doppelganger</u></a></td><td>&mdash;</td><td>3</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=157"><u>Dragon Turtle</u></a></td><td>&mdash;</td><td>9</td><td>Neutral</td><td>Dragon</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=472"><u>Dragonscarred Dead</u></a></td><td>&mdash;</td><td>13</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=489"><u>Dragonshard Guardian</u></a></td><td>&mdash;</td><td>22</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=158"><u>Drakauthix</u></a></td><td>&mdash;</td><td>9</td><td>Neutral</td><td>Fungus</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=207"><u>Drider</u></a></td><td>Fleshwarp</td><td>6</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=165"><u>Drow Fighter</u></a></td><td>Drow</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=167"><u>Drow Priestess</u></a></td><td>Drow</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=166"><u>Drow Rogue</u></a></td><td>Drow</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=314"><u>Dryad Queen (Hamadryad)</u></a></td><td>Nymph</td><td>13</td><td>Chaotic Good</td><td>Fey, Plant</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=312"><u>Dryad</u></a></td><td>Nymph</td><td>3</td><td>Chaotic Good</td><td>Fey, Plant</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=169"><u>Duergar Bombardier</u></a></td><td>Duergar</td><td>1</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=168"><u>Duergar Sharpshooter</u></a></td><td>Duergar</td><td>0</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=170"><u>Duergar Taskmaster</u></a></td><td>Duergar</td><td>2</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=171"><u>Dullahan</u></a></td><td>&mdash;</td><td>7</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=485"><u>Duneshaker Solifugid</u></a></td><td>Solifugid</td><td>18</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=332"><u>Duskwalker</u></a></td><td>Planar Scion</td><td>4</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=172"><u>Eagle</u></a></td><td>Eagle</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=193"><u>Earth Mephit</u></a></td><td>Elemental, Mephit</td><td>1</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=214"><u>Efreeti</u></a></td><td>Genie</td><td>9</td><td>Lawful Evil</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=176"><u>Elananx</u></a></td><td>&mdash;</td><td>6</td><td>Neutral Evil</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=497"><u>Elder Wyrmwraith</u></a></td><td>Wyrmwraith</td><td>23</td><td>Chaotic Evil</td><td>Dragon, Undead</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=174"><u>Electric Eel</u></a></td><td>Eel</td><td>1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=186"><u>Elemental Avalanche</u></a></td><td>Elemental, Earth</td><td>11</td><td>Neutral</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=181"><u>Elemental Hurricane</u></a></td><td>Elemental, Air</td><td>11</td><td>Neutral</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=191"><u>Elemental Inferno</u></a></td><td>Elemental, Fire</td><td>11</td><td>Neutral</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=200"><u>Elemental Tsunami</u></a></td><td>Elemental, Water</td><td>11</td><td>Neutral</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=201"><u>Elephant</u></a></td><td>Elephant</td><td>7</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=443"><u>Eloko</u></a></td><td>Biloko</td><td>7</td><td>Neutral Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=434"><u>Emperor Bird</u></a></td><td>&mdash;</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=111"><u>Erinys (Fury Devil)</u></a></td><td>Devil</td><td>8</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=203"><u>Ether Spider</u></a></td><td>&mdash;</td><td>5</td><td>Neutral</td><td>Beast, Ethereal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=204"><u>Ettin</u></a></td><td>&mdash;</td><td>6</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=461"><u>Evangelist</u></a></td><td>Velstrac</td><td>6</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=4"><u>Faceless Stalker (Ugothol)</u></a></td><td>Alghollthu</td><td>4</td><td>Chaotic Evil</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=205"><u>Faerie Dragon</u></a></td><td>&mdash;</td><td>2</td><td>Chaotic Good</td><td>Dragon</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=223"><u>Fire Giant</u></a></td><td>Giant</td><td>10</td><td>Lawful Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=194"><u>Fire Mephit</u></a></td><td>Elemental, Mephit</td><td>1</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=190"><u>Firewyrm</u></a></td><td>Elemental, Fire</td><td>9</td><td>Neutral</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=160"><u>Flame Drake</u></a></td><td>Drake</td><td>5</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=49"><u>Flash Beetle</u></a></td><td>Beetle</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=238"><u>Flesh Golem</u></a></td><td>Golem</td><td>8</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=473"><u>Forge-Spurned</u></a></td><td>&mdash;</td><td>5</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=163"><u>Frost Drake</u></a></td><td>Drake</td><td>7</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=222"><u>Frost Giant</u></a></td><td>Giant</td><td>9</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=281"><u>Fungus Leshy</u></a></td><td>Leshy</td><td>2</td><td>Neutral</td><td>Fungus</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=35"><u>Gancanagh (Passion Azata)</u></a></td><td>Azata</td><td>4</td><td>Chaotic Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=210"><u>Gargoyle</u></a></td><td>&mdash;</td><td>4</td><td>Chaotic Evil</td><td>Beast</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=474"><u>Gashadokuro</u></a></td><td>&mdash;</td><td>13</td><td>Neutral Evil</td><td>Undead</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=321"><u>Gelatinous Cube</u></a></td><td>Ooze</td><td>3</td><td>Neutral</td><td>Ooze</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=113"><u>Gelugon (Ice Devil)</u></a></td><td>Devil</td><td>13</td><td>Lawful Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=37"><u>Ghaele (Crusader Azata)</u></a></td><td>Azata</td><td>13</td><td>Chaotic Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=219"><u>Ghast</u></a></td><td>Ghoul</td><td>2</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=216"><u>Ghost Commoner</u></a></td><td>Ghost</td><td>4</td><td>Chaotic Evil</td><td>Spirit, Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=217"><u>Ghost Mage</u></a></td><td>Ghost</td><td>10</td><td>Chaotic Evil</td><td>Spirit, Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=218"><u>Ghoul</u></a></td><td>Ghoul</td><td>1</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=382"><u>Giant Anaconda</u></a></td><td>Snake</td><td>8</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=22"><u>Giant Animated Statue</u></a></td><td>Animated Object</td><td>7</td><td>Neutral</td><td>Construct</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=46"><u>Giant Bat</u></a></td><td>Bat</td><td>2</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=77"><u>Giant Centipede</u></a></td><td>Centipede</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=173"><u>Giant Eagle</u></a></td><td>Eagle</td><td>3</td><td>Neutral Good</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=209"><u>Giant Flytrap</u></a></td><td>Flytrap</td><td>10</td><td>Neutral</td><td>Plant</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=290"><u>Giant Frilled Lizard</u></a></td><td>Lizard</td><td>5</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=288"><u>Giant Gecko</u></a></td><td>Lizard</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=295"><u>Giant Mantis</u></a></td><td>Mantis, Giant</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=289"><u>Giant Monitor Lizard</u></a></td><td>Lizard</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=175"><u>Giant Moray Eel</u></a></td><td>Eel</td><td>5</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=315"><u>Giant Octopus</u></a></td><td>&mdash;</td><td>8</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=346"><u>Giant Rat</u></a></td><td>Rat</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=356"><u>Giant Scorpion</u></a></td><td>Scorpion</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=484"><u>Giant Solifugid</u></a></td><td>Solifugid</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=50"><u>Giant Stag Beetle</u></a></td><td>Beetle</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=387"><u>Giant Tarantula</u></a></td><td>Spider</td><td>6</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=381"><u>Giant Viper</u></a></td><td>Snake</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=405"><u>Giant Wasp</u></a></td><td>Wasp</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=227"><u>Gibbering Mouther</u></a></td><td>&mdash;</td><td>5</td><td>Neutral</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=228"><u>Gimmerling</u></a></td><td>&mdash;</td><td>12</td><td>Lawful Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=101"><u>Glabrezu (Treachery Demon)</u></a></td><td>Demon</td><td>13</td><td>Chaotic Evil</td><td>Fiend</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=230"><u>Gnoll Cultist</u></a></td><td>Gnoll</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=229"><u>Gnoll Hunter</u></a></td><td>Gnoll</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=231"><u>Gnoll Sergeant</u></a></td><td>Gnoll</td><td>4</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=233"><u>Goblin Commando</u></a></td><td>Goblin</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=236"><u>Goblin Dog</u></a></td><td>&mdash;</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=234"><u>Goblin Pyro</u></a></td><td>Goblin</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=235"><u>Goblin War Chanter</u></a></td><td>Goblin</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=232"><u>Goblin Warrior</u></a></td><td>Goblin</td><td>-1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=237"><u>Gogiteth</u></a></td><td>&mdash;</td><td>12</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=388"><u>Goliath Spider</u></a></td><td>Spider</td><td>11</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=25"><u>Gorilla</u></a></td><td>Ape</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=280"><u>Gourd Leshy</u></a></td><td>Leshy</td><td>1</td><td>Neutral</td><td>Plant</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=435"><u>Grauladon</u></a></td><td>&mdash;</td><td>2</td><td>Neutral</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=244"><u>Graveknight</u></a></td><td>&mdash;</td><td>10</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=436"><u>Graveshell</u></a></td><td>&mdash;</td><td>1</td><td>Neutral</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=87"><u>Great Cyclops</u></a></td><td>Cyclops</td><td>12</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=365"><u>Great White Shark</u></a></td><td>Shark</td><td>4</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=43"><u>Greater Barghest</u></a></td><td>Barghest</td><td>7</td><td>Chaotic Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=309"><u>Greater Nightmare</u></a></td><td>Nightmare</td><td>11</td><td>Neutral Evil</td><td>Beast, Fiend</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=363"><u>Greater Shadow</u></a></td><td>Shadow</td><td>7</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=255"><u>Green Hag</u></a></td><td>Hag</td><td>4</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=248"><u>Griffon</u></a></td><td>&mdash;</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=390"><u>Grig</u></a></td><td>Sprite</td><td>1</td><td>Chaotic Neutral</td><td>Fey</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=249"><u>Grikkitog</u></a></td><td>&mdash;</td><td>14</td><td>Neutral Evil</td><td>Aberration</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=250"><u>Grim Reaper</u></a></td><td>Grim Reaper</td><td>21</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=448"><u>Grippli Archer</u></a></td><td>Grippli</td><td>3</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=449"><u>Grippli Greenspeaker</u></a></td><td>Grippli</td><td>5</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=447"><u>Grippli Scout</u></a></td><td>Grippli</td><td>1</td><td>Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=47"><u>Grizzly Bear</u></a></td><td>Bear</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=206"><u>Grothlut</u></a></td><td>Fleshwarp</td><td>3</td><td>Neutral</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=124"><u>Guard Dog</u></a></td><td>Dog</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=307"><u>Guardian Naga</u></a></td><td>Naga</td><td>10</td><td>Lawful Good</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=252"><u>Gug</u></a></td><td>&mdash;</td><td>10</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=253"><u>Guthallath</u></a></td><td>&mdash;</td><td>19</td><td>Neutral</td><td>Construct</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=258"><u>Harpy</u></a></td><td>&mdash;</td><td>5</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=259"><u>Hell Hound</u></a></td><td>Hell Hound</td><td>3</td><td>Lawful Evil</td><td>Beast, Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=437"><u>Hellcrown</u></a></td><td>&mdash;</td><td>1</td><td>Lawful Evil</td><td>Undead</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=220"><u>Hill Giant</u></a></td><td>Giant</td><td>7</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=24"><u>Hive Mother</u></a></td><td>Ankhrav</td><td>8</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=262"><u>Hobgoblin Archer</u></a></td><td>Hobgoblin</td><td>4</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=263"><u>Hobgoblin General</u></a></td><td>Hobgoblin</td><td>6</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=261"><u>Hobgoblin Soldier</u></a></td><td>Hobgoblin</td><td>1</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=264"><u>Homunculus</u></a></td><td>&mdash;</td><td>0</td><td>Neutral</td><td>Construct</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=31"><u>Horned Archon</u></a></td><td>Archon</td><td>4</td><td>Lawful Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=386"><u>Hunting Spider</u></a></td><td>Spider</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=271"><u>Hyaenodon</u></a></td><td>Hyena</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=269"><u>Hydra</u></a></td><td>&mdash;</td><td>6</td><td>Neutral</td><td>Beast</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=270"><u>Hyena</u></a></td><td>Hyena</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=285"><u>Ice Linnorm</u></a></td><td>Linnorm</td><td>17</td><td>Chaotic Evil</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=483"><u>Immortal Ichor</u></a></td><td>&mdash;</td><td>15</td><td>Neutral Evil</td><td>Ooze</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=109"><u>Imp</u></a></td><td>Devil</td><td>1</td><td>Lawful Evil</td><td>Fiend</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=462"><u>Interlocutor</u></a></td><td>Velstrac</td><td>12</td><td>Lawful Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=179"><u>Invisible Stalker</u></a></td><td>Elemental, Air</td><td>7</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=242"><u>Iron Golem</u></a></td><td>Golem</td><td>13</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=211"><u>Janni</u></a></td><td>Genie</td><td>4</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=247"><u>Jinkin</u></a></td><td>Gremlin</td><td>1</td><td>Chaotic Evil</td><td>Fey</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=161"><u>Jungle Drake</u></a></td><td>Drake</td><td>6</td><td>Neutral Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=455"><u>Kalavakus (Slaver Demon)</u></a></td><td>Demon</td><td>10</td><td>Chaotic Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=338"><u>Keketar</u></a></td><td>Protean</td><td>17</td><td>Chaotic Neutral</td><td>Monitor</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=450"><u>Kishi</u></a></td><td>&mdash;</td><td>8</td><td>Neutral Evil</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=274"><u>Kobold Dragon Mage</u></a></td><td>Kobold</td><td>2</td><td>Lawful Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=273"><u>Kobold Scout</u></a></td><td>Kobold</td><td>1</td><td>Lawful Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=272"><u>Kobold Warrior</u></a></td><td>Kobold</td><td>-1</td><td>Lawful Evil</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=10"><u>Kolyarut</u></a></td><td>Aeon</td><td>12</td><td>Lawful Neutral</td><td>Monitor</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=275"><u>Kraken</u></a></td><td>&mdash;</td><td>18</td><td>Neutral Evil</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=276"><u>Krooth</u></a></td><td>&mdash;</td><td>8</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=278"><u>Lamia Matriarch</u></a></td><td>Lamia</td><td>8</td><td>Chaotic Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=277"><u>Lamia</u></a></td><td>Lamia</td><td>6</td><td>Chaotic Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=30"><u>Lantern Archon</u></a></td><td>Archon</td><td>1</td><td>Lawful Good</td><td>Celestial</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=279"><u>Leaf Leshy</u></a></td><td>Leshy</td><td>0</td><td>Neutral</td><td>Plant</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=32"><u>Legion Archon</u></a></td><td>Archon</td><td>7</td><td>Lawful Good</td><td>Celestial</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=108"><u>Lemure</u></a></td><td>Devil</td><td>0</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=67"><u>Leopard</u></a></td><td>Cat</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=251"><u>Lesser Death</u></a></td><td>Grim Reaper</td><td>16</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=90"><u>Leukodaemon (Pestilence Daemon)</u></a></td><td>Daemon</td><td>9</td><td>Neutral Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=282"><u>Lich</u></a></td><td>Lich</td><td>12</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=36"><u>Lillend (Muse Azata)</u></a></td><td>Azata</td><td>7</td><td>Chaotic Good</td><td>Celestial</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=68"><u>Lion</u></a></td><td>Cat</td><td>3</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=183"><u>Living Landslide</u></a></td><td>Elemental, Earth</td><td>5</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=451"><u>Living Sap</u></a></td><td>&mdash;</td><td>6</td><td>Neutral</td><td>Ooze</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=197"><u>Living Waterfall</u></a></td><td>Elemental, Water</td><td>5</td><td>Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=178"><u>Living Whirlwind</u></a></td><td>Elemental, Air</td><td>5</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=188"><u>Living Wildfire</u></a></td><td>Elemental, Fire</td><td>5</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=291"><u>Lizardfolk Defender</u></a></td><td>Lizardfolk</td><td>1</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=292"><u>Lizardfolk Scout</u></a></td><td>Lizardfolk</td><td>1</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=293"><u>Lizardfolk Stargazer</u></a></td><td>Lizardfolk</td><td>2</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=34"><u>Lyrakien (Wanderer Azata)</u></a></td><td>Azata</td><td>1</td><td>Chaotic Good</td><td>Celestial</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=202"><u>Mammoth</u></a></td><td>Elephant</td><td>10</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=294"><u>Manticore</u></a></td><td>&mdash;</td><td>6</td><td>Lawful Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=215"><u>Marid</u></a></td><td>Genie</td><td>9</td><td>Chaotic Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=103"><u>Marilith (Pride Demon)</u></a></td><td>Demon</td><td>17</td><td>Chaotic Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=297"><u>Medusa</u></a></td><td>&mdash;</td><td>7</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=366"><u>Megalodon</u></a></td><td>Shark</td><td>9</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=26"><u>Megaprimatus</u></a></td><td>Ape</td><td>8</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=298"><u>Merfolk Warrior</u></a></td><td>Merfolk</td><td>1</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=299"><u>Merfolk Wavecaller</u></a></td><td>Merfolk</td><td>2</td><td>Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=300"><u>Mimic</u></a></td><td>&mdash;</td><td>4</td><td>Neutral</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=301"><u>Minotaur</u></a></td><td>&mdash;</td><td>4</td><td>Chaotic Evil</td><td>Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=245"><u>Mitflit</u></a></td><td>Gremlin</td><td>-1</td><td>Lawful Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=452"><u>Mokele-Mbembe</u></a></td><td>&mdash;</td><td>9</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=340"><u>Morrigna</u></a></td><td>Psychopomp</td><td>15</td><td>Neutral</td><td>Monitor</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=302"><u>Mu Spore</u></a></td><td>&mdash;</td><td>21</td><td>Chaotic Neutral</td><td>Fungus</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=303"><u>Mukradi</u></a></td><td>&mdash;</td><td>15</td><td>Neutral</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=304"><u>Mummy Guardian</u></a></td><td>Mummy</td><td>6</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=305"><u>Mummy Pharaoh</u></a></td><td>Mummy</td><td>9</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=313"><u>Naiad Queen</u></a></td><td>Nymph</td><td>7</td><td>Chaotic Good</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=311"><u>Naiad</u></a></td><td>Nymph</td><td>1</td><td>Chaotic Good</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=481"><u>Nalfeshnee (Boar Demon)</u></a></td><td>Demon</td><td>14</td><td>Chaotic Evil</td><td>Fiend</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=337"><u>Naunet</u></a></td><td>Protean</td><td>7</td><td>Chaotic Neutral</td><td>Monitor</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=260"><u>Nessian Warhound</u></a></td><td>Hell Hound</td><td>9</td><td>Lawful Evil</td><td>Beast, Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=257"><u>Night Hag</u></a></td><td>Hag</td><td>9</td><td>Neutral Evil</td><td>Fiend, Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=308"><u>Nightmare</u></a></td><td>Nightmare</td><td>6</td><td>Neutral Evil</td><td>Beast, Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=310"><u>Nilith</u></a></td><td>&mdash;</td><td>10</td><td>Neutral Evil</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=339"><u>Nosoi</u></a></td><td>Psychopomp</td><td>1</td><td>Neutral</td><td>Monitor</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=322"><u>Ochre Jelly</u></a></td><td>Ooze</td><td>5</td><td>Neutral</td><td>Ooze</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=316"><u>Ofalth</u></a></td><td>&mdash;</td><td>10</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=319"><u>Ogre Boss</u></a></td><td>Ogre</td><td>7</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=318"><u>Ogre Glutton</u></a></td><td>Ogre</td><td>4</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=317"><u>Ogre Warrior</u></a></td><td>Ogre</td><td>3</td><td>Chaotic Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=324"><u>Orc Brute</u></a></td><td>Orc</td><td>0</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=326"><u>Orc Warchief</u></a></td><td>Orc</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=325"><u>Orc Warrior</u></a></td><td>Orc</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=456"><u>Osyluth (Bone Devil)</u></a></td><td>Devil</td><td>9</td><td>Lawful Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=327"><u>Otyugh</u></a></td><td>&mdash;</td><td>4</td><td>Neutral</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=328"><u>Owlbear</u></a></td><td>&mdash;</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=329"><u>Pegasus</u></a></td><td>&mdash;</td><td>3</td><td>Neutral Good</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=112"><u>Phistophilus (Contract Devil)</u></a></td><td>Devil</td><td>10</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=330"><u>Phoenix</u></a></td><td>&mdash;</td><td>15</td><td>Neutral Good</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=114"><u>Pit Fiend (Tyrant Devil)</u></a></td><td>Devil</td><td>20</td><td>Lawful Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=391"><u>Pixie</u></a></td><td>Sprite</td><td>4</td><td>Chaotic Neutral</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=424"><u>Plague Zombie</u></a></td><td>Zombie</td><td>1</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=11"><u>Pleroma</u></a></td><td>Aeon</td><td>20</td><td>Lawful Neutral</td><td>Monitor</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=334"><u>Poltergeist</u></a></td><td>&mdash;</td><td>5</td><td>Lawful Evil</td><td>Spirit, Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=335"><u>Poracha</u></a></td><td>&mdash;</td><td>4</td><td>Neutral</td><td>Beast</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=463"><u>Precentor</u></a></td><td>Velstrac</td><td>16</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=341"><u>Pteranodon</u></a></td><td>Pterosaur</td><td>2</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=246"><u>Pugwampi</u></a></td><td>Gremlin</td><td>0</td><td>Neutral Evil</td><td>Fey</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=73"><u>Purple Worm</u></a></td><td>Cave Worm</td><td>13</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=97"><u>Quasit</u></a></td><td>Demon</td><td>1</td><td>Chaotic Evil</td><td>Fiend</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=198"><u>Quatoid</u></a></td><td>Elemental, Water</td><td>7</td><td>Lawful Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=343"><u>Quelaunt</u></a></td><td>&mdash;</td><td>15</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=342"><u>Quetzalcoatlus</u></a></td><td>Pterosaur</td><td>7</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=345"><u>Raja Rakshasa</u></a></td><td>Rakshasa</td><td>10</td><td>Lawful Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=347"><u>Rat Swarm</u></a></td><td>Rat</td><td>1</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=348"><u>Ratfolk Grenadier</u></a></td><td>Ratfolk</td><td>4</td><td>Lawful Neutral</td><td>Humanoid</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=349"><u>Redcap</u></a></td><td>&mdash;</td><td>5</td><td>Chaotic Evil</td><td>Fey</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=350"><u>Reefclaw</u></a></td><td>&mdash;</td><td>1</td><td>Chaotic Neutral</td><td>Aberration</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=458"><u>Remnant of Barzillai</u></a></td><td>&mdash;</td><td>10</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=351"><u>Remorhaz</u></a></td><td>&mdash;</td><td>7</td><td>Neutral</td><td>Beast</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=125"><u>Riding Dog</u></a></td><td>Dog</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=266"><u>Riding Horse</u></a></td><td>Horse</td><td>1</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=265"><u>Riding Pony</u></a></td><td>Horse</td><td>0</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=159"><u>River Drake</u></a></td><td>Drake</td><td>3</td><td>Neutral Evil</td><td>Dragon</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=352"><u>Roc</u></a></td><td>&mdash;</td><td>9</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=353"><u>Roper</u></a></td><td>&mdash;</td><td>10</td><td>Chaotic Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=226"><u>Rune Giant</u></a></td><td>Giant</td><td>16</td><td>Lawful Evil</td><td>Giant, Humanoid</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=459"><u>Rusalka</u></a></td><td>&mdash;</td><td>12</td><td>Neutral Evil</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=354"><u>Rust Monster</u></a></td><td>&mdash;</td><td>3</td><td>Neutral</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=453"><u>Sabosan</u></a></td><td>&mdash;</td><td>5</td><td>Neutral Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=189"><u>Salamander</u></a></td><td>Elemental, Fire</td><td>7</td><td>Chaotic Evil</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=355"><u>Satyr</u></a></td><td>&mdash;</td><td>4</td><td>Chaotic Neutral</td><td>Fey</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=357"><u>Scorpion Swarm</u></a></td><td>Scorpion</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=360"><u>Sea Devil Baron</u></a></td><td>Sea Devil</td><td>6</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=359"><u>Sea Devil Brute</u></a></td><td>Sea Devil</td><td>4</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=358"><u>Sea Devil Scout</u></a></td><td>Sea Devil</td><td>2</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=254"><u>Sea Hag</u></a></td><td>Hag</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=361"><u>Sea Serpent</u></a></td><td>&mdash;</td><td>12</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=320"><u>Sewer Ooze</u></a></td><td>Ooze</td><td>1</td><td>Neutral</td><td>Ooze</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=457"><u>Shadow Giant</u></a></td><td>Giant</td><td>13</td><td>Lawful Evil</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=362"><u>Shadow</u></a></td><td>Shadow</td><td>4</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=213"><u>Shaitan</u></a></td><td>Genie</td><td>7</td><td>Lawful Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=364"><u>Shambler</u></a></td><td>&mdash;</td><td>6</td><td>Neutral</td><td>Plant</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=102"><u>Shemhazian (Mutilation Demon)</u></a></td><td>Demon</td><td>16</td><td>Chaotic Evil</td><td>Fiend</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=33"><u>Shield Archon</u></a></td><td>Archon</td><td>10</td><td>Lawful Good</td><td>Celestial</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=367"><u>Shining Child</u></a></td><td>&mdash;</td><td>12</td><td>Chaotic Evil</td><td>Astral</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=368"><u>Shoggoth</u></a></td><td>&mdash;</td><td>18</td><td>Chaotic Neutral</td><td>Aberration</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=369"><u>Shuln</u></a></td><td>&mdash;</td><td>12</td><td>Neutral</td><td>Beast</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=370"><u>Simurgh</u></a></td><td>&mdash;</td><td>18</td><td>Neutral Good</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=371"><u>Sinspawn</u></a></td><td>&mdash;</td><td>2</td><td>Neutral Evil</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=373"><u>Skeletal Champion</u></a></td><td>Skeleton</td><td>2</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=375"><u>Skeletal Giant</u></a></td><td>Skeleton</td><td>3</td><td>Neutral Evil</td><td>Undead</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=374"><u>Skeletal Horse</u></a></td><td>Skeleton</td><td>2</td><td>Neutral Evil</td><td>Undead</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=376"><u>Skeletal Hulk</u></a></td><td>Skeleton</td><td>7</td><td>Neutral Evil</td><td>Undead</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=372"><u>Skeleton Guard</u></a></td><td>Skeleton</td><td>-1</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=377"><u>Skulltaker</u></a></td><td>&mdash;</td><td>18</td><td>Neutral Evil</td><td>Undead</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=3"><u>Skum (Ulat-Kini)</u></a></td><td>Alghollthu</td><td>2</td><td>Lawful Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=378"><u>Slurk</u></a></td><td>&mdash;</td><td>2</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=70"><u>Smilodon</u></a></td><td>Cat</td><td>6</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=208"><u>Snapping Flytrap</u></a></td><td>Flytrap</td><td>3</td><td>Neutral</td><td>Plant</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=182"><u>Sod Hound</u></a></td><td>Elemental, Earth</td><td>3</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=383"><u>Soulbound Doll</u></a></td><td>&mdash;</td><td>2</td><td>Any</td><td>Construct</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=475"><u>Soulbound Ruin</u></a></td><td>&mdash;</td><td>15</td><td>Neutral Evil</td><td>Construct, Undead</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=384"><u>Sphinx</u></a></td><td>&mdash;</td><td>8</td><td>Neutral</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=385"><u>Spider Swarm</u></a></td><td>Spider</td><td>0</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=477"><u>Spiritbound Aluum</u></a></td><td>Aluum</td><td>16</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=389"><u>Sprite</u></a></td><td>Sprite</td><td>-1</td><td>Chaotic Neutral</td><td>Fey</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=120"><u>Stegosaurus</u></a></td><td>Dinosaur</td><td>7</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=221"><u>Stone Giant</u></a></td><td>Giant</td><td>8</td><td>Neutral</td><td>Giant, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=241"><u>Stone Golem</u></a></td><td>Golem</td><td>11</td><td>Neutral</td><td>Construct</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=185"><u>Stone Mauler</u></a></td><td>Elemental, Earth</td><td>9</td><td>Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=225"><u>Storm Giant</u></a></td><td>Giant</td><td>13</td><td>Chaotic Good</td><td>Giant, Humanoid</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=180"><u>Storm Lord</u></a></td><td>Elemental, Air</td><td>9</td><td>Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=98"><u>Succubus (Lust Demon)</u></a></td><td>Demon</td><td>7</td><td>Chaotic Evil</td><td>Fiend</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=286"><u>Tarn Linnorm</u></a></td><td>Linnorm</td><td>20</td><td>Chaotic Evil</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=490"><u>Tarrasque, The Armageddon Engine</u></a></td><td>Spawn of Rovagug</td><td>25</td><td>Chaotic Evil</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=392"><u>Tengu</u></a></td><td>&mdash;</td><td>2</td><td>Chaotic Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=393"><u>Terotricus</u></a></td><td>&mdash;</td><td>19</td><td>Chaotic Evil</td><td>Fungus</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=199"><u>Tidal Master</u></a></td><td>Elemental, Water</td><td>9</td><td>Neutral</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=331"><u>Tiefling</u></a></td><td>Planar Scion</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=69"><u>Tiger</u></a></td><td>Cat</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=438"><u>Tixitog</u></a></td><td>&mdash;</td><td>3</td><td>Neutral Evil</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=287"><u>Tor Linnorm</u></a></td><td>Linnorm</td><td>21</td><td>Chaotic Evil</td><td>Dragon</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=394"><u>Treerazer</u></a></td><td>&mdash;</td><td>25</td><td>Chaotic Evil</td><td>Fiend</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=121"><u>Triceratops</u></a></td><td>Dinosaur</td><td>8</td><td>Neutral</td><td>Animal</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=396"><u>Troll King</u></a></td><td>Troll</td><td>10</td><td>Chaotic Evil</td><td>Giant</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=395"><u>Troll</u></a></td><td>Troll</td><td>5</td><td>Chaotic Evil</td><td>Giant</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=123"><u>Tyrannosaurus</u></a></td><td>Dinosaur</td><td>10</td><td>Neutral</td><td>Animal</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=492"><u>Tzitzimitl</u></a></td><td>&mdash;</td><td>19</td><td>Neutral Evil</td><td>Undead</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=397"><u>Unicorn</u></a></td><td>&mdash;</td><td>3</td><td>Chaotic Good</td><td>Beast, Fey</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=1"><u>Unseen Servant</u></a></td><td>&mdash;</td><td>-1</td><td>No Alignment</td><td>&mdash;</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=398"><u>Uthul</u></a></td><td>&mdash;</td><td>14</td><td>Chaotic Evil</td><td>Elemental</td><td>Huge</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=45"><u>Vampire Bat Swarm</u></a></td><td>Bat</td><td>1</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=400"><u>Vampire Count</u></a></td><td>Vampire</td><td>6</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=401"><u>Vampire Mastermind</u></a></td><td>Vampire</td><td>9</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=399"><u>Vampire Spawn Rogue</u></a></td><td>Vampire</td><td>4</td><td>Chaotic Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=493"><u>Vazgorlu</u></a></td><td>&mdash;</td><td>20</td><td>Neutral Evil</td><td>Aberration, Astral</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=5"><u>Veiled Master (Vidileth)</u></a></td><td>Alghollthu</td><td>14</td><td>Lawful Evil</td><td>Aberration</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=117"><u>Velociraptor</u></a></td><td>Dinosaur</td><td>1</td><td>Neutral</td><td>Animal</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=428"><u>Vine Lasher</u></a></td><td>Deadly Flora</td><td>0</td><td>Neutral</td><td>Plant</td><td>Small</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=379"><u>Viper</u></a></td><td>Snake</td><td>-1</td><td>Neutral</td><td>Animal</td><td>Tiny</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=336"><u>Voidworm</u></a></td><td>Protean</td><td>1</td><td>Chaotic Neutral</td><td>Monitor</td><td>Tiny</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=100"><u>Vrock (Wrath Demon)</u></a></td><td>Demon</td><td>9</td><td>Chaotic Evil</td><td>Fiend</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=268"><u>War Horse</u></a></td><td>Horse</td><td>2</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=267"><u>War Pony</u></a></td><td>Horse</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=402"><u>Warg</u></a></td><td>Warg</td><td>2</td><td>Neutral Evil</td><td>Beast</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=404"><u>Warsworn</u></a></td><td>&mdash;</td><td>16</td><td>Neutral Evil</td><td>Undead</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=406"><u>Wasp Swarm</u></a></td><td>Wasp</td><td>4</td><td>Neutral</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=195"><u>Water Mephit</u></a></td><td>Elemental, Mephit</td><td>1</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=407"><u>Web Lurker</u></a></td><td>&mdash;</td><td>3</td><td>Neutral Evil</td><td>Aberration</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=408"><u>Wemmuth</u></a></td><td>&mdash;</td><td>15</td><td>Neutral Evil</td><td>Plant</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=409"><u>Wendigo</u></a></td><td>&mdash;</td><td>17</td><td>Chaotic Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=412"><u>Werebear</u></a></td><td>Werecreature</td><td>4</td><td>Lawful Good</td><td>Beast, Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=410"><u>Wererat</u></a></td><td>Werecreature</td><td>2</td><td>Lawful Evil</td><td>Beast, Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=411"><u>Werewolf</u></a></td><td>Werecreature</td><td>3</td><td>Chaotic Evil</td><td>Beast, Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=413"><u>Wight</u></a></td><td>&mdash;</td><td>3</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=414"><u>Will-o’-Wisp</u></a></td><td>&mdash;</td><td>6</td><td>Chaotic Evil</td><td>Aberration</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=403"><u>Winter Wolf</u></a></td><td>Warg</td><td>5</td><td>Neutral Evil</td><td>Beast</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=486"><u>Witchwyrd</u></a></td><td>&mdash;</td><td>6</td><td>Lawful Neutral</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=415"><u>Wolf</u></a></td><td>Wolf</td><td>1</td><td>Neutral</td><td>Animal</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=417"><u>Wraith</u></a></td><td>&mdash;</td><td>6</td><td>Lawful Evil</td><td>Undead</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=496"><u>Wyrmwraith</u></a></td><td>Wyrmwraith</td><td>17</td><td>Chaotic Evil</td><td>Dragon, Undead</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=162"><u>Wyvern</u></a></td><td>Drake</td><td>6</td><td>Neutral Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=184"><u>Xorn</u></a></td><td>Elemental, Earth</td><td>7</td><td>Neutral</td><td>Elemental</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=491"><u>Xotani, The Firebleeder</u></a></td><td>Spawn of Rovagug</td><td>20</td><td>Chaotic Evil</td><td>Beast</td><td>Gargantuan</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=487"><u>Xotanispawn</u></a></td><td>&mdash;</td><td>17</td><td>Chaotic Evil</td><td>Animal</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=420"><u>Xulgath Leader</u></a></td><td>Xulgath</td><td>3</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=419"><u>Xulgath Skulker</u></a></td><td>Xulgath</td><td>2</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=418"><u>Xulgath Warrior</u></a></td><td>Xulgath</td><td>1</td><td>Chaotic Evil</td><td>Humanoid</td><td>Medium</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=421"><u>Yeti</u></a></td><td>&mdash;</td><td>5</td><td>Neutral</td><td>Humanoid</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=127"><u>Young Black Dragon</u></a></td><td>Dragon, Chromatic</td><td>7</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=130"><u>Young Blue Dragon</u></a></td><td>Dragon, Chromatic</td><td>9</td><td>Lawful Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=142"><u>Young Brass Dragon</u></a></td><td>Dragon, Metallic</td><td>7</td><td>Chaotic Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=145"><u>Young Bronze Dragon</u></a></td><td>Dragon, Metallic</td><td>9</td><td>Lawful Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=148"><u>Young Copper Dragon</u></a></td><td>Dragon, Metallic</td><td>8</td><td>Chaotic Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=151"><u>Young Gold Dragon</u></a></td><td>Dragon, Metallic</td><td>11</td><td>Lawful Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=133"><u>Young Green Dragon</u></a></td><td>Dragon, Chromatic</td><td>8</td><td>Lawful Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=469"><u>Young Magma Dragon</u></a></td><td>Dragon, Magma</td><td>9</td><td>Chaotic Neutral</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=136"><u>Young Red Dragon</u></a></td><td>Dragon, Chromatic</td><td>10</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=154"><u>Young Silver Dragon</u></a></td><td>Dragon, Metallic</td><td>10</td><td>Lawful Good</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=139"><u>Young White Dragon</u></a></td><td>Dragon, Chromatic</td><td>6</td><td>Chaotic Evil</td><td>Dragon</td><td>Large</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=422"><u>Zaramuun</u></a></td><td>&mdash;</td><td>16</td><td>Chaotic Evil</td><td>Elemental</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=177"><u>Zephyr Hawk</u></a></td><td>Elemental, Air</td><td>3</td><td>Neutral</td><td>Elemental</td><td>Small</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=425"><u>Zombie Brute</u></a></td><td>Zombie</td><td>2</td><td>Neutral Evil</td><td>Undead</td><td>Large</td>
+		</tr><tr style="background-color:#342C19;">
+			<td><a href="Monsters.aspx?ID=426"><u>Zombie Hulk</u></a></td><td>Zombie</td><td>6</td><td>Neutral Evil</td><td>Undead</td><td>Huge</td>
+		</tr><tr style="background-color:#64542F;">
+			<td><a href="Monsters.aspx?ID=423"><u>Zombie Shambler</u></a></td><td>Zombie</td><td>-1</td><td>Neutral Evil</td><td>Undead</td><td>Medium</td>
+		</tr>
+	

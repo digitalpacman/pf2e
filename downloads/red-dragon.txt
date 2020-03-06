@@ -1,0 +1,131 @@
+1170" class="post-1170 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-chromatic-dragon">
+                                        <h1>Red Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Young Red Dragon <span class="monster-level">Creature 10</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Large</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +20; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, smoke vision</p> 
+ <p><b>Languages</b> Common, Draconic</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +15, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +17, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +19, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +19, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +21, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +17</p> 
+ <p><b>Str</b> +6, <b>Dex</b> +1, <b>Con</b> +4, <b>Int</b> +1, <b>Wis</b> +2, <b>Cha</b> +3</p> 
+
+<div class="special-abilities">
+<p><b>Smoke Vision</b> Smoke doesn&#8217;t impair a red dragon&#8217;s vision; it ignores the concealed condition from smoke.</p>
+</div>
+
+ <hr> 
+ <p><b>AC</b> 30; <b>Fort</b> +21, <b>Ref</b> +18, <b>Will</b> +19</p> 
+ <p><b>HP</b> 210; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 10</p> 
+
+<div class="special-abilities">
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 27</p> 
+<p><b>Attack of Opportunity</b> [reaction] Jaws only.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 120 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +23 (fire, reach 10 feet), <b>Damage</b> 2d12+12 piercing plus 2d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +23 (agile), <b>Damage</b> 2d10+12 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +21 (reach 15 feet), <b>Damage</b> 2d12+10 slashing</p> 
+ <p><b>Melee</b> [one-action] wing +21 (agile, reach 10 feet), <b>Damage</b> 1d10+10 slashing</p> 
+
+<p><b>Arcane Innate Spells</b> DC 27; <b>Cantrips</b> (4th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, evocation, fire) The dragon breathes a blast of flame that deals 11d6 fire damage in a 40-foot cone (DC 30 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+<p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one wing Strike in any order.</p> 
+<p><b>Draconic Momentum</b> The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike.</p> 
+</div>
+
+<h4 class="monster">Adult Red Dragon <span class="monster-level">Creature 14</span></h4> 
+ <p class="traits"><span class="alignment">CE</span> <span class="size">Huge</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +26; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, smoke vision</p> 
+ <p><b>Languages</b> Common, Draconic, Dwarven, Orcish</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +29, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +23</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +3, <b>Con</b> +6, <b>Int</b> +3, <b>Wis</b> +4, <b>Cha</b> +5</p> 
+
+<div class="special-abilities">
+<p><b>Smoke Vision</b> As young red dragon.</p>
+</div>
+
+ <hr> 
+ <p><b>AC</b> 37; <b>Fort</b> +28, <b>Ref</b> +25, <b>Will</b> +26; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 305; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 15</p> 
+
+<div class="special-abilities">
+<p><b>Dragon Heat</b> (arcane, aura, evocation, fire); 5 feet, 3d6 fire damage (DC 30 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a>)</p> 
+<p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 33</p> 
+<p><b>Attack of Opportunity</b> [reaction] Jaws only.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 50 feet, fly 150 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +29 (fire, magical, reach 15 feet), <b>Damage</b> 3d12+15 piercing plus 2d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +29 (agile, magical, reach 10 feet), <b>Damage</b> 3d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +27 (magical, reach 20 feet), <b>Damage</b> 3d12+13 slashing</p> 
+ <p><b>Melee</b> [one-action] wing +27 (agile, magical, reach 15 feet), <b>Damage</b> 2d10+13 slashing</p> 
+
+<p><b>Arcane Innate Spells</b> DC 35; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/suggestion/">suggestion</a>; <b>Cantrips</b> (6th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, evocation, fire); The dragon breathes a blast of flame that deals 15d6 fire damage in a 50-foot cone (DC 36 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+<p><b>Draconic Frenzy</b> [two-actions] As young red dragon.</p> 
+<p><b>Draconic Momentum</b> As young red dragon.</p>
+</div>
+
+
+<h4 class="monster">Ancient Red Dragon <span class="monster-level">Creature 19</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">CE</span> <span class="size">Huge</span> <span class="trait">Dragon</span> <span class="trait">Fire</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +35; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet, smoke vision</p> 
+ <p><b>Languages</b> Abyssal, Common, Draconic, Dwarven, Jotun, Orcish</p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +30, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +37, <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +37, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +33</p> 
+ <p><b>Str</b> +9, <b>Dex</b> +5, <b>Con</b> +8, <b>Int</b> +5, <b>Wis</b> +6, <b>Cha</b> +7</p> 
+
+<div class="special-abilities">
+<p><b>Smoke Vision</b> As young red dragon.</p>
+</div>
+
+ <hr> 
+ <p><b>AC</b> 45; <b>Fort</b> +35, <b>Ref</b> +32, <b>Will</b> +35; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 425; <b>Immunities</b> fire, paralyzed, sleep; <b>Weaknesses</b> cold 20</p> 
+
+<div class="special-abilities">
+<p><b>Dragon Heat</b> (arcane, aura, evocation, fire); 10 feet, 4d6 fire damage (DC 39 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a>)</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 40</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <p><b>Redirect Fire</b> [reaction] (abjuration, arcane); <b>Trigger</b> A creature within 100 feet casts a fire spell, or a fire spell otherwise comes into effect from a source within 100 feet. <b>Effect</b> The dragon makes all the choices to determine the targets, destination, or other effects of the spell, as though it were the caster.</p>
+</div>
+
+ <hr> 
+ <p><b>Speed</b> 60 feet, fly 180 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +37 (fire, magical, reach 20 feet), <b>Damage</b> 4d10+17 piercing plus 3d6 fire</p> 
+ <p><b>Melee</b> [one-action] claw +37 (agile, magical, reach 15 feet), <b>Damage</b> 4d8+17 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +35 (magical, reach 25 feet), <b>Damage</b> 4d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] wing +35 (agile, magical, reach 20 feet), <b>Damage</b> 3d8+15 slashing</p> 
+
+<p><b>Arcane Innate Spells</b> DC 42; <b>8th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-fire/">wall of fire</a> (at will); <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/suggestion/">suggestion</a> (at will); <b>Cantrips</b> (9th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/read-aura/">read aura</a></p> 
+
+<div class="special-abilities">
+<p><b>Breath Weapon</b> [two-actions] (arcane, evocation, fire) The dragon breathes a blast of flame that deals 20d6 fire damage in a 60-foot cone (DC 42 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save). It can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young red dragon.</p> 
+ <p><b>Draconic Momentum</b> As young red dragon.</p> 
+ <p><b>Manipulate Flames</b> [one-action] (arcane, concentrate, transmutation); The red dragon attempts to take control of a magical fire or a fire spell within 100 feet. If it succeeds at a counteract check (counteract level 10, counteract modifier +32), the original caster loses control of the spell or magic fire, control is transferred to the dragon, and the dragon counts as having Sustained the Spell with this action (if applicable). The dragon can choose to end the spell instead of taking control, if it chooses.</p>
+</div>
+
+<p class="header">About</p>
+ <p>The largest and most powerful of the chromatic dragons, red dragons are a menace to civilizations everywhere, and their strength is rivaled only by their arrogance. Red dragons see themselves as regents and overlords of all dragonkind.</p> 
+ <p>With their crowns of crimson spikes and their command of blistering flame, this is no haughty boast in their eyes—only unquestioned fact.</p> 
+ <p>Red dragons don&#8217;t deign to speak with lesser creatures; they simply <a class="spell" href="https://pf2.d20pfsrd.com/spell/dominate/">dominate</a> and burn, enslaving weaker creatures to act as servants and to look after their lairs while the dragons slumber away. They take pleasure in dominating these creatures, and they demand tribute from their supplicants. Those who anger or disappoint end up eaten or reduced to ash. They command their enslaved minions to constantly build onto their lairs, carving out new tunnels and designing cunning traps that ensure the dragon&#8217;s security.</p> 
+ <p>Driven by their arrogance, red dragons are the most likely of the chromatic dragons to ravage settlements.</p> 
+ <p>They want the world to see them in their rightful place as powerful tyrants, and they delight in threatening all other creatures. They have no qualms about bullying, manipulating, or killing to complete their goals—or simply intimidating others through a public display of brutality and dominance.</p> 
+ <p>As legendary as the brutishness of red dragons is the magnificence of their hoards of gold. Their lairs are often situated in dangerous places, with volcanoes being a favorite spot, as they find them foreboding and the constant warmth is comfortable. No matter the locale, red dragons sleep on a litter of coins and other treasures, which they zealously guard. Sometimes, the dragon&#8217;s internal heat causes these Precious metals to fuse together.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

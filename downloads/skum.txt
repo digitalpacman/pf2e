@@ -1,0 +1,35 @@
+894" class="post-894 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-alghollthu">
+                                        <h1>Skum (Ulat-Kini)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                            <h4 class="monster">Skum <span class="monster-level">Creature 2</span></h4> 
+  <p class="traits"><span class="alignment">LE</span>  <span class="size">Medium</span> <span class="trait">Amphibious</span> <span class="trait">Humanoid</span></p> 
+  <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +6; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a></p> 
+  <p><b>Languages</b> Alghollthu, Undercommon</p> 
+  <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +8, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +4, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +7</p> 
+  <p><b>Str</b> +4, <b>Dex</b> +1, <b>Con</b> +3, <b>Int</b> +0, <b>Wis</b> +0, <b>Cha</b> -2</p> 
+  <p><b>Items</b> trident</p> 
+  <hr> 
+  <p><b>AC</b> 16; <b>Fort</b> +7, <b>Ref</b> +7, <b>Will</b> +4</p> 
+  <p><b>HP</b> 40; <b>Resistances</b> cold 5</p> 
+  <hr> 
+  <p><b>Speed</b> 20 feet, swim 40 feet</p> 
+  <p><b>Melee</b> [one-action] trident +10, <b>Damage</b> 1d8+4 piercing</p> 
+  <p><b>Melee</b> [one-action] claw +10 (agile), <b>Damage</b> 1d6+4 slashing</p> 
+  <p><b>Melee</b> [one-action] fangs +10, <b>Damage</b> 2d4+4 piercing</p> 
+  <p><b>Ranged</b> [one-action] trident +7 (thrown 20 feet), <b>Damage</b> 1d8+3 piercing</p> 
+
+<p class="header">About</p>
+<p>The most numerous of the alghollthus are the ulat-kinis, a servitor race created from human stock to serve as rank-and-file soldiers in alghollthu armies.</p> 
+<p>At the zenith of alghollthu power, ulat-kinis formed massive legions and enjoyed significant power over other species. When the alghollthus retreated from the world, they abandoned teeming hordes of ulatkinis.</p> 
+<p>Although these erstwhile soldiers tried to continue their conquering ways, their numbers declined rapidly in battlefield defeats and purposeful exterminations enacted by their enemies. Ulat-kini society degenerated, so that now only a few enclaves exist in the depths of the earth or along isolated coastlines. Few remember their own species&#8217; name, instead using the epithet their foes gave them: &#8221; skum.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

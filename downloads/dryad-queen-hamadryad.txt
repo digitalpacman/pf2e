@@ -1,0 +1,46 @@
+980" class="post-980 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-nymph">
+                                        <h1>Dryad Queen (Hamadryad)</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Dryad Queen <span class="monster-level">Creature 13</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">CG</span> <span class="size">Medium</span> <span class="trait">Fey</span> <span class="trait">Nymph</span> <span class="trait">Plant</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +25; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Low-light_Vision">low-light vision</a></p> 
+ <p><b>Languages</b> Common, Elven, Sylvan; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-plants/">speak with plants</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +19, <a href="https://pf2.d20pfsrd.com/rules/skills/#Crafting_Int">Crafting</a> +23 (+25 woodworking), <a href="https://pf2.d20pfsrd.com/rules/skills/#Deception_Cha">Deception</a> +30, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +30, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +27, <a href="https://pf2.d20pfsrd.com/rules/skills/#Nature_Wis">Nature</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Performance_Cha">Performance</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +25, <a href="https://pf2.d20pfsrd.com/rules/skills/#Survival_Wis">Survival</a> +24</p> 
+ <p><b>Str</b> +2, <b>Dex</b> +6, <b>Con</b> +6, <b>Int</b> +4, <b>Wis</b> +4, <b>Cha</b> +8</p> 
+ <p><b>Nature Empathy</b> As dryad.</p> 
+
+<div class="special-abilities">
+<p><b>Tied to the Land</b> AC 35; <b>Fort</b> +24, <b>Ref</b> +26, <b>Will</b> +24</p>
+</div>
+
+ <p><b>HP</b> 220; <b>Weaknesses</b> cold iron 10, fire 10</p> 
+ <p><b>Nymph&#8217;s Beauty</b> (aura, emotion, enchantment, incapacitation, mental, primal, visual) DC 30. On a failed save, the target is immobilized in awe for 1 minute.</p> 
+ <hr> 
+ <p><b>Speed</b> 30 feet</p> 
+ <p><b>Melee</b> [one-action] branch +27 (finesse, magical), <b>Damage</b> 3d12+8 bludgeoning</p> 
+ <p><b>Ranged</b> [one-action] leaves +27 (conjuration, plant, primal, range increment 60 feet), <b>Damage</b> 3d8+6 slashing</p> 
+
+<p><b>Primal Prepared Spells</b> DC 35, attack +25; <b>7th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/regenerate/">regenerate</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/summon-plant-or-fungus/">summon plant or fungus</a>; <b>6th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/baleful-polymorph/">baleful polymorph</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/chain-lightning/">chain lightning</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/tangling-creepers/">tangling creepers</a>; <b>5th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/cone-of-cold/">cone of cold</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/death-ward/">death ward</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/heal/">heal</a>; <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/fly/">fly</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/resist-energy/">resist energy</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/stoneskin/">stoneskin</a>; <b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/earthbind/">earthbind</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/haste/">haste</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/wall-of-thorns/">wall of thorns</a>; <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/animal-messenger/">animal messenger</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/faerie-fire/">faerie fire</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/remove-fear/">remove fear</a>; <b>1st</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/fleet-step/">fleet step</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/gust-of-wind/">gust of wind</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/negate-aroma/">negate aroma</a>; <b>Cantrips</b> (7th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/detect-magic/">detect magic</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/guidance/">guidance</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/light/">light</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/ray-of-frost/">ray of frost</a>, <a class="spell" href="https://pf2.d20pfsrd.com/spell/stabilize/">stabilize</a></p> 
+
+<p><b>Primal Innate Spells</b> DC 35, attack +25; <b>8th</b> impaling briars, 5th <a class="spell" href="https://pf2.d20pfsrd.com/spell/tree-stride/">tree stride</a> (×3); <b>4th</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/charm/">charm</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/suggestion/">suggestion</a> (at will); <b>3rd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/entangle/">entangle</a> (at will), sleep (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/shape-wood/">shape wood</a> (at will), <a class="spell" href="https://pf2.d20pfsrd.com/spell/tree-shape/">tree shape</a> (at will); <b>Cantrips</b> (5th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/tanglefoot/">tanglefoot</a>; <b>Constant</b> (4th) <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-plants/">speak with plants</a></p> 
+
+<div class="special-abilities">
+<p><b>Change Shape</b> [one-action] (polymorph, primal, transmutation)</p> 
+<p><b>Focus Beauty</b> [one-action] (emotion, enchantment, incapacitation, mental, primal, visual) On a failed save, if the target was already affected by the dryad queen&#8217;s beauty, the target suffers the effects of a failed save against charm.</p> 
+<p><b>Inspiration</b> [three-actions] (emotion, enchantment, mental, primal)</p> 
+<p><b>Tree Meld</b> [two-actions] (primal, transmutation) As dryad, except the hamadryad can enter and exit her Extradimensional domain from any tree in her domain and she can bring up to eight other creatures with her when she does so.</p> 
+</div>
+
+<p class="header">About</p>
+<p>Hamadryads rule over an entire forest, or a portion of an incredibly large forest, leading and protecting all dryads within. Hamadryads often have strange relationships with powerful and deadly fey, working together in a dualistic way despite their differences, with the hamadryad representing nature&#8217;s wonders and the other fey representing nature&#8217;s wrath.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                

@@ -1,0 +1,95 @@
+927" class="post-927 monster type-monster status-publish hentry srd-content-source-pf2bestiary publisher-paizo creature-family-cat-metallic-dragon">
+                                        <h1>Bronze Dragon</h1>
+                    <div class="page-center">
+                        <div class="article-content">
+                             <h4 class="monster">Young Bronze Dragon <span class="monster-level">Creature 9</span></h4> 
+ <p class="traits"><span class="alignment">LG</span> <span class="size">Large</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span> <span class="trait">Water</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +18; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p> 
+ <p><b>Languages</b> Aquan, Common, Draconic, Dwarven, Elven; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +16, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +20, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Occultism_Int">Occultism</a> +18, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +16, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +16</p> 
+ <p><b>Str</b> +5, <b>Dex</b> +1, <b>Con</b> +3, <b>Int</b> +3, <b>Wis</b> +3, <b>Cha</b> +3</p> 
+ <hr> 
+ <p><b>AC</b> 28; <b>Fort</b> +19, <b>Ref</b> +17, <b>Will</b> +19; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 170; <b>Immunities</b> electricity, paralyzed, sleep</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 26</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <hr> 
+ <p><b>Speed</b> 30 feet, fly 120 feet, swim 40 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +21 (electricity, reach 10 feet), <b>Damage</b> 2d8+11 piercing plus 1d12 electricity</p> 
+ <p><b>Melee</b> [one-action] claw +21 (agile), <b>Damage</b> 2d8+11 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +19 (reach 10 feet), <b>Damage</b> 1d8+9 bludgeoning</p> 
+ <p><b>Arcane Innate Spells</b> DC 28</p> 
+ <p><b>Constant (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] The bronze dragon breathes in one of two ways. The dragon can&#8217;t use Breath Weapon again for 1d4 rounds.</p> 
+ <ul> 
+  <li>Lightning (arcane, electricity, evocation); The dragon breathes Lightning in a 60-foot line that deals 6d12 electricity damage (DC 28 basic <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Reflex">Reflex</a> save).</li> 
+  <li>Repulsion Gas (abjuration, arcane, incapacitation, mental); The dragon breathes a 60-foot line of repulsive gas. Each creature in the area must succeed at a DC 28 Will save or become fleeing from the dragon for 1 round (or 2 rounds on a critical failure).</li> 
+ </ul> 
+ <p><b>Draconic Frenzy</b> [two-actions] The dragon makes two claw Strikes and one tail Strike in any order.</p> 
+ <p><b>Draconic Momentum</b> When the dragon scores a critical hit with a Strike, it recharges its Breath Weapon.</p> 
+ <p>Water Mastery (arcane, transmutation, water)</p> 
+ <p>For up to 30 minutes per day, the dragon, along with allied creatures and vessels within 50 feet, can move at double their normal Speed in water.</p> 
+ <h4 class="monster">Adult Bronze Dragon <span class="monster-level">Creature 13</span></h4> 
+ <p class="traits"><span class="alignment">LG</span> <span class="size">Huge</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span> <span class="trait">Water</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +23; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 60 feet</p> 
+ <p><b>Languages</b> Aquan, Common, Draconic, Dwarven, Elven, Gnomish; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +22, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +23, <a href="https://pf2.d20pfsrd.com/rules/skills/#Occultism_Int">Occultism</a> +24, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +22</p> 
+ <p><b>Str</b> +7, <b>Dex</b> +3, <b>Con</b> +4, <b>Int</b> +5, <b>Wis</b> +4, <b>Cha</b> +4</p> 
+ <hr> 
+ <p><b>AC</b> 34; <b>Fort</b> +24, <b>Ref</b> +23, <b>Will</b> +26; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 260; <b>Immunities</b> electricity, paralyzed, sleep</p> 
+ <p class="traits"><span class="trait">Electricity</span> Aura (aura, electricity) 10 feet, 1d12 electricity damage. The bronze dragon can turn this aura on or off using a single action, which has the concentrate trait, and it can choose to not affect allies with the aura.</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 31</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <hr> 
+ <p><b>Speed</b> 40 feet, fly 140 feet, swim 50 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +28 (electricity, magical, reach 15 feet), <b>Damage</b> 2d12+15 piercing plus 1d12 electricity</p> 
+ <p><b>Melee</b> [one-action] claw +28 (agile, magical, reach 10 feet), <b>Damage</b> 2d10+15 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +26 (magical, reach 15 feet), <b>Damage</b> 1d10+13 bludgeoning</p> 
+ <p><b>Arcane Innate Spells</b> DC 33</p> 
+ <p><b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/obscuring-mist/">obscuring mist</a> (at will); <b>Constant</b> (2nd) <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] As young bronze dragon, but an 80-foot line, DC 33, and the dragon&#8217;s Lightning deals 8d12 electricity damage.</p> 
+ <p><b>Draconic Frenzy</b> [two-actions] As young bronze dragon.</p> 
+ <p><b>Draconic Momentum</b> As young bronze dragon.</p> 
+ <p>Water Mastery As young bronze dragon, but for up to 60 minutes per day.</p> 
+ <h4 class="monster">Ancient Bronze Dragon <span class="monster-level">Creature 18</span></h4> 
+ <p class="traits"><span class="frequency-uncommon">Uncommon</span> <span class="alignment">LG</span> <span class="size">Gargantuan</span> <span class="trait">Amphibious</span> <span class="trait">Dragon</span> <span class="trait">Water</span></p> 
+ <p><b>Senses</b> <a href="https://pf2.d20pfsrd.com/rules/character-creation/#Perception">Perception</a> +32; <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Darkvision">darkvision</a>, <a href="https://pf2.d20pfsrd.com/rules/bestiary/#Scent">scent</a> (imprecise) 100 feet</p> 
+ <p><b>Languages</b> Aquan, Common, Draconic, Dwarven, Elven, Gnomish; <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Skills</b> <a href="https://pf2.d20pfsrd.com/rules/skills/#Acrobatics_Dex">Acrobatics</a> +28, <a href="https://pf2.d20pfsrd.com/rules/skills/#Arcana_Int">Arcana</a> +35, <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> +34, <a href="https://pf2.d20pfsrd.com/rules/skills/#Diplomacy_Cha">Diplomacy</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Intimidation_Cha">Intimidation</a> +32, <a href="https://pf2.d20pfsrd.com/rules/skills/#Occultism_Int">Occultism</a> +33, <a href="https://pf2.d20pfsrd.com/rules/skills/#Society_Int">Society</a> +33, <a href="https://pf2.d20pfsrd.com/rules/skills/#Stealth_Dex">Stealth</a> +28</p> 
+ <p><b>Str</b> +8, <b>Dex</b> +4, <b>Con</b> +6, <b>Int</b> +7, <b>Wis</b> +6, <b>Cha</b> +6</p> 
+ <hr> 
+ <p><b>AC</b> 43; <b>Fort</b> +32, <b>Ref</b> +30, <b>Will</b> +34; +1 status to all saves vs. magic</p> 
+ <p><b>HP</b> 360; <b>Immunities</b> electricity, paralyzed, sleep</p> 
+ <p><b>Electricity Aura</b> (aura, electricity) 15 feet. As adult bronze dragon, but 2d12 electricity.</p> 
+ <p><b>Frightful Presence</b> (aura, emotion, fear, mental) 90 feet, DC 38</p> 
+ <p><b>Vortex</b> (aura, water); 40 feet. Water in the aura that is also in the same body of water as the dragon is difficult terrain for Swimming creatures that don&#8217;t have the water trait.</p> 
+ <p><b>Attack of Opportunity</b> [reaction] Jaws only.</p> 
+ <p><b>Vortex Pull</b> [reaction] (water); <b>Trigger</b> A creature in the dragon&#8217;s vortex uses a Swim action.; <b>Effect</b> The dragon creates a current of water, forcing the triggering creature to attempt a DC 40 <a href="https://pf2.d20pfsrd.com/rules/skills/#Athletics_Str">Athletics</a> check to Swim. If the creature fails, it&#8217;s pulled 30 feet toward the dragon and the triggering action is lost. If it succeeds, it can Swim normally (using the result of that roll if it doesn&#8217;t have a Swim speed).</p> 
+ <hr> 
+ <p><b>Speed</b> 60 feet, fly 200 feet, swim 60 feet</p> 
+ <p><b>Melee</b> [one-action] jaws +35 (electricity, magical, reach 20 feet), <b>Damage</b> 3d12+16 piercing plus 2d12 electricity</p> 
+ <p><b>Melee</b> [one-action] claw +35 (agile, magical, reach 15 feet), <b>Damage</b> 3d10+16 slashing</p> 
+ <p><b>Melee</b> [one-action] tail +33 (magical, reach 20 feet), <b>Damage</b> 2d10+14 bludgeoning</p> 
+ <p><b>Arcane Innate Spells</b> DC 40</p> 
+ <p><b>5th</b> control water (at will); <b>2nd</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/obscuring-mist/">obscuring mist</a> (at will); <b>Constant (2nd)</b> <a class="spell" href="https://pf2.d20pfsrd.com/spell/speak-with-animals/">speak with animals</a></p> 
+ <p><b>Breath Weapon</b> [two-actions] As young bronze dragon, but a 100-foot line, DC 40, and the dragon&#8217;s Lightning deals 12d12 electricity damage.</p> 
+ <p>Draconic Frenzy [two-actions] As young bronze dragon.</p> 
+ <p><b>Draconic Momentum</b> As young bronze dragon.</p> 
+ <p>Water Mastery As young bronze dragon, but up to 120 minutes per day.</p> 
+
+<p class="header">About</p>
+<p>Bronze dragons are among the most common of metallic dragons and the most likely to ally with mortals on worthy quests. However, they are naturally scholarly creatures who would rather remain in their lairs studying esoteric lore than go off on a wild adventure. These aloof and stoic dragons also act as preservationists, guarding storehouses of ancient lore from destruction or perversion. Bronze dragons are principled and protective, but while their silver cousins are quick to crusade for justice, bronze dragons prefer to find an important location worthy of their protection and guard it against any attack or unwelcome intrusion.</p> 
+ <p>Bronze dragons&#8217; mastery over water and affinity for electricity means they are a boon to sailors caught in thunderstorms. A bronze dragon&#8217;s enemies quickly discover neither cloudy sky nor turbulent sea provides shelter from their wrath.</p> 
+ <p>Bronze dragons lair along shorelines, often in partially submerged sea caves.</p> 
+ <p>While all dragons keep hoards of treasure, the hoard of a bronze dragon more resembles a vast library—with the shelves kept carefully above the waterline, of course. In addition to their collections of esoteric lore, bronze dragons keep treasures associated with the sea, such as beautiful scrimshaw, flawless pearls, and equipment inlaid with mother-of-pearl and abalone shell.</p> 
+                                        <div class="section15">
+                <div>Section 15: Copyright Notice</div>
+                <div>
+            <a href="https://amzn.to/2YFNLef">Pathfinder Bestiary (Second Edition)</a> © 2019, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Jason Bulmahn, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, Leo Glass, Thurston Hillman, James Jacobs, Jason Keeley, Lyz Liddell, Ron Lundeen, Robert G. McCreary, Tim Nightengale, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Chris S. Sims, Jeffrey Swank, Jason Tondro, Tonya Woldridge, and Linda Zayas-Palmer.                </div>
+            </div>
+                                    </div>
+                    </div>
+                    <div class="article-edit-link">
+                                            </div>
+                
