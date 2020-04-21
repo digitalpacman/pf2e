@@ -1,19 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import entries from './monster-entries.js';
+import FlexSearch from 'flexsearch'
 
-//https://github.com/nextapps-de/flexsearch
+let index;
+let ordered;
+
+// https://github.com/nextapps-de/flexsearch
 function App() {
-  const [search, setSearch] = useState('');
+  const [state, setState] = useState({ search: '', entries: [], count: 0 });
 
-  const nameFilter = (x, value) => {
-    return x.name.toLowerCase().indexOf(value.toLowerCase()) != -1;
-  };
+  useEffect(() => {
+    index = new FlexSearch({
+      tokenize: 'forward',
+      encode: 'icase',
+      resolution: 3,
+      threshold: 1,
+      depth: 4,
+      doc: {
+        id: 'name',
+        field: [
+          'name',
+          'description',
+          'immunitiesSearchText',
+        ],
+      },
+    });
 
-  const filteredEntries = () => {
-    console.log(entries)
-    //entries.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
-    return entries.filter(x => nameFilter(x, search));
+    entries.sort((a, b) => a.name > b.name ? 1 : -1);
+    
+    index.add(entries);
+
+    setState({ search: state.search, entries, count: entries.length });
+  }, []);
+
+  const setSearch = (search) => {
+    const matched = index?.search(search).sort((a, b) => a.name > b.name ? 1 : -1) ?? [];
+    console.log(matched)
+    for (let i = 0, x = 0; i < entries.length; i++) {
+      if (search === '' || (x < matched.length && entries[i].name === matched[x].name)) {
+        entries[i].show = true;
+        ++x;
+      } else {
+        entries[i].show = false;
+      }
+    }
+
+    setState({ search, entries, count: matched.length });
   };
 
   const renderTrait = (trait, additionalClassName='') => {
@@ -37,7 +70,7 @@ function App() {
 
   const renderProperties = (prop) => {
     return (
-      <div><strong>{prop.name}</strong> <span>{prop.description}</span></div>
+      <div key={prop.name}><strong>{prop.name}</strong> <span>{prop.description}</span></div>
     );
   };
 
@@ -52,7 +85,7 @@ function App() {
     return Object.entries(o).map(x => ({ name: x[0], value: x[1] }));
   };
 
-  const renderSpells = (spells) => {
+  const renderSpells = (monster, spells) => {
     if (!spells || spells.length === 0) {
       return;
     }
@@ -70,18 +103,18 @@ function App() {
 
     return grouped.map(x => {
       return (
-        <div>
-          <span>{x.level}th</span> {x.spells.map(renderSpell)}
+        <div key={monster.name + ' ' + x.level}>
+          <span>{x.level}th</span> {x.spells.map(s => renderSpell(monster, s))}
         </div>
       );
     });
   };
 
-  const renderSpell = (spell) => {
+  const renderSpell = (monster, spell) => {
     const frequency = spell.frequency ? (<span>({spell.frequency})</span>) : null;
     return (
-      <span>{spell.name} {frequency}</span>
-    )
+      <span key={monster.name + ' ' + spell.name + ' ' + spell.frequency}>{spell.name} {frequency}</span>
+    );
   };
 
   const renderMeleeAttack = (attack) => {
@@ -94,7 +127,7 @@ function App() {
   
   const renderAttack = (attack, kind) => {
     return (
-      <div>
+      <div key={attack.name}>
         {kind} {attack.actionCost} {attack.name} {signed(attack.hitBonus)} ({attack.traits.map(renderCsv)}), Damage {attack.damageFormula} {attack.damageType}
       </div>
     );
@@ -103,10 +136,10 @@ function App() {
   return (
     <div>
       <div>
-        <h1>Search: <input type="text" value={search} onChange={e => setSearch(e.target.value)} /></h1>
+  <h1>Search: <input type="text" value={state.search} onChange={e => setSearch(e.target.value)} /> matched {state.count}</h1>
       </div>
-      {(() => filteredEntries().map(x => (
-        <div key={x.name}>
+      {(() => state.entries.map(x => (
+        <div key={x.name} style={{ display: x.show ? 'block' : 'none' }}>
           <h1>
             <a className="name" href={x.url}>{x.name}</a> 
             <span className="name"> Level {x.level}</span>
@@ -145,11 +178,11 @@ function App() {
           </div>
           <div>
             <strong>Spells</strong>
-            {renderSpells(x.spells)}
+            {renderSpells(x, x.spells)}
           </div>
           <div>
             <strong>Rituals</strong>
-            {renderSpells(x.rituals)}
+            {renderSpells(x, x.rituals)}
           </div>
           <div>{x.meleeAttacks.map(renderMeleeAttack)}</div>
           <div>{x.rangedAttacks.map(renderRangedAttack)}</div>
