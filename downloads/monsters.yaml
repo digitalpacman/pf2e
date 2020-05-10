@@ -1,3 +1,4 @@
+monsters:
 - ability_mods:
     cha_mod: 0
     con_mod: 0
@@ -6,6 +7,7 @@
     str_mod: -4
     wis_mod: 0
   ac: 13
+  ac_special: null
   automatic_abilities:
   - description: An unseen servant is invisible, though it normally doesn’t Sneak,
       so it is usually only hidden.
@@ -22,8 +24,7 @@
   - precision
   - unconscious
   innate_spells: null
-  languages: 
-    - ' - (understands its creator)'
+  languages: ' - (understands its creator)'
   level: -1
   melee: null
   name: Unseen Servant
@@ -69,6 +70,7 @@
     str_mod: 5
     wis_mod: 5
   ac: 23
+  ac_special: null
   automatic_abilities:
   - description: While underwater, an aboleth exudes a cloud of transparent slime.
       An air-breathing creature adjacent to an aboleth must succeed at a DC 25 Fortitude
@@ -109,9 +111,6 @@
   - frequency: at will
     level: 4
     name: hallucinatory terrain
-  - frequency: at will
-    level: 3
-    name: hypnotic pattern
   languages:
   - Aklo
   - Alghollthu
@@ -184,6 +183,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: 'The most numerous of the alghollthus are the ulat-kinis, a servitor
     race created from human stock to serve as rank-and-file soldiers in alghollthu
@@ -275,9 +275,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 21
-  items:
-    - longsword
-    - studded leather armor
+  ac_special: null
   automatic_abilities: null
   description: Among the subtler of the alghollthu creations were the ugothols—also
     known as faceless stalkers. These twisted beings used shapeshifting to infiltrate
@@ -389,6 +387,7 @@
     str_mod: 6
     wis_mod: 5
   ac: 34
+  ac_special: null
   automatic_abilities:
   - description: While underwater, a veiled master exudes a cloud of transparent slime.
       An air-breathing creature within 30 feet of a veiled master must succeed at
@@ -456,9 +455,6 @@
   - frequency: constant
     level: 5
     name: tongues
-  rituals:
-    - level: 5
-      name: geas
   languages:
   - Aklo
   - Alghollthu
@@ -607,8 +603,7 @@
     str_mod: 1
     wis_mod: 2
   ac: 16
-  items:
-    - shortsword
+  ac_special: null
   automatic_abilities:
   - description: An arbiter can always sense the direction of the nearest non-arbiter
       inevitable on the plane, but it cannot sense the range of the inevitable.
@@ -628,14 +623,8 @@
   innate_spells:
   - level: 4
     name: read omens
-  - level: 1
-    name: command
-  - level: 1
-    name: detect alignment
-    frequency: at will, chaotic only  
-  - level: 1
-    name: mending
-    frequency: x3
+  items:
+  - shortsword
   languages:
   - Celestial
   - Common
@@ -709,6 +698,7 @@
     str_mod: 5
     wis_mod: 5
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: According to the axiomites, their kind rose from the raw mathematical
     underpinnings of the universe, manifesting as great builders who created the ancient,
@@ -830,8 +820,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 34
-  items:
-    - +1 striking bastard sword
+  ac_special: null
   automatic_abilities:
   - description: A kolyarut can speak with and understand any creature that has a
       language.
@@ -868,6 +857,8 @@
   - frequency: self only
     level: 2
     name: silence
+  items:
+  - +1 striking bastard sword
   languages:
   - Celestial
   - Infernal
@@ -935,6 +926,7 @@
     str_mod: 6
     wis_mod: 9
   ac: 45
+  ac_special: null
   automatic_abilities:
   - description: Pleromas care little for communication with other creatures, but
       when they do convey information, they do so wordlessly through a series of psychic
@@ -1006,8 +998,7 @@
   - frequency: constant
     level: 4
     name: freedom of movement
-  languages: 
-    - 'envisioning'
+  languages: ' envisioning'
   level: 20
   melee:
   - action_cost: One Action
@@ -1115,6 +1106,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The weakest of angels, cassisians usually serve as lackey messengers
     for more powerful angels or as spiritual guides for mortals. Despite their limited
@@ -1225,6 +1217,7 @@
     str_mod: 1
     wis_mod: 4
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: "Choral angels are incredible singers who \x1Ffill the halls of Nirvana\
     \ with pious chants and sacred hymns. They form from the souls of talented bards\
@@ -1340,6 +1333,7 @@
     str_mod: 5
     wis_mod: 6
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Balisses, or confessor angels, seek to assist mortals ensnared by moral
     dilemmas or crises of faith. Balisses prefer to guide people to their own decisions
@@ -1461,6 +1455,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 36
+  ac_special: null
   automatic_abilities: null
   description: Astral devas are the elite messengers and emissaries of the celestial
     realms, serving deities and celestial armies by delivering messages, performing
@@ -1569,6 +1564,7 @@
     str_mod: 0
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Animated brooms perform menial tasks of cleaning and upkeep, but they
     can step in to defend a room from intrusion if needed. These simple animated objects
@@ -1645,6 +1641,7 @@
     str_mod: 3
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Suits of animated armor see use both as guardians and as training partners
     in high-end martial academies able to afford the extravagance. They are most often
@@ -1726,6 +1723,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Animated statues are often used to guard crypts, small shrines, or
     areas in government buildings where they can be positioned amid normal statues
@@ -1798,6 +1796,7 @@
     str_mod: 6
     wis_mod: 0
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: As with any humanoid animated statues of Medium size, giant animated
     statues are used to guard locations of importance, but their increased size and
@@ -1896,6 +1895,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: 'These horse-sized, burrowing monsters generally avoid heavily settled
     areas like
@@ -1982,6 +1982,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Ankhrav hive mothers are fearsome predators that one can easily distinguish
     from the typical ankhrav not only by their greater size, but the presence of a
@@ -2071,6 +2072,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Gorillas can be territorial creatures, particularly if provoked by
     hunters or the presence of more dangerous monsters. A gorilla uses its fangs and
@@ -2151,6 +2153,7 @@
     str_mod: 7
     wis_mod: 1
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: The megaprimatus is among the mightiest of apes, quick to confront
     any perceived intrusions into its domain. With a height of 40 feet, it towers
@@ -2235,6 +2238,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Arboreal wardens are the rangers of arboreal society. These itinerant
     folk have an innate curiosity about the woodlands in which they dwell, and rarely
@@ -2316,6 +2320,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: "Arboreal regents and other wielders of powerful primal magic grant\
     \ temporary sentience to trees in order to protect the forest. Invested with a\
@@ -2387,6 +2392,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Arboreal regents—also called treants—are lumbering, solitary creatures
     responsible for guarding an entire forest. They take an especially long view of
@@ -2492,6 +2498,7 @@
     str_mod: -5
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: "Friendly, curious, and eternally optimistic, lantern archons embody\
     \ the virtue of hope. They are formed of living light given corporeal shape, and\
@@ -2597,6 +2604,7 @@
     str_mod: 3
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Horned archons are secretive and tireless sentinels and scouts, patrolling
     the Outer Sphere’s untamed wilds for evil to eliminate and keeping small communities
@@ -2707,6 +2715,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Despite their flaming blades and heavy armor, legion archons are the
     diplomats of peace among the archons, preferring justice via compromise and mutual
@@ -2813,8 +2822,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 31
-  items:
-    - +1 full plate
+  ac_special: null
   automatic_abilities:
   - description: '|1| (divine, transmutation) A shield archon’s hands can change into
       a *+1 holy striking* spear and a *lesser sturdy shield* or back into hands.
@@ -2845,6 +2853,8 @@
   - frequency: constant
     level: 5
     name: tongues
+  items:
+  - +1 full plate
   languages:
   - Celestial
   - Draconic
@@ -2912,6 +2922,7 @@
     str_mod: -2
     wis_mod: 3
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Lyrakiens are musical messengers and embodiments of free travel. They
     serve Desna and other deities and empyreal lords of Elysium, but are quite fond
@@ -3023,6 +3034,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Gancanaghs are lovers, revelers, and dashing duelists of Elysium. Embodiments
     of free love, they eagerly throw themselves into courting targets for brief but
@@ -3138,6 +3150,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Lillends are tale-tellers, chroniclers, and champions of freedom of
     expression. They are generally peaceful, but are quick to act if a masterful piece
@@ -3268,6 +3281,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Ghaeles are fiend-hunting knights of Elysium and champions of the freedom
     to take up arms against oppressors and other evils. Ghaeles rarely engage directly
@@ -3431,6 +3445,7 @@
     str_mod: -5
     wis_mod: 7
   ac: 39
+  ac_special: null
   automatic_abilities:
   - description: The banshee can hear heartbeats within  (imprecise). **Sunlight Powerlessness**
       If in direct sunlight, the banshee is slowed 1 and can’t use actions that have
@@ -3547,6 +3562,7 @@
     str_mod: 10
     wis_mod: 6
   ac: 48
+  ac_special: null
   automatic_abilities: null
   description: Few sea monsters are as dreaded and feared as the two-headed baomal.
     These massive predatory beasts typically dwell in the deepest waters and compete
@@ -3649,6 +3665,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Typical barghests are ravenous gluttons of life who feed and grow on
     the fat of mortals, their bodies changing in ways none can predict as they use
@@ -3758,6 +3775,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Once a barghest has eaten enough to grow into a greater barghest, it
     typically seeks a method to leave the Material Plane and return to the Abyss,
@@ -3888,6 +3906,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: The basilisk is an eight-legged reptile with a nasty disposition and
     the ability to turn creatures to stone with its gaze. Folklore holds that, much
@@ -3960,6 +3979,7 @@
     str_mod: 1
     wis_mod: 3
   ac: 15
+  ac_special: null
   automatic_abilities:
   - description: A bat swarm can use its hearing as a precise sense at the listed
       range.
@@ -4032,6 +4052,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 18
+  ac_special: null
   automatic_abilities:
   - description: A bat can use its hearing as a precise sense at the listed range.
     name: Echolocation
@@ -4106,6 +4127,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: This large and powerful omnivore inhabits forested hills. While it
     typically sustains itself on nuts, berries, fish, and small mammals, it’s fiercely
@@ -4182,6 +4204,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: Larger, stronger, and far more aggressive than its smaller cousins,
     the cave bear is a behemoth that avoids civilized lands, preferring to dwell in
@@ -4260,6 +4283,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: These 3-foot-long insects boast a pair of glowing organs on the back
     of the abdomen that give off bright light and that continue to glow for days,
@@ -4330,6 +4354,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: The giant stag beetle is larger than a horse, and the sight of one
     flying (if slowly and somewhat clumsily) on great buzzing wings is unnerving.
@@ -4398,6 +4423,7 @@
     str_mod: -4
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Scourges of swamps and damp, abandoned places, bloodseekers are ravenous
     blood drinkers. Farmers curse the creatures for sucking their livestock dry. It
@@ -4475,6 +4501,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Boars are omnivorous mammals, hunted heavily because their meat is
     considered a delicacy. Boars are most likely to attack humanoids either in self-defense
@@ -4539,6 +4566,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Where the typical boar is merely ill-tempered and generally unfriendly,
     the towering daeodon is legitimately hateful and ruthlessly violent. Although
@@ -4603,6 +4631,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Often tasked with patrolling the borders of their lands, boggard scouts
     learn to speak another language (typically Common) to make it easier to issue
@@ -4699,6 +4728,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Boggard warriors exalt in single combat, and prefer to fight alone
     so that none can contest their kills. They have been known to pursue enemies who
@@ -4799,6 +4829,7 @@
     str_mod: 3
     wis_mod: 4
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The boggard swampseer has been gifted with magic through its worship
     of the demon lord Gogunta, and uses its power to rule a boggard village, keeping
@@ -4908,6 +4939,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: The grotesque brain collectors (or neh-thalggus, as they call themselves)
     originate from worlds far beyond the known solar system, and are part of a conglomeration
@@ -5001,6 +5033,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The more common bugbear thug specializes in the art of lurking in the
     shadows.
@@ -5084,6 +5117,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: The bugbear tormentor seeks to torture their prey as much through psychological
     intimidation as through physical harm. The longer a bugbear tormentor can keep
@@ -5174,6 +5208,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Bulettes are fearsome predators that roam just beneath the surface
     of desolate wilderness areas. When they burrow through the ground, only the fin
@@ -5258,6 +5293,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: The bunyip can smell blood in the water from up to 1 mile away.
     name: Blood Scent
@@ -5360,6 +5396,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Caligni dancers serve as intermediaries between caligni clans.
   hp: 18
@@ -5454,6 +5491,7 @@
     str_mod: 0
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: The most widespread of the caligni are the mischievous caligni creepers.
   hp: 30
@@ -5529,6 +5567,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Caligni stalkers are often leaders of caligni enclaves.
   hp: 60
@@ -5609,6 +5648,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Leopards are among the smallest of the big cats, yet they are still
     dangerous creatures to tangle with. Leopard statistics can also be used for black
@@ -5691,6 +5731,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Lions are cooperative hunters, ambushing dangerous prey in groups of
     lionesses that work in tandem to trap and kill their prey. Male lions are typically
@@ -5767,6 +5808,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Tigers are solitary and territorial hunters, using their striped hides
     to blend into the forests and jungles they call home and preferring to attack
@@ -5843,6 +5885,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Smilodons are large saber-toothed cats, apex predators that are significantly
     more muscular and broader than the other species of big cats. They often kill
@@ -5925,6 +5968,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Catfolk pouncers travel the world in search of new experiences.
   hp: 19
@@ -6009,6 +6053,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 33
+  ac_special: null
   automatic_abilities:
   - description: he cauthooj senses a creatures mental essence at the listed ranged.
     name: Thoughtsense
@@ -6101,6 +6146,7 @@
     str_mod: 9
     wis_mod: -1
   ac: 32
+  ac_special: null
   automatic_abilities: null
   description: The purple worm is the most common and infamous of the cave worms,
     a much-feared monster wandering the twisting tunnels of the Darklands that is
@@ -6219,6 +6265,7 @@
     str_mod: 10
     wis_mod: -1
   ac: 35
+  ac_special: null
   automatic_abilities: null
   description: The azure worm is a deep-blue creature that is more at home in flooded
     tunnels than dry caves. While an azure worm is a strong swimmer, it prefers to
@@ -6333,6 +6380,7 @@
     str_mod: 10
     wis_mod: -1
   ac: 40
+  ac_special: null
   automatic_abilities: null
   description: Among the most dangerous cave worms are the fiery crimson worms. In
     addition to being even larger than azure or purple worms, the crimson worm has
@@ -6459,6 +6507,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Centaurs are legendary hunters and trackers who resemble heavily muscled
     humans with the bodies of powerful horses from the waist down. They are typically
@@ -6553,6 +6602,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: Most giant centipedes (known as sewer centipedes when found in cities)
     nest in small groups but hunt alone when they seek out food. Attempts to domesticate
@@ -6621,6 +6671,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Swarms of centipedes are dangerous indeed, ravenous carpets of skittering
     hunger capable of devouring a traveler whole in a matter of minutes. Some alchemists
@@ -6696,6 +6747,7 @@
     str_mod: 4
     wis_mod: 4
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: This changeling exile is the child of a night hag or dreamthief hag.
   hp: 45
@@ -6763,6 +6815,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: 'The chimera is the archetypal example of an unnatural monster made
     up of a monstrous mix of wildly different component creatures: in this case, a
@@ -6871,6 +6924,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Also known as chu’ulothis, these large, armor-plated, crustacean predators
     lurk beneath the surface of pools, mires, and ponds, waiting to snatch up prey
@@ -6955,6 +7009,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities:
   - description: Cloakers are concealed in dim light even to creatures with low-light
       vision and darkvision.
@@ -7057,6 +7112,7 @@
     str_mod: -2
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Ugly and aggressive, the dread cockatrice stalks garbage pits and hillside
     dumps in search of prey that it can turn to stone with its petrifying beak and
@@ -7135,6 +7191,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Crocodiles can be found basking on riverbanks, lurking in swamps, or
     floating in lakes. They are usually are indistinguishable from logs when viewed
@@ -7218,6 +7275,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: The deinosuchus is a primeval relative of the crocodile, and is an
     enormous predator capable of catching and eating dinosaurs that wander too close
@@ -7295,6 +7353,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: The kingdoms of the cyclopes date to an age before the rise of humanity,
     when dragons and giants and serpentfolk ruled the world. The cyclopes built enormous
@@ -7378,6 +7437,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 32
+  ac_special: null
   automatic_abilities: null
   description: Gigantic, dim-witted loners, the great cyclopes embody their lesser
     kin writ large. They are both stronger and more violent, but their uncontrolled
@@ -7479,6 +7539,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: These embodiments of demented violence and spite are spawned from eddies
     of angry and warped souls amid Abaddon’s mists. Cacodaemons constantly hunger
@@ -7595,6 +7656,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Ceustodaemons are formed from the souls of vile mortals, particularly
     those who took efforts to hasten their own death, their willingness shaping them
@@ -7711,7 +7773,7 @@
     str_mod: 6
     wis_mod: 5
   ac: 28
-  items: +1 striking composite longbow (50 arrows)
+  ac_special: null
   automatic_abilities:
   - description: A leukodaemon senses any creature with a disease, and it knows the
       type and current stage of all diseases carried by any creature within range.
@@ -7736,6 +7798,7 @@
   - frequency: at will
     level: 4
     name: dispel magic
+  items: +1 striking composite longbow (50 arrows)
   languages:
   - Common
   - Daemonic
@@ -7850,6 +7913,7 @@
     str_mod: 5
     wis_mod: 4
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: These unnerving, almost reptilian daemons represent death by direct
     assault against a soul or life-force—the same numbing death they bring with their
@@ -7989,6 +8053,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Deep gnome scouts patrol the tunnels that lead into their settlements.
     Some scout alone to make the most of their stealth, but others form groups for
@@ -8062,6 +8127,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Deep gnome warriors are quick to charge into battle but focus on defending
     their kin and their homes over more aggressive tactics when a choice is available.
@@ -8127,6 +8193,7 @@
     str_mod: 1
     wis_mod: 5
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Deep gnome rockwardens follow druidic teachings and commune with the
     natural elemental influences and denizens of the Darklands. They know that not
@@ -8197,6 +8264,7 @@
     str_mod: -1
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: When a quasit offers Aid for an Arcana or Religion check, it gets
       the critical success result on any success and gets the critical failure result
@@ -8303,6 +8371,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Succubi are manifestations of the sin of destructive lust, and they
     are the most attractive of all demons—as befits their role in seducing mortals
@@ -8449,6 +8518,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: When the gates to the Abyss swing wide, the first demons through are
     often vrocks, vulture-headed scions of rage who wheel through the air on black
@@ -8589,6 +8659,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Glabrezus are looming behemoths who revel in the act of twisting mortal
     desires into their ultimate ruin, betraying and manipulating as easily as they
@@ -8736,6 +8807,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Shemhazians rise from the souls of torturers and those who reveled
     in mutilating the physical bodies of their victims. Standing 35 feet tall, a shemhazian
@@ -8886,6 +8958,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 40
+  ac_special: null
   automatic_abilities: null
   description: Mariliths are the generals of the Abyss, formed from the souls of proud
     evil mortals, often warlords and despots. They appear as tall and powerfully built
@@ -9016,6 +9089,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 45
+  ac_special: null
   automatic_abilities: null
   description: When folk whisper frightened tales of the demonic, what most envision
     is the balor—a towering figure of fire and flesh, a horned nightmare armed with
@@ -9162,6 +9236,7 @@
     str_mod: 2
     wis_mod: -1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Dero stalkers are those charged with exploring the surface world by
     night and seeking out new victims to abduct.
@@ -9242,6 +9317,7 @@
     str_mod: 4
     wis_mod: -1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Dero stranglers specialize in capturing living victims, and they are
     often called upon to aid in abductions.
@@ -9335,6 +9411,7 @@
     str_mod: 1
     wis_mod: -1
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Dero magisters are leaders among dero society. They perform the bulk
     of the cruel operations and memory-altering procedures inflicted upon their victims.
@@ -9423,6 +9500,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 13
+  ac_special: null
   automatic_abilities: null
   description: These shapeless masses of quivering flesh are the least of devilkind.
     Pathetic creatures from Hell’s first layer, lemures roam alongside damned and
@@ -9491,6 +9569,7 @@
     str_mod: -1
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Imps are infiltrators and corruptors who, despite their diminutive
     stature, are more than capable of subtly influencing a weak-willed individual
@@ -9624,6 +9703,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Barbazus, known also as bearded devils or infantry devils, are murderous
     fiends who satiate their lust for annihilation by serving as the foot soldiers
@@ -9748,6 +9828,7 @@
     str_mod: 5
     wis_mod: 4
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Erinyes exact vengeance and bloody justice for a creature’s crimes,
     torturing and punishing their victims in ironic fashion before allowing them the
@@ -9889,6 +9970,7 @@
     str_mod: 3
     wis_mod: 5
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Contract devils are clerks, scribes, and bureaucrats of Hell rarely
     found outside the infernal courts, and then almost always to pursue potential
@@ -10054,6 +10136,7 @@
     str_mod: 6
     wis_mod: 5
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Insectile ice devils are strategists and masterminds in Hell’s armies,
     using their superior intellect to strike against their enemies and spread Hell’s
@@ -10196,6 +10279,7 @@
     str_mod: 9
     wis_mod: 9
   ac: 46
+  ac_special: null
   automatic_abilities: null
   description: When an army of devils invades to bathe a region in bloodshed and hellfire,
     it is likely that one of Hell’s most powerful and diabolical generals, the pit
@@ -10390,6 +10474,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Dezullons are dangerous carnivorous pitcher plants that dwell in forested
     regions with thick canopies. They hunt for meat along the forest’s understory
@@ -10485,6 +10570,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: This dhampir is a svetocher, the child of a moroi vampire.
   hp: 22
@@ -10575,6 +10661,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: A smaller cousin of the deinonychus, the velociraptor is a swift, cunning
     pack hunter. It has no fear of larger creatures, and a group of these dinosaurs
@@ -10659,6 +10746,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Deinonychuses are wily hunters that attack in groups of up to a dozen
     individuals, ripping apart their prey with sharp talons and powerful jaws. They
@@ -10735,6 +10823,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Squat, heavily armored quadrupeds, ankylosauruses are stubborn and
     irascible. Although they’re herbivores, they have been known to attack other creatures
@@ -10807,6 +10896,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: The stegosaurus is easily recognized by its twin rows of diamond-shaped
     dorsal plates that run down its spine, and thick tail adorned with four large
@@ -10877,6 +10967,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Triceratopses are muscular quadrupeds with powerful but short legs,
     thick necks, and heads crowned by a wide, bony frill. Though they bear a large
@@ -10958,6 +11049,7 @@
     str_mod: 9
     wis_mod: 2
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Brontosauruses are truly gigantic behemoths, plodding herbivores large
     enough to be unafraid of all but the most massive predators. Brontosauruses have
@@ -11037,6 +11129,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Widely regarded as the king of the dinosaurs, the tyrannosaurus is
     a massive predator with a wide mouth filled with viciously sharp teeth. Thundering
@@ -11128,6 +11221,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: The typical guard dog is loyal to and beloved by many communities.
     Often adored as pets, they also excel as protectors and trackers, and can be fearless
@@ -11192,6 +11286,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Riding dogs types include larger dogs, such as mastiffs, wolfhounds,
     and huskies, and are bred often by halflings and gnomes to serve as mounts. Riding
@@ -11253,6 +11348,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: In their natural forms, doppelgangers are humanoid creatures with flesh
     of indeterminate color and features that lack fine details, as if unfinished.
@@ -11324,6 +11420,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Murderous tyrants of marshes, swamps, bogs, and fens, black dragons
     terrorize their domains with intense fervor. Gleefully sadistic, they rule their
@@ -11439,6 +11536,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: Murderous tyrants of marshes, swamps, bogs, and fens, black dragons
     terrorize their domains with intense fervor. Gleefully sadistic, they rule their
@@ -11573,6 +11671,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Murderous tyrants of marshes, swamps, bogs, and fens, black dragons
     terrorize their domains with intense fervor. Gleefully sadistic, they rule their
@@ -11711,6 +11810,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities:
   - description: The dragon can mimic any sound it has heard. It must succeed at a
       Deception check with a +4 circumstance bonus to do so.
@@ -11846,6 +11946,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 34
+  ac_special: null
   automatic_abilities:
   - description: The dragon can mimic any sound it has heard. It must succeed at a
       Deception check with a +4 circumstance bonus to do so.
@@ -11996,6 +12097,7 @@
     str_mod: 7
     wis_mod: 5
   ac: 42
+  ac_special: null
   automatic_abilities:
   - description: The dragon can mimic any sound it has heard. To do so, it must succeed
       at a Deception check with a +4 circumstance bonus.
@@ -12175,6 +12277,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Green dragons are the most contemplative of the chromatic dragons as
     well as the most approachable. The key to understanding green dragons is to understand
@@ -12300,6 +12403,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Green dragons are the most contemplative of the chromatic dragons as
     well as the most approachable. The key to understanding green dragons is to understand
@@ -12441,6 +12545,7 @@
     str_mod: 7
     wis_mod: 5
   ac: 41
+  ac_special: null
   automatic_abilities:
   - description: The dragon can Hide in natural environments even if it doesn’t have
       cover.
@@ -12594,6 +12699,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 30
+  ac_special: null
   automatic_abilities:
   - description: Smoke doesn’t impair a red dragon’s vision; it ignores the concealed
       condition from smoke.
@@ -12712,6 +12818,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 37
+  ac_special: null
   automatic_abilities:
   - description: Smoke doesn’t impair a red dragon’s vision; it ignores the concealed
       condition from smoke.
@@ -12839,6 +12946,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 45
+  ac_special: null
   automatic_abilities:
   - description: Smoke doesn’t impair a red dragon’s vision; it ignores the concealed
       condition from smoke.
@@ -12985,6 +13093,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 23
+  ac_special: null
   automatic_abilities:
   - description: Snow doesn’t impair a white dragon’s vision; it ignores concealment
       from snowfall.
@@ -13120,6 +13229,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 29
+  ac_special: null
   automatic_abilities:
   - description: Snow doesn’t impair a white dragon’s vision; it ignores concealment
       from snowfall.
@@ -13262,6 +13372,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 36
+  ac_special: null
   automatic_abilities:
   - description: Snow doesn’t impair a white dragon’s vision; it ignores concealment
       from snowfall.
@@ -13408,6 +13519,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Brass dragons are whimsical tricksters who delight in humor and play.
     They particularly enjoy conversations with humans and other civilized humanoids,
@@ -13524,6 +13636,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: Brass dragons are whimsical tricksters who delight in humor and play.
     They particularly enjoy conversations with humans and other civilized humanoids,
@@ -13655,6 +13768,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Brass dragons are whimsical tricksters who delight in humor and play.
     They particularly enjoy conversations with humans and other civilized humanoids,
@@ -13790,6 +13904,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Bronze dragons are among the most common of metallic dragons and the
     most likely to ally with mortals on worthy quests. However, they are naturally
@@ -13916,6 +14031,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Bronze dragons are among the most common of metallic dragons and the
     most likely to ally with mortals on worthy quests. However, they are naturally
@@ -14049,6 +14165,7 @@
     str_mod: 8
     wis_mod: 6
   ac: 43
+  ac_special: null
   automatic_abilities: null
   description: Bronze dragons are among the most common of metallic dragons and the
     most likely to ally with mortals on worthy quests. However, they are naturally
@@ -14184,6 +14301,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Capricious and always eager to share a good laugh, copper dragons are
     among the wiliest of the metallic dragons, but this by no means interferes with
@@ -14301,6 +14419,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 33
+  ac_special: null
   automatic_abilities: null
   description: Capricious and always eager to share a good laugh, copper dragons are
     among the wiliest of the metallic dragons, but this by no means interferes with
@@ -14428,6 +14547,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 41
+  ac_special: null
   automatic_abilities: null
   description: Capricious and always eager to share a good laugh, copper dragons are
     among the wiliest of the metallic dragons, but this by no means interferes with
@@ -14572,6 +14692,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 32
+  ac_special: null
   automatic_abilities: null
   description: Gold dragons are the epitome of metallic dragonkind, unrivaled in their
     strength as well as their wisdom. They command the unwavering reverence of all
@@ -14705,6 +14826,7 @@
     str_mod: 7
     wis_mod: 6
   ac: 38
+  ac_special: null
   automatic_abilities: null
   description: Gold dragons are the epitome of metallic dragonkind, unrivaled in their
     strength as well as their wisdom. They command the unwavering reverence of all
@@ -14846,6 +14968,7 @@
     str_mod: 9
     wis_mod: 8
   ac: 46
+  ac_special: null
   automatic_abilities: null
   description: Gold dragons are the epitome of metallic dragonkind, unrivaled in their
     strength as well as their wisdom. They command the unwavering reverence of all
@@ -14990,6 +15113,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 31
+  ac_special: null
   automatic_abilities:
   - description: The silver dragon ignores the concealed condition from fog and clouds.
     name: Fog Vision
@@ -15109,6 +15233,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 37
+  ac_special: null
   automatic_abilities:
   - description: The silver dragon ignores the concealed condition from fog and clouds.
     name: Fog Vision
@@ -15233,6 +15358,7 @@
     str_mod: 9
     wis_mod: 5
   ac: 45
+  ac_special: null
   automatic_abilities:
   - description: The silver dragon ignores the concealed condition from fog and clouds.
     name: Fog Vision
@@ -15359,6 +15485,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: When sailors warn others of the terrible threats of the open sea, they
     seldom forget to mention dragon turtles—immense aquatic dragons with rocky shells
@@ -15466,6 +15593,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities:
   - description: The drakauthix exudes a cloud of spores that it uses to see. This
       is an imprecise sense that functions only in areas without strong wind currents.
@@ -15546,6 +15674,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Although the glistening scales and sleek, fin-like wings on these drakes
     give them an appearance reminiscent of river   sh, they are actually distant relatives
@@ -15648,6 +15777,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities:
   - description: Smoke doesn’t impair a flame drake’s vision; it ignores concealment
       from smoke.
@@ -15748,6 +15878,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Believed to be related to green dragons, jungle drakes are dangerous
     hunters equipped with a debilitating venom delivered by a large barbed stinger
@@ -15857,6 +15988,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: A wyvern is a venomous drake with a well-earned reputation for impatience
     and aggression. As much as 15 feet long and weighing up to 1,000 pounds, a wyvern’s
@@ -15960,6 +16092,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 25
+  ac_special: null
   automatic_abilities:
   - description: 'Snow doesn’t impair a frost drake’s vision; it ignores concealment
       from
@@ -16074,6 +16207,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Distant cousins of blue dragons that lack their relatives’ magical
     talents and intelligence, these desert-dwelling drakes are nonetheless dangerous
@@ -16178,11 +16312,7 @@
     str_mod: 2
     wis_mod: 1
   ac: 18
-  items:
-    - hand crossbow (10 bolts)
-    - leather armor
-    - lethargy poison (2 doses)
-    - rapier
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Light Blindness
@@ -16199,6 +16329,11 @@
   - frequency: at will
     level: 2
     name: faerie fire
+  items:
+  - hand crossbow (10 bolts)
+  - leather armor
+  - lethargy poison (2 doses)
+  - rapier
   languages:
   - Elven
   - Undercommon
@@ -16283,11 +16418,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 19
-  items: 
-    - hand crossbow (10 bolts)
-    - lethargy poison (2 doses)
-    - shortsword
-    - studded leather armor
+  ac_special: null
   automatic_abilities:
   - description: ' '
     name: Light Blindness
@@ -16305,6 +16436,11 @@
   - frequency: at will
     level: 2
     name: faerie fire
+  items:
+  - hand crossbow (10 bolts)
+  - lethargy poison (2 doses)
+  - shortsword
+  - studded leather armor
   languages:
   - Elven
   - Undercommon
@@ -16377,13 +16513,7 @@
     str_mod: 1
     wis_mod: 4
   ac: 20
-  items:
-    - chain mail
-    - hand crossbow (10 bolts)
-    - lethargy poison (4 doses)
-    - rapier
-    - religious symbol
-    - steel shield (Hardness 5, HP 20, BT 10)
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Light Blindness
@@ -16410,6 +16540,13 @@
   - frequency: at will
     level: 1
     name: command
+  items:
+  - chain mail
+  - hand crossbow (10 bolts)
+  - lethargy poison (4 doses)
+  - rapier
+  - religious symbol
+  - steel shield (Hardness 5, HP 20, BT 10)
   languages:
   - Abyssal
   - Elven
@@ -16476,6 +16613,7 @@
     str_mod: 1
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Duergar sharpshooters serve both as ranged support for slaver parties
     and as snipers posted on towers overlooking quarries and other areas where enslaved
@@ -16552,16 +16690,10 @@
     str_mod: 1
     wis_mod: 1
   ac: 18
-  items:
-    - alchemist's tools
-    - infused lesser acid flask (2)
-    - infused lesser alchemist's fire (2)
-    - studded leather armor
-    - warhammer
-    - infused reagents (2)
+  ac_special: null
   automatic_abilities:
   - description: A duergar bombardier’s items listed as infused last for 24 hours,
-      or until the next time they make their daily preparations.       
+      or until the next time they make their daily preparations.
     name: Infused Items
     traits: null
   description: Alchemy intrigues many duergars, and their cruel traditions often motivate
@@ -16574,6 +16706,13 @@
   hp: 20
   immunities: null
   innate_spells: []
+  items:
+  - alchemist's tools
+  - infused lesser acid flask (2)
+  - infused lesser alchemist's fire (2)
+  - studded leather armor
+  - warhammer
+  - infused reagents (2)
   languages:
   - Common
   - Dwarven
@@ -16653,6 +16792,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Duergar priests of the taskmaster god Droskar often assume leadership
     roles within their communities, advancing the goals of their deity through coercion
@@ -16725,6 +16865,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Riding on a horse as black as night, the headless hunter known as the
     dullahan tracks down and takes the heads of those it deems unfit to continue living.
@@ -16836,6 +16977,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: These large birds of prey swoop down from incredible heights to snatch
     fish and small mammals in their powerful talons. Eagles nest atop high trees or
@@ -16907,6 +17049,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: No mere animals, giant eagles have a keen intellect and a strong sense
     of honor. As guardians of their mountain homes, giant eagles attempt to prevent
@@ -16984,6 +17127,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Usually found in freshwater rivers and lakes, an electric eel is not
     particularly aggressive, but its ability to stun predators and prey alike can
@@ -17057,6 +17201,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Giant moray eels dwell in warm, tropical waters and build lairs in
     narrow, twisting caves made of coral. Their size, speed, and powerful bite make
@@ -17134,6 +17279,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: These strange, fey felines resemble large, broad bobcats from a distance,
     but a closer view reveals something amiss. Their forms ripple and billow with
@@ -17213,6 +17359,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Zephyr hawks drift among the currents of the Plane of Air in great
     flocks.
@@ -17280,6 +17427,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: A living whirlwind resembles a roughly humanoid-shaped dust devil.
   hp: 50
@@ -17344,6 +17492,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Invisible stalkers have a poor opinion of mortals due to the unsavory
     nature of the violent tasks summoners usually call them to the Material Plane
@@ -17414,6 +17563,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Storm lords wage battles to claim important territory within the Plane
     of Air.
@@ -17487,6 +17637,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 32
+  ac_special: null
   automatic_abilities: null
   description: Elemental hurricanes embody the ferocity of violent windstorms.
   hp: 140
@@ -17570,6 +17721,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: A sod hound can sense crystals or gems within  as if using the scent
       ability
@@ -17642,6 +17794,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: When not touching solid ground, the living landslide is slowed 1
       and can’t use reactions.
@@ -17714,6 +17867,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: These squat, rotund elementals have three legs, three arms, three eyes,
     and one massive maw, which they fill with the gems and metals they find so delicious.
@@ -17805,6 +17959,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities:
   - description: When not touching solid ground, a stone mauler is slowed 1 and can’t
       use reactions.
@@ -17887,6 +18042,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 32
+  ac_special: null
   automatic_abilities:
   - description: When not touching solid ground, the elemental avalanche is slowed
       1, can’t use reactions, and can’t Trample.
@@ -17969,6 +18125,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities:
   - description: The cinder rat ignores the concealed condition from smoke.
     name: Smoke Vision
@@ -18033,6 +18190,7 @@
     str_mod: 3
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities:
   - description: The living wildfire ignores the concealed condition from smoke.
     name: Smoke Vision
@@ -18105,6 +18263,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Salamanders have serpentine lower torsos, but humanoid upper bodies
     with toothy reptilian snouts. Their affinity for cruelty and violence puts them
@@ -18193,6 +18352,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities:
   - description: The firewyrm ignores the concealed condition from smoke.
     name: Smoke Vision
@@ -18273,6 +18433,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 31
+  ac_special: null
   automatic_abilities:
   - description: The elemental inferno ignores the concealed condition from smoke.
     name: Smoke Vision
@@ -18359,6 +18520,7 @@
     str_mod: 1
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Air mephits are capricious and flighty relative to their kin; they
     are as likely to fly blindly into battle as they are to whine in terror at a loud
@@ -18433,6 +18595,7 @@
     str_mod: 3
     wis_mod: 0
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: Earth mephits are humorless and trudge about their tasks with little
     enthusiasm. They are somewhat more stout than other mephits, and their dark-brown
@@ -18510,6 +18673,7 @@
     str_mod: 0
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: The fire mephit ignores the concealed condition from smoke.
     name: Smoke Vision
@@ -18588,6 +18752,7 @@
     str_mod: 1
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Water mephits are consummate jokers who are always happy to trade a
     favor for a good laugh. Just as fire mephits are the ones who cleave closest to
@@ -18682,6 +18847,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Brine sharks are deadly elementals that roam the endless oceans of
     the Plane of Water.
@@ -18751,6 +18917,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 20
+  ac_special: null
   automatic_abilities:
   - description: When not touching water, the living waterfall is slowed 1 and can’t
       use reactions.
@@ -18827,6 +18994,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Quatoids are peculiar, mysterious elementals native to the Plane of
     Water that resemble four-tentacled octopuses with eerily humanoid faces on their
@@ -18902,6 +19070,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities:
   - description: When not touching water, the tidal master is slowed 1 and can’t use
       reactions.
@@ -18978,6 +19147,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 31
+  ac_special: null
   automatic_abilities:
   - description: When not touching water, the elemental tsunami is slowed 1 and can’t
       use reactions.
@@ -19061,6 +19231,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Those who live near elephants have learned to be wary of angering the
     beasts, but even with precautions in place, elephants sometimes still rampage.
@@ -19137,6 +19308,7 @@
     str_mod: 8
     wis_mod: 1
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Found mostly in colder climates, mammoths are accustomed to dealing
     with desperate and dangerous predators, trampling and crushing their enemies while
@@ -19218,6 +19390,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Ether spiders are deadly predators from the Ethereal Plane resembling
     giant arachnids. Rather than building webs of silk, ether spiders shape the raw
@@ -19314,8 +19487,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 21
-  items:
-    - flail (2)
+  ac_special: null
   automatic_abilities:
   - description: Each of an ettin’s heads rolls its own initiative and has its own
       turn. Neither head can Delay. At the start of a head’s turn, that head gets
@@ -19332,6 +19504,8 @@
   hp: 110
   immunities: null
   innate_spells: null
+  items:
+  - flail (2)
   languages:
   - Goblin
   - Jotun
@@ -19395,6 +19569,7 @@
     str_mod: -2
     wis_mod: 0
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Although they are much smaller than their larger dragon cousins, faerie
     dragons have the many of the same physiological attributes, including long necks,
@@ -19477,6 +19652,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Sluglike abominations, grothluts are fleshwarps that were once humans.
     While their head and torsos are vaguely human, their arms are rubbery and move
@@ -19545,6 +19721,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: 'The first fleshwarping process mastered by the drow remains both their
     most successful and most infamous: the drider. Fusing the body of a drow with
@@ -19664,6 +19841,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The snapping flytrap is a ravenous, carnivorous plant that is quick
     to bite at any creature that passes by. Snapping flytraps typically have two sets
@@ -19745,6 +19923,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Because they blend in so well with surrounding foliage, giant flytraps
     can use the element of surprise to make quick strikes against unsuspecting adventurers
@@ -19825,6 +20004,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Gargoyles are monstrous hunters made of elemental stone. They use their
     resemblance to decorative statues to hide in plain sight in cities during the
@@ -19906,6 +20086,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Jann are genies composed of all four elements, meaning they are not
     quite home on any of the Elemental Planes. Instead, jann reside on the Material
@@ -20016,6 +20197,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Benevolent genies from the Plane of Air, djinn value art, culture,
     knowledge, and trade. They also love new experiences, succulent dishes, and heady
@@ -20153,6 +20335,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Hailing from the Plane of Earth, shaitans are proud and brazen genies.
     They value physical skill and love bargaining, games of chance, and working with
@@ -20271,6 +20454,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: The efreet are hateful and merciless genies from the Plane of Fire,
     where they build metropolises and massive trade centers that draw extraplanar
@@ -20395,6 +20579,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Marids are capricious but powerful genies from the Plane of Water;
     among geniekind, they are rivaled in power only by the fiery efreet. Marids embody
@@ -20551,6 +20736,7 @@
     str_mod: -5
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Site Bound
@@ -20631,6 +20817,7 @@
     str_mod: -5
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Site Bound
@@ -20740,6 +20927,7 @@
     str_mod: 1
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Ghouls are ravenous undead who haunt graveyards and eat corpses.
   hp: 20
@@ -20844,6 +21032,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Ghasts—feral, foul-smelling, and constantly hungry—are the more powerful
     kin of ghouls. They are relentless in the pursuit of their prey.
@@ -20949,6 +21138,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: Selfish and crude, these rough-skinned raiders are bullies and ultimately
     cowards. Quick-tempered and fond of violence, a hill giant gladly raids and pillages
@@ -21039,6 +21229,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Stone giants are stoic, reclusive herders and artists who have a rich
     history and collection of traditions. They dwell in caves in tall mountains and
@@ -21138,6 +21329,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Frost giants are remorseless marauders who pillage and plunder from
     those who dare to live near them in desolate, frigid lands. Their clans range
@@ -21253,6 +21445,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: The most militaristic of all giants, fire giants focus obsessively
     on learning combat techniques, mastering the arts of forging weapons and armor,
@@ -21358,6 +21551,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: The graceful and regal cloud giants have skin of milky white to powdery
     blue. Unlike most giants, cloud giants are quite morally diverse. A handful are
@@ -21473,6 +21667,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Storm giants are looming but benevolent stewards of sea and sky, often
     serving as the natural guardians of tropical islands, coastlines, or rocky archipelagos.
@@ -21594,6 +21789,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 38
+  ac_special: null
   automatic_abilities: null
   description: Magically crafted and bred by ancient wizards, rune giants are anathema
     to and tyrants among their own kind, who were given power to command and magically
@@ -21768,6 +21964,7 @@
     str_mod: 2
     wis_mod: 3
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Amorphous blobs of yammering mouths and oozing, fleshy sludge, gibbering
     mouthers are among the strangest creatures found either aboveground or below.
@@ -21854,8 +22051,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 34
-  items:
-    - +1 striking hand crossbow (20 bolts)
+  ac_special: null
   automatic_abilities:
   - description: Hungersense allows the gimmerling to sense creatures that require
       food to live.
@@ -21871,6 +22067,8 @@
   hp: 235
   immunities: null
   innate_spells: null
+  items:
+  - +1 striking hand crossbow (20 bolts)
   languages:
   - Aklo
   - Common
@@ -21970,6 +22168,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Gnoll hunters serve their clans by hunting for food in the wilds, marauding
     along well-traveled roads, and tracking down escaped slaves.
@@ -22053,6 +22252,7 @@
     str_mod: 2
     wis_mod: 3
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Gnoll cultists serve as their clans’ spiritual guides and conduits
     to the divine. As often as not, their influence drives entire gnoll civilizations
@@ -22134,6 +22334,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: When gnolls band together to form hunting or raiding parties, the strongest
     among them is often designated the leader or sergeant. These gnolls train extensively
@@ -22231,6 +22432,7 @@
     str_mod: 0
     wis_mod: -1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The frontline fighters of goblin tribes prefer to fight in large groups—especially
     when they can outnumber their foes at least three to one.
@@ -22300,6 +22502,7 @@
     str_mod: 3
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The theoretical leaders of goblin raids are called goblin commandos.
     In practice, goblin commandos rarely continue to lead their comrades once a battle
@@ -22373,6 +22576,7 @@
     str_mod: 0
     wis_mod: -1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Some goblins take their people’s admiration of fire fully into the
     realm of deadly obsession. These pyromaniacs can be a great boon to a band of
@@ -22433,6 +22637,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: While all goblins enjoy singing, goblin war chanters pride themselves
     on mastering the art of vocal performance. Their ballads and jingles are undeniably
@@ -22516,6 +22721,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Goblins’ eponymous pets aren’t true canines at all, but rather large,
     blunt-nosed rodents with thin bodies and long legs. As cowardly as they are ugly,
@@ -22585,6 +22791,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: A gogiteth is a slavering nightmare of teeth, eyes, and hairy spiderlike
     legs, and its appearance is invariably seared into the minds of any who witness
@@ -22675,6 +22882,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Made of odd scraps of skin and muscle, a flesh golem is a grotesque
     parody of life. Though it has no mind, it can still go into a berserk rage when
@@ -22760,6 +22968,7 @@
     str_mod: 6
     wis_mod: 0
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: This golem is a walking alchemical nightmare capable of inflicting
     all manner of painful wounds. Its ability to follow orders is granted by the otherwise
@@ -22864,6 +23073,7 @@
     str_mod: 6
     wis_mod: 0
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Traditionally, clay golems are crafted in the image of a deity and
     used as guardians of tombs or sacred crypts. Clay golems have the power to lay
@@ -22956,6 +23166,7 @@
     str_mod: 7
     wis_mod: 0
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Stone golems are slow and steady constructs typically carved from marble
     or granite. They’re often made to serve as works of art when at rest, so some
@@ -23056,6 +23267,7 @@
     str_mod: 8
     wis_mod: 0
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Traditionally crafted into the forms of giant suits of armor or powerful
     animals, iron golems are products of exquisite artistry and skill. Their articulated
@@ -23162,6 +23374,7 @@
     str_mod: 9
     wis_mod: 0
   ac: 42
+  ac_special: null
   automatic_abilities: null
   description: Crafted from a nigh-indestructible metal of great rarity, adamantine
     golems can’t be destroyed except by the most powerful foes. Crafting an adamantine
@@ -23262,6 +23475,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: 'Graveknights are undead warriors granted unlife by a cursed suit of
     armor. <h2 class="title">Creating Graveknights</h2> You can turn an existing,
@@ -23433,9 +23647,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 15
-  items:
-    - dart (10)
-    - shortsword
+  ac_special: null
   automatic_abilities:
   - description: mitflit’s self-loathing makes it easy to influence. It takes a –4
       penalty to its Will DC against checks to Coerce, Demoralize, Make an Impression,
@@ -23469,6 +23681,9 @@
     name: speak with animals
   - level: 1
     name: bane
+  items:
+  - dart (10)
+  - shortsword
   languages:
   - Undercommon
   level: -1
@@ -23543,6 +23758,7 @@
     str_mod: -3
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment
     from the accidents and missteps of other creatures—something that happens often
@@ -23625,6 +23841,7 @@
     str_mod: -2
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Jinkins are sadistic tinkers who steal and sabotage items and take
     great pride in their power to curse precious objects. They hold grudges and create
@@ -23708,6 +23925,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Griffons are regal beasts revered as symbols of freedom and strength
     in many cultures. They are physically striking, with the hindquarters of a lion
@@ -23803,6 +24021,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 36
+  ac_special: null
   automatic_abilities:
   - description: "he grikkitog implants its core into an adjacent section of earth\
       \ or stone, melding seamlessly and changing its visual appearance to match the\
@@ -23899,8 +24118,7 @@
     str_mod: 8
     wis_mod: 7
   ac: 47
-  items:
-    - scythe
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Death’s Grace
@@ -23952,6 +24170,8 @@
   - frequency: constant
     level: 2
     name: see invisibility
+  items:
+  - scythe
   languages:
   - Common
   - Necril
@@ -24040,8 +24260,7 @@
     str_mod: 6
     wis_mod: 6
   ac: 39
-  items:
-    - scythe
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Death’s Grace
@@ -24084,6 +24303,8 @@
   - frequency: constant
     level: 2
     name: see invisibility
+  items:
+  - scythe
   languages:
   - Common
   - Necril
@@ -24156,6 +24377,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: A gug’s most horrid feature is its barrel-shaped head, which splits
     vertically to reveal numerous rows of sharp, yellow teeth and an open throat.
@@ -24244,6 +24466,7 @@
     str_mod: 10
     wis_mod: 0
   ac: 43
+  ac_special: null
   automatic_abilities: null
   description: A guthallath is an enormous construct created long ago by some unknown
     empire, probably as a war machine. Nearly 100 feet tall, this massive stone statue
@@ -24356,6 +24579,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: he sea hag can make a bargain with a willing creature, who must be
       of sound mind. The creature gives away a special or cherished quality—such as
@@ -24457,6 +24681,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: A green hag adds *entangle*, *outcast’s curse*, and *wall of thorns*
       to her coven’s spells.
@@ -24585,6 +24810,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 24
+  ac_special: null
   automatic_abilities:
   - description: An annis hag adds *earthbind*, *passwall*, and *spellwrack* to her
       coven’s spells.
@@ -24690,8 +24916,7 @@
     str_mod: 5
     wis_mod: 5
   ac: 28
-  items:
-    - heartstone
+  ac_special: null
   automatic_abilities:
   - description: A night hag adds *dominate*, *nightmare*, *scrying*, and *spellwrack*
       to her coven’s spells. **Nightmare Rider** When a night hag rides a nightmare,
@@ -24754,6 +24979,8 @@
   - frequency: constant
     level: 2
     name: detect alignment
+  items:
+  - heartstone
   languages:
   - Abyssal
   - Aklo
@@ -24854,6 +25081,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Harpies are filthy amalgamations of human and bird, resembling feral
     humans with wings, talons, and mouths full of sharp teeth. They use captivating
@@ -24961,6 +25189,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: A hell hound’s appearance dismisses any doubts as to its infernal origins—flesh
     the color of burning pitch, teeth as sharp as any fiend's pitchfork, and a shroud
@@ -25032,6 +25261,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Believed to be bred by the Prince of Darkness himself within vast kennels
     in the infernal realm of Nessus, Nessian warhounds are the favored guards and
@@ -25104,6 +25334,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Soldiers make up the bulk of hobgoblin society, whether that society
     is a village or a military unit.
@@ -25170,6 +25401,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Bands of hobgoblin soldiers typically have at least one archer among
     their ranks. In smaller groups, the hobgoblin archer also serves as that band’s
@@ -25251,6 +25483,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 25
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: General’s Cry
@@ -25333,6 +25566,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: homunculus can’t speak, but it is telepathically linked to its creator.
       It can share information back and forth, including its master’s knowledge and
@@ -25429,6 +25663,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 14
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 16
@@ -25486,6 +25721,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 22
@@ -25543,6 +25779,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 20
@@ -25600,6 +25837,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 36
@@ -25657,6 +25895,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Hydras are multiheaded, foul-tempered serpentine beasts with voracious
     appetites, widely feared for their regeneration abilities.
@@ -25732,6 +25971,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: 'Hyenas are cunning, powerfully built carnivores that bear a heavy
     resemblance to dogs and other canines, though they are not themselves canines.
@@ -25800,6 +26040,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Hyaenodons are the ferocious primeval cousins of the smaller hyena.
     Looming, shaggy-furred creatures nearly the size of a horse, hyaenodons are truly
@@ -25869,6 +26110,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The typical kobold trains with agile weaponry, favoring the light pick
     for its use in crafting new tunnels to expand their domains through underground
@@ -25955,6 +26197,7 @@
     str_mod: 0
     wis_mod: 3
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Most kobolds encountered outside of a well-defended warren or lair
     are kobold scouts, creatures trained for stalking and the hunt.
@@ -26035,6 +26278,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Kobold dragon mages use magic to carry out their secret schemes. The
     presence of a dragon mage in a kobold warren is one of the greatest testaments
@@ -26122,6 +26366,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 42
+  ac_special: null
   automatic_abilities: null
   description: A kraken is an enormous, squid-like leviathan with a cruel intelligence.
     It hunts ships, whales, and heroes alike. The hatred and envy krakens hold for
@@ -26248,6 +26493,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: Krooths, sometimes called crocodile eaters, are fast and vicious hunters
     of bogs and wetlands. While they are known to hunt and eat crocodiles, alligators,
@@ -26341,6 +26587,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: Just as they were cursed long ago, lamias can curse those they touch,
     clouding the mind and regressing conscious thought to purely animalistic instincts.
@@ -26457,6 +26704,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: The brilliant and powerful lamia matriarchs possess boundless ambition,
     always seeking to bring more people and territory into the clutches of their kind.
@@ -26582,6 +26830,7 @@
     str_mod: -1
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Leaf leshys are diminutive protectors of forests clad in pine cone
     armor and hats of fruit, flowers, or leaves. They enjoy mock battles but act cautiously
@@ -26672,6 +26921,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: he leshy can store an item of light Bulk or less in its head, concealing
       it as *nondetection*. If stored for 24 hours, the item benefits from *mending*.
@@ -26760,6 +27010,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Fungus leshys guard caves, bogs, and damp, dark places. Their fungus
     gardens are bizarre by most standards, but fungus leshys are extremely proud of
@@ -26850,6 +27101,7 @@
     str_mod: 0
     wis_mod: 4
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: A wizard whose insatiable desire for arcane power eclipsed their mortal
     life, the lich is a truly devious and versatile spellcaster.
@@ -26941,8 +27193,7 @@
     str_mod: -3
     wis_mod: -2
   ac: 38
-  items:
-    - demilich eye gem (2)
+  ac_special: null
   automatic_abilities:
   - description: Typically, a demilich is inert when encountered and doesn’t take
       actions until its *contingency* reaction has been triggered (see below).
@@ -26982,6 +27233,8 @@
   - frequency: constant
     level: 6
     name: true seeing
+  items:
+  - demilich eye gem (2)
   languages:
   - Abyssal
   - Aklo
@@ -27091,6 +27344,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 37
+  ac_special: null
   automatic_abilities: null
   description: Despite being among the weakest linnorms, the crag linnorm is a devastating
     predator, capable of quickly cooking its foes with its magma breath.
@@ -27217,6 +27471,7 @@
     str_mod: 9
     wis_mod: 6
   ac: 41
+  ac_special: null
   automatic_abilities: null
   description: The ice linnorm dwells amid glacial crevasses, atop wind-blasted mountain
     peaks, or within glittering caverns carved from the hearts of the mightiest of
@@ -27347,6 +27602,7 @@
     str_mod: 10
     wis_mod: 7
   ac: 46
+  ac_special: null
   automatic_abilities: null
   description: Although more powerful linnorms exist, the multi-headed tarn linnorm
     can wreak an awe-inspiring amount of devastation.
@@ -27484,6 +27740,7 @@
     str_mod: 11
     wis_mod: 8
   ac: 47
+  ac_special: null
   automatic_abilities: null
   description: Tor linnorms dwell in the tallest volcanic mountains, either within
     natural formed caverns or within molten craters. A tor linnorm’s temper can be
@@ -27621,6 +27878,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities:
   - description: A giant gecko’s allow it to climb virtually any surface, no matter
       how slick or sheer. If a giant gecko attempts an Athletics check to climb and
@@ -27689,6 +27947,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Large and seemingly ponderous, a monitor lizard is a deceptively swift
     and ruthless predator. It ambushes its prey by rushing out from cover and biting
@@ -27766,6 +28025,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Found in warm and tropical forests and savannas, these immense lizards
     are a deadly threat to the unsuspecting traveler. When they aren’t sleeping or
@@ -27850,6 +28110,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The lizardfolk defender serves as a protector of the young, guardian
     of the settlement, and when no other options are available, soldier in time of
@@ -27945,6 +28206,7 @@
     str_mod: 2
     wis_mod: 3
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Iruxi scouts are the lizardfolk most often encountered by adventurers,
     for these explorers and hunters spend most of their lives on the move, constantly
@@ -28046,6 +28308,7 @@
     str_mod: 2
     wis_mod: 4
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The tradition of astrology and looking to the stars for both navigation
     and prognostication is well-established in iruxi society, and their wise and observant
@@ -28128,6 +28391,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: The manticore is a monstrous amalgamation of lion, dragon, and human
     with a penchant for feasting on human flesh. Its distinctive tail is festooned
@@ -28211,6 +28475,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: These massive cousins of normal praying mantises stand taller than
     an average human. They stalk through dense forests, striking at meals from the
@@ -28290,6 +28555,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: These gigantic mantids make their homes within deep jungles and prehistoric
     forests where they hunt and devour equally massive prey.
@@ -28378,6 +28644,7 @@
     str_mod: 2
     wis_mod: 1
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Monstrous humanoids that resemble humans with snakes instead of hair,
     medusas are best known for their petrifying gazes that—if lingered upon—can permanently
@@ -28486,6 +28753,7 @@
     str_mod: 2
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Merfolk warriors form the bulk of the militias of their vast underwater
     realms and meet potential aggressors head-on with uncompromising force.
@@ -28558,6 +28826,7 @@
     str_mod: 3
     wis_mod: 4
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Merfolk wavecallers use their primal power to call forth allies and
     defend their people with deadly magic.
@@ -28642,6 +28911,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Thought to be the result of a failed experiment meant to animate objects
     or a sinister alghollthu creation, mimics are clever monsters that can take the
@@ -28708,8 +28978,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 20
-  items:
-    - greataxe
+  ac_special: null
   automatic_abilities:
   - description: A minotaur automatically critically succeeds at Survival checks to
       avoid becoming lost or to find its way, including those from the *maze* spell.
@@ -28724,6 +28993,8 @@
   hp: 70
   immunities: null
   innate_spells: null
+  items:
+  - greataxe
   languages:
   - Jotun
   level: 4
@@ -28805,6 +29076,7 @@
     str_mod: 10
     wis_mod: 9
   ac: 45
+  ac_special: null
   automatic_abilities:
   - description: The mu spore senses vibrations in the air through its aerial spores.
     name: Windsense
@@ -28906,6 +29178,7 @@
     str_mod: 9
     wis_mod: 3
   ac: 37
+  ac_special: null
   automatic_abilities: null
   description: Fearsome centipede-like creatures, mukradis are three-headed predators
     with a devastating array of breath weapons. A Darklands version of the mukradi
@@ -29034,6 +29307,7 @@
     str_mod: 4
     wis_mod: 4
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: The majority of mummies were created by cruel and selfish masters to
     serve as guardians to protect their tombs from intruders. The traditional method
@@ -29117,6 +29391,7 @@
     str_mod: 5
     wis_mod: 5
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: While mummy guardians are undead crafted from the corpses of sacrificed—usually
     unwilling victims—and retain only fragments of their memories, a mummy pharaoh
@@ -29230,6 +29505,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: 'Dark nagas are wicked, jealous creatures that crave power and wealth.
     Indeed, the dark naga sees such ideals as spiritual expressions of an essential
@@ -29305,6 +29581,7 @@
     str_mod: 5
     wis_mod: 5
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: 'The opposite of dark nagas in many ways, guardian nagas are benevolent
     and wise protectors of places of great natural or supernatural significance: ancient
@@ -29382,6 +29659,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 24
+  ac_special: null
   automatic_abilities:
   - description: The nightmare continually exhales black smoke that creates concealment
       in an aura around it. Nightmares and their riders can see through this smoke.
@@ -29475,6 +29753,7 @@
     str_mod: 7
     wis_mod: 5
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: The nightmare continually exhales black smoke that creates concealment
       in an aura around it. Nightmares and their riders can see through this smoke.
@@ -29572,6 +29851,7 @@
     str_mod: 3
     wis_mod: 3
   ac: 32
+  ac_special: null
   automatic_abilities: null
   description: The sleek, dark niliths resemble hairless, emaciated tree sloths. These
     creatures are intensely dangerous and fearsome, with red glowing eyes, wicked
@@ -29696,6 +29976,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities:
   - description: The naiad can use Diplomacy to Make an Impression on and make very
       simple Requests of animals.
@@ -29795,6 +30076,7 @@
     str_mod: 0
     wis_mod: 3
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: The dryad can use Diplomacy to Make an Impression on and make very
       simple Requests of animals and plants.
@@ -29902,6 +30184,7 @@
     str_mod: 0
     wis_mod: 4
   ac: 26
+  ac_special: null
   automatic_abilities:
   - description: '**Wild Empathy** The naiad can use Diplomacy to Make an Impression
       on and make very simple Requests of animals.'
@@ -30027,6 +30310,7 @@
     str_mod: 2
     wis_mod: 4
   ac: 35
+  ac_special: null
   automatic_abilities:
   - description: "The dryad can use Diplomacy to Make an Impression on and make very\n\
       simple Requests of animals and plants. \n**Tied to the Land**"
@@ -30184,6 +30468,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Giant octopuses are found in the heart of deep, dark oceans.
   hp: 135
@@ -30288,6 +30573,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 31
+  ac_special: null
   automatic_abilities:
   - description: When it’s not in danger, an ofalth can spend 1 minute settling into
       a 10-foot pile that looks like a heap of garbage. While doing so, the ofalth
@@ -30373,6 +30659,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The simplest of ogres are slabs of muscle with hatefully beady eyes,
     misshapen visages, and malformed bodies. Always eager for mayhem and murder, ogre
@@ -30441,6 +30728,7 @@
     str_mod: 6
     wis_mod: 0
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Ogre gluttons take the act of feeding to a horrific extreme, capable
     of extending their already cavernous mouths wide enough to gulp down a halfling.
@@ -30528,6 +30816,7 @@
     str_mod: 7
     wis_mod: 1
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: In ogre society, might makes more than right—it makes the rules. The
     strongest or most violent ogre in a family (in most cases, this is the same ogre)
@@ -30611,6 +30900,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 8
+  ac_special: null
   automatic_abilities:
   - description: A sewer ooze can sense nearby motion through vibration and air movement.
     name: Motion Sense
@@ -30680,6 +30970,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 10
+  ac_special: null
   automatic_abilities:
   - description: A gelatinous cube can sense nearby motion through vibration and air
       movement. **Transparent** A gelatinous cube is so clear that it’s difficult
@@ -30772,6 +31063,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 12
+  ac_special: null
   automatic_abilities:
   - description: A ochre jelly can sense nearby motion through vibration and air movement.
     name: Motion Sense
@@ -30850,6 +31142,7 @@
     str_mod: 7
     wis_mod: 0
   ac: 14
+  ac_special: null
   automatic_abilities:
   - description: A black pudding can sense nearby motion through vibration and air
       movement.
@@ -30934,6 +31227,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: If orc armies are rarely well organized, this shortcoming can likely
     be traced to the furious and undisciplined rank-and-file brutes who make up the
@@ -31008,6 +31302,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The typical orc warrior is a violent combatant familiar to many adventurers.
     Orc warriors fight for their clan, for riches, and— perhaps most of all—for personal
@@ -31092,6 +31387,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: When orcs raid, the strongest is chosen as the leader, backed up by
     brothers, sisters, and other immediate family.
@@ -31177,6 +31473,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Lords of sewers, ditches, and landfllls, otyughs are   lthy monstrosities
     that stomp about on three massive legs in search of tasty garbage and refuse.
@@ -31264,6 +31561,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: With the body of a powerful brown bear and the keen senses of an owl,
     the owlbear is a dangerous territorial predator, fearlessly attacking any creature
@@ -31356,6 +31654,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: The pegasus is a winged horse prized for its capacity to serve as an
     aerial mount. Unfortunately for those who desire a saddle-trained pegasus, pegasi
@@ -31435,6 +31734,7 @@
     str_mod: 6
     wis_mod: 6
   ac: 36
+  ac_special: null
   automatic_abilities: null
   description: The phoenix is a primordial bird made of heat and flame that dwells
     in the most inhospitable regions of the desert. Though highly intelligent and
@@ -31573,6 +31873,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Tieflings are planar scions with fiendish blood. One of the most common
     types is pitborn, who bear a demonic corruption infesting their mortal bloodline.
@@ -31664,6 +31965,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Duskwalkers are infused with the same energies as psychopomps. These
     ashen scions are reborn on the Material Plane to serve as guardians of the cycle
@@ -31768,6 +32070,8 @@
     str_mod: 4
     wis_mod: 2
   ac: 23
+  ac_special:
+  - descr: 25 with shield raised
   automatic_abilities: null
   description: Mortals whose ancestry has been influenced by celestials are known
     as aasimars, and angelkin, who have blood of angels coursing through their veins,
@@ -31789,7 +32093,7 @@
     to_hit: 15
     traits:
     - versatile P
-  name: Aasimar
+  name: Aasimar Redeemer
   perception: 11
   proactive_abilities:
   - description: '*lay on hands*'
@@ -31844,6 +32148,7 @@
     str_mod: -5
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities:
   - description: A poltergeist is tied to a location and can’t travel more than  from
       the place where it was created or formed. Some poltergeists are instead bound
@@ -31955,6 +32260,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Porachas are feline beasts native to the mystical Forest of Spirits
     in Tian Xia. In their natural form, these graceful eight-legged creatures sport
@@ -32057,6 +32363,7 @@
     str_mod: -1
     wis_mod: -1
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: voidworm can anticipate the most likely presence of a creature through
       a supernatural insight into chaotic probabilities and chance. This grants it
@@ -32180,6 +32487,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 24
+  ac_special: null
   automatic_abilities:
   - description: naunet can anticipate the most likely presence of a creature through
       a supernatural insight into chaotic probabilities and chance. This grants it
@@ -32338,6 +32646,7 @@
     str_mod: 9
     wis_mod: 7
   ac: 40
+  ac_special: null
   automatic_abilities:
   - description: keketar can anticipate the most likely presence of a creature through
       a supernatural insight into chaotic probabilities and chance. This grants it
@@ -32533,6 +32842,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities:
   - description: psychopomp senses the vital essence of living and undead creatures
       within the listed range.
@@ -32651,8 +32961,7 @@
     str_mod: 8
     wis_mod: 6
   ac: 38
-  items:
-    - +2 striking bo staff
+  ac_special: null
   automatic_abilities:
   - description: psychopomp senses the vital essence of living and undead creatures
       within the listed range.
@@ -32686,6 +32995,8 @@
   - frequency: constant
     level: 2
     name: spider climb
+  items:
+  - +2 striking bo staff
   languages:
   - Abyssal
   - Celestial
@@ -32790,6 +33101,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Pteranodons are quick and agile reptiles with 20-foot wingspans that
     enable them to hover on wind currents for hours. These creatures have long beaks
@@ -32851,6 +33163,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Quetzalcoatlus are the largest flying members of the pterosaur family
     and are often mistaken for dragons due to their immense size and 40-foot wingspans.
@@ -32928,6 +33241,7 @@
     str_mod: 6
     wis_mod: 6
   ac: 36
+  ac_special: null
   automatic_abilities: null
   description: This three-armed, three-legged monster has no discernible eyes, nose,
     ears, or mouth or no visible means of ingesting food. Its limbs are distributed
@@ -33044,6 +33358,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Known as “biters” among the more powerful rakshasa castes, dandasukas
     serve as spies and assassins for rakshasa clans or powerful spellcasters who have
@@ -33141,6 +33456,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: When not disguised as a humanoid, the raja rakshasa has the head of
     an animal. The hands of a raja rakshasa are more subtly unsettling, for the fingers
@@ -33254,6 +33570,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: Giant rats are enormous versions of the common vermin. They are typically
     found in abundant numbers, but since they cannot flt in the nooks where mundane
@@ -33326,6 +33643,7 @@
     str_mod: -2
     wis_mod: 1
   ac: 14
+  ac_special: null
   automatic_abilities: null
   description: A swarm of rats can cause total chaos within a household or business.
     Contracting filth fever is all the easier when dozens of these agitated or hungry
@@ -33397,10 +33715,7 @@
     str_mod: 0
     wis_mod: 2
   ac: 21
-  items:
-    - alchemist's tools
-    - hand crossbow (20 bolts)
-    - studded leather armor
+  ac_special: null
   automatic_abilities:
   - description: A ratfolk grenadier carries 2 infused moderate acid flasks, 2 infused
       moderate alchemist’s fires, and 2 infused moderate frost vials. These items
@@ -33411,6 +33726,10 @@
   hp: 60
   immunities: null
   innate_spells: null
+  items:
+  - alchemist's tools
+  - hand crossbow (20 bolts)
+  - studded leather armor
   languages:
   - Common
   level: 4
@@ -33501,10 +33820,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 21
-  items:
-    - scythe
-    - iron boots
-    - red cap
+  ac_special: null
   automatic_abilities:
   - description: redcap’s woolen hat is dyed with the blood of its victims. If the
       redcap loses its cap, it no longer benefits from fast healing and takes a –4
@@ -33529,6 +33845,10 @@
   hp: 60
   immunities: null
   innate_spells: null
+  items:
+  - scythe
+  - iron boots
+  - red cap
   languages:
   - Common
   - Sylvan
@@ -33608,6 +33928,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Reefclaws are aquatic monsters that resemble huge shrimp or lobsters.
     As one might expect from its name, a reefclaw’s oversized claws are powerful weapons
@@ -33677,6 +33998,7 @@
     str_mod: 7
     wis_mod: 1
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: A remorhaz is an enormous arctic predator that resembles a multilegged
     insect with draconic features. This monster has chitinous plates and more than
@@ -33774,6 +34096,7 @@
     str_mod: 8
     wis_mod: 1
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Legendarily massive raptors capable of carrying off elephants as prey,
     rocs are typically about 30 feet long from beak to tail and have a wingspan of
@@ -33868,6 +34191,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: To all but the most sharp-eyed underground explorers, a roper appears
     to be nothing more than a large stalactite, stalagmite, or pillar of ice. Cunning
@@ -33962,6 +34286,7 @@
     str_mod: 0
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: A rust monster can smell metal as a precise sense.
     name: Metal Scent
@@ -34054,11 +34379,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 19
-  items: 
-    - dagger
-    - panpipes
-    - shortbow (20 arrows)
-    - wineskin
+  ac_special: null
   automatic_abilities:
   - description: satyr’s wineskin magically enchants any alcohol inside. With an Interact
       action, a living creature can imbibe the alcohol and gain a +1 item bonus to
@@ -34089,6 +34410,11 @@
     name: sleep
   - level: 4
     name: suggestion
+  items:
+  - dagger
+  - panpipes
+  - shortbow (20 arrows)
+  - wineskin
   languages:
   - Common
   - Sylvan
@@ -34182,6 +34508,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: These massive, terrifying arachnids are typically 8 feet long from
     head to the base of the tail. Giant scorpions are the favored pack animals and
@@ -34261,6 +34588,7 @@
     str_mod: 0
     wis_mod: 0
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: While a single scorpion is itself a menace, swarms of these vermin
     can be outright devastating. These skittering droves of death swiftly bring down
@@ -34328,12 +34656,10 @@
     str_mod: 3
     wis_mod: 3
   ac: 18
-  items:
-    - longspear
-    - spear
+  ac_special: null
   automatic_abilities:
   - description: he sea devil can communicate telepathically with sharks within range.
-      It can communicate only simple concepts like “come,” “guard,” or “attack.”      
+      It can communicate only simple concepts like “come,” “guard,” or “attack.”
     name: Shark Commune
     traits:
     - mental
@@ -34345,6 +34671,9 @@
   hp: 30
   immunities: null
   innate_spells: null
+  items:
+  - longspear
+  - spear
   languages:
   - Aquan
   level: 2
@@ -34438,11 +34767,10 @@
     str_mod: 4
     wis_mod: 1
   ac: 21
-  items:
-    - trident
+  ac_special: null
   automatic_abilities:
   - description: he sea devil can communicate telepathically with sharks within range.
-      It can communicate only simple concepts like “come,” “guard,” or “attack.” 
+      It can communicate only simple concepts like “come,” “guard,” or “attack.”
     name: Shark Commune
     traits:
     - mental
@@ -34453,6 +34781,8 @@
   hp: 60
   immunities: null
   innate_spells: null
+  items:
+  - trident
   languages:
   - Aquan
   level: 4
@@ -34548,9 +34878,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 24
-  items:
-    - longspear
-    - spear (2)
+  ac_special: null
   automatic_abilities:
   - description: he sea devil can communicate telepathically with sharks within range.
       It can communicate only simple concepts like “come,” “guard,” or “attack.”
@@ -34564,6 +34892,9 @@
   hp: 95
   immunities: null
   innate_spells: null
+  items:
+  - longspear
+  - spear (2)
   languages:
   - Aquan
   level: 6
@@ -34665,6 +34996,7 @@
     str_mod: 8
     wis_mod: 2
   ac: 35
+  ac_special: null
   automatic_abilities:
   - description: sea serpent automatically tries to counteract any detection, revelation,
       or scrying divination attempted against it, using its Stealth modifler for its
@@ -34786,6 +35118,7 @@
     str_mod: -5
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: The mysterious undead known as shadows lurk in dark places and feed
     on those who stray too far from the light. Those who parley with shadows, typically
@@ -34871,6 +35204,7 @@
     str_mod: -5
     wis_mod: 2
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: Shadows that spend long amounts of time on the Shadow Plane and absorb
     its magic become greater shadows.
@@ -34959,6 +35293,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities:
   - description: When it’s not in danger, the shambler spends 1 minute settling into
       a pile that looks like a lump of loose vegetation. While it is in this form,
@@ -35038,6 +35373,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: The shark can smell blood in the water from up to 1 mile away.
     name: Blood Scent
@@ -35111,6 +35447,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities:
   - description: The shark can smell blood in the water from up to 1 mile away.
     name: Blood Scent
@@ -35200,6 +35537,7 @@
     str_mod: 2
     wis_mod: 5
   ac: 33
+  ac_special: null
   automatic_abilities:
   - description: The shining child is flat-footed while in areas of darkness.
     name: Radiance Dependence
@@ -35307,6 +35645,7 @@
     str_mod: 10
     wis_mod: 6
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Although even raving fanatics and doom-saying prophets desperately
     claim the monstrous shoggoth is nothing more than a drug-induced vision or a thankfully
@@ -35397,6 +35736,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 33
+  ac_special: null
   automatic_abilities: null
   description: Scourges of the upper Darklands, these enormous, mole-like monstrosities
     slice and burrow through solid stone with massive forearms and adamantine-strong
@@ -35492,6 +35832,7 @@
     str_mod: 8
     wis_mod: 6
   ac: 41
+  ac_special: null
   automatic_abilities: null
   description: Desert-dwelling people consider the sight of a simurgh a herald to
     a lifetime’s worth of luck, and those who are unfamiliar with the majestic beast
@@ -35620,8 +35961,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 18
-  items:
-    - one weapon determined by its sin
+  ac_special: null
   automatic_abilities:
   - description: A sinspawn can smell creatures that reflect its sin, as the scent
       ability. The GM determines which creatures are appropriately sinful.
@@ -35688,6 +36028,8 @@
   immunities:
   - controlled
   innate_spells: null
+  items:
+  - one weapon determined by its sin
   languages:
   - Aklo
   level: 2
@@ -35764,6 +36106,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The most common skeletal minions are mere guardians.
   hp: 4
@@ -35854,6 +36197,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: These skeletons retain the cunning they possessed in life.
   hp: 25
@@ -35943,6 +36287,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Skeletal horses are sometimes used as mounts by other undead or monsters.
   hp: 33
@@ -36020,6 +36365,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The reanimated bones of giants make excellent necromantic thralls.
   hp: 50
@@ -36111,6 +36457,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Huge giants and other enormous creatures make powerful skeletons.
   hp: 105
@@ -36193,6 +36540,7 @@
     str_mod: 8
     wis_mod: 8
   ac: 42
+  ac_special: null
   automatic_abilities:
   - description: skulltaker taps into the memories of the creatures whose bones make
       up its body. This gives it the Skeletal Lore skill, which it can use to Recall
@@ -36337,6 +36685,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: The slurk is a sticky, tusked frog-beast found in underground lairs
     and caves. It has two massive tusks, which it uses to gore prey and tangle with
@@ -36416,6 +36765,7 @@
     str_mod: -3
     wis_mod: 1
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: Each member of this family of venomous snakes has long, hinged fangs
     that inject potent venom in their prey. Different vipers inject different types
@@ -36484,6 +36834,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: This nonvenomous snake’s name comes from its tendency to curl into
     a ball when frightened, though most people know it for its hunting tactic of coiling
@@ -36555,6 +36906,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: The giant viper’s fangs are a frightening sight, with injection tubes
     as long as daggers. The sheer amount of venom injected by a giant viper can cause
@@ -36627,6 +36979,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: The monstrous giant anaconda is capable of swallowing whole creatures
     as big as horses—to say nothing of their riders. Although novice bushwhackers
@@ -36722,6 +37075,7 @@
     str_mod: -2
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities:
   - description: A soulbound doll shares fragments of its donor soul’s personality,
       though none of that creature’s memories. This causes a soulbound doll to match
@@ -36789,8 +37143,7 @@
   - frequency: if alignment is Lawful Evil
     level: 3
     name: zone of truth
-  languages: 
-    - 'one spoken by its creator (typically Common)'
+  languages: ' one spoken by its creator (typically Common)'
   level: 2
   melee:
   - action_cost: One Action
@@ -36841,6 +37194,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 27
+  ac_special: null
   automatic_abilities:
   - description: +19, Deception +16, Diplomacy +16, Intimidation +18, Occultism +17
       **Str** +6, **Dex** +1, **Con** +3, **Int** +5, **Wis** +4, **Cha** +4 **Bardic
@@ -36955,6 +37309,7 @@
     str_mod: -2
     wis_mod: 0
   ac: 15
+  ac_special: null
   automatic_abilities:
   - description: The spider swarm has imprecise tremorsense to detect the vibrations
       of creatures touching its web.
@@ -37029,6 +37384,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: The hunting spider has imprecise tremorsense to detect the vibrations
       of creatures touching its web.
@@ -37114,6 +37470,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Tarantulas are ambush predators, but will attack prey in the open.
   hp: 135
@@ -37188,6 +37545,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 30
+  ac_special: null
   automatic_abilities:
   - description: The goliath spider has imprecise tremorsense to detect the vibrations
       of creatures touching its web.
@@ -37275,8 +37633,7 @@
     str_mod: -3
     wis_mod: 0
   ac: 15
-  items:
-    - rapier
+  ac_special: null
   automatic_abilities:
   - description: sprite naturally sheds light like a torch. The sprite can extinguish,
       rekindle, or change the color of this light using a single action, which has
@@ -37299,6 +37656,8 @@
   innate_spells:
   - level: 1
     name: color spray
+  items:
+  - rapier
   languages:
   - Common
   - Sylvan
@@ -37365,6 +37724,7 @@
     str_mod: -2
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Grigs are kindly musicians of the fey, often getting themselves into
     trouble due to their penchant for confronting evil well beyond their ability to
@@ -37463,6 +37823,7 @@
     str_mod: -1
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Insatiably curious, overly excitable, and just a bit puckish, pixies
     are wanderers and tricksters who use their pixie dust to create all sorts of whimsical
@@ -37568,6 +37929,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Crow-like humanoids, tengus are a canny and clever people who can be
     found across all of Golarion. Tengus are used to being minorities and facing suspicion
@@ -37668,6 +38030,7 @@
     str_mod: 10
     wis_mod: 6
   ac: 42
+  ac_special: null
   automatic_abilities: null
   description: The legendary terotricus is a massive slime-mold that hails from the
     Abyss. Its collective consciousness encapsulates entire regions, spreading as
@@ -37782,6 +38145,7 @@
     str_mod: 12
     wis_mod: 8
   ac: 54
+  ac_special: null
   automatic_abilities: null
   description: Treerazer, the self-styled Lord of the Blasted Tarn, is a powerful
     demon on the cusp of ascending to the true power of one of the rulers of the Abyss
@@ -37948,6 +38312,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Common trolls are dim-witted, gangly giants who stalk the fringes of
     civilization. They rely on their incredible strength to overpower foes with their
@@ -38021,6 +38386,7 @@
     str_mod: 7
     wis_mod: 1
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Some trolls have learned the skills necessary to survive well beyond
     the typical life expectancy for their kind and rally others to follow their lead.
@@ -38120,6 +38486,7 @@
     str_mod: 4
     wis_mod: 4
   ac: 20
+  ac_special: null
   automatic_abilities:
   - description: The unicorn has a connection to the creatures of the natural world
       that allows it to communicate with them. The unicorn can use Diplomacy to Make
@@ -38221,6 +38588,7 @@
     str_mod: 7
     wis_mod: -2
   ac: 36
+  ac_special: null
   automatic_abilities: null
   description: An uthul most often appears to be a dark, swirling cloud filled with
     flying debris and streaked with sudden flashes of lightning. Although they are
@@ -38329,6 +38697,7 @@
     str_mod: 3
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Vampires use their spawn for infiltration and reconnaissance.
   hp: 40
@@ -38405,11 +38774,9 @@
     str_mod: 5
     wis_mod: 4
   ac: 24
-  items:
-    - +1 rapier
-    - leather armor
+  ac_special: null
   automatic_abilities:
-  - description: '' 
+  - description: ''
     name: Children of the Night
     traits:
     - divine
@@ -38424,6 +38791,9 @@
   - poison
   - sleep
   innate_spells: null
+  items:
+  - +1 rapier
+  - leather armor
   languages:
   - Common
   - Necril
@@ -38534,8 +38904,7 @@
     str_mod: 3
     wis_mod: 4
   ac: 27
-  items:
-    - signet ring
+  ac_special: null
   automatic_abilities:
   - description: ''
     name: Children of the Night
@@ -38553,6 +38922,8 @@
   - poison
   - sleep
   innate_spells: null
+  items:
+  - signet ring
   languages:
   - Common
   - Necril
@@ -38673,6 +39044,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Wargs hunt in packs and surround their prey like common wolves, but
     their cunning and penchant for taunting victims makes them easy to distinguish
@@ -38747,6 +39119,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Winter wolves are related to wargs, but are larger, smarter, and far
     more dangerous. They are capable of exhaling plumes of freezing breath and are
@@ -38826,6 +39199,7 @@
     str_mod: 9
     wis_mod: 5
   ac: 37
+  ac_special: null
   automatic_abilities: null
   description: A warsworn is an animate mass of corpses composed of dozens, sometimes
     even hundreds, of victims of battle. They are formed by deities of undeath or
@@ -38938,6 +39312,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Giant wasps are much more dangerous but less common than their smaller
     kin, and—to the relief of those who encounter them—they tend to be solitary.
@@ -39011,6 +39386,7 @@
     str_mod: -4
     wis_mod: 2
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Wasp nests are made of chewed wood fibers foraged from the surrounding
     flora, which the wasps make into a material similar to paper. A single wasp nest
@@ -39081,6 +39457,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: The web lurker can speak with spiders, with the same effects and
       limitations as *speak with animals*.
@@ -39168,6 +39545,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 37
+  ac_special: null
   automatic_abilities: null
   description: Fertilized by large quantities of spilled blood, such as that found
     on bloodstained battlefields or in the war-torn regions surrounding besieged cities,
@@ -39273,6 +39651,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 40
+  ac_special: null
   automatic_abilities:
   - description: Heatsight is a precise sense that sees heat signatures.
     name: Heatsight
@@ -39412,10 +39791,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 19
-  items:
-    - hand crossbow (20 bolts)
-    - leather armor
-    - shortsword
+  ac_special: null
   automatic_abilities:
   - description: he wererat can communicate with rodents.
     name: Rat Empathy
@@ -39436,6 +39812,10 @@
   hp: 45
   immunities: null
   innate_spells: null
+  items:
+  - hand crossbow (20 bolts)
+  - leather armor
+  - shortsword
   languages:
   - Common
   level: 2
@@ -39550,10 +39930,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 19
-  items:
-    - battle axe
-    - composite shortbow (20 arrows)
-    - studded leather armor
+  ac_special: null
   automatic_abilities:
   - description: he werewolf can communicate with lupines.
     name: Wolf Empathy
@@ -39570,6 +39947,10 @@
   hp: 63
   immunities: null
   innate_spells: null
+  items:
+  - battle axe
+  - composite shortbow (20 arrows)
+  - studded leather armor
   languages:
   - Common
   level: 3
@@ -39680,10 +40061,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 23
-  items:
-    - chain shirt
-    - greataxe
-    - hatchet (8)
+  ac_special: null
   automatic_abilities:
   - description: he werebear can communicate with ursines.
     name: Bear Empathy
@@ -39705,6 +40083,10 @@
   hp: 75
   immunities: null
   innate_spells: null
+  items:
+  - chain shirt
+  - greataxe
+  - hatchet (8)
   languages:
   - Common
   level: 4
@@ -39847,6 +40229,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Wights are undead humanoids that, much like wraiths, can drain the
     life from living creatures with but a touch. They arise as a result of necromantic
@@ -39927,6 +40310,7 @@
     str_mod: -5
     wis_mod: 4
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Malevolent balls of colored light, will-o’-wisps haunt lonely marshes
     and forests where they lure unsuspecting travelers into danger. Will-o’-wisps
@@ -40010,6 +40394,7 @@
     str_mod: 2
     wis_mod: 2
   ac: 15
+  ac_special: null
   automatic_abilities: null
   description: Wolves live and hunt in packs, which, contrary to popular belief, are
     not led by the strongest in the group, but typically consist of a mated pair,
@@ -40072,6 +40457,7 @@
     str_mod: 5
     wis_mod: 3
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: Much larger and more foul-tempered than their common cousins, dire
     wolves haunt primeval lands that accommodate their massive size and proportionately
@@ -40141,6 +40527,7 @@
     str_mod: -5
     wis_mod: 2
   ac: 24
+  ac_special: null
   automatic_abilities:
   - description: raiths sense the vital essence of living and undead creatures within
       the listed range.
@@ -40239,6 +40626,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Xulgath warriors strike with fury and eager cruelty, always ready for
     the next fight. The taking of prizes from battle—including weapons and items stolen
@@ -40329,6 +40717,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Xulgath warrens are patrolled—some might say “haunted”—by the community’s
     skulkers. These xulgaths specialize in stealth, striking swiftly from the shadows
@@ -40421,6 +40810,7 @@
     str_mod: 4
     wis_mod: 2
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: Xulgath leaders are usually the strongest, most violent members of
     a community—although in some cases, particularly in larger groups, xulgath tribes
@@ -40508,6 +40898,7 @@
     str_mod: 5
     wis_mod: 4
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: When Hiding, the yeti is concealed by any snowfall, even if it’s
       not thick enough to make other creatures concealed.
@@ -40590,6 +40981,7 @@
     str_mod: 9
     wis_mod: 5
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Zaramuuns are beings of elemental sand that hide in deserts and wastelands.
     They disguise themselves as massive dunes before rising up to attack living creatures.
@@ -40719,6 +41111,7 @@
     str_mod: 3
     wis_mod: 0
   ac: 12
+  ac_special: null
   automatic_abilities:
   - description: A zombie is permanently slowed 1 and can’t use reactions.
     name: Slow
@@ -40788,6 +41181,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 13
+  ac_special: null
   automatic_abilities:
   - description: A zombie is permanently slowed 1 and can’t use reactions.
     name: Slow
@@ -40866,6 +41260,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 15
+  ac_special: null
   automatic_abilities:
   - description: A zombie is permanently slowed 1 and can’t use reactions.
     name: Slow
@@ -40929,6 +41324,7 @@
     str_mod: 7
     wis_mod: 0
   ac: 21
+  ac_special: null
   automatic_abilities:
   - description: A zombie is permanently slowed 1 and can’t use reactions.
     name: Slow
@@ -41021,6 +41417,7 @@
     str_mod: 4
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: What first appears to be a simple shrub suddenly stirs to life.
   hp: 35
@@ -41096,6 +41493,7 @@
     str_mod: 2
     wis_mod: 0
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: What first appears to be a simple shrub suddenly stirs to life.
   hp: 15
@@ -41158,6 +41556,7 @@
     str_mod: 5
     wis_mod: 0
   ac: 12
+  ac_special: null
   automatic_abilities:
   - description: '|1| A blood ooze can seep into a corpse''s wounds, displacing its
       natural blood. It can burst out of the corpse as a free action.'
@@ -41231,6 +41630,7 @@
     str_mod: 2
     wis_mod: 1
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Anadi hunters act as the eyes and ears of their clans, scouting the
     surrounding area for potential invaders.
@@ -41338,6 +41738,7 @@
     str_mod: 0
     wis_mod: 4
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: Anadi sages commune with nature and hone their magic through practice.
   hp: 58
@@ -41444,6 +41845,7 @@
     str_mod: 2
     wis_mod: 4
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: Anadi elders must make the difficult decision of whether to continue
     negotiations or to escalate a disagreement to outright conflict.
@@ -41570,6 +41972,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Doorwardens are constructs originally invented by elves. Upon first
     glance, these guardians resemble ornate doors made entirely of steel or even mithral,
@@ -41671,6 +42074,7 @@
     str_mod: 2
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The emperor bird is native to the jungles of the Mwangi Expanse and
     known for its brilliant plumage and innate magic. While it usually feeds on lizards,
@@ -41758,6 +42162,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities: null
   description: Grauladons are vicious predators that appear crocodilian in form, but
     are in fact distant offshoots of dragonkind. They make their dens in the shallows
@@ -41847,6 +42252,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: he graveshell conceals its true nature over the course of a few minutes
       by impaling a corpse (typically humanoid) on its spiky shell before partially
@@ -41944,6 +42350,7 @@
     str_mod: -2
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The life of a Hellknight is bloody, brutal, and often short. Many who
     perish in service to a Hellknight order are glad to rest after having served their
@@ -42032,6 +42439,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 19
+  ac_special: null
   automatic_abilities:
   - description: The tixitog can detect the vibrations of creatures touching a web
       that the tixitog is also touching.
@@ -42123,6 +42531,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 24
+  ac_special: null
   automatic_abilities: null
   description: Asanbosams are monstrous, hairy humanoids with cold iron fangs and
     muscular limbs that end in powerful, hooked claws. They hide in treetops and grab
@@ -42209,6 +42618,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Bidas are black-scaled dragons with long, serpentine bodies and bat-like
     wings. Their legs and claws are smaller than those of most dragons, but their
@@ -42311,6 +42721,7 @@
     str_mod: 3
     wis_mod: 2
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: Rank-and-file bilokos stalk the jungles in small hunting bands.
   hp: 19
@@ -42390,6 +42801,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 21
+  ac_special: null
   automatic_abilities: null
   description: A biloko who has led a sufficient number of successful hunts garners
     the respect (and fear) of their companions.
@@ -42481,6 +42893,7 @@
     str_mod: 6
     wis_mod: 4
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: If a biloko is lucky enough to consume several spellcasters or other
     creatures with innate magical abilities, it undergoes a subtle transformation
@@ -42591,6 +43004,7 @@
     str_mod: 3
     wis_mod: 1
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: A charau-ka warrior carries hatchets, daggers, and similar weaponry
     on their person and usually doesn’t worry about running out of thrown weapons
@@ -42716,6 +43130,7 @@
     str_mod: 2
     wis_mod: 4
   ac: 19
+  ac_special: null
   automatic_abilities: null
   description: Even with the Gorilla King’s fall, some charau-kas still worship Angazhan.
   hp: 45
@@ -42818,6 +43233,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 23
+  ac_special: null
   automatic_abilities: null
   description: While charau-kas are well known for their brutality, some frighten
     even others of their kind with their obsession with violence.
@@ -42935,6 +43351,7 @@
     str_mod: 1
     wis_mod: 3
   ac: 18
+  ac_special: null
   automatic_abilities: null
   description: The best grippli hunters are chosen for the honorable role of scouts.
   hp: 20
@@ -43018,6 +43435,7 @@
     str_mod: 1
     wis_mod: 3
   ac: 20
+  ac_special: null
   automatic_abilities: null
   description: These sharpshooters are renowned for their patience and their accuracy.
   hp: 44
@@ -43099,9 +43517,7 @@
     str_mod: 2
     wis_mod: 4
   ac: 21
-  items:
-    - dart (4)
-    - staff
+  ac_special: null
   automatic_abilities:
   - description: The greenspeaker can use Diplomacy to Make an Impression on and make
       very simple Requests of plants and fungi.
@@ -43111,6 +43527,9 @@
   hp: 71
   immunities: null
   innate_spells: null
+  items:
+  - dart (4)
+  - staff
   languages:
   - Common
   - Grippli
@@ -43181,6 +43600,7 @@
     str_mod: 6
     wis_mod: 2
   ac: 25
+  ac_special: null
   automatic_abilities: null
   description: Kishi are duplicitous and murderous fey who dwell on the edges of Golarion’s
     darkest jungles. At first glance, kishi appear to be attractive humans, usually
@@ -43274,6 +43694,7 @@
     str_mod: 5
     wis_mod: -5
   ac: 13
+  ac_special: null
   automatic_abilities:
   - description: Living sap can sense nearby motion through vibration and air movement.
     name: Motion Sense
@@ -43357,6 +43778,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 27
+  ac_special: null
   automatic_abilities: null
   description: Mokele-mbembes are large, reptilian predators found deep within Golarion’s
     jungles. Mwangi view mokele-mbembes as embodiments of nature’s strength and majesty,
@@ -43446,6 +43868,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Sabosans are evil, intelligent, bat-like humanoids who live in warm
     forests and drink the blood of other creatures, particularly people. They have
@@ -43552,6 +43975,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 23
+  ac_special: null
   automatic_abilities:
   - description: The blood boar can precisely sense bleeding creatures within . **Blood
       Quarry** On smelling a creature’s blood, the blood boar can designate that creature
@@ -43641,6 +44065,7 @@
     str_mod: 7
     wis_mod: 3
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: Kalavakuses work as slavers in the Abyss, earning them the alternate
     moniker of “slaver demons”; these fiends round up captured victims and sell them
@@ -43749,6 +44174,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: Perhaps more than any other devil, osyluths—also known as bone devils—
     embrace the torture and sadism for which Hell is so well known. They are exemplary
@@ -43877,6 +44303,7 @@
     str_mod: 8
     wis_mod: 1
   ac: 33
+  ac_special: null
   automatic_abilities: null
   description: Shadow giants are natives of the Plane of Shadow, where they have dwelled
     in perpetual twilight for millennia. Their cultures vary greatly depending on
@@ -43983,6 +44410,7 @@
     str_mod: -5
     wis_mod: 7
   ac: 29
+  ac_special: null
   automatic_abilities: null
   description: Though the Silver Ravens defeated the evil tyrant Barzillai Thrune
     before he could fully realize his goal of becoming a genius loci, remnants of
@@ -44079,6 +44507,7 @@
     str_mod: 4
     wis_mod: 3
   ac: 33
+  ac_special: null
   automatic_abilities: null
   description: Rusalkas are androgynous, river-dwelling fey who delight in manipulating
     the emotions of those unfortunate enough to fall into their grasp.
@@ -44214,6 +44643,7 @@
     str_mod: -1
     wis_mod: 1
   ac: 17
+  ac_special: null
   automatic_abilities:
   - description: velstrac automatically knows whether a creature it sees has any of
       the doomed, dying, and wounded conditions, as well as the value of those conditions.
@@ -44318,6 +44748,7 @@
     str_mod: 4
     wis_mod: 1
   ac: 24
+  ac_special: null
   automatic_abilities:
   - description: n evangelist automatically knows whether a creature it sees has any
       of the doomed, dying, and wounded conditions, as well as the value of those
@@ -44422,6 +44853,7 @@
     str_mod: 7
     wis_mod: 6
   ac: 33
+  ac_special: null
   automatic_abilities:
   - description: n interlocutor automatically knows whether a creature it sees has
       any of the doomed, dying, and wounded conditions, as well as the value of those
@@ -44531,6 +44963,7 @@
     str_mod: 6
     wis_mod: 6
   ac: 39
+  ac_special: null
   automatic_abilities:
   - description: precentor automatically knows whether a creature it sees has any
       of the doomed, dying, and wounded conditions, as well as the value of those
@@ -44679,6 +45112,7 @@
     str_mod: 7
     wis_mod: 0
   ac: 20
+  ac_special: null
   automatic_abilities:
   - description: A carnivorous crystal can sense nearby motion through vibration and
       air movement.
@@ -44780,6 +45214,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Dalos are reclusive fey that dwell within or near remote volcanoes
     and volcanic vents and resemble the massive calderas they call home. They more
@@ -44886,6 +45321,7 @@
     str_mod: 5
     wis_mod: 1
   ac: 33
+  ac_special: null
   automatic_abilities:
   - description: A deculi can detect infrared radiation as a precise sense.
     name: ' Infrared Vision'
@@ -45004,6 +45440,7 @@
     str_mod: 7
     wis_mod: 4
   ac: 31
+  ac_special: null
   automatic_abilities: null
   description: When fiends and powerful evil spellcasters are lost beyond the farthest
     reaches of the multiverse, they sometimes return as horrific undead called devourers
@@ -45122,6 +45559,7 @@
     str_mod: 6
     wis_mod: 3
   ac: 28
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 175
@@ -45243,6 +45681,7 @@
     str_mod: 8
     wis_mod: 4
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 270
@@ -45380,6 +45819,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 42
+  ac_special: null
   automatic_abilities: null
   description: '*This entry did not have a separate description for the creature.*'
   hp: 390
@@ -45529,8 +45969,7 @@
     str_mod: 6
     wis_mod: 1
   ac: 33
-  items:
-    - broken greatsword
+  ac_special: null
   automatic_abilities:
   - description: he dragonscarred dead is immediately aware of any intruder that enters
       the lair of its creator dragon. It does not know the exact location of the intruder
@@ -45556,6 +45995,8 @@
   - poison
   - unconscious
   innate_spells: null
+  items:
+  - broken greatsword
   languages:
   - Common
   - Draconic
@@ -45630,6 +46071,7 @@
     str_mod: 5
     wis_mod: 2
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Evil dwarves who die having failed to live up to the exacting standards
     of the duergar god Droskar are sometimes forced to return to the material world
@@ -45733,6 +46175,7 @@
     str_mod: 8
     wis_mod: 3
   ac: 33
+  ac_special: null
   automatic_abilities: null
   description: The dreaded gashadokuro is an undead haunter of the night, a giant
     skeleton that rises from the earth in the aftermath of a mass starvation event
@@ -45834,6 +46277,7 @@
     str_mod: 10
     wis_mod: 4
   ac: 37
+  ac_special: null
   automatic_abilities: null
   description: Those who tread in ruined places sometimes speak of a sense that a
     supernatural presence is there alongside them, as if the spirits of the dead were
@@ -45920,6 +46364,7 @@
     str_mod: 7
     wis_mod: 1
   ac: 30
+  ac_special: null
   automatic_abilities: null
   description: The most common aluum is powered by the bound soul of a loyal city
     servant, but its creation is among the Pactmasters’ most guarded secrets. There
@@ -46016,6 +46461,7 @@
     str_mod: 9
     wis_mod: 4
   ac: 39
+  ac_special: null
   automatic_abilities: null
   description: Whereas most aluums are animated by the souls of volunteers loyal to
     Katapesh, the Pactmasters created a handful of more capable (and deadly) aluums
@@ -46134,8 +46580,7 @@
     str_mod: 7
     wis_mod: 2
   ac: 35
-  items:
-    - +1 striking longsword (2)
+  ac_special: null
   automatic_abilities:
   - description: y spending 5 minutes concentrating, the calikang can enter a state
       of suspended animation, freezing in place and becoming motionless but remaining
@@ -46163,6 +46608,8 @@
   - frequency: constant
     level: 6
     name: true seeing
+  items:
+  - +1 striking longsword (2)
   languages:
   - Common
   - Jotun
@@ -46247,6 +46694,7 @@
     str_mod: 4
     wis_mod: 7
   ac: 38
+  ac_special: null
   automatic_abilities: null
   description: 'Of all the ways to die, crucidaemons represent perhaps one of the
     least desirable: death by torture. The fiend’s shapely body, which appears to
@@ -46362,6 +46810,7 @@
     str_mod: 8
     wis_mod: 5
   ac: 34
+  ac_special: null
   automatic_abilities: null
   description: Nalfeshnees are huge, corpulent, boar-headed demons that hoard treasures
     and knowledge alike and form from the souls of avaricious mortals.
@@ -46486,6 +46935,7 @@
     str_mod: 8
     wis_mod: 6
   ac: 38
+  ac_special: null
   automatic_abilities: null
   description: The cornugon, or horned devil, is a hulking red fiend with a crown
     of deadly horns and a body bristling with spines. Cornugons serve as the commanders
@@ -46610,6 +47060,7 @@
     str_mod: 6
     wis_mod: 6
   ac: 26
+  ac_special: null
   automatic_abilities: null
   description: An immortal ichor is an intelligent mass of blood from a dead evil
     deity. The cultists who perform the ritual to create immortal ichor typically
@@ -46741,6 +47192,7 @@
     str_mod: 1
     wis_mod: 1
   ac: 16
+  ac_special: null
   automatic_abilities: null
   description: The smallest of giant solifugids are still large enough to harry desert
     traders and their mounts.
@@ -46813,6 +47265,7 @@
     str_mod: 9
     wis_mod: 4
   ac: 42
+  ac_special: null
   automatic_abilities: null
   description: The largest solifugids, duneshakers, literally make the terrain around
     them tremble.
@@ -46901,6 +47354,7 @@
     str_mod: 3
     wis_mod: 3
   ac: 22
+  ac_special: null
   automatic_abilities: null
   description: Witchwyrds are four-armed humanoid creatures with hairless blue-gray
     skin and glowing yellow eyes. They are typically 6-1/2 feet tall and weigh 300

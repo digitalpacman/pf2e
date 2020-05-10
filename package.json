@@ -10,7 +10,8 @@
     "flexsearch": "^0.6.32",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "showdown": "^1.9.1"
   },
   "scripts": {
     "start": "react-scripts start",

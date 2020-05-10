@@ -73,3 +73,15 @@ body {
 .csv:last-child::after {
   content: '';
 }
+
+.ability .ability {
+  padding-left: 20px;
+}
+
+.action-cost-icon {
+  height: 15px;
+}
+
+.markdown p:first-child {
+  display: inline;
+}
