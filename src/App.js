@@ -31,7 +31,7 @@ function App() {
     });
 
     entries.sort((a, b) => a.name > b.name ? 1 : -1);
-    list = entries.slice(0, 10);
+    list = entries;//.slice(0, 10);
     
     index.add(list);
 
