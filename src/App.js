@@ -109,9 +109,10 @@ function App() {
     const traits = x.traits ? (<span>({x.traits.map(renderCsv)})</span>) : null;
     const frequency = x.frequency ? (<span><strong>Frequency</strong> {x.frequency}</span>) : null;
     const description = x.description ? markdown(x.description) : null;
+    const genericDescription = x.generic_description ? markdown('. ' + x.generic_description) : null;
     const effects = x.effects ? (x.effects.map(renderAbility)) : null;
     return (
-      <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
+      <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
     );
   };
 
@@ -160,13 +161,13 @@ function App() {
     const levelText = levelTextEnding(spellGroup.level > 0 ? spellGroup.level : spellGroup.heightened_level);
     const level = spellGroup.level > 0 ? (<strong>{levelText}</strong>) : (<strong>({levelText})</strong>);
     return (
-      <span>{level} {spellGroup.spells.map(renderSpell)}</span>
+      <span className="scsv">{level} {spellGroup.spells.map(renderSpell)}</span>
     );
   };
 
   const renderSpell = (spell) => {
     return (
-      <span>{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
+      <span className="csv">{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
     );
   };
 
@@ -245,6 +246,9 @@ function App() {
             <span className="csv"><strong>Int</strong> {signed(x.ability_mods.int_mod)}</span>
             <span className="csv"><strong>Wis</strong> {signed(x.ability_mods.wis_mod)}</span>
             <span className="csv"><strong>Cha</strong> {signed(x.ability_mods.cha_mod)}</span>
+          </div>
+          <div>
+            {x.sense_abilities?.map(renderAbility)}
           </div>
           {ifExists(x.items, (
             <div><strong>Items</strong> {x.items?.map(renderCsv)}</div>
