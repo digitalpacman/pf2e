@@ -3,8 +3,11 @@ import './App.css';
 import entries from './monster-entries.js';
 import FlexSearch from 'flexsearch';
 import showdown from 'showdown';
+import freeAction from './FreeAction.png';
 import reaction from './Reaction.png';
 import oneAction from './OneAction.png';
+import twoActions from './TwoActions.png';
+import threeActions from './ThreeActions.png';
 
 const converter = new showdown.Converter({underline: true});
 
@@ -44,7 +47,14 @@ function App() {
       image = reaction;
     } else if (actionCost === 'One Action') {
       image = oneAction;
+    } else if (actionCost === 'Two Actions') {
+      image = twoActions;
+    } else if (actionCost === 'Three Actions') {
+      image = threeActions;
+    } else if (actionCost === 'Free Action') {
+      image = freeAction;
     }
+    
     if (image) {
       return (<img className="action-cost-icon" src={image} />);
     }
@@ -53,7 +63,6 @@ function App() {
 
   const setSearch = (search) => {
     const matched = index?.search(search).sort((a, b) => a.name > b.name ? 1 : -1) ?? [];
-    console.log(matched)
     for (let i = 0, x = 0; i < list.length; i++) {
       if (search === '' || (x < matched.length && list[i].name === matched[x].name)) {
         list[i].show = true;
@@ -73,9 +82,10 @@ function App() {
     );
   };
 
-  const renderSpeed = (speed) => {
+  const renderSpeed = (speed, m) => {
+    const amount = speed.amount ? ` ${speed.amount}` : null;
     return (
-      <span key={speed.type} className="csv">{speed.type} {speed.amount}</span>
+      <span key={speed.type} className="csv">{speed.type}{amount}</span>
     );
   }
 
@@ -98,19 +108,20 @@ function App() {
     return null;
   };
 
-  const renderAbility = (x) => {
+  const renderAbility = (x, m) => {
     const actionCost = x.action_cost ? (<span>{actionCostImage(x.action_cost)}</span>) : null;
     const trigger = x.trigger ? (<span><strong>Trigger</strong> {x.trigger}</span>) : null;
     const effect = x.effect ? (<span><strong>Effect</strong> {markdown(x.effect)}</span>) : null;
-    const critical_success = x.critical_success ? (<div><strong>Critical Success</strong> {x.critical_success}</div>) : null;
-    const success = x.success ? (<div><strong>Success</strong> {x.success}</div>) : null;
-    const failure = x.failure ? (<div><strong>Failure</strong> {x.failure}</div>) : null;
-    const critical_failure = x.critical_failure ? (<div><strong>Critical Failure</strong> {x.critical_failure}</div>) : null;
+    const critical_success = x.critical_success ? (<div className="save-result"><strong>Critical Success</strong> {x.critical_success}</div>) : null;
+    const success = x.success ? (<div className="save-result"><strong>Success</strong> {x.success}</div>) : null;
+    const failure = x.failure ? (<div className="save-result"><strong>Failure</strong> {x.failure}</div>) : null;
+    const critical_failure = x.critical_failure ? (<div className="save-result"><strong>Critical Failure</strong> {x.critical_failure}</div>) : null;
     const traits = x.traits ? (<span>({x.traits.map(renderCsv)})</span>) : null;
     const frequency = x.frequency ? (<span><strong>Frequency</strong> {x.frequency}</span>) : null;
     const description = x.description ? markdown(x.description) : null;
     const genericDescription = x.generic_description ? markdown('. ' + x.generic_description) : null;
-    const effects = x.effects ? (x.effects.map(renderAbility)) : null;
+    const effects = x.effects ? (<div className="effects">{x.effects.map(renderAbility)}</div>) : null;
+
     return (
       <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
     );
@@ -133,13 +144,19 @@ function App() {
     const spells = spellList.spell_groups.filter(x => x.level != 0 && x.level != -1);
     const cantrips = spellList.spell_groups.filter(x => x.level == 0);
     const constants = spellList.spell_groups.filter(x => x.level == -1);
+    const dc = spellList.dc ? `DC ${spellList.dc}` : null;
+    const to_hit = spellList.to_hit ? `attack +${spellList.to_hit}` : null;
+    const misc = dc && spellList.to_hit ? (<span> {dc}, {to_hit}; </span>) : 
+      dc ? (<span> {dc}; </span>) :
+      to_hit ? (<span> {to_hit}; </span>) : 
+      '; ';
 
     return (
-      <div>
-        <strong>{spellList.name}</strong> <span>DC {spellList.dc}; </span>
+      <div key={spellList.name}>
+        <strong>{spellList.name}</strong>{misc}
         {spells.map(renderSpellGroup)}
         {ifExists(cantrips.length > 0, (<strong>Cantrips</strong>))} {cantrips.map(renderSpellGroup)}
-        {ifExists(constants.length > 0, (<strong>Constants</strong>))} {constants.map(renderSpellGroup)}
+        {ifExists(constants.length > 0, (<strong>Constant</strong>))} {constants.map(renderSpellGroup)}
       </div>
     );
   };
@@ -161,13 +178,13 @@ function App() {
     const levelText = levelTextEnding(spellGroup.level > 0 ? spellGroup.level : spellGroup.heightened_level);
     const level = spellGroup.level > 0 ? (<strong>{levelText}</strong>) : (<strong>({levelText})</strong>);
     return (
-      <span className="scsv">{level} {spellGroup.spells.map(renderSpell)}</span>
+      <span key={levelText} className="scsv">{level} {spellGroup.spells.map(renderSpell)}</span>
     );
   };
 
   const renderSpell = (spell) => {
     return (
-      <span className="csv">{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
+      <span key={spell.name} className="csv">{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
     );
   };
 
@@ -182,18 +199,23 @@ function App() {
   const renderDamageFormula = (damage, plusDamage) => {
     const plus = plusDamage?.map(x => {
       return (
-        <span key={x.formula + ' ' + x.type} className="csv">{x?.formula} {x?.type}</span>
+        <span key={x.formula + ' ' + x.type} className="csv oxford-comma">{x?.formula} {x?.type}</span>
       );
     });
 
+    const plusSection = plus ? (
+      <span>plus {plus}</span>
+    ) : null;
+
     return (
-      <span><strong>Damage</strong> {damage?.formula} {damage?.type} {plus ? 'plus' : null} {plus}</span>
+      <span><strong>Damage</strong> {damage?.formula} {damage?.type} {plusSection}</span>
     );
   };
   
   const renderAttack = (monster, attack, kind) => {
     try {
       const traits = attack.traits ? (<span> ({attack.traits?.map(renderCsv)})</span>) : null;
+      if (!attack.name) console.log(monster, attack.name)
       return (
         <div key={attack.name}>
           <strong>{kind}</strong> {actionCostImage(attack.action_cost)} {attack.name} {signed(attack.to_hit)}{traits}, {renderDamageFormula(attack.damage, attack.plus_damage)}
@@ -216,7 +238,7 @@ function App() {
 
   const renderSource = (source) => {
     return (
-      <span className="csv">{source.abbr} pg. {source.page_start}</span>
+      <span key={source.abbr + source.page_start} className="csv">{source.abbr} pg. {source.page_start}</span>
     );
   };
 
@@ -248,7 +270,7 @@ function App() {
             <span className="csv"><strong>Cha</strong> {signed(x.ability_mods.cha_mod)}</span>
           </div>
           <div>
-            {x.sense_abilities?.map(renderAbility)}
+            {x.sense_abilities?.map(a => renderAbility(a, x))}
           </div>
           {ifExists(x.items, (
             <div><strong>Items</strong> {x.items?.map(renderCsv)}</div>
@@ -265,27 +287,19 @@ function App() {
               <span>; {x.saves.misc}</span>
             ))}            
           </div>
-          <div><strong>HP</strong> {x.hp} {ifExists(x.hp_misc, (<span>({x.hp_misc})</span>))}</div>
-          {ifExists(x.immunities, (<div><strong>Immunities</strong> {x.immunities?.map(renderCsv)}</div>))}
-          {ifExists(x.weaknesses, (<div><strong>Weaknesses</strong> {x.weaknesses?.map(renderSpeed)}</div>))}
-          {ifExists(x.resistances, (<div><strong>Resistances</strong> {x.resistances?.map(renderSpeed)}</div>))}
+          <div><strong>HP</strong> {x.hp}{ifExists(x.hp_misc, (<span> ({x.hp_misc})</span>))}{ifExists(x.immunities, (<span>; <strong>Immunities</strong> {x.immunities?.map(renderCsv)}</span>))}{ifExists(x.resistances, (<span>; <strong>Resistances</strong> {x.resistances?.map(a => renderSpeed(a, x))}</span>))}{ifExists(x.weaknesses, (<span>; <strong>Weaknesses</strong> {x.weaknesses?.map(a => renderSpeed(a, x))}</span>))}</div>
           <div>
-            {x.automatic_abilities?.map(renderAbility)}
+            {x.automatic_abilities?.map(a => renderAbility(a, x))}
           </div>
           <hr />
-          <div><strong>Speed</strong> {x.speed.map(renderSpeed)}</div>
+          <div><strong>Speed</strong> {x.speed.map(a => renderSpeed(a, x))}</div>
           <div>{x.melee?.map(attack => renderMeleeAttack(x, attack))}</div>
           <div>{x.ranged?.map(attack => renderRangedAttack(x, attack))}</div>
           {x.spell_lists?.map(renderSpellList)}
           <div>
-            {x.proactive_abilities?.map(renderAbility)}
+            {x.proactive_abilities?.map(a => renderAbility(a, x))}
           </div>
-          {ifExists(x.rituals, (
-            <div>
-              <strong>Rituals</strong>
-              {x.rituals?.map(renderSpellList)}
-            </div>
-          ))}
+          {x.ritual_lists?.map(renderSpellList)}
         </div>
       )))()}
     </div>)

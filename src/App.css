@@ -74,6 +74,14 @@ body {
   content: '';
 }
 
+.oxford-comma:last-child::before {
+  content: 'and';
+}
+
+.oxford-comma:first-child::before {
+  content: '';
+}
+
 .scsv::after {
   content: '; '
 }
@@ -82,8 +90,13 @@ body {
   content: '';
 }
 
-.ability .ability {
+.effects {
   padding-left: 20px;
+  list-style: disc;
+}
+
+.effects .ability {
+  display: list-item;
 }
 
 .action-cost-icon {
@@ -92,4 +105,8 @@ body {
 
 .markdown p:first-child {
   display: inline;
+}
+
+.save-result {
+  padding-left: 20px;
 }
