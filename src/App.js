@@ -1,209 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import entries from './monster-entries.js';
 import FlexSearch from 'flexsearch';
-import showdown from 'showdown';
-import freeAction from './FreeAction.png';
-import reaction from './Reaction.png';
-import oneAction from './OneAction.png';
-import twoActions from './TwoActions.png';
-import threeActions from './ThreeActions.png';
+import * as renderer from './renderers.js';
 
-const converter = new showdown.Converter({underline: true});
-
+let entries;
 let index;
 let list;
 
-
-const actionCostImage = (actionCost) => {
-  let image;
-  if (actionCost === 'Reaction') {
-    image = reaction;
-  } else if (actionCost === 'One Action') {
-    image = oneAction;
-  } else if (actionCost === 'Two Actions') {
-    image = twoActions;
-  } else if (actionCost === 'Three Actions') {
-    image = threeActions;
-  } else if (actionCost === 'Free Action') {
-    image = freeAction;
-  }
-  
-  if (image) {
-    return (<img className="action-cost-icon" src={image} />);
-  }
-  return null;
-};
-
-const renderTrait = (trait, additionalClassName='') => {
-  const className = `trait ${additionalClassName}`;
-  return (
-    <span key={trait} className={className}>{trait}</span>
-  );
-};
-
-const renderSpeed = (speed, m) => {
-  const amount = speed.amount ? ` ${speed.amount}` : null;
-  return (
-    <span key={speed.type} className="csv">{speed.type}{amount}</span>
-  );
-}
-
-const renderDict = (skill, nameRender, valueRender) => {
-  return (
-    <span key={skill.name} className="csv">{nameRender ? nameRender(skill.name) : skill.name} {valueRender ? valueRender(skill.value) : skill.value}</span>
-  );
-};
-
-const renderCsv = (sense) => {
-  return (
-    <span key={sense} className="csv">{sense}</span>
-  );
-};
-
-const markdown = (html) => {
-  if (html) {
-    return (<span className="markdown" dangerouslySetInnerHTML={{__html: converter.makeHtml(html)}}></span>);
-  }
-  return null;
-};
-
-const renderAbility = (x, m) => {
-  const actionCost = x.action_cost ? (<span>{actionCostImage(x.action_cost)}</span>) : null;
-  const trigger = x.trigger ? (<span><strong>Trigger</strong> {x.trigger}</span>) : null;
-  const effect = x.effect ? (<span><strong>Effect</strong> {markdown(x.effect)}</span>) : null;
-  const critical_success = x.critical_success ? (<div className="save-result"><strong>Critical Success</strong> {x.critical_success}</div>) : null;
-  const success = x.success ? (<div className="save-result"><strong>Success</strong> {x.success}</div>) : null;
-  const failure = x.failure ? (<div className="save-result"><strong>Failure</strong> {x.failure}</div>) : null;
-  const critical_failure = x.critical_failure ? (<div className="save-result"><strong>Critical Failure</strong> {x.critical_failure}</div>) : null;
-  const traits = x.traits ? (<span>({x.traits.map(renderCsv)})</span>) : null;
-  const frequency = x.frequency ? (<span><strong>Frequency</strong> {x.frequency}</span>) : null;
-  const description = x.description ? markdown(x.description) : null;
-  const genericDescription = x.generic_description ? markdown('. ' + x.generic_description) : null;
-  const effects = x.effects ? (<div className="effects">{x.effects.map(renderAbility)}</div>) : null;
-
-  return (
-    <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
-  );
-};
-
-const signed = (value) => {
-  value = parseInt(value);
-  if (value >= 0) {
-    return `+${value}`;
-  }
-  return `${value}`;
-};
-
-const toArray = (o) => {
-  if (!o) return null;
-  return Object.entries(o).map(x => ({ name: x[0], value: x[1] }));
-};
-
-const renderSpellList = (spellList) => {
-  const spells = spellList.spell_groups.filter(x => x.level != 0 && x.level != -1);
-  const cantrips = spellList.spell_groups.filter(x => x.level == 0);
-  const constants = spellList.spell_groups.filter(x => x.level == -1);
-  const dc = spellList.dc ? `DC ${spellList.dc}` : null;
-  const to_hit = spellList.to_hit ? `attack +${spellList.to_hit}` : null;
-  const misc = dc && spellList.to_hit ? (<span> {dc}, {to_hit}; </span>) : 
-    dc ? (<span> {dc}; </span>) :
-    to_hit ? (<span> {to_hit}; </span>) : 
-    '; ';
-
-  return (
-    <div key={spellList.name}>
-      <strong>{spellList.name}</strong>{misc}
-      {spells.map(renderSpellGroup)}
-      {ifExists(cantrips.length > 0, (<strong>Cantrips</strong>))} {cantrips.map(renderSpellGroup)}
-      {ifExists(constants.length > 0, (<strong>Constant</strong>))} {constants.map(renderSpellGroup)}
-    </div>
-  );
-};
-
-const levelTextEnding = (level) => {
-  if (level === '1') {
-    return `${level}st`;
-  }
-  if (level === '2') {
-    return `${level}nd`;
-  }
-  if (level === '3') {
-    return `${level}rd`;
-  }
-  return `${level}th`;
-};
-
-const renderSpellGroup = (spellGroup) => {
-  const levelText = levelTextEnding(spellGroup.level > 0 ? spellGroup.level : spellGroup.heightened_level);
-  const level = spellGroup.level > 0 ? (<strong>{levelText}</strong>) : (<strong>({levelText})</strong>);
-  return (
-    <span key={levelText} className="scsv">{level} {spellGroup.spells.map(renderSpell)}</span>
-  );
-};
-
-const renderSpell = (spell) => {
-  return (
-    <span key={spell.name} className="csv">{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
-  );
-};
-
-const renderMeleeAttack = (monster, attack) => {
-  return renderAttack(monster, attack, 'Melee');
-};
-
-const renderRangedAttack = (monster, attack) => {
-  return renderAttack(monster, attack, 'Ranged');
-};
-
-const renderDamageFormula = (damage, plusDamage) => {
-  const plus = plusDamage?.map(x => {
-    return (
-      <span key={x.formula + ' ' + x.type} className="csv oxford-comma">{x?.formula} {x?.type}</span>
-    );
-  });
-
-  const plusSection = plus ? (
-    <span>plus {plus}</span>
-  ) : null;
-
-  return (
-    <span><strong>Damage</strong> {damage?.formula} {damage?.type} {plusSection}</span>
-  );
-};
-
-const renderAttack = (monster, attack, kind) => {
-  try {
-    const traits = attack.traits ? (<span> ({attack.traits?.map(renderCsv)})</span>) : null;
-    return (
-      <div key={attack.name}>
-        <strong>{kind}</strong> {actionCostImage(attack.action_cost)} {attack.name} {signed(attack.to_hit)}{traits}, {renderDamageFormula(attack.damage, attack.plus_damage)}
-      </div>
-    );
-  } catch (err) {
-    console.log(err)
-    console.log(monster)
-    console.log(attack)
-    throw err;
-  }
-};
-
-const ifExists = (check, block) => {
-  if (check) {
-    return block;
-  }
-  return null;
-};
-
-const renderSource = (source) => {
-  return (
-    <span key={source.abbr + source.page_start} className="csv">{source.abbr} pg. {source.page_start}</span>
-  );
-};
-
 // https://github.com/nextapps-de/flexsearch
 function App() {
-  const [state, setState] = useState({ search: '', entries: [], count: 0, mode: 'cards', fields: [], sort: 'name', sortDir: 'asc' });
+  const [state, setState] = useState({ 
+    search: '',
+    entries: [],
+    mode: 'cards',
+    fields: [],
+    sort: 'name',
+    sortDir: 'asc',
+    encounterMonsters: [],
+    encounterApl: 5,
+    numberPlayers: 4,
+    buildMode: false,
+  });
 
   const sorted = (entries, sort, sortDir) => {
     const equals = (a, b) => {
@@ -218,8 +35,7 @@ function App() {
         return equals(a, b);
       }
 
-      if (!isNaN(parseInt(left)) && !isNaN(parseInt(right)))
-      {
+      if (!isNaN(parseInt(left)) && !isNaN(parseInt(right))) {
         return parseInt(left) > parseInt(right) ? (sortDir == 'asc' ? 1 : -1) : (sortDir == 'asc' ? -1 : 1);
       }
 
@@ -227,7 +43,57 @@ function App() {
     });
   };
 
-  useEffect(() => {
+  const calculateXP = (apl, monsters) => {
+    const xpTable = [
+      [-4, 10],
+      [-3, 15],
+      [-2, 20],
+      [-1, 30],
+      [0, 40],
+      [1, 60],
+      [2, 80],
+      [3, 120],
+      [4, 160],
+    ];
+
+    let xp = 0;
+    for (let i = 0; i < monsters.length; ++i) {
+      const level = monsters[i].level - apl;
+      for (let x = 0; x < xpTable.length; ++x) {
+        if (level === xpTable[x][0]) {
+          xp += xpTable[x][1];
+          break;
+        }
+      }
+    }
+
+    return xp;
+  };
+
+  const budgetTable = [
+    [40, 'Trivial', 10],
+    [60, 'Low', 15],
+    [80, 'Moderate', 20],
+    [120, 'Severe', 30],
+    [160, 'Extreme', 40],
+  ];
+
+  const calculateEncounterThreat = (players, apl, monsters) => {
+    const xp = calculateXP(apl, monsters);
+
+    const modifier = (players - 4);
+    const realBudget = budgetTable.map(x => [x[0] + modifier * x[2], x[1]]);
+    const budget = realBudget.find(x => xp <= x[0]);
+    return budget ? budget[1] : `Beyond ${budgetTable[4][1]}`;
+  };
+
+  const toggleBuildMode = () => {
+    const buildMode = !state.buildMode;
+    const entries = applyFilters(state.search, buildMode);
+    setState({ ...state, entries, buildMode });
+  };
+
+  const init = () => {
     index = new FlexSearch({
       tokenize: 'forward',
       encode: 'icase',
@@ -256,18 +122,36 @@ function App() {
     const fields = Object.keys(fieldMap);
 
     sorted(entries, state.sort, state.sortDir);
-    
+
     list = entries;
-    
+
     index.add(list);
 
-    setState({ ...state, search: state.search, entries: list, count: list.length, fields });
+    setState({ ...state, search: state.search, entries: list, fields });
+  };
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch('monster-entries.js');
+      entries = await response.json();
+      init();
+    })();
   }, []);
 
-  const setSearch = (search) => {
-    const matched = search ? index?.search(search) ?? [] : list;
+  const applyFilters = (search, buildMode) => {
+    let matched = search ? index?.search(search) ?? [] : list;
+    if (buildMode) {
+      matched = matched.filter(x => {
+        return Math.abs(x.level - state.encounterApl) <= 4;
+      });
+    }
     sorted(matched, state.sort, state.sortDir);
-    setState({ ...state, search, entries: matched, count: matched.length });
+    return matched;
+  };
+
+  const setSearch = (search) => {
+    const entries = applyFilters(search, state.buildMode);
+    setState({ ...state, search, entries });
   };
 
   const showCards = () => {
@@ -309,84 +193,132 @@ function App() {
     setState({ ...state });
   };
 
+  const addToEncounter = (monster) => {
+    const encounterMonsters = state.encounterMonsters;
+    encounterMonsters.push(monster);
+    setState({ ...state, encounterMonsters});
+  }
+
+  const changePlayers = (evt) => {
+    const numberPlayers = evt.target.value;
+    setState({ ...state, numberPlayers });
+  };
+
+  const changeApl = (evt) => {
+    const encounterApl = evt.target.value;
+    setState({ ...state, encounterApl });
+  };
+
+  const removeFromEncounter = (i) => {
+    const encounterMonsters = state.encounterMonsters;
+    // const i = encounterMonsters.findIndex(x => x.name == monster.name);
+    encounterMonsters.splice(i, 1);
+
+    setState({ ...state, encounterMonsters });
+  };
+
   return (
     <div>
-      <div>
-        <h1>Search: <input type="text" value={state.search} onChange={e => setSearch(e.target.value)} /> matched {state.count}</h1>
-        <select onChange={changeSort}>
-          {state.fields.map(x => (<option key={x} value={x}>{x}</option>))} 
-        </select>
-        <button onClick={toggleSortDir}>{state.sortDir === 'asc' ? 'asc' : 'desc'}</button> <button onClick={clear}>Clear Work</button>
-      </div>
+      {state.mode !== 'cards' ? null : (
+        <div>
+          <h1>Search: <input type="text" value={state.search} onChange={e => setSearch(e.target.value)} /> matched {state.entries.length}</h1>
+          <select onChange={changeSort}>
+            {state.fields.map(x => (<option key={x} value={x}>{x}</option>))}
+          </select>
+          <button onClick={toggleSortDir}>{state.sortDir === 'asc' ? 'asc' : 'desc'}</button> <button onClick={clear}>Clear Work</button>
+        </div>
+      )}
+      <button onClick={toggleBuildMode}>Toggle Build Mode</button>
+      {!state.buildMode ? null : (
+        <div>
+          <div>
+            Players [<input onChange={changePlayers} value={state.numberPlayers} size="1" />],
+            APL [<input onChange={changeApl} value={state.encounterApl} size="1" />]
+          </div>
+          <div>
+            {state.encounterMonsters.map((x, i) => (
+              <span key={i} className="csv" onClick={() => removeFromEncounter(i)}>{x.name}</span>
+            ))}
+          </div>
+          <div>Target threat level <select>{budgetTable.map(x => (<option key={x[1]} value={x[1]}>{x[1]}</option>))}</select></div>
+          <div>{calculateEncounterThreat(state.numberPlayers, state.encounterApl, state.encounterMonsters)}, XP [{calculateXP(state.encounterApl, state.encounterMonsters)}]</div>
+        </div>
+      )}
+
       {state.mode !== 'cards' ? null : (
         <ul className="cards">
           {state.entries.map(x => {
             const css = x.completed ? "clickable card completed" : "clickable card";
             return (
               <li key={x.name} className={css} onClick={() => showDetailed(x)}>
-                {x.name}
+                <div><strong>{x.name}</strong><br/>Level {x.level}<br/>{x.size}</div>
               </li>
             );
           })}
         </ul>
       )}
+
       {state.mode === 'cards' ? null : [state.selected].map(x => (
         <div key={x.name}>
           <div onClick={showCards} className="clickable">&lt; Back</div>
+          {!state.buildMode ? null : (
+            <div><button onClick={() => addToEncounter(x)}>Add to encounter</button></div>
+          )}
           <h1>
-            <a className="name" href={x.url}>{x.name}</a> 
+            <a className="name" href={x.url}>{x.name}</a>
             <span className="name"> Level {x.level}</span>
           </h1>
-          <h2>{x.traits.map(trait => renderTrait(trait))}</h2>
-          <div>{markdown(x.description)}</div>
-          <div><strong>Source</strong> {x.source.map(renderSource)}</div>
-          <div><strong>Senses</strong> {x.senses?.map(renderCsv)}</div>
-          {ifExists(x.languages, (
-            <div><strong>Languages</strong> {x.languages?.map(renderCsv)}</div>
+          <h2>{x.traits.map(trait => renderer.renderTrait(trait))}</h2>
+          <div className="description">{renderer.markdown(x.description)}</div>
+          <div><strong>Source</strong> {x.source.map(renderer.renderSource)}</div>
+          <div><strong>Senses</strong> {x.senses?.map(renderer.renderCsv)}</div>
+          {renderer.ifExists(x.languages, (
+            <div><strong>Languages</strong> {x.languages?.map(renderer.renderCsv)}</div>
           ))}
-          <div><strong>Skills</strong> {toArray(x.skills)?.map(s => renderDict(s, n => n, v => signed(v)))}</div>
+          <div><strong>Skills</strong> {x.skills?.map(renderer.renderSkills)}</div>
           <div>
-            <span className="csv"><strong>Str</strong> {signed(x.ability_mods.str_mod)}</span>
-            <span className="csv"><strong>Dex</strong> {signed(x.ability_mods.dex_mod)}</span>
-            <span className="csv"><strong>Con</strong> {signed(x.ability_mods.con_mod)}</span>
-            <span className="csv"><strong>Int</strong> {signed(x.ability_mods.int_mod)}</span>
-            <span className="csv"><strong>Wis</strong> {signed(x.ability_mods.wis_mod)}</span>
-            <span className="csv"><strong>Cha</strong> {signed(x.ability_mods.cha_mod)}</span>
+            <span className="csv"><strong>Str</strong> {renderer.signed(x.ability_mods.str_mod)}</span>
+            <span className="csv"><strong>Dex</strong> {renderer.signed(x.ability_mods.dex_mod)}</span>
+            <span className="csv"><strong>Con</strong> {renderer.signed(x.ability_mods.con_mod)}</span>
+            <span className="csv"><strong>Int</strong> {renderer.signed(x.ability_mods.int_mod)}</span>
+            <span className="csv"><strong>Wis</strong> {renderer.signed(x.ability_mods.wis_mod)}</span>
+            <span className="csv"><strong>Cha</strong> {renderer.signed(x.ability_mods.cha_mod)}</span>
           </div>
           <div>
-            {x.sense_abilities?.map(a => renderAbility(a, x))}
+            {x.sense_abilities?.map(a => renderer.renderAbility(a, x))}
           </div>
-          {ifExists(x.items, (
-            <div><strong>Items</strong> {x.items?.map(renderCsv)}</div>
-          ))}          
+          {renderer.ifExists(x.items, (
+            <div><strong>Items</strong> {x.items?.map(renderer.renderCsv)}</div>
+          ))}
           <hr />
           <div>
             <span>
-              <span className="csv"><strong>AC</strong> {x.ac}{ifExists(x.ac_special, (<span> ({x.ac_special?.map(ac => ac.descr).map(renderCsv)})</span>))}</span>
-              <span className="csv"><strong>Fort</strong> {signed(x.saves.fort)}</span>
-              <span className="csv"><strong>Ref</strong> {signed(x.saves.ref)}</span>
-              <span className="csv"><strong>Will</strong> {signed(x.saves.will)}</span>
+              <span className="csv"><strong>AC</strong> {x.ac}{renderer.ifExists(x.ac_special, (<span> ({x.ac_special?.map(ac => ac.descr).map(renderer.renderCsv)})</span>))}</span>
+              <span className="csv"><strong>Fort</strong> {renderer.signed(x.saves.fort)}</span>
+              <span className="csv"><strong>Ref</strong> {renderer.signed(x.saves.ref)}</span>
+              <span className="csv"><strong>Will</strong> {renderer.signed(x.saves.will)}</span>
             </span>
-            {ifExists(x.saves.misc, (
+            {renderer.ifExists(x.saves.misc, (
               <span>; {x.saves.misc}</span>
-            ))}            
+            ))}
           </div>
-          <div><strong>HP</strong> {x.hp}{ifExists(x.hp_misc, (<span> ({x.hp_misc})</span>))}{ifExists(x.immunities, (<span>; <strong>Immunities</strong> {x.immunities?.map(renderCsv)}</span>))}{ifExists(x.resistances, (<span>; <strong>Resistances</strong> {x.resistances?.map(a => renderSpeed(a, x))}</span>))}{ifExists(x.weaknesses, (<span>; <strong>Weaknesses</strong> {x.weaknesses?.map(a => renderSpeed(a, x))}</span>))}</div>
+          <div><strong>HP</strong> {x.hp}{renderer.ifExists(x.hp_misc, (<span> ({x.hp_misc})</span>))}{renderer.ifExists(x.immunities, (<span>; <strong>Immunities</strong> {x.immunities?.map(renderer.renderCsv)}</span>))}{renderer.ifExists(x.resistances, (<span>; <strong>Resistances</strong> {x.resistances?.map(a => renderer.renderSpeed(a, x))}</span>))}{renderer.ifExists(x.weaknesses, (<span>; <strong>Weaknesses</strong> {x.weaknesses?.map(a => renderer.renderSpeed(a, x))}</span>))}</div>
           <div>
-            {x.automatic_abilities?.map(a => renderAbility(a, x))}
+            {x.automatic_abilities?.map(a => renderer.renderAbility(a, x))}
           </div>
           <hr />
-          <div><strong>Speed</strong> {x.speed.map(a => renderSpeed(a, x))}</div>
-          <div>{x.melee?.map(attack => renderMeleeAttack(x, attack))}</div>
-          <div>{x.ranged?.map(attack => renderRangedAttack(x, attack))}</div>
-          {x.spell_lists?.map(renderSpellList)}
+          <div><strong>Speed</strong> {x.speed.map(a => renderer.renderSpeed(a, x))}</div>
+          <div>{x.melee?.map(attack => renderer.renderMeleeAttack(x, attack))}</div>
+          <div>{x.ranged?.map(attack => renderer.renderRangedAttack(x, attack))}</div>
+          {x.spell_lists?.map(renderer.renderSpellList)}
           <div>
-            {x.proactive_abilities?.map(a => renderAbility(a, x))}
+            {x.proactive_abilities?.map(a => renderer.renderAbility(a, x))}
           </div>
-          {x.ritual_lists?.map(renderSpellList)}
+          {x.ritual_lists?.map(renderer.renderSpellList)}
           <button onClick={() => markComplete(x)}>Mark Complete</button>
         </div>
       ))}
+      <script src="monster-entries.js"></script>
     </div>)
 }
 
