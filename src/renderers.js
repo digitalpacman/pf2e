@@ -65,6 +65,7 @@ export const markdown = (html) => {
 export const renderAbility = (x, m) => {
   const actionCost = x.action_cost ? (<span>{actionCostImage(x.action_cost)}</span>) : null;
   const trigger = x.trigger ? (<span><strong>Trigger</strong> {markdown(x.trigger)}</span>) : null;
+  const requirements = x.requirements ? (<span><strong>Requirements</strong> {markdown(x.requirements)}</span>) : null;
   const effect = x.effect ? (<span><strong>Effect</strong> {markdown(x.effect)}</span>) : null;
   const critical_success = x.critical_success ? (<div className="save-result"><strong>Critical Success</strong> {x.critical_success}</div>) : null;
   const success = x.success ? (<div className="save-result"><strong>Success</strong> {x.success}</div>) : null;
@@ -77,7 +78,7 @@ export const renderAbility = (x, m) => {
   const effects = x.effects ? (<div className="effects">{x.effects.map(renderAbility)}</div>) : null;
 
   return (
-    <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
+    <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {requirements} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
   );
 };
 
@@ -192,5 +193,12 @@ export const ifExists = (check, block) => {
 export const renderSource = (source) => {
   return (
     <span key={source.abbr + source.page_start} className="csv">{source.abbr} pg. {source.page_start}</span>
+  );
+};
+
+export const renderSave = (name, bonus, miscText) => {
+  const misc = miscText  ? (<span> ({miscText})</span>) : null;
+  return (
+    <span className="csv"><strong>{name}</strong> {signed(bonus)}{misc}</span>
   );
 };

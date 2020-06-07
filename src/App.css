@@ -142,7 +142,7 @@ body {
 
 .card {
   list-style: none;
-  flex-basis: 22%;
+  flex-basis: 24%;
   border: 1px solid black;
   border-radius: 5px;
   margin-right: 5px;
@@ -162,4 +162,24 @@ body {
 ul {
   padding-left: 20px;
   margin: 0;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-box {
+  width: 60%;
+  text-align: center;
+  font-size: 2em;
+  padding: 5px;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.matched {
+  text-align: center;
+  color: lightgray;
+  font-size: 0.7em;
 }

@@ -20,6 +20,7 @@ function App() {
     encounterApl: 5,
     numberPlayers: 4,
     buildMode: false,
+    cardOptions: ['Name', 'Level'],
   });
 
   const sorted = (entries, sort, sortDir) => {
@@ -217,15 +218,47 @@ function App() {
     setState({ ...state, encounterMonsters });
   };
 
+  const cardOptions = {
+    Name: x => (<strong key="name">{x.name}</strong>),
+    Level: x => (<span key="level">Level {x.level}</span>),
+    Size: x => (<span key="size">{x.size}</span>),
+  };
+
+  const renderCard = (x) => {
+    const css = x.completed ? "clickable card completed" : "clickable card";
+    return (
+      <li key={x.name} className={css} onClick={() => showDetailed(x)}>
+        {Object.entries(cardOptions).map(o => {
+          const enabled = state.cardOptions.indexOf(o[0]) !== -1;
+          if (!enabled) {
+            return null;
+          }
+          return o[1](x);
+        })}  
+      </li>
+    );
+  };
+
+  const cardOptionToggle = (evt) => {
+    const target = evt.target;
+    const checked = target.checked;
+    const cardOptions = checked ? state.cardOptions.concat(target.name) : state.cardOptions.filter(x => x != target.name);
+    setState({ ...state, cardOptions });
+  };
+
   return (
     <div>
       {state.mode !== 'cards' ? null : (
         <div>
-          <h1>Search: <input type="text" value={state.search} onChange={e => setSearch(e.target.value)} /> matched {state.entries.length}</h1>
+          <div className="search"><input className="search-box" type="text" placeholder="search" value={state.search} onChange={e => setSearch(e.target.value)} /></div>
+          <div className="matched">matched {state.entries.length}</div>
           <select onChange={changeSort}>
             {state.fields.map(x => (<option key={x} value={x}>{x}</option>))}
           </select>
           <button onClick={toggleSortDir}>{state.sortDir === 'asc' ? 'asc' : 'desc'}</button> <button onClick={clear}>Clear Work</button>
+          <div>
+            {Object.keys(cardOptions).map(x => (<span key={x}><input type="checkbox" name={x} checked={state.cardOptions.indexOf(x) !== -1} onChange={cardOptionToggle} /> {x}</span>))}
+          </div>
         </div>
       )}
       <button onClick={toggleBuildMode}>Toggle Build Mode</button>
@@ -247,14 +280,7 @@ function App() {
 
       {state.mode !== 'cards' ? null : (
         <ul className="cards">
-          {state.entries.map(x => {
-            const css = x.completed ? "clickable card completed" : "clickable card";
-            return (
-              <li key={x.name} className={css} onClick={() => showDetailed(x)}>
-                <div><strong>{x.name}</strong><br/>Level {x.level}<br/>{x.size}</div>
-              </li>
-            );
-          })}
+          {state.entries.map(renderCard)}
         </ul>
       )}
 
@@ -294,9 +320,9 @@ function App() {
           <div>
             <span>
               <span className="csv"><strong>AC</strong> {x.ac}{renderer.ifExists(x.ac_special, (<span> ({x.ac_special?.map(ac => ac.descr).map(renderer.renderCsv)})</span>))}</span>
-              <span className="csv"><strong>Fort</strong> {renderer.signed(x.saves.fort)}</span>
-              <span className="csv"><strong>Ref</strong> {renderer.signed(x.saves.ref)}</span>
-              <span className="csv"><strong>Will</strong> {renderer.signed(x.saves.will)}</span>
+              {renderer.renderSave('Fort', x.saves.fort, x.saves.fort_misc)}
+              {renderer.renderSave('Ref', x.saves.ref, x.saves.ref_misc)}
+              {renderer.renderSave('Will', x.saves.will, x.saves.will_misc)}
             </span>
             {renderer.ifExists(x.saves.misc, (
               <span>; {x.saves.misc}</span>
