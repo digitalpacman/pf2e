@@ -35,7 +35,7 @@ export const fromDescription = (s) => {
 
   const descIndex = lowestIndexOf(s, componentParts.map(x => `**${x.name}**`));
   const desc = descIndex === -1 ? s : s.substring(0, descIndex);
-  t.description = trim(desc);
+  t.description = desc.length === 0 ? undefined : trim(desc);
 
   return t;
 };

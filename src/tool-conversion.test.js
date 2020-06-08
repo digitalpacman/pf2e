@@ -82,3 +82,31 @@ it('fromPF2Tools general abilities', () => {
   ])
 });
 
+it('fromPF2Tools offense abilities', () => {
+  const monster = fromPF2Tools({
+    "specials": [
+      {
+        "id": "_28zgeip2f4g",
+        "name": "MyOffense",
+        "traits": "offense_traits1,offense_traits2",
+        "range": "",
+        "actions": "one",
+        "type": "offense",
+        "description": "This is the best description in all the lands **Requirements** On the ground. **Trigger** Takes damage **Effect** Blows up"
+      }
+    ]
+  });
+
+  expect(monster.proactive_abilities).toEqual([
+    {
+      name: 'MyOffense',
+      action_cost: 'One Action',
+      traits: ['offense_traits1', 'offense_traits2'],
+      description: 'This is the best description in all the lands',
+      requirements: 'On the ground.',
+      trigger: 'Takes damage',
+      effect: 'Blows up',
+    }
+  ])
+});
+
