@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import FlexSearch from 'flexsearch';
 import * as renderer from './renderers.js';
+import { MonsterDetail } from './MonsterDetail.js';
+import { fromPF2Tools } from './tool-conversion.js';
 
 let entries;
 let index;
@@ -12,15 +14,16 @@ function App() {
   const [state, setState] = useState({ 
     search: '',
     entries: [],
-    mode: 'cards',
+    view: 'cards',
     fields: [],
     sort: 'name',
     sortDir: 'asc',
     encounterMonsters: [],
     encounterApl: 5,
     numberPlayers: 4,
-    buildMode: false,
+    mode: 'read',
     cardOptions: ['Name', 'Level'],
+    customError: null,
   });
 
   const sorted = (entries, sort, sortDir) => {
@@ -89,9 +92,15 @@ function App() {
   };
 
   const toggleBuildMode = () => {
-    const buildMode = !state.buildMode;
-    const entries = applyFilters(state.search, buildMode);
-    setState({ ...state, entries, buildMode });
+    const mode = 1;
+    const entries = applyFilters(state.search, mode);
+    setState({ ...state, entries, mode });
+  };
+
+  const toggleCustomMonsterMode = () => {
+    const view = 'custom';
+    const mode = 0;
+    setState({ ...state, view, mode });
   };
 
   const init = () => {
@@ -134,14 +143,17 @@ function App() {
   useEffect(() => {
     (async () => {
       const response = await fetch('monster-entries.js');
-      entries = await response.json();
+      const paizoMonsters = await response.json();
+      const response2 = await fetch('/api/custom-monsters');
+      const customMonsters = await response2.json();
+      entries = paizoMonsters.concat(customMonsters);
       init();
     })();
   }, []);
 
-  const applyFilters = (search, buildMode) => {
+  const applyFilters = (search, mode) => {
     let matched = search ? index?.search(search) ?? [] : list;
-    if (buildMode) {
+    if (mode === 1) {
       matched = matched.filter(x => {
         return Math.abs(x.level - state.encounterApl) <= 4;
       });
@@ -151,16 +163,16 @@ function App() {
   };
 
   const setSearch = (search) => {
-    const entries = applyFilters(search, state.buildMode);
+    const entries = applyFilters(search, state.mode);
     setState({ ...state, search, entries });
   };
 
   const showCards = () => {
-    setState({ ...state, mode: 'cards' });
+    setState({ ...state, view: 'cards' });
   };
 
   const showDetailed = (monster) => {
-    setState({ ...state, mode: 'view', selected: monster });
+    setState({ ...state, view: 'detailed', selected: monster });
   };
 
   const changeSort = (evt) => {
@@ -246,9 +258,20 @@ function App() {
     setState({ ...state, cardOptions });
   };
 
+  const tryLoadCustom = (evt) => {
+    const value = evt.target.value;
+    try {
+      const pftools = JSON.parse(value);
+      const selected = fromPF2Tools(pftools);
+      setState({ ...state, selected });
+    } catch (err) {
+      setState({ ...state, customError: err });
+    }
+  };
+
   return (
     <div>
-      {state.mode !== 'cards' ? null : (
+      {state.view !== 'cards' ? null : (
         <div>
           <div className="search"><input className="search-box" type="text" placeholder="search" value={state.search} onChange={e => setSearch(e.target.value)} /></div>
           <div className="matched">matched {state.entries.length}</div>
@@ -262,7 +285,8 @@ function App() {
         </div>
       )}
       <button onClick={toggleBuildMode}>Toggle Build Mode</button>
-      {!state.buildMode ? null : (
+      <button onClick={toggleCustomMonsterMode}>Toggle Custom Monster Mode</button>
+      {state.mode !== 1 ? null : (
         <div>
           <div>
             Players [<input onChange={changePlayers} value={state.numberPlayers} size="1" />],
@@ -278,72 +302,30 @@ function App() {
         </div>
       )}
 
-      {state.mode !== 'cards' ? null : (
+      {state.view === 'cards' ? (
         <ul className="cards">
           {state.entries.map(renderCard)}
         </ul>
-      )}
+      ) : null}
 
-      {state.mode === 'cards' ? null : [state.selected].map(x => (
-        <div key={x.name}>
+      {state.view === 'detailed' ? (
+        <div>
           <div onClick={showCards} className="clickable">&lt; Back</div>
-          {!state.buildMode ? null : (
-            <div><button onClick={() => addToEncounter(x)}>Add to encounter</button></div>
+          {state.mode !== 1 ? null : (
+            <div><button onClick={() => addToEncounter(state.selected)}>Add to encounter</button></div>
           )}
-          <h1>
-            <a className="name" href={x.url}>{x.name}</a>
-            <span className="name"> Level {x.level}</span>
-          </h1>
-          <h2>{x.traits.map(trait => renderer.renderTrait(trait))}</h2>
-          <div className="description">{renderer.markdown(x.description)}</div>
-          <div><strong>Source</strong> {x.source.map(renderer.renderSource)}</div>
-          <div><strong>Senses</strong> {x.senses?.map(renderer.renderCsv)}</div>
-          {renderer.ifExists(x.languages, (
-            <div><strong>Languages</strong> {x.languages?.map(renderer.renderCsv)}</div>
-          ))}
-          <div><strong>Skills</strong> {x.skills?.map(renderer.renderSkills)}</div>
-          <div>
-            <span className="csv"><strong>Str</strong> {renderer.signed(x.ability_mods.str_mod)}</span>
-            <span className="csv"><strong>Dex</strong> {renderer.signed(x.ability_mods.dex_mod)}</span>
-            <span className="csv"><strong>Con</strong> {renderer.signed(x.ability_mods.con_mod)}</span>
-            <span className="csv"><strong>Int</strong> {renderer.signed(x.ability_mods.int_mod)}</span>
-            <span className="csv"><strong>Wis</strong> {renderer.signed(x.ability_mods.wis_mod)}</span>
-            <span className="csv"><strong>Cha</strong> {renderer.signed(x.ability_mods.cha_mod)}</span>
-          </div>
-          <div>
-            {x.sense_abilities?.map(a => renderer.renderAbility(a, x))}
-          </div>
-          {renderer.ifExists(x.items, (
-            <div><strong>Items</strong> {x.items?.map(renderer.renderCsv)}</div>
-          ))}
-          <hr />
-          <div>
-            <span>
-              <span className="csv"><strong>AC</strong> {x.ac}{renderer.ifExists(x.ac_special, (<span> ({x.ac_special?.map(ac => ac.descr).map(renderer.renderCsv)})</span>))}</span>
-              {renderer.renderSave('Fort', x.saves.fort, x.saves.fort_misc)}
-              {renderer.renderSave('Ref', x.saves.ref, x.saves.ref_misc)}
-              {renderer.renderSave('Will', x.saves.will, x.saves.will_misc)}
-            </span>
-            {renderer.ifExists(x.saves.misc, (
-              <span>; {x.saves.misc}</span>
-            ))}
-          </div>
-          <div><strong>HP</strong> {x.hp}{renderer.ifExists(x.hp_misc, (<span> ({x.hp_misc})</span>))}{renderer.ifExists(x.immunities, (<span>; <strong>Immunities</strong> {x.immunities?.map(renderer.renderCsv)}</span>))}{renderer.ifExists(x.resistances, (<span>; <strong>Resistances</strong> {x.resistances?.map(a => renderer.renderSpeed(a, x))}</span>))}{renderer.ifExists(x.weaknesses, (<span>; <strong>Weaknesses</strong> {x.weaknesses?.map(a => renderer.renderSpeed(a, x))}</span>))}</div>
-          <div>
-            {x.automatic_abilities?.map(a => renderer.renderAbility(a, x))}
-          </div>
-          <hr />
-          <div><strong>Speed</strong> {x.speed.map(a => renderer.renderSpeed(a, x))}</div>
-          <div>{x.melee?.map(attack => renderer.renderMeleeAttack(x, attack))}</div>
-          <div>{x.ranged?.map(attack => renderer.renderRangedAttack(x, attack))}</div>
-          {x.spell_lists?.map(renderer.renderSpellList)}
-          <div>
-            {x.proactive_abilities?.map(a => renderer.renderAbility(a, x))}
-          </div>
-          {x.ritual_lists?.map(renderer.renderSpellList)}
-          <button onClick={() => markComplete(x)}>Mark Complete</button>
+          {MonsterDetail(state.selected)}
+          <button onClick={() => markComplete(state.selected)}>Mark Complete</button>
         </div>
-      ))}
+      ) : null}
+
+      {state.view === 'custom' ? (
+        <div>
+          <div>{state.customError}</div>
+          <textarea onChange={tryLoadCustom}></textarea>
+          {state.selected ? MonsterDetail(state.selected) : null}
+        </div>
+      ) : null}
       <script src="monster-entries.js"></script>
     </div>)
 }

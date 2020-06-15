@@ -1,4 +1,4 @@
-import { split, components, lowestIndexOf, fromPF2Tools } from './tool-conversion';
+import { split, components, lowestIndexOf, fromPF2Tools, fromDamage, fromTypeWithValue, fromSkills, fromSpeed, fromSpells } from './tool-conversion';
 
 it('custom split', () => {
   expect(split('hello, world')).toEqual(['hello', 'world']);
@@ -110,3 +110,121 @@ it('fromPF2Tools offense abilities', () => {
   ])
 });
 
+it('Strikes', () => {
+  expect(fromDamage('2d6+10 piercing plus 1 fire, and 2 cold')).toEqual({
+    formula: '2d6+10',
+    type: 'piercing',
+    plusDamage: [
+      { formula: '1', type: 'fire' },
+      { formula: '2', type: 'cold' },
+    ],
+  });
+
+  expect(fromDamage('2d6+10  deadly piercing')).toEqual({
+    formula: '2d6+10',
+    type: 'deadly piercing',
+  });
+});
+
+it('Type with value', () => {
+  expect(fromTypeWithValue('fire 5'))
+    .toEqual({ type: 'fire', amount: 5 });
+
+    expect(fromTypeWithValue('fire 0'))
+      .toEqual({ type: 'fire', amount: 0 });
+
+    expect(fromTypeWithValue('fire -1'))
+      .toEqual({ type: 'fire', amount: -1 });
+
+    expect(fromTypeWithValue('mega fire 5 explosion'))
+      .toEqual({ type: 'mega fire explosion', amount: 5 });
+
+    expect(fromTypeWithValue('fire 5 (magical only)'))
+      .toEqual({ type: 'fire (magical only)', amount: 5 });
+
+    expect(fromTypeWithValue('fire 5 (2x/day)'))
+      .toEqual({ type: 'fire (2x/day)', amount: 5 });
+
+    expect(fromTypeWithValue('30'))
+      .toEqual({ amount: 30 });
+});
+
+it('Skills', () => {
+  expect(fromSkills({
+    "deception": {
+      "value": "+15",
+      "benchmark": "terrible",
+      "note": "decept note"
+    }
+  })).toEqual([
+    { name: 'Deception', bonus: 15, misc: 'decept note' }
+  ]);
+
+  expect(fromSkills({
+    "lorealt": {
+      "value": "+19",
+      "benchmark": "moderate",
+      "note": "mountain lore note",
+      "name": "mountain lore"
+    }
+  })).toEqual([
+    { name: 'mountain lore', bonus: 19, misc: 'mountain lore note' }
+  ]);
+});
+
+it('Speed', () => {
+  expect(fromSpeed('30')).toEqual([{ type: 'Land', amount: 30 }]);
+  expect(fromSpeed('30 land')).toEqual([{ type: 'land', amount: 30 }]);
+  expect(fromSpeed('30 fly, 60'))
+  .toEqual([
+    { type: 'fly', amount: 30 },
+    { type: 'Land', amount: 60 },
+  ]);
+  expect(fromSpeed('30 fly, 60 cave'))
+  .toEqual([
+    { type: 'fly', amount: 30 },
+    { type: 'cave', amount: 60 },
+  ]);
+});
+
+it('Spell Lists', () => {
+  expect(fromSpells({
+    "spellattack": {
+      "value": "+25",
+      "benchmark": "extreme",
+      "note": "spell attack note"
+    },
+    "spelldc": {
+      "value": 29,
+      "benchmark": "high",
+      "note": "spell dc note"
+    },
+    "spelltype": "arcane",
+    "focuspoints": 0,
+    "cantriplevel": 6,
+    "spells": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "fireball",
+      "",
+      "grease",
+      "shield, flame"
+    ],
+    "constant": "true seeing",    
+  })).toEqual({
+    dc: 29,
+    misc: 'spell dc note',
+    name: 'arcane',
+    to_hit: 25,
+    spell_groups: [
+      { level: 3, spells: [{ name: 'fireball' }]},
+      { level: 1, spells: [{ name: 'grease' }]},
+      { level: 0, heightened_level: 6, spells: [{ name: 'shield' }, { name: 'flame' }]},
+    ],
+  });
+});

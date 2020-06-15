@@ -75,7 +75,7 @@ body {
 }
 
 .oxford-comma:last-child::before {
-  content: 'and';
+  content: 'and ';
 }
 
 .oxford-comma:first-child::before {

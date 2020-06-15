@@ -3,7 +3,11 @@ import trim from 'trim';
 export const fromPF2Tools = (o) => {
   const t = {};
   t.name = o.name;
-  t.traits = split(o.traits);
+  const traits = split(o.traits) || [];
+  if (t.type) {
+    traits.push(t.type);
+  }
+  t.traits = traits;
   t.level = o.level;
   t.automatic_abilities = o.specials.filter(x => x.type === 'defense')
     .map(fromAbility);
@@ -11,8 +15,197 @@ export const fromPF2Tools = (o) => {
     .map(fromAbility);
   t.sense_abilities = o.specials.filter(x => x.type === 'general')
     .map(fromAbility);
-  
+
+  t.alignment = o.alignment?.toUpperCase();
+  t.size = o.size;
+  t.description = o.description;
+
+  t.ability_mods = {};
+  t.ability_mods.str_mod = parseInt(o.strength?.value) || 0;
+  t.ability_mods.dex_mod = parseInt(o.dexterity?.value) || 0;
+  t.ability_mods.con_mod = parseInt(o.constitution?.value) || 0;
+  t.ability_mods.int_mod = parseInt(o.intelligence?.value) || 0;
+  t.ability_mods.wis_mod = parseInt(o.wisdom?.value) || 0;
+  t.ability_mods.cha_mod = parseInt(o.charisma?.value) || 0;
+
+  t.ac = o.ac?.value || 10;
+  if (o.ac?.note) {
+    t.ac_special = [
+      { desc: o.ac.note }
+    ];
+  }
+
+  t.hp = o.hp?.value || 0;
+  t.hp_misc = o.hp?.note;
+
+  t.saves = {};
+  t.saves.fort = parseInt(o.fortitude?.value) || 0;
+  t.saves.fort_misc = parseInt(o.fortitude?.note);
+  t.saves.ref = parseInt(o.reflex?.value) || 0;
+  t.saves.ref_misc = parseInt(o.reflex?.note);
+  t.saves.will = parseInt(o.will?.value) || 0;
+  t.saves.will_misc = parseInt(o.will?.note);
+  t.saves.misc = o.savenote;
+
+  t.immunities = split(o.immunity?.value);
+  t.resistances = split(o.resistance?.value)?.map(fromTypeWithValue);
+  t.weaknesses = split(o.weakness?.value)?.map(fromTypeWithValue);
+
+  t.melee = o.strikes?.filter(x => x.type === 'Melee').map(fromStrike);
+  t.ranged = o.strikes?.filter(x => x.type === 'Ranged').map(fromStrike);
+  t.skills = fromSkills(o);
+  t.speed = fromSpeed(o.speed);
+
+  t.items = split(o.items);
+
+  t.perception = parseInt(o.perception?.value);
+  t.senses = split(o.perception?.note)?.concat(`Perception +${t.perception}`);
+
+  t.spell_lists = [fromSpells(o)]
+    .concat(o.morespells?.map(fromSpells));
+
   return t;
+};
+
+export const fromSpells = (o) => {
+  const t = {};
+  t.dc = parseInt(o.spelldc?.value);
+  t.misc = o.spelldc?.note;
+  t.name = o.spelltype || o.name;
+  t.to_hit = parseInt(o.spellattack?.value) || undefined;
+
+  const groups = o.spells?.map((x, i) => ({
+    level: 10 - i,
+    spells: split(x),
+  }))?.filter(x => x.spells);
+
+  t.spell_groups = groups?.map(x => ({
+    level: x.level,
+    heightened_level: x.level === 0 ? o.cantriplevel || 0 : undefined,
+    spells: x.spells.map(s => ({
+      name: s,
+    }))
+  }));
+  return t;
+};
+
+export const fromSpeed = (s) => {
+  if (!s) {
+    return [];
+  }
+
+  const speed = split(s)?.map(fromTypeWithValue);
+  if (speed.filter(x => !x.type).length === 1) {
+    speed.find(x => !x.type).type = 'Land';
+  }
+  return speed;
+};
+
+export const fromSkills = (o) => {
+  const skillMap = {
+    acrobatics: 'Acrobatics',
+    arcana: 'Arcana',
+    athletics: 'Athletics',
+    crafting: 'Crafting',
+    deception: 'Deception',
+    diplomacy: 'Diplomacy',
+    intimidation: 'Intimidation',
+    medicine: 'Medicine',
+    nature: 'Nature',
+    occultism: 'Occultism',
+    performance: 'Performance',
+    religion: 'Religion',
+    society: 'Society',
+    stealth: 'Stealth',
+    survival: 'Survival',
+    thievery: 'Thievery',
+    lore: 'Lore',
+    lorealt: 'Lore',
+  };
+
+  const skills = [];
+  for (let p of Object.entries(skillMap)) {
+    const prop = p[0];
+    const name = o[prop]?.name ? o[prop]?.name : p[1];
+
+    const bonus = parseInt(o[prop]?.value);
+    if (bonus > 0) {
+      const misc = o[prop]?.note;
+      skills.push({ name, bonus, misc });
+    }
+  }
+
+  return skills;
+};
+
+export const fromTypeWithValue = (s) => {
+  const parts = s.split(' ');
+  let type = '';
+  let amount;
+  for (let p of parts) {
+    if (amount !== undefined ||  isNaN(parseInt(p))) {
+      type += ' ' + p;
+    } else {
+      amount = parseInt(p);
+    }
+  }
+
+  type = trim(type);
+  if (type.length === 0) {
+    type = undefined;
+  }
+  return { type, amount };
+};
+
+export const fromStrike = (o) => {
+  const t = {};
+  t.action_cost = 'One Action';
+  const damage = fromDamage(o.damage);
+  t.damage = { formula: damage.formula, type: damage.type };
+  t.plus_damage = damage.plusDamage;
+  t.to_hit = parseInt(o.attack) || 0;
+  t.traits = split(o.traits);
+  return t;
+};
+
+export const fromPlusDamage = (s) => {
+  const parts = split(s);
+  for (let i = 0; i < parts.length; ++i) {
+    if (parts[i].substr(0, 4) === 'and ') {
+      parts[i] = parts[i].substr(4);
+    }
+  }
+
+  const plusDamage = parts.map(fromDamage);
+  return plusDamage;
+};
+
+export const fromDamage = (s) => {
+  const parts = s.split(' ');
+  let formula = '';
+  let type = '';
+  let plusDamage;
+  for (let i = 0; i < parts.length; ++i) {
+    if (parts[i].length === 0) {
+      continue;
+    }
+
+    if (parts[i] === 'plus') {
+      const leftOver = parts.slice(i + 1).join(' ');
+      plusDamage = fromPlusDamage(leftOver);
+      break;
+    }
+
+    if (parseInt(parts[i])) {
+      formula = parts[i];
+    } else {
+      type += ' ' + parts[i];
+    }
+  }
+
+  formula = trim(formula);
+  type = trim(type);
+  return { formula, type, plusDamage };
 };
 
 export const fromDescription = (s) => {
@@ -141,7 +334,7 @@ export const split = (s) => {
     } else if (s[i] === ')') {
       part += ')';
       parens = false;
-    } else if (!parens && s[i] === ',') {
+    } else if (!parens && (s[i] === ',' || s[i] === ';')) {
       parts.push(part);
       part = '';
     } else {
