@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import * as renderer from './renderers.js';
 
-export const MonsterDetail = (x) => {
+export const MonsterDetail = ({monster: x}) => {
+  if (!x) {
+    return null;
+  }
   return (
     <div key={x.name}>
       <h1>

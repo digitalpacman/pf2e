@@ -1,5 +1,5 @@
-const { v4: uuidv4 } = require('uuid');
 const db = require('./db');
+const normalizePath = require('../src/normalize-path');
 
 const allMonsters = async () => {
   try {
@@ -44,27 +44,18 @@ const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-const normalizePath = (path) => {
-  return path.toLowerCase()
-  .replace(/[^a-z0-9]/g, '-')
-  .replace('--', '-')
-  .replace('--', '-')
-  .replace('--', '-')
-  .replace('--', '-');
-};
-
-const addMonster = async (monster) => {
+const addMonster = async (token, monster) => {
   try {
     const name = monster.name;
     const path = await nextPath(normalizePath(name));
-    const token = uuidv4();
+    monster.path = path;
     const json = JSON.stringify(monster);
 
     await db.query(`insert into custom_monsters (path, name, ownership_token, json)
       values ($1, $2, $3, $4)`,
       [path, name, token, json]);
   }
-  catch (err) {    
+  catch (err) {
     console.log(`failed adding custom monster ${err}`);
     throw err;
   }

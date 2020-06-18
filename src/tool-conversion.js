@@ -9,12 +9,12 @@ export const fromPF2Tools = (o) => {
   }
   t.traits = traits;
   t.level = o.level;
-  t.automatic_abilities = o.specials.filter(x => x.type === 'defense')
-    .map(fromAbility);
-  t.proactive_abilities = o.specials.filter(x => x.type === 'offense')
-    .map(fromAbility);
-  t.sense_abilities = o.specials.filter(x => x.type === 'general')
-    .map(fromAbility);
+  t.automatic_abilities = o.specials?.filter(x => x.type === 'defense')
+    ?.map(fromAbility);
+  t.proactive_abilities = o.specials?.filter(x => x.type === 'offense')
+    ?.map(fromAbility);
+  t.sense_abilities = o.specials?.filter(x => x.type === 'general')
+    ?.map(fromAbility);
 
   t.alignment = o.alignment?.toUpperCase();
   t.size = o.size;
@@ -61,8 +61,10 @@ export const fromPF2Tools = (o) => {
   t.perception = parseInt(o.perception?.value);
   t.senses = split(o.perception?.note)?.concat(`Perception +${t.perception}`);
 
-  t.spell_lists = [fromSpells(o)]
-    .concat(o.morespells?.map(fromSpells));
+  const baseSpells = fromSpells(o);
+  if (baseSpells.spell_groups) {
+    t.spell_lists = baseSpells.concat(o.morespells?.map(fromSpells));
+  }
 
   return t;
 };

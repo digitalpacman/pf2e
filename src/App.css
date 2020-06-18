@@ -183,3 +183,18 @@ ul {
   color: lightgray;
   font-size: 0.7em;
 }
+
+.google-button {
+  background: url(/google_signin_buttons/web/1x/btn_google_signin_dark_normal_web.png);
+  width: 191px;
+  height: 46px;
+  display: inline-block;
+}
+
+.google-button:hover {
+  background: url(/google_signin_buttons/web/1x/btn_google_signin_dark_focus_web.png);
+}
+
+.google-button:active {
+  background: url(/google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png);
+}

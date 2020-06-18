@@ -1,13 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import FlexSearch from 'flexsearch';
-import * as renderer from './renderers.js';
-import { MonsterDetail } from './MonsterDetail.js';
-import { fromPF2Tools } from './tool-conversion.js';
+import { fromPF2Tools } from './tool-conversion';
+import { normalizePath } from './normalize-path';
+import { MonsterDetailPage } from './MonsterDetailPage';
+import { ImportPage } from './ImportPage';
+import { CardsPage } from './CardsPage';
 
-let entries;
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+
+let entries = [];
 let index;
-let list;
+let list = [];
 
 // https://github.com/nextapps-de/flexsearch
 function App() {
@@ -24,6 +33,7 @@ function App() {
     mode: 'read',
     cardOptions: ['Name', 'Level'],
     customError: null,
+    token: null,
   });
 
   const sorted = (entries, sort, sortDir) => {
@@ -118,12 +128,9 @@ function App() {
       },
     });
 
-    const work = JSON.parse(window.localStorage.getItem('work')) ?? {};
     const fieldMap = {};
     for (let i = 0; i < entries.length; i++) {
-      if (work[entries[i].name]) {
-        entries[i].completed = true;
-      }
+      entries[i].path = normalizePath(entries[i].name);
       for (let x in entries[i]) {
         fieldMap[x] = x;
       }
@@ -142,7 +149,7 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch('monster-entries.js');
+      const response = await fetch('/monster-entries.js');
       const paizoMonsters = await response.json();
       const response2 = await fetch('/api/custom-monsters');
       const customMonsters = await response2.json();
@@ -239,15 +246,17 @@ function App() {
   const renderCard = (x) => {
     const css = x.completed ? "clickable card completed" : "clickable card";
     return (
-      <li key={x.name} className={css} onClick={() => showDetailed(x)}>
-        {Object.entries(cardOptions).map(o => {
-          const enabled = state.cardOptions.indexOf(o[0]) !== -1;
-          if (!enabled) {
-            return null;
-          }
-          return o[1](x);
-        })}  
-      </li>
+      <Link className={css} key={x.path} to={`/m/${x.path}`} onClick={() => showDetailed(x)}>
+        <li>
+            {Object.entries(cardOptions).map(o => {
+              const enabled = state.cardOptions.indexOf(o[0]) !== -1;
+              if (!enabled) {
+                return null;
+              }
+              return o[1](x);
+            })}
+        </li>
+      </Link>
     );
   };
 
@@ -265,69 +274,91 @@ function App() {
       const selected = fromPF2Tools(pftools);
       setState({ ...state, selected });
     } catch (err) {
-      setState({ ...state, customError: err });
+      console.log(err)
+      setState({ ...state, customError: err.toString() });
     }
   };
 
+  const saveCustomMonster = async () => {
+    const monster = state.selected;
+    const token = state.token;
+    const res = await fetch('/api/custom-monsters', {
+      method: 'POST',
+      cache: 'no-cache',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        monster,
+        token,
+      }),
+    });
+
+    const body = await res.text();
+    console.log(body);
+  };
+
+  const handleSignIn = (profile) => {
+    const token = profile.token;
+    setState({ ...state, token });
+  };
+
   return (
-    <div>
-      {state.view !== 'cards' ? null : (
-        <div>
-          <div className="search"><input className="search-box" type="text" placeholder="search" value={state.search} onChange={e => setSearch(e.target.value)} /></div>
-          <div className="matched">matched {state.entries.length}</div>
-          <select onChange={changeSort}>
-            {state.fields.map(x => (<option key={x} value={x}>{x}</option>))}
-          </select>
-          <button onClick={toggleSortDir}>{state.sortDir === 'asc' ? 'asc' : 'desc'}</button> <button onClick={clear}>Clear Work</button>
+    <Router>
+      <div>
+        <button onClick={toggleBuildMode}>Toggle Build Mode</button>
+        <button onClick={toggleCustomMonsterMode}>Toggle Custom Monster Mode</button>
+        {state.mode !== 1 ? null : (
           <div>
-            {Object.keys(cardOptions).map(x => (<span key={x}><input type="checkbox" name={x} checked={state.cardOptions.indexOf(x) !== -1} onChange={cardOptionToggle} /> {x}</span>))}
+            <div>
+              Players [<input onChange={changePlayers} value={state.numberPlayers} size="1" />],
+              APL [<input onChange={changeApl} value={state.encounterApl} size="1" />]
+            </div>
+            <div>
+              {state.encounterMonsters.map((x, i) => (
+                <span key={i} className="csv" onClick={() => removeFromEncounter(i)}>{x.name}</span>
+              ))}
+            </div>
+            <div>Target threat level <select>{budgetTable.map(x => (<option key={x[1]} value={x[1]}>{x[1]}</option>))}</select></div>
+            <div>{calculateEncounterThreat(state.numberPlayers, state.encounterApl, state.encounterMonsters)}, XP [{calculateXP(state.encounterApl, state.encounterMonsters)}]</div>
           </div>
-        </div>
-      )}
-      <button onClick={toggleBuildMode}>Toggle Build Mode</button>
-      <button onClick={toggleCustomMonsterMode}>Toggle Custom Monster Mode</button>
-      {state.mode !== 1 ? null : (
-        <div>
-          <div>
-            Players [<input onChange={changePlayers} value={state.numberPlayers} size="1" />],
-            APL [<input onChange={changeApl} value={state.encounterApl} size="1" />]
-          </div>
-          <div>
-            {state.encounterMonsters.map((x, i) => (
-              <span key={i} className="csv" onClick={() => removeFromEncounter(i)}>{x.name}</span>
-            ))}
-          </div>
-          <div>Target threat level <select>{budgetTable.map(x => (<option key={x[1]} value={x[1]}>{x[1]}</option>))}</select></div>
-          <div>{calculateEncounterThreat(state.numberPlayers, state.encounterApl, state.encounterMonsters)}, XP [{calculateXP(state.encounterApl, state.encounterMonsters)}]</div>
-        </div>
-      )}
-
-      {state.view === 'cards' ? (
-        <ul className="cards">
-          {state.entries.map(renderCard)}
-        </ul>
-      ) : null}
-
-      {state.view === 'detailed' ? (
-        <div>
-          <div onClick={showCards} className="clickable">&lt; Back</div>
-          {state.mode !== 1 ? null : (
-            <div><button onClick={() => addToEncounter(state.selected)}>Add to encounter</button></div>
-          )}
-          {MonsterDetail(state.selected)}
-          <button onClick={() => markComplete(state.selected)}>Mark Complete</button>
-        </div>
-      ) : null}
-
-      {state.view === 'custom' ? (
-        <div>
-          <div>{state.customError}</div>
-          <textarea onChange={tryLoadCustom}></textarea>
-          {state.selected ? MonsterDetail(state.selected) : null}
-        </div>
-      ) : null}
-      <script src="monster-entries.js"></script>
-    </div>)
+        )}
+        <Switch>
+          <Route path="/m/:monsterPath">
+            <MonsterDetailPage
+              entries={entries}
+              selected={state.selected}
+              mode={state.mode}
+              addToEncounter={addToEncounter}
+              markComplete={markComplete}
+            />
+          </Route>
+          <Route path="/import">
+            <ImportPage 
+              tryLoadCustom={tryLoadCustom}
+              handleSignIn={handleSignIn}
+              saveCustomMonster={saveCustomMonster}
+            />
+          </Route>
+          <Route path="/">
+            <CardsPage 
+              search={state.search}
+              setSearch={setSearch}
+              entries={state.entries}
+              changeSort={changeSort}
+              fields={state.fields}
+              toggleSortDir={toggleSortDir}
+              sortDir={state.sortDir}
+              clear={clear}
+              cardOptions={state.cardOptions}
+              cardOptionToggle={cardOptionToggle}
+              renderCard={renderCard} 
+            />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
