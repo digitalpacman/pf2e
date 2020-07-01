@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import FlexSearch from 'flexsearch';
 import { fromPF2Tools } from './tool-conversion';
 import { normalizePath } from './normalize-path';
 import { MonsterDetailPage } from './MonsterDetailPage';
 import { ImportPage } from './ImportPage';
 import { CardsPage } from './CardsPage';
+import { BuilderSettings } from './builder-settings';
+import './App.css';
 
 import {
   BrowserRouter as Router,
@@ -25,16 +26,33 @@ function App() {
     entries: [],
     view: 'cards',
     fields: [],
-    sort: 'name',
+    sort: 'level',
     sortDir: 'asc',
-    encounterMonsters: [],
-    encounterApl: 5,
-    numberPlayers: 4,
     mode: 'read',
-    cardOptions: ['Name', 'Level'],
     customError: null,
     token: null,
+
+    builderSettingsVisible: false,
+    enableEncounterBuilder: false,
+    averagePartyLevel: 0,
+    numberPlayers: 0,
+    encounterXp: 0,
+    encounterThreat: '',
+    encounterXpThreshold: 0,
+    encounterMonsters: [],
   });
+
+  const toggleEncounterBuilder = (evt) => {
+    evt.stopPropagation();
+    const enableEncounterBuilder = !state.enableEncounterBuilder;
+    if (enableEncounterBuilder && state.averagePartyLevel === 0) {
+      const builderSettingsVisible = true;
+      setState({ ...state, builderSettingsVisible });
+    } else {
+      const entries = applyFilters(state.search, enableEncounterBuilder, state.averagePartyLevel);
+      setState({ ...state, entries, enableEncounterBuilder });
+    }
+  };
 
   const sorted = (entries, sort, sortDir) => {
     const equals = (a, b) => {
@@ -55,6 +73,21 @@ function App() {
 
       return left > right ? (sortDir == 'asc' ? 1 : -1) : (sortDir == 'asc' ? -1 : 1)
     });
+  };
+
+  const openBuilderSettings = (evt) => {
+    evt.stopPropagation();
+    const builderSettingsVisible = true;
+    setState({ ...state, builderSettingsVisible });
+  };
+
+  const saveBuilderSettings = ({ numberPlayers, averagePartyLevel }) => {
+    const builderSettingsVisible = false;
+    const enableEncounterBuilder = averagePartyLevel > 0 && numberPlayers > 0 &&
+      ((state.numberPlayers === 0 && state.averagePartyLevel === 0) || state.enableEncounterBuilder);
+    const encounter = buildEncounter(state.encounterMonsters, averagePartyLevel, numberPlayers);
+    const entries = enableEncounterBuilder ? applyFilters(state.search, enableEncounterBuilder, averagePartyLevel) : state.entries;
+    setState({ ...state, entries, numberPlayers, averagePartyLevel, builderSettingsVisible, enableEncounterBuilder, ...encounter });
   };
 
   const calculateXP = (apl, monsters) => {
@@ -92,19 +125,13 @@ function App() {
     [160, 'Extreme', 40],
   ];
 
-  const calculateEncounterThreat = (players, apl, monsters) => {
-    const xp = calculateXP(apl, monsters);
-
+  const calculateEncounterThreat = (players, xp) => {
     const modifier = (players - 4);
     const realBudget = budgetTable.map(x => [x[0] + modifier * x[2], x[1]]);
-    const budget = realBudget.find(x => xp <= x[0]);
-    return budget ? budget[1] : `Beyond ${budgetTable[4][1]}`;
-  };
-
-  const toggleBuildMode = () => {
-    const mode = 1;
-    const entries = applyFilters(state.search, mode);
-    setState({ ...state, entries, mode });
+    const budget = realBudget.find(x => xp <= x[0]) ?? [160, 'Extreme+'];
+    const threat = budget[1];
+    const limit = budget[0];
+    return { threat, limit };
   };
 
   const toggleCustomMonsterMode = () => {
@@ -158,11 +185,11 @@ function App() {
     })();
   }, []);
 
-  const applyFilters = (search, mode) => {
+  const applyFilters = (search, enableEncounterBuilder, averagePartyLevel) => {
     let matched = search ? index?.search(search) ?? [] : list;
-    if (mode === 1) {
+    if (enableEncounterBuilder) {
       matched = matched.filter(x => {
-        return Math.abs(x.level - state.encounterApl) <= 4;
+        return Math.abs(x.level - averagePartyLevel) <= 4;
       });
     }
     sorted(matched, state.sort, state.sortDir);
@@ -170,39 +197,12 @@ function App() {
   };
 
   const setSearch = (search) => {
-    const entries = applyFilters(search, state.mode);
+    const entries = applyFilters(search, state.enableEncounterBuilder, state.averagePartyLevel);
     setState({ ...state, search, entries });
-  };
-
-  const showCards = () => {
-    setState({ ...state, view: 'cards' });
   };
 
   const showDetailed = (monster) => {
     setState({ ...state, view: 'detailed', selected: monster });
-  };
-
-  const changeSort = (evt) => {
-    const sort = evt.target.value;
-    const entries = state.entries;
-    sorted(entries, sort, state.sortDir);
-    setState({ ...state, entries, sort });
-  };
-
-  const toggleSortDir = () => {
-    const sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
-    const entries = state.entries;
-    sorted(entries, state.sort, sortDir);
-    setState({ ...state, entries, sortDir });
-  }
-
-  const markComplete = (monster) => {
-    const work = JSON.parse(window.localStorage.getItem('work')) ?? {};
-    work[monster.name] = true;
-    window.localStorage.setItem('work', JSON.stringify(work));
-
-    monster.completed = true;
-    setState({ ...state });
   };
 
   const clear = () => {
@@ -213,58 +213,35 @@ function App() {
     setState({ ...state });
   };
 
+  const buildEncounter = (encounterMonsters, averagePartyLevel, numberPlayers) => {
+    const encounterXp = calculateXP(averagePartyLevel, encounterMonsters);
+    const { threat: encounterThreat, limit: encounterXpThreshold } = calculateEncounterThreat(numberPlayers, encounterXp);
+    return { encounterMonsters, encounterXp, encounterThreat, encounterXpThreshold };
+  };
+
   const addToEncounter = (monster) => {
     const encounterMonsters = state.encounterMonsters;
     encounterMonsters.push(monster);
-    setState({ ...state, encounterMonsters});
+    const encounter = buildEncounter(encounterMonsters, state.averagePartyLevel, state.numberPlayers);
+    setState({ ...state, ...encounter });
   }
-
-  const changePlayers = (evt) => {
-    const numberPlayers = evt.target.value;
-    setState({ ...state, numberPlayers });
-  };
-
-  const changeApl = (evt) => {
-    const encounterApl = evt.target.value;
-    setState({ ...state, encounterApl });
-  };
 
   const removeFromEncounter = (i) => {
     const encounterMonsters = state.encounterMonsters;
-    // const i = encounterMonsters.findIndex(x => x.name == monster.name);
     encounterMonsters.splice(i, 1);
+    const encounter = buildEncounter(encounterMonsters, state.averagePartyLevel, state.numberPlayers);
 
-    setState({ ...state, encounterMonsters });
-  };
-
-  const cardOptions = {
-    Name: x => (<strong key="name">{x.name}</strong>),
-    Level: x => (<span key="level">Level {x.level}</span>),
-    Size: x => (<span key="size">{x.size}</span>),
+    setState({ ...state, ...encounter });
   };
 
   const renderCard = (x) => {
-    const css = x.completed ? "clickable card completed" : "clickable card";
     return (
-      <Link className={css} key={x.path} to={`/m/${x.path}`} onClick={() => showDetailed(x)}>
+      <Link className="clickable card" key={x.path} to={`/m/${x.path}`} onClick={() => showDetailed(x)}>
         <li>
-            {Object.entries(cardOptions).map(o => {
-              const enabled = state.cardOptions.indexOf(o[0]) !== -1;
-              if (!enabled) {
-                return null;
-              }
-              return o[1](x);
-            })}
+          <div><strong>{x.name}</strong></div><div>Level {x.level}</div>
         </li>
       </Link>
     );
-  };
-
-  const cardOptionToggle = (evt) => {
-    const target = evt.target;
-    const checked = target.checked;
-    const cardOptions = checked ? state.cardOptions.concat(target.name) : state.cardOptions.filter(x => x != target.name);
-    setState({ ...state, cardOptions });
   };
 
   const tryLoadCustom = (evt) => {
@@ -306,31 +283,45 @@ function App() {
   return (
     <Router>
       <div>
-        <button onClick={toggleBuildMode}>Toggle Build Mode</button>
-        <button onClick={toggleCustomMonsterMode}>Toggle Custom Monster Mode</button>
-        {state.mode !== 1 ? null : (
-          <div>
-            <div>
-              Players [<input onChange={changePlayers} value={state.numberPlayers} size="1" />],
-              APL [<input onChange={changeApl} value={state.encounterApl} size="1" />]
-            </div>
-            <div>
-              {state.encounterMonsters.map((x, i) => (
-                <span key={i} className="csv" onClick={() => removeFromEncounter(i)}>{x.name}</span>
-              ))}
-            </div>
-            <div>Target threat level <select>{budgetTable.map(x => (<option key={x[1]} value={x[1]}>{x[1]}</option>))}</select></div>
-            <div>{calculateEncounterThreat(state.numberPlayers, state.encounterApl, state.encounterMonsters)}, XP [{calculateXP(state.encounterApl, state.encounterMonsters)}]</div>
-          </div>
+        <ul className="top-bar">
+          <li className="top-bar-item back">
+            <Switch>
+              <Route exact path="/">Logo</Route>
+              <Route path="*"><Link to="/">Back</Link></Route>              
+            </Switch>
+          </li>
+          <li className="top-bar-item">
+            <label className="clickable" htmlFor="builder">Builder</label>
+            <input id="builder" className="clickable" type="checkbox" checked={state.enableEncounterBuilder} onChange={toggleEncounterBuilder} />
+            <i className="fas fa-cog clickable" onClick={openBuilderSettings}></i>
+          </li>
+          <li className="top-bar-item" onClick={toggleCustomMonsterMode}>Create</li>
+        </ul>
+
+        {!state.builderSettingsVisible ? null : (
+          <BuilderSettings
+            saveBuilderSettings={saveBuilderSettings}
+            numberPlayers={state.numberPlayers}
+            averagePartyLevel={state.averagePartyLevel}
+          />
         )}
+
+        <div className="second-bar">
+          {!state.enableEncounterBuilder ? null : (
+            <div>
+              {state.encounterXp} of {state.encounterXpThreshold}xp {state.encounterThreat} Encounter;&nbsp;
+              {state.encounterMonsters.map((x, i) => (<span className="csv encounter-monster" onClick={() => removeFromEncounter(i)}>{x.name}</span>))}
+            </div>
+          )}
+        </div>
+
         <Switch>
           <Route path="/m/:monsterPath">
             <MonsterDetailPage
               entries={entries}
               selected={state.selected}
-              mode={state.mode}
               addToEncounter={addToEncounter}
-              markComplete={markComplete}
+              enableEncounterBuilder={state.enableEncounterBuilder}
             />
           </Route>
           <Route path="/import">
@@ -345,13 +336,6 @@ function App() {
               search={state.search}
               setSearch={setSearch}
               entries={state.entries}
-              changeSort={changeSort}
-              fields={state.fields}
-              toggleSortDir={toggleSortDir}
-              sortDir={state.sortDir}
-              clear={clear}
-              cardOptions={state.cardOptions}
-              cardOptionToggle={cardOptionToggle}
               renderCard={renderCard} 
             />
           </Route>

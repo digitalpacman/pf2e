@@ -1,3 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .App {
   text-align: center;
 }
@@ -63,7 +80,8 @@
 }
 
 body {
-  padding: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .csv::after {
@@ -153,15 +171,16 @@ body {
   align-content: center;
   text-align: center;
   padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  color: red;
 }
 
 .completed {
   background-color: #61dafb;
-}
-
-ul {
-  padding-left: 20px;
-  margin: 0;
 }
 
 .search {
@@ -197,4 +216,72 @@ ul {
 
 .google-button:active {
   background: url(/google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png);
+}
+
+.top-bar {
+  display: flex;
+  background-color: lime;
+  height: 1.5em;
+}
+
+.second-bar {
+  height: 1.5em;
+  overflow: hidden;
+  background-color: lime;
+  border-bottom: solid black 1px;
+}
+
+.top-bar-item {
+  padding-right: 1em;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-opacity {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.overlay-content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-content-centered {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.builder-settings {
+  background-color: #fefefe;
+  width: 30em;
+  height: 15em;
+}
+
+.encounter-monster {
+  cursor: pointer;
+}
+
+.back {
+  width: 3em;
 }

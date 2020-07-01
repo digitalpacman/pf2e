@@ -1,0 +1,30 @@
+TTRPG Third Party Content Idea Plan
+
+I want to create a site for people to find, buy, and use third part content.
+Not only third party content, but first party content as well.
+The idea is to merge it all together.
+Users will have access to posted free 3rd party content, as well as first party.
+The monetary part is when 3rd party content creators upload their content as paid.
+Each user will pay a monthly subscription for tokens, and spend the tokens on gaining access to author content.
+Users will continue to use the site because of the integration of all their content and resources in one place.
+For example:
+  A monster search of all first party content, free content, and any paid resources they subscribed to.
+  They can use a monster builder that has it all in.
+  During a game, they can use the app to view and play the monsters, including all content they have access to.
+
+The token system influences authors to create more content so that they are the one people subscribe to.
+We take a cut of the subscription and pay out to content creators based on how many tokens were spent on their content.
+
+To start I'm looking to do monsters. Monthly service to access all 3rd party content until the marketplace grows.
+Other 3rd party content that's marketable are add-ons to TTRPG apps like VTT Foundry, and roll20.
+Or modules built to be imported. Such as custom made versions of paizo content.
+Monster tokens. Player tokens. Written campaigns. Anything.
+We could have entire campaigns built in our own system outside of PDFs, with an amazing interface for running games.
+
+Others in the space
+https://www.drivethrurpg.com/
+https://old.reddit.com/r/Pathfinder2e/comments/gxtg5o/creation_of_the_day_bonsai_leshy_i_have_a_leshy/
+https://marketplace.roll20.net/browse/compendiumexpansion/5358/pathfinder-second-edition-bestiary-2
+https://marketplace.roll20.net/browse/module/5814/the-show-must-go-on-extinction-curse-ap-1
+https://pathfinderwiki.com/wiki/Pathfinder_Wiki
+https://homebrewery.naturalcrit.com/
