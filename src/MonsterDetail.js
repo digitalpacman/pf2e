@@ -7,7 +7,7 @@ export const MonsterDetail = ({monster: x}) => {
     return null;
   }
   return (
-    <div key={x.name}>
+    <div key={x.name} className="monster">
       <h1>
         <a className="name" href={x.url}>{x.name}</a>
         <span className="name"> Level {x.level}</span>

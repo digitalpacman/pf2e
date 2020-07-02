@@ -63,7 +63,7 @@ export const fromPF2Tools = (o) => {
 
   const baseSpells = fromSpells(o);
   if (baseSpells.spell_groups) {
-    t.spell_lists = baseSpells.concat(o.morespells?.map(fromSpells));
+    t.spell_lists = [baseSpells].concat(o.morespells?.map(fromSpells));
   }
 
   return t;

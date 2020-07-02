@@ -3,7 +3,7 @@ import FlexSearch from 'flexsearch';
 import { fromPF2Tools } from './tool-conversion';
 import { normalizePath } from './normalize-path';
 import { MonsterDetailPage } from './MonsterDetailPage';
-import { ImportPage } from './ImportPage';
+import { CreatePage } from './create-page';
 import { CardsPage } from './CardsPage';
 import { BuilderSettings } from './builder-settings';
 import './App.css';
@@ -244,8 +244,7 @@ function App() {
     );
   };
 
-  const tryLoadCustom = (evt) => {
-    const value = evt.target.value;
+  const tryLoadCustom = (value) => {
     try {
       const pftools = JSON.parse(value);
       const selected = fromPF2Tools(pftools);
@@ -295,7 +294,9 @@ function App() {
             <input id="builder" className="clickable" type="checkbox" checked={state.enableEncounterBuilder} onChange={toggleEncounterBuilder} />
             <i className="fas fa-cog clickable" onClick={openBuilderSettings}></i>
           </li>
-          <li className="top-bar-item" onClick={toggleCustomMonsterMode}>Create</li>
+          <li className="top-bar-item" onClick={toggleCustomMonsterMode}>
+            <Link to="/create">Create</Link>
+          </li>
         </ul>
 
         {!state.builderSettingsVisible ? null : (
@@ -324,11 +325,12 @@ function App() {
               enableEncounterBuilder={state.enableEncounterBuilder}
             />
           </Route>
-          <Route path="/import">
-            <ImportPage 
+          <Route path="/create">
+            <CreatePage 
               tryLoadCustom={tryLoadCustom}
               handleSignIn={handleSignIn}
               saveCustomMonster={saveCustomMonster}
+              selected={state.selected}
             />
           </Route>
           <Route path="/">
