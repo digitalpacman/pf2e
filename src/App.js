@@ -180,6 +180,11 @@ function App() {
       const paizoMonsters = await response.json();
       const response2 = await fetch('/api/custom-monsters');
       const customMonsters = await response2.json();
+      for (const monster of customMonsters) {
+        monster.search_text = `${monster.name} ${monster.description} ${monster.level} ${monster.size}
+          ${monster.immunities?.join(' ')} ${monster.languages?.join(' ')} ${monster.traits?.join(' ')} 
+          ${monster.items?.join(' ')}`;
+      }
       entries = paizoMonsters.concat(customMonsters);
       init();
     })();
@@ -235,8 +240,9 @@ function App() {
   };
 
   const renderCard = (x) => {
+    const path = x.thirdParty ? `/monster-3rd-party/${x.path}` : `/monster/${x.path}`;
     return (
-      <Link className="clickable card" key={x.path} to={`/m/${x.path}`} onClick={() => showDetailed(x)}>
+      <Link className="clickable card" key={path} to={path} onClick={() => showDetailed(x)}>
         <li>
           <div><strong>{x.name}</strong></div><div>Level {x.level}</div>
         </li>
@@ -317,7 +323,15 @@ function App() {
         </div>
 
         <Switch>
-          <Route path="/m/:monsterPath">
+          <Route path="/monster/:monsterPath">
+            <MonsterDetailPage
+              entries={entries}
+              selected={state.selected}
+              addToEncounter={addToEncounter}
+              enableEncounterBuilder={state.enableEncounterBuilder}
+            />
+          </Route>
+          <Route path="/monster-3rd-party/:monsterPath">
             <MonsterDetailPage
               entries={entries}
               selected={state.selected}

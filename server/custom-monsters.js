@@ -1,5 +1,7 @@
 const db = require('./db');
-const normalizePath = require('../src/normalize-path');
+const { normalizePath } = require('../src/normalize-path');
+
+console.log(normalizePath)
 
 const allMonsters = async () => {
   try {
@@ -49,6 +51,7 @@ const addMonster = async (token, monster) => {
     const name = monster.name;
     const path = await nextPath(normalizePath(name));
     monster.path = path;
+    monster.thirdParty = true;
     const json = JSON.stringify(monster);
 
     await db.query(`insert into custom_monsters (path, name, ownership_token, json)
@@ -56,7 +59,7 @@ const addMonster = async (token, monster) => {
       [path, name, token, json]);
   }
   catch (err) {
-    console.log(`failed adding custom monster ${err}`);
+    console.log(`failed adding custom monster ${err} ${err.stack}`);
     throw err;
   }
 };
