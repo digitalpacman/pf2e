@@ -92,6 +92,14 @@ body {
   content: '';
 }
 
+.csv-semicolon::after {
+  content: '; '
+}
+
+.csv-semicolon:last-child::after {
+  content: '';
+}
+
 .oxford-comma:last-child::before {
   content: 'and ';
 }

@@ -1,20 +1,65 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import * as renderer from './renderers.js';
+import * as renderer from './renderers';
+import { h1, h2, div } from './editor';
 
 export const MonsterDetail = ({monster: x}) => {
+  const [state, setState] = useState({ monster: x });
+
   if (!x) {
     return null;
+  } else {
+    if (!state.monster) {
+      setState({ monster: x });
+      return null;
+    }
   }
+
+  const handleOnEditSave = (editValue, componentResetState) => {
+    console.log(componentResetState)
+    setState({ 
+      ...state, 
+      editValue, 
+      componentResetState,
+      monster: { ...state.monster, [state.editField]: editValue }
+    });
+  };
+
+  const handleStartEdit = (field) => {
+    // event.stopPropagation();
+    console.log(field, state.editField)
+    const editField = state.editField === field ? null : field;
+    const editValue = state.monster[editField];
+    setState({ ...state, editField, editValue });
+  };
+
+  const editorProps = {
+    editValue: state.editValue,
+    editField: state.editField,
+    componentResetState: state.componentResetState,
+    onSave: handleOnEditSave,
+  };
+
+  const closeEditor = () => {
+    const editField = null;
+    setState({ ...state, editField });
+  };
+
   return (
     <div key={x.name} className="monster">
-      <h1>
-        <a className="name" href={x.url}>{x.name}</a>
-        <span className="name"> Level {x.level}</span>
-      </h1>
-      <h2>{x.traits.map(trait => renderer.renderTrait(trait))}</h2>
-      <div className="description">{renderer.markdown(x.description)}</div>
-      <div><strong>Source</strong> {x.source?.map(renderer.renderSource)}</div>
+      <h1.FieldEditor fields={['name', 'level']} {...editorProps}>
+        <a className="name" href={x.url} onClick={() => handleStartEdit('name')}>{state.monster.name}</a>
+        <span className="name" onClick={() => handleStartEdit('level')}> Level {state.monster.level}</span>
+      </h1.FieldEditor>
+      <h2.SetEditor fields="traits" onClick={() => handleStartEdit('traits')} {...editorProps}>
+        {state.monster.traits.map(trait => renderer.renderTrait(trait))}
+      </h2.SetEditor>
+      <div.TextAreaEditor fields="description" className="description" onClick={() => handleStartEdit('description')} {...editorProps}>
+        {renderer.markdown(x.description)}
+      </div.TextAreaEditor>
+      <div.SourceEditor hidden={!state.monster.source} fields="source" onClick={() => handleStartEdit('source')} {...editorProps}>
+        <strong>Source</strong> {state.monster.source?.map(renderer.renderSource)}
+      </div.SourceEditor>
       <div><strong>Senses</strong> {x.senses?.map(renderer.renderCsv)}</div>
       {renderer.ifExists(x.languages, (
         <div><strong>Languages</strong> {x.languages?.map(renderer.renderCsv)}</div>

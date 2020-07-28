@@ -190,9 +190,10 @@ export const ifExists = (check, block) => {
   return null;
 };
 
-export const renderSource = (source) => {
+export const renderSource = (source, i) => {
+  const sourceText = source.page_start !== null ? `${source.abbr} pg. ${source.page_start}` : source.abbr;
   return (
-    <span key={source.abbr + source.page_start} className="csv">{source.abbr} pg. {source.page_start}</span>
+    <span key={i} className="csv-semicolon">{sourceText}</span>
   );
 };
 
