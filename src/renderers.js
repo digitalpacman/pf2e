@@ -10,8 +10,9 @@ const converter = new showdown.Converter({ underline: true });
 
 export const renderSkills = (skill) => {
   const misc = skill.misc ? ` (${skill.misc})` : null;
+  const bonus = skill.bonus !== null ? ` +${skill.bonus}` : null;
   return (
-    <span key={skill.name} className="csv">{skill.name} +{skill.bonus}{misc}</span>
+    <span key={skill.name} className="csv">{skill.name}{bonus}{misc}</span>
   );
 };
 
@@ -35,10 +36,10 @@ export const actionCostImage = (actionCost) => {
   return null;
 };
 
-export const renderTrait = (trait, additionalClassName = '') => {
-  const className = `trait ${additionalClassName}`;
+export const renderTrait = (trait, i) => {
+  const className = `trait`;
   return (
-    <span key={trait} className={className}>{trait}</span>
+    <span key={i} className={className}>{trait}</span>
   );
 };
 

@@ -46,4 +46,8 @@ app.post('/api/custom-monsters', async (req, res) => {
   }
 });
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(path.join(__dirname, '../build', 'index.html')));
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

@@ -16,7 +16,6 @@ export const MonsterDetail = ({monster: x}) => {
   }
 
   const handleOnEditSave = (editValue, componentResetState) => {
-    console.log(componentResetState)
     setState({ 
       ...state, 
       editValue, 
@@ -27,14 +26,12 @@ export const MonsterDetail = ({monster: x}) => {
 
   const handleStartEdit = (field) => {
     // event.stopPropagation();
-    console.log(field, state.editField)
     const editField = state.editField === field ? null : field;
     const editValue = state.monster[editField];
     setState({ ...state, editField, editValue });
   };
 
   const editorProps = {
-    editValue: state.editValue,
     editField: state.editField,
     componentResetState: state.componentResetState,
     onSave: handleOnEditSave,
@@ -45,26 +42,85 @@ export const MonsterDetail = ({monster: x}) => {
     setState({ ...state, editField });
   };
 
+  const sourceParse = (value) => {
+    const parts = value.split(' pg. ');
+    const abbr = parts[0];
+    const page_start = parts.length > 1 ? parts[1] : null;
+    return { abbr, page_start };
+  };
+
+  const sourceStringify = (value) => {
+    return value.page_start !== null ? `${value.abbr} pg. ${value.page_start}` : value.abbr;
+  };
+
+  const skillsParse = (value) => {
+    let name = '';
+    let bonus = null;
+    let misc = null;
+    for (let i = 0; i < value.length; ++i) {
+      if (bonus === null && value[i] === '+') {
+        bonus = '';
+        name = name.trim();
+        continue;
+      }
+      if (bonus !== null && misc === null && value[i] === ' ') {
+        misc = '';
+        continue;
+      }
+      if (misc !== null) {
+        if (value[i] !== '(' && value[i] !== ')') {
+          misc += value[i];
+        }
+      } else if (bonus !== null) {
+        bonus += value[i];
+      } else {
+        name += value[i];
+      }
+    }
+
+    const skill = { name, bonus, misc };
+    return skill;
+  };
+  
+  const skillsStringify = (value) => {
+    const misc = value.misc !== null ? ` (${value.misc})` : '';
+    const bonus = value.bonus !== null ? ` +${value.bonus}` : '';
+    return `${value.name}${bonus}${misc}`;
+  };
+
   return (
     <div key={x.name} className="monster">
-      <h1.FieldEditor fields={['name', 'level']} {...editorProps}>
+      <h1.FieldEditor fields={['name', 'level']} editValue={state.monster.name} {...editorProps}>
         <a className="name" href={x.url} onClick={() => handleStartEdit('name')}>{state.monster.name}</a>
         <span className="name" onClick={() => handleStartEdit('level')}> Level {state.monster.level}</span>
       </h1.FieldEditor>
-      <h2.SetEditor fields="traits" onClick={() => handleStartEdit('traits')} {...editorProps}>
-        {state.monster.traits.map(trait => renderer.renderTrait(trait))}
+      <h2.SetEditor fields="traits" editValue={state.monster.traits} onClick={() => handleStartEdit('traits')} {...editorProps}>
+        {state.monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
       </h2.SetEditor>
-      <div.TextAreaEditor fields="description" className="description" onClick={() => handleStartEdit('description')} {...editorProps}>
+      <div.TextAreaEditor fields="description" editValue={state.monster.description} className="description" onClick={() => handleStartEdit('description')} {...editorProps}>
         {renderer.markdown(x.description)}
       </div.TextAreaEditor>
-      <div.SourceEditor hidden={!state.monster.source} fields="source" onClick={() => handleStartEdit('source')} {...editorProps}>
+      <div.SetEditor 
+        hidden={!state.monster.source} 
+        fields="source" 
+        editValue={state.monster.source}
+        onClick={() => handleStartEdit('source')} 
+        parse={sourceParse} 
+        stringify={sourceStringify}
+        {...editorProps}
+      >
         <strong>Source</strong> {state.monster.source?.map(renderer.renderSource)}
-      </div.SourceEditor>
-      <div><strong>Senses</strong> {x.senses?.map(renderer.renderCsv)}</div>
-      {renderer.ifExists(x.languages, (
-        <div><strong>Languages</strong> {x.languages?.map(renderer.renderCsv)}</div>
-      ))}
-      <div><strong>Skills</strong> {x.skills?.map(renderer.renderSkills)}</div>
+      </div.SetEditor>
+      <div.SetEditor hidden={!state.monster.senses} fields="senses" editValue={state.monster.senses} onClick={() => handleStartEdit('senses')} {...editorProps}>
+        <strong>Senses</strong> {state.monster.senses?.map(renderer.renderCsv)}
+      </div.SetEditor>
+      <div.SetEditor hidden={!state.monster.languages} fields="languages" editValue={state.monster.languages} onClick={() => handleStartEdit('languages')} {...editorProps}>
+        <strong>Languages</strong> {state.monster.languages?.map(renderer.renderCsv)}
+      </div.SetEditor>
+      <div.SetEditor hidden={!state.monster.skills} fields="skills" editValue={state.monster.skills} onClick={() => handleStartEdit('skills')} {...editorProps}
+        parse={skillsParse} stringify={skillsStringify}>
+        <strong>Skills</strong> {state.monster.skills?.map(renderer.renderSkills)}
+      </div.SetEditor>
       <div>
         <span className="csv"><strong>Str</strong> {renderer.signed(x.ability_mods.str_mod)}</span>
         <span className="csv"><strong>Dex</strong> {renderer.signed(x.ability_mods.dex_mod)}</span>

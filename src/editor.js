@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { SetEditor } from './editor-sets';
 import './App.css';
 
 const editing = (fields, editField) => {
@@ -25,23 +26,6 @@ const FieldEditor = ({ fields, editField, editValue, onSave }) => {
   );
 };
 
-const SetEditor = ({ fields, editField, editValue, onSave }) => {
-  if (!editing(fields, editField)) {
-    return null;
-  }
-
-  const handleChange = (event) => {
-    const values = event.target.value.split(',');
-    onSave(values);
-  };
-
-  return (
-    <div>
-      {editField} <input type="text" value={editValue} onChange={handleChange} />
-    </div>
-  );
-};
-
 const TextAreaEditor = ({ fields, editField, editValue, onSave }) => {
   if (!editing(fields, editField)) {
     return null;
@@ -55,112 +39,6 @@ const TextAreaEditor = ({ fields, editField, editValue, onSave }) => {
   return (
     <div>
       {editField} <textarea onChange={handleChange} value={editValue} />
-    </div>
-  );
-};
-
-const SourceInputs = ({ editValue, delim, componentResetState, onChange }) => {
-  const refs = [];
-  editValue = editValue && editValue.length > 0 ? editValue : [];
-
-  useEffect(() => {
-    if (componentResetState) {
-      const { focusIndex } = componentResetState;
-      if (typeof focusIndex === 'number' && focusIndex >= 0) {
-        refs[focusIndex].focus();
-      }
-    }
-  });
-
-  const handleOnChange = (event, editIndex) => {
-    const values = event.target.value.split(';');
-    for (let i = 0; i < values.length; ++i) {
-      const value = values[i];
-      const parts = value.split(delim);
-      const abbr = parts[0];
-      const page_start = parts.length > 1 ? parts[1] : null;
-      const source = { abbr, page_start };
-
-      if (i === 0) {
-        editValue[editIndex] = source;
-      } else {
-        editValue.push(source)
-      }
-    }
-
-    event.stopPropagation();
-    
-    const focusIndex = values.length > 1 && editValue.length - 1;
-    onChange(editValue, { focusIndex });
-  };
-
-  const handleKeyDown = (event, editIndex) => {
-    const value = event.target.value;
-    const backspaceCode = 8;
-    const deleteCode = 46;
-    const tabCode = 9;
-    const enterCode = 13;
-
-    let added = false;
-    let deleted = false;
-    if (event.keyCode === tabCode && (refs.length - 1) === editIndex) {
-      added = true;
-      editValue.push({ abbr: '', page_start: null });
-    } else if ((event.keyCode === backspaceCode || event.keyCode === deleteCode) && value.length <= 1) {
-      deleted = true;
-      editValue.splice(editIndex, 1);
-    } else if (event.keyCode === enterCode) {
-      added = true;
-      editValue.push({ abbr: '', page_start: null });
-    } else {
-      return;
-    }
-    
-    event.stopPropagation();
-    const focusIndex = added ? editValue.length - 1 : deleted ? Math.min(editValue.length - 1, editIndex) : 0;
-    onChange(editValue, { focusIndex });
-  };
-
-  const handleAddSource = () => {
-    editValue.push({ abbr: '', page_start: null });
-    const focusIndex = 0;
-    onChange(editValue, { focusIndex });
-  };
-
-  if (editValue.length === 0) {
-    return (
-      <div onClick={handleAddSource}>+ Add Source</div>
-    );
-  }
-
-  return editValue.map((x, i) => {
-    const value = x.page_start !== null ? `${x.abbr}${delim}${x.page_start}` : x.abbr;
-    return (
-      <input
-        key={i}
-        ref={input => refs.push(input)}
-        type="text"
-        onKeyDown={(event) => handleKeyDown(event, i)}
-        onChange={(event) => handleOnChange(event, i)}
-        value={value} />
-    );
-  });
-};
-
-const SourceEditor = ({ fields, editField, editValue, componentResetState, onSave }) => {
-  if (!editing(fields, editField)) {
-    return null;
-  }
-
-  const delim = ' pg. ';
-
-  const handleChange = (values, componentResetState) => {
-    onSave(values, componentResetState);
-  };
-
-  return (
-    <div>
-      <SourceInputs editValue={editValue} delim={delim} componentResetState={componentResetState} onChange={handleChange} />
     </div>
   );
 };
@@ -181,8 +59,8 @@ const reduceProps = (props) => {
   const { className, onClick, children } = props;
   const tagProps = { className, onClick, children };
 
-  const { hidden, fields, editField, editValue, componentResetState, onSave } = props;
-  const editorProps = { hidden, fields, editField, editValue, componentResetState, onSave };
+  const { hidden, fields, editField, editValue, componentResetState, onSave, parse, stringify } = props;
+  const editorProps = { hidden, fields, editField, editValue, componentResetState, onSave, parse, stringify };
 
   return { tagProps, editorProps };
 };
@@ -204,7 +82,6 @@ const createEditors = (WrappedComponent) => {
     FieldEditor: createEditor(WrappedComponent, FieldEditor),
     SetEditor: createEditor(WrappedComponent, SetEditor),
     TextAreaEditor: createEditor(WrappedComponent, TextAreaEditor),
-    SourceEditor: createEditor(WrappedComponent, SourceEditor),
   };
 };
 
