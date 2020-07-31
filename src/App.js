@@ -179,7 +179,7 @@ function App() {
       const response = await fetch('/monster-entries.js');
       const paizoMonsters = await response.json();
       const response2 = await fetch('/api/custom-monsters');
-      const customMonsters = await response2.json();
+      const customMonsters = response2.ok ? await response2.json() : [];
       for (const monster of customMonsters) {
         monster.search_text = `${monster.name} ${monster.description} ${monster.level} ${monster.size}
           ${monster.immunities?.join(' ')} ${monster.languages?.join(' ')} ${monster.traits?.join(' ')} 
