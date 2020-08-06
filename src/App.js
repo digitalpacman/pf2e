@@ -8,12 +8,24 @@ import { CardsPage } from './CardsPage';
 import { BuilderSettings } from './builder-settings';
 import './App.css';
 
+import  { MonsterCard } from './MonsterCard';
+import AppBar from '@material-ui/core/AppBar';
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import Link from '@material-ui/core/Link';
+
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  Link as BrowserLink,
 } from "react-router-dom";
+
+
 
 let entries = [];
 let index;
@@ -242,11 +254,13 @@ function App() {
   const renderCard = (x) => {
     const path = x.thirdParty ? `/monster-3rd-party/${x.path}` : `/monster/${x.path}`;
     return (
-      <Link className="clickable card" key={path} to={path} onClick={() => showDetailed(x)}>
+
+      <BrowserLink className="card-link" key={path} to={path}>
         <li>
-          <div><strong>{x.name}</strong></div><div>Level {x.level}</div>
+          <MonsterCard monster={x}></MonsterCard>
         </li>
-      </Link>
+      </BrowserLink>
+
     );
   };
 
@@ -285,79 +299,164 @@ function App() {
     setState({ ...state, token });
   };
 
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        main: '#5a0008',
+      },
+      secondary: {
+        main: '#f44336',
+      },
+    },
+  });
+
+  const useStyles = makeStyles((theme) => ({
+    link: {
+      color: 'white',
+      padding: '0 0 0 20px'
+    }
+  }));
+
+  const classes = useStyles();
+
   return (
     <Router>
-      <div>
-        <ul className="top-bar">
-          <li className="top-bar-item back">
+      <ThemeProvider theme={theme}>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <AppBar>
+            <Toolbar>
+              <Typography variant="h6">
+                Pathfinder 2e Monster Library
+              </Typography>
+              <div className="app-barlink-wrapper"> 
+
+              </div>
+              <Link className="link" className={classes.link} component={BrowserLink} to="/">
+                Monsters
+              </Link>
+              <Link component={BrowserLink} className={classes.link}  to="/create">
+                Monster Builder
+              </Link>
+              <Link component={BrowserLink} className={classes.link}  to="/">
+                Encounter Builder
+              </Link>
+            </Toolbar>
+          </AppBar>
+          <div className="content-wrapper">
             <Switch>
-              <Route exact path="/">Logo</Route>
-              <Route path="*"><Link to="/">Back</Link></Route>              
+              <Route path="/monster/:monsterPath">
+                <MonsterDetailPage
+                  entries={entries}
+                  selected={state.selected}
+                  addToEncounter={addToEncounter}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                />
+              </Route>
+              <Route path="/monster-3rd-party/:monsterPath">
+                <MonsterDetailPage
+                  entries={entries}
+                  selected={state.selected}
+                  addToEncounter={addToEncounter}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                />
+              </Route>
+              <Route path="/create">
+                <CreatePage 
+                  tryLoadCustom={tryLoadCustom}
+                  handleSignIn={handleSignIn}
+                  saveCustomMonster={saveCustomMonster}
+                  selected={state.selected}
+                />
+              </Route>
+              <Route path="/">
+                <CardsPage 
+                  search={state.search}
+                  setSearch={setSearch}
+                  entries={state.entries}
+                  renderCard={renderCard} 
+                />
+              </Route>
             </Switch>
-          </li>
-          <li className="top-bar-item">
-            <label className="clickable" htmlFor="builder">Builder</label>
-            <input id="builder" className="clickable" type="checkbox" checked={state.enableEncounterBuilder} onChange={toggleEncounterBuilder} />
-            <i className="fas fa-cog clickable" onClick={openBuilderSettings}></i>
-          </li>
-          <li className="top-bar-item" onClick={toggleCustomMonsterMode}>
-            <Link to="/create">Create</Link>
-          </li>
-        </ul>
-
-        {!state.builderSettingsVisible ? null : (
-          <BuilderSettings
-            saveBuilderSettings={saveBuilderSettings}
-            numberPlayers={state.numberPlayers}
-            averagePartyLevel={state.averagePartyLevel}
-          />
-        )}
-
-        <div className="second-bar">
-          {!state.enableEncounterBuilder ? null : (
-            <div>
-              {state.encounterXp} of {state.encounterXpThreshold}xp {state.encounterThreat} Encounter;&nbsp;
-              {state.encounterMonsters.map((x, i) => (<span className="csv encounter-monster" onClick={() => removeFromEncounter(i)}>{x.name}</span>))}
-            </div>
-          )}
-        </div>
-
-        <Switch>
-          <Route path="/monster/:monsterPath">
-            <MonsterDetailPage
-              entries={entries}
-              selected={state.selected}
-              addToEncounter={addToEncounter}
-              enableEncounterBuilder={state.enableEncounterBuilder}
-            />
-          </Route>
-          <Route path="/monster-3rd-party/:monsterPath">
-            <MonsterDetailPage
-              entries={entries}
-              selected={state.selected}
-              addToEncounter={addToEncounter}
-              enableEncounterBuilder={state.enableEncounterBuilder}
-            />
-          </Route>
-          <Route path="/create">
-            <CreatePage 
-              tryLoadCustom={tryLoadCustom}
-              handleSignIn={handleSignIn}
-              saveCustomMonster={saveCustomMonster}
-              selected={state.selected}
-            />
-          </Route>
-          <Route path="/">
-            <CardsPage 
-              search={state.search}
-              setSearch={setSearch}
-              entries={state.entries}
-              renderCard={renderCard} 
-            />
-          </Route>
-        </Switch>
-      </div>
+          </div>
+        </Grid>
+      </Grid>
+      </ThemeProvider>
     </Router>
+
+
+    // <Router>
+    //   <div>
+    //     <ul className="top-bar">
+    //       <li className="top-bar-item back">
+    //         <Switch>
+    //           <Route exact path="/">Logo</Route>
+    //           <Route path="*"><Link to="/">Back</Link></Route>              
+    //         </Switch>
+    //       </li>
+    //       <li className="top-bar-item">
+    //         <label className="clickable" htmlFor="builder">Builder</label>
+    //         <input id="builder" className="clickable" type="checkbox" checked={state.enableEncounterBuilder} onChange={toggleEncounterBuilder} />
+    //         <i className="fas fa-cog clickable" onClick={openBuilderSettings}></i>
+    //       </li>
+    //       <li className="top-bar-item" onClick={toggleCustomMonsterMode}>
+    //         <Link to="/create">Create</Link>
+    //       </li>
+    //     </ul>
+
+    //     {!state.builderSettingsVisible ? null : (
+    //       <BuilderSettings
+    //         saveBuilderSettings={saveBuilderSettings}
+    //         numberPlayers={state.numberPlayers}
+    //         averagePartyLevel={state.averagePartyLevel}
+    //       />
+    //     )}
+
+    //     <div className="second-bar">
+    //       {!state.enableEncounterBuilder ? null : (
+    //         <div>
+    //           {state.encounterXp} of {state.encounterXpThreshold}xp {state.encounterThreat} Encounter;&nbsp;
+    //           {state.encounterMonsters.map((x, i) => (<span className="csv encounter-monster" onClick={() => removeFromEncounter(i)}>{x.name}</span>))}
+    //         </div>
+    //       )}
+    //     </div>
+
+    //     <Switch>
+    //       <Route path="/monster/:monsterPath">
+    //         <MonsterDetailPage
+    //           entries={entries}
+    //           selected={state.selected}
+    //           addToEncounter={addToEncounter}
+    //           enableEncounterBuilder={state.enableEncounterBuilder}
+    //         />
+    //       </Route>
+    //       <Route path="/monster-3rd-party/:monsterPath">
+    //         <MonsterDetailPage
+    //           entries={entries}
+    //           selected={state.selected}
+    //           addToEncounter={addToEncounter}
+    //           enableEncounterBuilder={state.enableEncounterBuilder}
+    //         />
+    //       </Route>
+    //       <Route path="/create">
+    //         <CreatePage 
+    //           tryLoadCustom={tryLoadCustom}
+    //           handleSignIn={handleSignIn}
+    //           saveCustomMonster={saveCustomMonster}
+    //           selected={state.selected}
+    //         />
+    //       </Route>
+    //       <Route path="/">
+    //         <CardsPage 
+    //           search={state.search}
+    //           setSearch={setSearch}
+    //           entries={state.entries}
+    //           renderCard={renderCard} 
+    //         />
+    //       </Route>
+    //     </Switch>
+    //   </div>
+    // </Router>
   );
 }
 

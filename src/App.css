@@ -162,7 +162,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
 }
 
@@ -292,6 +292,24 @@ body {
 
 .back {
   width: 3em;
+}
+
+.app-barlink-wrapper {
+  padding: 0 10px;
+}
+
+.content-wrapper {
+  padding-top: 80px;
+  background-color: #2D3E50;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.flex-spread {
+  display: flex;
+  justify-content: space-between;
 }
 
 .monster {
