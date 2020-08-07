@@ -329,9 +329,6 @@ function App() {
               <Typography variant="h6">
                 Pathfinder 2e Monster Library
               </Typography>
-              <div className="app-barlink-wrapper"> 
-
-              </div>
               <Link className="link" className={classes.link} component={BrowserLink} to="/">
                 Monsters
               </Link>
