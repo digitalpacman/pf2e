@@ -255,7 +255,7 @@ function App() {
     const path = x.thirdParty ? `/monster-3rd-party/${x.path}` : `/monster/${x.path}`;
     return (
 
-      <BrowserLink className="card-link" key={path} to={path}>
+      <BrowserLink className="card-link" key={path} to={path} onClick={() => showDetailed(x)}>
         <li>
           <MonsterCard monster={x}></MonsterCard>
         </li>
