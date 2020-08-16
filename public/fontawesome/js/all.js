@@ -2802,8 +2802,8 @@
       tag: 'rect',
       attributes: _objectSpread({
         fill: 'currentColor',
-        'clip-path': "url(#".concat(clipId, ")"),
-        mask: "url(#".concat(maskId, ")")
+        'clip-path': "url()"),
+        mask: "url()")
       }, ALL_SPACE)
     });
     return {

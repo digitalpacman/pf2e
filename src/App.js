@@ -6,6 +6,7 @@ import { MonsterDetailPage } from './MonsterDetailPage';
 import { CreatePage } from './create-page';
 import { CardsPage } from './CardsPage';
 import { BuilderSettings } from './builder-settings';
+import { Template } from './template';
 import './App.css';
 
 import {
@@ -323,6 +324,9 @@ function App() {
         </div>
 
         <Switch>
+          <Route path="/template">
+            <Template />
+          </Route>
           <Route path="/monster/:monsterPath">
             <MonsterDetailPage
               entries={entries}

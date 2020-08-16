@@ -1,0 +1,85 @@
+/*.parchment {
+  background-image: url(/parchment.jpg);
+  column-width: 5cm;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1+p::first-letter {
+  float: left;
+  font-family: Solberry;
+  font-size: 6em;
+  color: #222;
+  line-height: .8em
+}
+
+p {
+  break-inside: always;
+  padding-bottom: 1em;
+}
+
+pre {
+  break-after: always;
+  -webkit-column-break-after: always;
+}*/
+
+.parchment {
+  background-image: url(/parchment.jpg);
+  /*column-width: 5cm;*/
+  flex-basis: 50%;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  flex-basis: 50%;
+}
+
+.traits ul {
+  display: flex;
+}
+
+.traits li {
+  border: 2px yellow solid;
+  background-color: brown;
+  padding: 0.2em;
+}
+
+
+p {
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.rolls p {
+  padding-left: 1em;
+  text-indent: 0;
+}
+
+.one-action {
+  display: inline-block;
+  background-image: url(/oneaction.png);
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+}
+
+.split-editor {
+  display: flex;
+}
+
+.markdown-template {
+  flex-basis: 50%;
+}
