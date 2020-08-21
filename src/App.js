@@ -192,13 +192,20 @@ function App() {
   }, []);
 
   const applyFilters = (search, enableEncounterBuilder, averagePartyLevel) => {
+    console.time('index search');
     let matched = search ? index?.search(search) ?? [] : list;
+    console.timeEnd('index search');
     if (enableEncounterBuilder) {
+      console.time('level filter');
       matched = matched.filter(x => {
         return Math.abs(x.level - averagePartyLevel) <= 4;
       });
+      console.timeEnd('level filter');
     }
+    
+    console.time('search sort');
     sorted(matched, state.sort, state.sortDir);
+    console.timeEnd('search sort');
     return matched;
   };
 
