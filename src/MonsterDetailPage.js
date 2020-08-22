@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import './App.css';
 
 export const MonsterDetailPage = ({ addToEncounter, enableEncounterBuilder, entries }) => {
-  let { monsterPath } = useParams();
+  const { monsterPath } = useParams();
   const selected = entries.find(x => x.path === monsterPath);
   return (
     <div>

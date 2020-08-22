@@ -32,6 +32,7 @@ function App() {
     mode: 'read',
     customError: null,
     token: null,
+    loadMore: false,
 
     builderSettingsVisible: false,
     enableEncounterBuilder: false,
@@ -158,7 +159,11 @@ function App() {
 
     const fieldMap = {};
     for (let i = 0; i < entries.length; i++) {
-      entries[i].path = normalizePath(entries[i].name);
+      if (!entries[i].path) {
+        entries[i].path = normalizePath(entries[i].name);
+      }
+      const link = `/monster/${entries[i].path}`;
+      entries[i].link = link;
       for (let x in entries[i]) {
         fieldMap[x] = x;
       }
@@ -247,17 +252,6 @@ function App() {
     setState({ ...state, ...encounter });
   };
 
-  const renderCard = (x) => {
-    const path = x.thirdParty ? `/monster-3rd-party/${x.path}` : `/monster/${x.path}`;
-    return (
-      <Link className="clickable card" key={path} to={path} onClick={() => showDetailed(x)}>
-        <li>
-          <div><strong>{x.name}</strong></div><div>Level {x.level}</div>
-        </li>
-      </Link>
-    );
-  };
-
   const tryLoadCustom = (value) => {
     try {
       const pftools = JSON.parse(value);
@@ -291,6 +285,11 @@ function App() {
   const handleSignIn = (profile) => {
     const token = profile.token;
     setState({ ...state, token });
+  };
+
+  const handleLoadMore = () => {
+    const loadMore = true;
+    setState({ ...state, loadMore });
   };
 
   return (
@@ -336,8 +335,7 @@ function App() {
           </Route>
           <Route path="/monster/:monsterPath">
             <MonsterDetailPage
-              entries={entries}
-              selected={state.selected}
+              entries={list}
               addToEncounter={addToEncounter}
               enableEncounterBuilder={state.enableEncounterBuilder}
             />
@@ -361,9 +359,12 @@ function App() {
           <Route path="/">
             <CardsPage 
               search={state.search}
+              matched={state.entries.length}
               setSearch={setSearch}
               entries={state.entries}
-              renderCard={renderCard} 
+              showDetailed={showDetailed} 
+              onLoadMore={handleLoadMore}
+              loadMore={state.loadMore}
             />
           </Route>
         </Switch>
