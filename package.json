@@ -25,6 +25,7 @@
     "react-scripts": "3.4.0",
     "showdown": "^1.9.1",
     "trim": "^0.0.1",
+    "typeface-roboto": "^0.0.75",
     "uuid": "^8.1.0"
   },
   "scripts": {

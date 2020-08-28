@@ -89,7 +89,7 @@ export const MonsterDetail = ({monster: x}) => {
   };
 
   return (
-    <div key={x.name} className="monster">
+    <div key={x.name} className="monster tan-background">
       <h1.FieldEditor fields={['name', 'level']} editValue={state.monster.name} {...editorProps}>
         <a className="name" href={x.url} onClick={() => handleStartEdit('name')}>{state.monster.name}</a>
         <span className="name" onClick={() => handleStartEdit('level')}> Level {state.monster.level}</span>
