@@ -89,6 +89,7 @@ body {
   margin: 0;
   font-family: 'Roboto';
   height: 100%;
+  letter-spacing: .0075em;
 }
 
 .csv::after {
@@ -160,8 +161,18 @@ body {
   cursor: pointer;
 }
 
+.cards-page {
+  color: #000000de;
+}
+
+.card-link {
+  margin: 2rem;
+  text-decoration: none;
+}
+
 .cards {
   display: flex;
+  background-image: inherit;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -169,29 +180,36 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-content: flex-start;
 }
 
 .card {
-  list-style: none;
-  flex-basis: 24%;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
+  min-width: 400px;
+  max-width: 400px;
+  padding: 11px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000000de;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2d3e50;
 }
 
-.card:hover {
-  color: red;
+.monster-card-title {
+  line-height: 32px;
+  font-style: normal;
+  font-stretch: 100%;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.monster-card-traits {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .completed {
@@ -206,16 +224,17 @@ body {
   width: 60%;
   text-align: center;
   font-size: 2em;
-  padding: 5px;
+  padding: 7px 5px;
   margin: 0;
   border-radius: 5px;
-  border: 1px solid black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2d3e50;
 }
 
 .matched {
   text-align: center;
-  color: lightgray;
-  font-size: 0.7em;
+  font-size: 0.75em;
 }
 
 .google-button {
@@ -268,6 +287,7 @@ body {
   text-decoration: none;
   color: inherit;
   padding-right: 1em;
+  font-size: 1.05rem;
 }
 
 .top-bar-link:hover {
@@ -290,6 +310,9 @@ body {
 .top-bar-item {
   color: inherit;
   padding-right: 1em;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: .15px;
 }
 
 .overlay {
@@ -383,9 +406,6 @@ input {
   border-radius: 2px;
 }
 
-.pf2e-form {
-}
-
 .pf2e-section {
   padding: 0 .1em;
 }
@@ -411,7 +431,7 @@ input {
 .encounter-controls-wrapper {
   position: fixed;
   display: flex;
-  top: 60px;
+  top: 50px;
   right: 50px;
   left: auto;
 }
@@ -455,7 +475,11 @@ input {
   justify-content: center;
   background-color: #a1a1a1;
   margin-right: .3rem;
-  margin-top: .3rem
+  margin-top: .3rem;
+}
+
+.trait-chip {
+  padding: 12px;
 }
 
 .chip-label {
@@ -485,38 +509,6 @@ input {
   transform: rotate(90deg);
 }
 
-/* .encounter-monsters {
-
-} */
-
-/* .encounter-builder-snackbar {
-  position: fixed;
-  top: 60px;
-  right: 50px;
-  left: auto;
-  border-radius: 4px;
-  padding: 15px;
-  z-index: 25;
-  background-color: #2D3E50;
-  color: white;
-}
-
-.encounter-builder-add-monster-btn {
-  position: fixed;
-  top: 60px;
-  right: 300px;
-  left: auto;
-  background-color: #2D3E50;
-  height: 55px;
-  width: 55px;
-  border-radius: 50%;
-  color: white;
-  box-shadow: 
-  0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
-  font-size: 2rem;
-  cursor: pointer;
-  padding: 8px 18px;
-} */
 
 .tan-background {
   height: 100%;

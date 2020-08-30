@@ -8,6 +8,7 @@ import { CardsPage } from './CardsPage';
 import { BuilderSettings } from './builder-settings';
 import { Template } from './template';
 import { CreateEncounterPage } from './CreateEncounterPage';
+import { MonsterCard } from './MonsterCard';
 import { AddMonsterButton } from './AddMonsterButton';
 import { EncounterBuilderControls } from './EncounterBuilderControls';
 import 'typeface-roboto';
@@ -285,12 +286,12 @@ function App() {
     }
   };
 
-  const renderCard = (x) => {
-    const path = x.thirdParty ? `/monster-3rd-party/${x.path}` : `/monster/${x.path}`;
+  const renderCard = (monster) => {
+    const path = monster.thirdParty ? `/monster-3rd-party/${monster.path}` : `/monster/${monster.path}`;
     return (
-      <Link className="clickable card" key={path} to={path} onClick={() => showDetailed(x)}>
+      <Link className="clickable card" key={path} to={path} onClick={() => showDetailed(monster)}>
         <li>
-          <div><strong>{x.name}</strong></div><div>Level {x.level}</div>
+          <MonsterCard monster={monster}/>
         </li>
       </Link>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './App.css';
+import { MonsterCard } from './MonsterCard';
 
 const Card = React.memo(({monster}) => {
   return (
@@ -18,14 +19,14 @@ export const CardsPage = ({ search, setSearch, entries, showDetailed, matched, o
   }
 
   return (
-    <div>
+    <div className="tan-background cards-page">
       <div className="search"><input className="search-box" type="text" placeholder="search" value={search} onChange={e => setSearch(e.target.value)} /></div>
       <div className="matched">matched {matched}</div>
       <ul className="cards">
         {monsters.map((monster) => {
           return (
-            <Link className="clickable card" key={monster.link} to={monster.link} onClick={() => showDetailed(monster)}>
-              <Card monster={monster} />
+            <Link className="clickable card-link" key={monster.link} to={monster.link} onClick={() => showDetailed(monster)}>
+              <MonsterCard monster={monster} />
             </Link>
           );
         })}
