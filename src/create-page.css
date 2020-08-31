@@ -1,0 +1,11 @@
+.create-layout {
+  display: flex;
+}
+
+.monster-preview {
+  flex-basis: 50%;
+}
+
+.monster-editor {
+  flex-basis: 50%;
+}

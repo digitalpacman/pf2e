@@ -1,15 +1,13 @@
 const db = require('./db');
 const { normalizePath } = require('../src/normalize-path');
 
-console.log(normalizePath)
-
 const allMonsters = async () => {
   try {
     const query = await db.query('select path, name, json from custom_monsters');
     const monsters = query.rows.map(x => JSON.parse(x.json.toString())) || [];
     return monsters;
   } catch (err) {
-    console.log(`failed retrieving custom monsters ${err}`);
+    console.error(`failed retrieving custom monsters ${err}`);
     return [];
   }
 };
@@ -59,7 +57,7 @@ const addMonster = async (token, monster) => {
       [path, name, token, json]);
   }
   catch (err) {
-    console.log(`failed adding custom monster ${err} ${err.stack}`);
+    console.error(`failed adding custom monster ${err} ${err.stack}`);
     throw err;
   }
 };

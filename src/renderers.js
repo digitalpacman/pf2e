@@ -177,9 +177,9 @@ export const renderAttack = (monster, attack, kind) => {
       </div>
     );
   } catch (err) {
-    console.log(err)
-    console.log(monster)
-    console.log(attack)
+    console.error(err)
+    console.error(monster)
+    console.error(attack)
     throw err;
   }
 };

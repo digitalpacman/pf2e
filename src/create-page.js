@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MonsterDetail } from './MonsterDetail';
-import { Link } from 'react-router-dom';
+import { MonsterEditor } from './monster-editor';
 import { GoogleButton } from './GoogleButton';
 import './App.css';
+import './create-page.css';
 
 export const CreatePage = ({
   customError,
   tryLoadCustom,
   handleSignIn,
   saveCustomMonster,
-  selected,
+  monster,
 }) => {
-  console.log(selected)
+  monster = monster || {};
+  const [state, setState] = useState({ monster });
+
   const file = React.createRef();
 
   const handleUpload = () => {
@@ -22,10 +25,12 @@ export const CreatePage = ({
         tryLoadCustom(evt.target.result);
       };
       reader.onerror = (evt) => {
-        console.log(evt);
+        console.error(evt);
       };
     }
   };
+
+  const handleOnChange = (monster) => setState({ monster });
 
   return (
     <div>
@@ -33,7 +38,14 @@ export const CreatePage = ({
       <input type="file" onChange={handleUpload} ref={file} />
       <GoogleButton onSignIn={handleSignIn} />
       <button onClick={saveCustomMonster}>Save</button>
-      <MonsterDetail monster={selected} />
+      <div className="create-layout">
+        <div className="monster-preview">
+          <MonsterDetail monster={state.monster} />
+        </div>
+        <div className="monster-editor">
+          <MonsterEditor monster={state.monster} onChange={handleOnChange} />
+        </div>
+      </div>
     </div>
   );
 };

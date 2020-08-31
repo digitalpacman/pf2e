@@ -1,165 +1,83 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import * as renderer from './renderers';
-import { h1, h2, div } from './editor';
 
-export const MonsterDetail = ({monster: x}) => {
-  const [state, setState] = useState({ monster: x });
-
-  if (!x) {
-    return null;
-  } else {
-    if (!state.monster) {
-      setState({ monster: x });
-      return null;
-    }
-  }
-
-  const handleOnEditSave = (editValue, componentResetState) => {
-    setState({ 
-      ...state, 
-      editValue, 
-      componentResetState,
-      monster: { ...state.monster, [state.editField]: editValue }
-    });
-  };
-
-  const handleStartEdit = (field) => {
-    // event.stopPropagation();
-    const editField = state.editField === field ? null : field;
-    const editValue = state.monster[editField];
-    setState({ ...state, editField, editValue });
-  };
-
-  const editorProps = {
-    editField: state.editField,
-    componentResetState: state.componentResetState,
-    onSave: handleOnEditSave,
-  };
-
-  const closeEditor = () => {
-    const editField = null;
-    setState({ ...state, editField });
-  };
-
-  const sourceParse = (value) => {
-    const parts = value.split(' pg. ');
-    const abbr = parts[0];
-    const page_start = parts.length > 1 ? parts[1] : null;
-    return { abbr, page_start };
-  };
-
-  const sourceStringify = (value) => {
-    return value.page_start !== null ? `${value.abbr} pg. ${value.page_start}` : value.abbr;
-  };
-
-  const skillsParse = (value) => {
-    let name = '';
-    let bonus = null;
-    let misc = null;
-    for (let i = 0; i < value.length; ++i) {
-      if (bonus === null && value[i] === '+') {
-        bonus = '';
-        name = name.trim();
-        continue;
-      }
-      if (bonus !== null && misc === null && value[i] === ' ') {
-        misc = '';
-        continue;
-      }
-      if (misc !== null) {
-        if (value[i] !== '(' && value[i] !== ')') {
-          misc += value[i];
-        }
-      } else if (bonus !== null) {
-        bonus += value[i];
-      } else {
-        name += value[i];
-      }
-    }
-
-    const skill = { name, bonus, misc };
-    return skill;
-  };
-  
-  const skillsStringify = (value) => {
-    const misc = value.misc !== null ? ` (${value.misc})` : '';
-    const bonus = value.bonus !== null ? ` +${value.bonus}` : '';
-    return `${value.name}${bonus}${misc}`;
-  };
-
+export const MonsterDetail = ({monster}) => {
+  console.log(monster)
   return (
-    <div key={x.name} className="monster tan-background">
-      <h1.FieldEditor fields={['name', 'level']} editValue={state.monster.name} {...editorProps}>
-        <a className="name" href={x.url} onClick={() => handleStartEdit('name')}>{state.monster.name}</a>
-        <span className="name" onClick={() => handleStartEdit('level')}> Level {state.monster.level}</span>
-      </h1.FieldEditor>
-      <h2.SetEditor fields="traits" editValue={state.monster.traits} onClick={() => handleStartEdit('traits')} {...editorProps}>
-        {state.monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
-      </h2.SetEditor>
-      <div.TextAreaEditor fields="description" editValue={state.monster.description} className="description" onClick={() => handleStartEdit('description')} {...editorProps}>
-        {renderer.markdown(x.description)}
-      </div.TextAreaEditor>
-      <div.SetEditor 
-        hidden={!state.monster.source} 
-        fields="source" 
-        editValue={state.monster.source}
-        onClick={() => handleStartEdit('source')} 
-        parse={sourceParse} 
-        stringify={sourceStringify}
-        {...editorProps}
-      >
-        <strong>Source</strong> {state.monster.source?.map(renderer.renderSource)}
-      </div.SetEditor>
-      <div.SetEditor hidden={!state.monster.senses} fields="senses" editValue={state.monster.senses} onClick={() => handleStartEdit('senses')} {...editorProps}>
-        <strong>Senses</strong> {state.monster.senses?.map(renderer.renderCsv)}
-      </div.SetEditor>
-      <div.SetEditor hidden={!state.monster.languages} fields="languages" editValue={state.monster.languages} onClick={() => handleStartEdit('languages')} {...editorProps}>
-        <strong>Languages</strong> {state.monster.languages?.map(renderer.renderCsv)}
-      </div.SetEditor>
-      <div.SetEditor hidden={!state.monster.skills} fields="skills" editValue={state.monster.skills} onClick={() => handleStartEdit('skills')} {...editorProps}
-        parse={skillsParse} stringify={skillsStringify}>
-        <strong>Skills</strong> {state.monster.skills?.map(renderer.renderSkills)}
-      </div.SetEditor>
-      <div>
-        <span className="csv"><strong>Str</strong> {renderer.signed(x.ability_mods.str_mod)}</span>
-        <span className="csv"><strong>Dex</strong> {renderer.signed(x.ability_mods.dex_mod)}</span>
-        <span className="csv"><strong>Con</strong> {renderer.signed(x.ability_mods.con_mod)}</span>
-        <span className="csv"><strong>Int</strong> {renderer.signed(x.ability_mods.int_mod)}</span>
-        <span className="csv"><strong>Wis</strong> {renderer.signed(x.ability_mods.wis_mod)}</span>
-        <span className="csv"><strong>Cha</strong> {renderer.signed(x.ability_mods.cha_mod)}</span>
+    <div key={monster.name} className="monster tan-background">
+      <h1 className="monster-heading">
+        <a className="name" href={monster.url}>{monster.name}</a>
+        <span className="level"> Level {monster.level}</span>
+      </h1>
+      {monster.traits && <h2 className="traits">
+        {monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
+      </h2>}
+      {monster.description && <div className="description">
+        {renderer.markdown(monster.description)}
+      </div>}
+      {monster.source && <div className="sources">
+        <strong>Source</strong> {monster.source.map(renderer.renderSource)}
+      </div>}
+      {monster.senses && <div className="senses">
+        <strong>Senses</strong> {monster.senses.map(renderer.renderCsv)}
+      </div>}
+      {monster.languages && <div className="languages">
+        <strong>Languages</strong> {monster.languages.map(renderer.renderCsv)}
+      </div>}
+      <div className="skills">
+        <strong>Skills</strong> {monster.skills?.map(renderer.renderSkills)}
       </div>
+      {monster.ability_mods && <div className="attributes">
+        <span className="csv"><strong>Str</strong> {renderer.signed(monster.ability_mods.str_mod)}</span>
+        <span className="csv"><strong>Dex</strong> {renderer.signed(monster.ability_mods.dex_mod)}</span>
+        <span className="csv"><strong>Con</strong> {renderer.signed(monster.ability_mods.con_mod)}</span>
+        <span className="csv"><strong>Int</strong> {renderer.signed(monster.ability_mods.int_mod)}</span>
+        <span className="csv"><strong>Wis</strong> {renderer.signed(monster.ability_mods.wis_mod)}</span>
+        <span className="csv"><strong>Cha</strong> {renderer.signed(monster.ability_mods.cha_mod)}</span>
+      </div>}
       <div>
-        {x.sense_abilities?.map(a => renderer.renderAbility(a, x))}
+        {monster.sense_abilities?.map(a => renderer.renderAbility(a, monster))}
       </div>
-      {renderer.ifExists(x.items, (
-        <div><strong>Items</strong> {x.items?.map(renderer.renderCsv)}</div>
+      {renderer.ifExists(monster.items, (
+        <div><strong>Items</strong> {monster.items?.map(renderer.renderCsv)}</div>
       ))}
       <hr />
       <div>
         <span>
-          <span className="csv"><strong>AC</strong> {x.ac}{renderer.ifExists(x.ac_special, (<span> ({x.ac_special?.map(ac => ac.descr).map(renderer.renderCsv)})</span>))}</span>
-          {renderer.renderSave('Fort', x.saves.fort, x.saves.fort_misc)}
-          {renderer.renderSave('Ref', x.saves.ref, x.saves.ref_misc)}
-          {renderer.renderSave('Will', x.saves.will, x.saves.will_misc)}
+          {monster.ac && <span className="armor-class csv">
+            <strong>AC</strong> {monster.ac}
+              {renderer.ifExists(monster.ac_special, 
+                (<span> ({monster.ac_special?.map(ac => ac.descr).map(renderer.renderCsv)})</span>))}
+          </span>}
+          {monster.saves && renderer.renderSave('Fort', monster.saves.fort, monster.saves.fort_misc)}
+          {monster.saves && renderer.renderSave('Ref', monster.saves.ref, monster.saves.ref_misc)}
+          {monster.saves && renderer.renderSave('Will', monster.saves.will, monster.saves.will_misc)}
         </span>
-        {renderer.ifExists(x.saves.misc, (
-          <span>; {x.saves.misc}</span>
-        ))}
+        {monster.saves?.misc && <span>; {monster.saves.misc}</span>}
       </div>
-      <div><strong>HP</strong> {x.hp}{renderer.ifExists(x.hp_misc, (<span> ({x.hp_misc})</span>))}{renderer.ifExists(x.immunities, (<span>; <strong>Immunities</strong> {x.immunities?.map(renderer.renderCsv)}</span>))}{renderer.ifExists(x.resistances, (<span>; <strong>Resistances</strong> {x.resistances?.map(a => renderer.renderSpeed(a, x))}</span>))}{renderer.ifExists(x.weaknesses, (<span>; <strong>Weaknesses</strong> {x.weaknesses?.map(a => renderer.renderSpeed(a, x))}</span>))}</div>
       <div>
-        {x.automatic_abilities?.map(a => renderer.renderAbility(a, x))}
+        <strong>HP</strong> {monster.hp}
+        {renderer.ifExists(monster.hp_misc, (<span> ({monster.hp_misc})</span>))}
+        {renderer.ifExists(monster.immunities, 
+          (<span>; <strong>Immunities</strong> {monster.immunities?.map(renderer.renderCsv)}</span>))}
+        {renderer.ifExists(monster.resistances, 
+          (<span>; <strong>Resistances</strong> {monster.resistances?.map(a => renderer.renderSpeed(a, monster))}</span>))}
+        {renderer.ifExists(monster.weaknesses, 
+          (<span>; <strong>Weaknesses</strong> {monster.weaknesses?.map(a => renderer.renderSpeed(a, monster))}</span>))}
+      </div>
+      <div>
+        {monster.automatic_abilities?.map(a => renderer.renderAbility(a, monster))}
       </div>
       <hr />
-      <div><strong>Speed</strong> {x.speed.map(a => renderer.renderSpeed(a, x))}</div>
-      <div>{x.melee?.map(attack => renderer.renderMeleeAttack(x, attack))}</div>
-      <div>{x.ranged?.map(attack => renderer.renderRangedAttack(x, attack))}</div>
-      {x.spell_lists?.map(renderer.renderSpellList)}
+      {monster.speed && <div><strong>Speed</strong> {monster.speed.map(a => renderer.renderSpeed(a, monster))}</div>}
+      <div>{monster.melee?.map(attack => renderer.renderMeleeAttack(monster, attack))}</div>
+      <div>{monster.ranged?.map(attack => renderer.renderRangedAttack(monster, attack))}</div>
+      {monster.spell_lists?.map(renderer.renderSpellList)}
       <div>
-        {x.proactive_abilities?.map(a => renderer.renderAbility(a, x))}
+        {monster.proactive_abilities?.map(a => renderer.renderAbility(a, monster))}
       </div>
-      {x.ritual_lists?.map(renderer.renderSpellList)}
+      {monster.ritual_lists?.map(renderer.renderSpellList)}
     </div>
   );
 }

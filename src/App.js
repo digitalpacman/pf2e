@@ -303,7 +303,7 @@ function App() {
       const selected = fromPF2Tools(pftools);
       setState({ ...state, selected });
     } catch (err) {
-      console.log(err)
+      console.error(err)
       setState({ ...state, customError: err.toString() });
     }
   };
@@ -336,6 +336,9 @@ function App() {
     const loadMore = true;
     setState({ ...state, loadMore });
   };
+
+  const tempMonster = entries[0];
+  console.log(tempMonster)
 
   return (
     <Router>
@@ -412,7 +415,7 @@ function App() {
                 tryLoadCustom={tryLoadCustom}
                 handleSignIn={handleSignIn}
                 saveCustomMonster={saveCustomMonster}
-                selected={state.selected}
+                monster={tempMonster}
               />
             </Route>
             <Route path="/createEncounter">
