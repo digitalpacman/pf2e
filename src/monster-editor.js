@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AbilityEditor } from './ability-editor';
 import './App.css';
 
 const fieldReader = (obj, field) => {
@@ -33,7 +34,7 @@ const fieldWriter = (obj, field, value) => {
 };
 
 const BasicValueEditor = ({monster, field, onChange}) => {
-  const value = fieldReader(monster, field);
+  const value = fieldReader(monster, field) || '';
   const [state, setState] = useState({ value });
 
   const handleOnChange = (event) => {
@@ -76,15 +77,51 @@ const SimpleListEditor = ({monster, field, onChange}) => {
 };
 
 const SourceEditor = ({monster, field, onChange}) => {
-  const value = monster[field]?.join(', ') || '';
-  const [state, setState] = useState({ value });
-
   const parse = (value) => {
     const parts = value.split(' pg. ').map(x => x.trim()).filter(x => x.length > 0);
     const abbr = parts[0];
     const page_start = parts.length > 1 ? parts[1] : null;
     return { abbr, page_start };
   }
+
+  const stringify = ({abbr, page_start}) => {
+    if (page_start) {
+      return `${abbr} pg. ${page_start}`;
+    }
+    return abbr;
+  };
+
+  const value = monster[field]?.map(stringify).join(', ') || '';
+  const [state, setState] = useState({ value });
+
+  const handleOnChange = (event) => {
+    const value = event.target.value;
+    const values = value.split(',').map(x => x.trim()).filter(x => x.length > 0)
+      .map(parse);
+    monster[field] = values.length > 0 ? values : null;
+    setState({ value });
+    onChange(monster);
+  };
+  
+  return <input type="text" value={state.value} onChange={handleOnChange} />;
+};
+
+const QuantifiedListEditor = ({monster, field, onChange}) => {
+  const parse = (value) => {
+    const parts = value.split(' ').map(x => x.trim()).filter(x => x.length > 0);
+    const last = parts[parts.length - 1];
+    const amount = isNaN(last) && parts.length > 1 ? null : last;
+    const type = (amount ? parts.slice(0, parts.length - 1) : parts).join(' ');
+    return { type, amount };
+  };
+
+  const stringify = ({type, amount}) => {
+    const value = amount ? `${type} ${amount}` : type;
+    return value;
+  };
+
+  const value = monster[field]?.map(stringify).join(', ') || '';
+  const [state, setState] = useState({ value });
 
   const handleOnChange = (event) => {
     const value = event.target.value;
@@ -112,6 +149,26 @@ const ArmorClassEditor = ({monster, field, onChange}) => {
   };
   
   return <input type="text" value={state.value} onChange={handleOnChange} />;
+};
+
+const AbilityListEditor = ({monster, field, onChange}) => {
+  const value = monster[field] || [];
+  const [state, setState] = useState({ value });
+
+  const handleOnChange = ({ ability, index }) => {
+    console.log(ability, index)
+    const value = [...state.value];
+    value[index] = ability;
+    monster[field] = value;
+    setState({ value });
+    onChange(monster);
+  };
+
+  return state.value.map((ability, i) => 
+    <div key={i}>
+      <AbilityEditor index={i} ability={ability} onChange={handleOnChange} />
+    </div>
+  );
 };
 
 export const MonsterEditor = ({monster, onChange}) => {
@@ -147,6 +204,21 @@ export const MonsterEditor = ({monster, onChange}) => {
       <div>Fort Misc <BasicValueEditor monster={monster} field="saves.fort_misc" onChange={onChange} /></div>
       <div>Ref Misc <BasicValueEditor monster={monster} field="saves.ref_misc" onChange={onChange} /></div>
       <div>Will Misc <BasicValueEditor monster={monster} field="saves.will_misc" onChange={onChange} /></div>
+      <div>Saves Misc <BasicValueEditor monster={monster} field="saves.misc" onChange={onChange} /></div>
+
+      <div>HP <BasicValueEditor monster={monster} field="hp" onChange={onChange} /></div>
+      <div>HP Misc <BasicValueEditor monster={monster} field="hp_misc" onChange={onChange} /></div>
+
+      <div>Immunities <SimpleListEditor monster={monster} field="immunities" onChange={onChange} /></div>
+      <div>Resistances <QuantifiedListEditor monster={monster} field="resistances" onChange={onChange} /></div>
+      <div>Weaknesses <QuantifiedListEditor monster={monster} field="weaknesses" onChange={onChange} /></div>
+
+      <div>Speed <QuantifiedListEditor monster={monster} field="speed" onChange={onChange} /></div>
+
+      <hr />
+      <div>Automatic Abilities <AbilityListEditor monster={monster} field="automatic_abilities" onChange={onChange} /></div>
+      <hr />
+      <div>Proactive Abilities <AbilityListEditor monster={monster} field="proactive_abilities" onChange={onChange} /></div>
     </div>
   );
 
@@ -161,34 +233,7 @@ export const MonsterEditor = ({monster, onChange}) => {
   //   return value.page_start !== null ? `${value.abbr} pg. ${value.page_start}` : value.abbr;
   // };
 
-  // const skillsParse = (value) => {
-  //   let name = '';
-  //   let bonus = null;
-  //   let misc = null;
-  //   for (let i = 0; i < value.length; ++i) {
-  //     if (bonus === null && value[i] === '+') {
-  //       bonus = '';
-  //       name = name.trim();
-  //       continue;
-  //     }
-  //     if (bonus !== null && misc === null && value[i] === ' ') {
-  //       misc = '';
-  //       continue;
-  //     }
-  //     if (misc !== null) {
-  //       if (value[i] !== '(' && value[i] !== ')') {
-  //         misc += value[i];
-  //       }
-  //     } else if (bonus !== null) {
-  //       bonus += value[i];
-  //     } else {
-  //       name += value[i];
-  //     }
-  //   }
-
-  //   const skill = { name, bonus, misc };
-  //   return skill;
-  // };
+  
   
   // const skillsStringify = (value) => {
   //   const misc = value.misc !== null ? ` (${value.misc})` : '';

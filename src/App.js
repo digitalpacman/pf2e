@@ -337,7 +337,7 @@ function App() {
     setState({ ...state, loadMore });
   };
 
-  const tempMonster = entries[0];
+  const tempMonster = entries.find(x => x.name === 'Adamantine Golem');
   console.log(tempMonster)
 
   return (
@@ -412,6 +412,7 @@ function App() {
                 closeEncounterBuilder={closeEncounterBuilder}
                 removeFromEncounter={removeFromEncounter}/>
               <CreatePage 
+                key={tempMonster?.name}
                 tryLoadCustom={tryLoadCustom}
                 handleSignIn={handleSignIn}
                 saveCustomMonster={saveCustomMonster}
