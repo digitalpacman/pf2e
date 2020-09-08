@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SimpleListEditor } from './simple-list-editor';
 import './App.css';
 
 export const AbilityEditor = ({ability, index, onChange}) => {
@@ -13,9 +14,16 @@ export const AbilityEditor = ({ability, index, onChange}) => {
     };
   };
 
+  const handleTraitsChange = (ability) => {
+    setState({ ...ability });
+    onChange({ ability, index });
+  };
+
   return <div>
     Name <input type="text" value={state.name} onChange={createHandleOnChange('name')} />
+    Traits <SimpleListEditor monster={ability} field="traits" onChange={handleTraitsChange} />
     Description <input type="text" value={state.description} onChange={createHandleOnChange('description')} />
+    Effect <input type="text" value={state.effect} onChange={createHandleOnChange('effect')} />
     Action Cost 
     <select value={state.action_cost} onChange={createHandleOnChange('action_cost')}>
       <option>None</option>

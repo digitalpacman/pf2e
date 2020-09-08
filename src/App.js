@@ -337,7 +337,7 @@ function App() {
     setState({ ...state, loadMore });
   };
 
-  const tempMonster = entries.find(x => x.name === 'Adamantine Golem');
+  const tempMonster = entries.find(x => x.name === 'Bloodseeker');
   console.log(tempMonster)
 
   return (
