@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "command-line-args": "^5.1.1",
     "concurrently": "^5.2.0",
     "expressjs": "^1.0.1",
     "flexsearch": "^0.6.32",
@@ -15,7 +16,7 @@
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^1.4.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.4",
     "pg": "^8.2.1",
     "react": "^16.13.0",
@@ -34,7 +35,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "host": "nodemon server/http.js",
-    "xtest": "jest"
+    "xtest": "jest",
+    "parse": "node scraper/parse",
+    "scrape": "node scraper/scrape",
+    "scrape-test": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
