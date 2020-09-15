@@ -1,7 +1,7 @@
-const { has, skip } = require('./navigation');
-const parenSplit = require('./paren-split');
+const found = require('./found');
+const { parenSplit } = require('./paren-split');
 const removeHtml = require('./remove-html');
-const { br } = require('./constants');
+const { has, skip, br } = require('./navigation');
 
 function speedsParser(haystack) {
   if (!has({ haystack, needle: '<b>Speed</b>'})) {
@@ -11,7 +11,7 @@ function speedsParser(haystack) {
   const speed = parenSplit(removeHtml(skip({ haystack, needle: '<b>Speed</b>' }).limit(br).take()))
     .map(typedAmount);
 
-  console.log(`found speed: ${JSON.stringify(speed)}`);
+  found('speed', speed);
   return { speed };
 }
 

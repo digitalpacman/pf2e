@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has } = require('./navigation');
 const { toMarkdown } = require('./to-markdown');
 
@@ -8,7 +9,7 @@ function descriptionParser(haystack) {
   }
 
   const description = toMarkdown(haystack);
-  console.log(`found description: ${description}`);
+  found('description', description);
   return { description };
 }
 

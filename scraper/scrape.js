@@ -26,10 +26,48 @@ const baseUrl = 'https://2e.aonprd.com/';
     }
     console.log(uri, name);
 
-    const monsterHtml = await get(baseUrl + uri);
-    fs.writeFileSync(dir + '/' + name.toLowerCase() + '.html', monsterHtml);
+    const html = await get(baseUrl + uri);
+    const normalized = normalize(html);
+    fs.writeFileSync(dir + '/' + name.toLowerCase() + '.html', normalized);
   }
 })();
+
+function normalize(html) {
+  html = html.replace(/’/g, '\'');
+  if (html.indexOf('Giant Aukashungi') !== -1) {
+    html = html.replace('<%END', '</a>');
+  }
+  if (html.indexOf('Interlocutor') !== -1) {
+    html = html.replace('Painsight (', '<b>Painsight</b> (');
+  }
+  if (html.indexOf('Nyogoth') !== -1) {
+    html = html.replace(
+      '<b>Resistances</b> mental 10; <b>Weaknesses</b> lawful 10<br />physical 10 (except cold iron)', 
+      '<b>Resistances</b> mental 10, physical 10 (except cold iron); <b>Weaknesses</b> lawful 10<br />');
+  }
+  if (html.indexOf('Spiral Centurion') !== -1) {
+    html = html.replace(
+      '<br />Top-Heavy A spiral centurion',
+      '<b>Top-Heavy</b> A spiral centurion');
+  }
+  if (html.indexOf('Stygira') !== -1) {
+    html = html.replace(
+      '<br />Light Sickness A stygira in an area',
+      '<b>Light Sickness</b> A stygira in an area');
+  }
+  if (html.indexOf('Veranallia') !== -1) {
+    html = html.replace(
+      'DC 42 (also has Reincarnate; spell not out yet at time of printing)',
+      'DC 42, also has Reincarnate (spell not out yet at time of printing)');
+  }
+  if (html.indexOf('Verdurous Ooze') !== -1) {
+    html = html.replace(
+      '<br />Motion Sense A verdurous ooze can',
+      '<b>Motion Sense</b> A verdurous ooze can');
+  }
+  
+  return html;
+}
 
 async function get(url) {
   const response = await fetch(url);

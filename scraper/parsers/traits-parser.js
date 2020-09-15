@@ -1,5 +1,6 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
+const { has, skip } = require('./navigation');
 
 function traitsParser(haystack) {
   if (!has({ haystack, needle: 'class="trait"'})) {
@@ -13,7 +14,7 @@ function traitsParser(haystack) {
     .map(x => removeHtml(x).trim())
     .filter(x => x.length > 0);
 
-  console.log(`found traits: ${traits}`);
+  found('traits', traits);
   return { traits };
 }
 

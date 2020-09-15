@@ -1,6 +1,11 @@
 const removeHtml = require('./remove-html');
+const actionCostParser = require('./action-cost-parser');
 
 const toMarkdown = (text) => {
+  if (!text) {
+    return '';
+  }
+
   let markdown = text.replace(/\r/g, '')
     .replace(/<br \/>/gi, '\n\n')
     .replace(/<ul>/gi, '')
@@ -13,7 +18,11 @@ const toMarkdown = (text) => {
     .replace(/<\/h2>/gi, '\n\n')
     .replace(/<\/h3>/gi, '\n\n');
   
-  // add action cost
+  const actionCost = actionCostParser(markdown);
+  if (actionCost !== 'None') {
+    markdown = markdown.replace(/<img [^>]+Action[^>]+>/i, '[' + actionCost + ']');
+    markdown = markdown.replace(/<img [^>]+Action[^>]+>/gi, '');
+  }
 
   const underline = '<a style="text-decoration:underline';
   let start;
@@ -31,7 +40,8 @@ const toMarkdown = (text) => {
 
   markdown = removeHtml(markdown);
 
-  return markdown;
+  markdown = markdown.split('\n').map(x => x.trimEnd()).join('\n');
+  return markdown.trim();
 };
 
 module.exports = { toMarkdown };

@@ -1,6 +1,6 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
-const { br } = require('./constants');
+const { has, skip, br } = require('./navigation');
 
 function savesParser(haystack) {
   if (!has({ haystack, needle: '<b>Fort</b>'})) {
@@ -29,7 +29,7 @@ function savesParser(haystack) {
     misc,
   };
   
-  console.log(`found saves: ${JSON.stringify(saves)}`);
+  found('saves', saves);
   return { saves };
 }
 

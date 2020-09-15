@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function alignmentParser(haystack) {
@@ -9,7 +10,7 @@ function alignmentParser(haystack) {
     .skip('>')
     .take('<');
   
-  console.log(`found alignment: ${alignment}`);
+  found('alignment', alignment);
   return { alignment };
 }
 

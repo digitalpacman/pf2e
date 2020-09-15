@@ -1,6 +1,6 @@
 function parenSplit(value) {
   if (!value) {
-    return [];
+    return null;
   }
 
   const parts = [];
@@ -30,10 +30,53 @@ function parenSplit(value) {
     parts.push(capture);
   }
 
+  if (parts.length === 0) {
+    return null;
+  }
+
   return parts;
 }
 
-module.exports = parenSplit;
+function semicolonSplit(value) {
+  if (!value) {
+    return null;
+  }
+
+  const parts = [];
+  let capture = '';
+  let depth = 0;
+  for (let i = 0; i < value.length; ++i) {
+    const char = value[i];
+    if (char === '(') {
+      ++depth;
+      capture += '(';
+    } else if (char === ')') {
+      if (depth > 0) {
+        --depth;
+      }
+      capture += ')';
+    } else if (depth === 0 && char === ';') {
+      if (capture.length > 0) {
+        parts.push(capture);
+        capture = '';
+      }
+    } else if (capture.length > 0 || char !== ' ') {
+      capture += char;
+    }
+  }
+  
+  if (capture.length > 0) {
+    parts.push(capture);
+  }
+
+  if (parts.length === 0) {
+    return null;
+  }
+
+  return parts;
+}
+
+module.exports = { parenSplit, semicolonSplit };
 
 /*
 public IEnumerable<string> SpecialSplit(string input, char[] splitCharacters = null)

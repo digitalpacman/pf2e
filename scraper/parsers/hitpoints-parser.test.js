@@ -16,7 +16,7 @@ it('parse hitpoints from binumir', () => {
 
   expect(fields).toEqual({
     hp: 25,
-    hp_misc: '(negative healing)',
+    hp_misc: 'negative healing',
   });
 });
 

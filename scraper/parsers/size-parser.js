@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function sizeParser(haystack) {
@@ -9,7 +10,7 @@ function sizeParser(haystack) {
     .skip('>')
     .take('<');
   
-  console.log(`found size: ${size}`);
+  found('size', size);
   return { size };
 }
 

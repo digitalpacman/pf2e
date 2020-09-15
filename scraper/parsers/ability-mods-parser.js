@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function abilityModsParser(haystack) {
@@ -21,7 +22,7 @@ function abilityModsParser(haystack) {
     cha_mod,
   };
   
-  console.log(`found ability_mods: ${JSON.stringify(ability_mods)}`);
+  found('ability_mods', ability_mods);
   return { ability_mods };
 }
 

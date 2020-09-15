@@ -1,5 +1,6 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
+const { has, skip } = require('./navigation');
 
 function sourcesParser(haystack) {
   if (!has({ haystack, needle: '<b>Source</b>'})) {
@@ -17,7 +18,7 @@ function sourcesParser(haystack) {
       return { abbr, page_start, page_stop };
     });
   
-  console.log(`found sources: ${JSON.stringify(sources)}`);
+  found('sources', sources);
   return { sources };
 }
 

@@ -1,7 +1,7 @@
-const { has, skip } = require('./navigation');
-const parenSplit = require('./paren-split');
+const found = require('./found');
+const { parenSplit } = require('./paren-split');
 const typeAmountParser = require('./type-amount-parser');
-const { br } = require('./constants');
+const { has, skip, br } = require('./navigation');
 
 function resistancesParser(haystack) {
   if (!has({ haystack, needle: '<b>Resistances</b>'})) {
@@ -11,7 +11,7 @@ function resistancesParser(haystack) {
   const resistances = parenSplit(skip({ haystack, needle: '<b>Resistances</b>' }).limit(';').limit(br).take())
     .map(typeAmountParser);
 
-  console.log(`found resistances: ${JSON.stringify(resistances)}`);
+  found('resistances', resistances);
   return { resistances };
 }
 

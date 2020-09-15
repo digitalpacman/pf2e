@@ -12,7 +12,7 @@ const removeHtml = (html) => {
     html = html.substr(0, s) + html.substr(e + 1);
   }
 
-  return html;
+  return html.trim();
 };
 
 module.exports = removeHtml;

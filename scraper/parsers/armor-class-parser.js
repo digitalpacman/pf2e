@@ -1,17 +1,25 @@
-const { has, skip } = require('./navigation');
 const removeHtml = require('./remove-html');
-const parenSplit = require('./paren-split');
+const { parenSplit } = require('./paren-split');
+const trimit = require('./trimit');
+const found = require('./found');
+const { has, skip } = require('./navigation');
+
 function armorClassParser(haystack) {
   if (!has({ haystack, needle: '<b>AC</b>'})) {
     return;
   }
 
   const ac = skip({ haystack, needle: '<b>AC</b>' }).takeNumber();
-  const [_, miscs] = removeHtml(skip({ haystack, needle: '<b>AC</b>' }).take(';'))
-    .split(/\(|\)/g);
-  const ac_special = parenSplit(miscs).map(descr => ({ descr }));
+  const miscs = removeHtml(trimit(trimit(skip({ haystack, needle: '<b>AC</b>' })
+    .limit('<b>Fort')
+    .skip('(')
+    .take(), ';'), ')'));
+
+  const ac_special = miscs ? parenSplit(miscs).map(descr => ({ descr })) : null;
   
-  console.log(`found armor class: ${JSON.stringify(ac)} ${JSON.stringify(ac_special)}`);
+  found('armor class', ac);
+  found('armor special', ac_special);
+  
   return { ac, ac_special };
 }
 

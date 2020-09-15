@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function perceptionParser(haystack) {
@@ -9,7 +10,7 @@ function perceptionParser(haystack) {
     .skip('+')
     .takeNumber();
   
-  console.log(`found alignment: ${perception}`);
+  found('alignment', perception);
   return { perception };
 }
 

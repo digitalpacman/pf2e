@@ -32,13 +32,12 @@
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"nodemon server/http.js\"",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
     "host": "nodemon server/http.js",
     "xtest": "jest",
     "parse": "node scraper/parse",
-    "scrape": "node scraper/scrape",
-    "scrape-test": "jest"
+    "scrape": "node scraper/scrape"
   },
   "eslintConfig": {
     "extends": "react-app"

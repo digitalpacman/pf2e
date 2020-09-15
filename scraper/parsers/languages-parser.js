@@ -1,6 +1,7 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
-const parenSplit = require('./paren-split');
+const { parenSplit } = require('./paren-split');
+const { has, skip } = require('./navigation');
 
 function languagesParser(haystack) {
   if (!has({ haystack, needle: '<b>Languages</b>'})) {
@@ -11,7 +12,7 @@ function languagesParser(haystack) {
     .take('<br />');
   const languages = parenSplit(removeHtml(languagesHtml));
   
-  console.log(`found languages: ${languages}`);
+  found('languages', languages);
   return { languages };
 }
 

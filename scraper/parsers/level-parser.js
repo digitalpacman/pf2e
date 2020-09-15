@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function levelParser(haystack) {
@@ -5,10 +6,9 @@ function levelParser(haystack) {
     return;
   }
 
-  const level = skip({ haystack, needle: '>Creature ' })
-    .take('<');
+  const level = skip({ haystack, needle: '>Creature ' }).takeNumber();
   
-  console.log(`found level: ${level}`);
+  found('level', level);
   return { level };
 }
 

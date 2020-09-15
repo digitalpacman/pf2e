@@ -1,6 +1,7 @@
-const { has, skip } = require('./navigation');
-const parenSplit = require('./paren-split');
+const found = require('./found');
+const { parenSplit } = require('./paren-split');
 const removeHtml = require('./remove-html');
+const { has, skip } = require('./navigation');
 
 function sensesParser(haystack) {
   if (!has({ haystack, needle: '<b>Perception</b>'})) {
@@ -19,7 +20,7 @@ function sensesParser(haystack) {
     .map(x => x.trim())
     .filter(x => x.length > 0);
 
-  console.log(`found senses: ${senses}`);
+  found('senses', senses);
   return { senses };
 }
 

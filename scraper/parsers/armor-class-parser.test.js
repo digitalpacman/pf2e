@@ -11,3 +11,26 @@ it('parse armor class from aasimar redeemer', () => {
     ]
   });
 });
+
+it('parse armor class from werewolf', () => {
+  const input = `<b>AC</b> 19; <b>Fort</b> +11, <b>Ref</b> +9, <b>Will</b> +7<br /><b>HP</b> 63; <b>Weaknesses</b> silver 5<br /><b>Attack of Opportunity</b> <img class="actiondark" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction.png"><img class="actionlight" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction_I.png">`;
+  const fields = armorClassParser(input);
+
+  expect(fields).toEqual({
+    ac: 19,
+    ac_special: null,
+  });
+});
+
+it('parse armor class from duskwalker ghost hunter', () => {
+  const input = `<b>AC</b> 21 (22 against prey; see Hunt Prey); <b>Fort</b> +9, <b>Ref</b> +12, <b>Will</b> +10; +1 status to all saves vs. death effects<br /><b>HP</b> 56; <b>Immunities</b> effects that would transform their body or soul to an undead; <b>Resistances</b> negative energy 2`;
+  const fields = armorClassParser(input);
+
+  expect(fields).toEqual({
+    ac: 21,
+    ac_special: [
+      { descr: '22 against prey' },
+      { descr: 'see Hunt Prey' },
+    ],
+  });
+});

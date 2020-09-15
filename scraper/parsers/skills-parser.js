@@ -1,7 +1,7 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
-const parenSplit = require('./paren-split');
-const { br } = require('./constants');
+const { parenSplit } = require('./paren-split');
+const { has, skip, br } = require('./navigation');
 
 function skillsParser(haystack) {
   if (!has({ haystack, needle: '<b>Skills</b>'})) {
@@ -18,7 +18,7 @@ function skillsParser(haystack) {
       return { name, bonus, misc };
     });
   
-  console.log(`found skills: ${JSON.stringify(skills)}`);
+  found('skills', skills);
   return { skills };
 }
 

@@ -1,6 +1,7 @@
-const { has, skip } = require('./navigation');
+const found = require('./found');
 const removeHtml = require('./remove-html');
-const parenSplit = require('./paren-split');
+const { parenSplit } = require('./paren-split');
+const { has, skip } = require('./navigation');
 
 function itemsParser(haystack) {
   if (!has({ haystack, needle: '<b>Items</b>'})) {
@@ -9,7 +10,7 @@ function itemsParser(haystack) {
 
   const items = parenSplit(removeHtml(skip({ haystack, needle: '<b>Items</b>' }).take()));
   
-  console.log(`found items: ${JSON.stringify(items)}`);
+  found('items', items);
   return { items };
 }
 

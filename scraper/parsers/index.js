@@ -19,6 +19,9 @@ const sourcesParser = require('./sources-parser');
 const speedsParser = require('./speeds-parser');
 const traitsParser = require('./traits-parser');
 const weaknessesParser = require('./weaknesses-parser');
+const senseAbilitiesParser = require('./sense-abilities-parser');
+const automaticAbilitiesParser = require('./automatic-abilities-parser');
+const activeAbilitiesParser = require('./active-abilities-parser');
 
 module.exports = [
   nameParser,
@@ -42,4 +45,7 @@ module.exports = [
   speedsParser,
   traitsParser,
   weaknessesParser,
+  senseAbilitiesParser,
+  automaticAbilitiesParser,
+  activeAbilitiesParser,
 ];

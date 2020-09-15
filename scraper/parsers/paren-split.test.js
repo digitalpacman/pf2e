@@ -1,4 +1,4 @@
-const parenSplit = require('./paren-split');
+const { parenSplit } = require('./paren-split');
 
 it('single item split', () => {
   const parts = parenSplit('foo');

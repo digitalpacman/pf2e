@@ -1,3 +1,4 @@
+const found = require('./found');
 const { has, skip } = require('./navigation');
 
 function nameParser(haystack) {
@@ -8,7 +9,8 @@ function nameParser(haystack) {
   const name = skip({ haystack, needle: 'Monsters.aspx'})
     .skip('>')
     .take('<');
-  console.log(`found name: ${name}`);
+    
+  found('name', name);
   return { name };
 }
 

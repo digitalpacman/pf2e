@@ -17,7 +17,27 @@ function skip({ haystack, needle }) {
     take: (needle) => take({ haystack, needle }),
     takeNumber: () => takeNumber({ haystack }),
     limit: (needle) => limit({ haystack, needle }),
+    next: (needle) => next({ haystack, needle }),
   };
+}
+
+function next({ haystack, needle }) {
+  for (let i = 0; i < haystack.length - needle.length; ++i) {
+    const char = haystack[i];
+    if (char !== ' ') {
+      if (haystack.substr(i, needle.length) === needle) {
+        haystack = haystack.substr(0, i);
+      }
+    }
+  }
+
+  return {
+    skip: (needle) => skip({ haystack, needle }),
+    take: (needle) => take({ haystack, needle }),
+    takeNumber: () => takeNumber({ haystack }),
+    limit: (needle) => limit({ haystack, needle }),
+    next: (needle) => next({ haystack, needle }),
+  }
 }
 
 function limit({ haystack, needle }) {
@@ -31,6 +51,7 @@ function limit({ haystack, needle }) {
     take: (needle) => take({ haystack, needle }),
     takeNumber: () => takeNumber({ haystack }),
     limit: (needle) => limit({ haystack, needle }),
+    next: (needle) => next({ haystack, needle }),
   }
 }
 
@@ -61,8 +82,13 @@ function take({ haystack, needle }) {
   return taken;
 }
 
+const br = '<br />';
+const hangingIndent = '<span class="hanging-indent">';
+
 module.exports = {
   has, 
   skip,
   take,
+  br,
+  hangingIndent,
 };
