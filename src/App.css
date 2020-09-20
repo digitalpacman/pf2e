@@ -1,10 +1,10 @@
 html {
   box-sizing: border-box;
-  height: 100%
+  height: 100vh;
 }
 
 #root {
-  height: 100%
+  height: 100vh
 }
 
 *, *:before, *:after {
@@ -59,9 +59,12 @@ li {
   }
 }
 
-.name {
-  color: #a26655;
+/* .name {
   font-size: 2em;
+} */
+
+.level {
+  margin: 0;
 }
 
 .trait {
@@ -381,12 +384,8 @@ body {
 }
 
 .monster-detail-wrapper {
-  height: 100%
-}
-
-.monster {
-  padding: 10px;
-  background-image: url();
+  height: 100%;
+  margin: 50px 25px 0 15px;
 }
 
 .form-field-label {
@@ -509,6 +508,71 @@ input {
   transform: rotate(90deg);
 }
 
+.monster {
+  display: flex;
+}
+
+.monster-image {
+  height: 157px;
+  width: 68px;
+}
+
+.monster-detail-heading-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding-bottom: -2px;
+}
+
+.monster-heading {
+  margin-bottom: 0;
+  line-height:23px;
+}
+
+.level {
+  align-self: flex-end;
+  line-height:23px;
+}
+
+.traits {
+  margin-top: 6px;
+}
+
+@font-face {
+  font-family: 'Booksanity';
+  src: local('Booksanity'), url(./fonts/Bookinsanity.otf) format('opentype');
+}
+
+.booksanity {
+  font-family: Booksanity;
+}
+
+@font-face {
+  font-family: 'ScalySans';
+  src: local('ScalySans'), url(./fonts/Scaly\ Sans.otf) format('opentype');
+}
+
+.scaly-sans {
+  font-family: ScalySans;
+}
+
+@font-face {
+  font-family: 'SolberaImitation';
+  src: local('SolberaImitation'), url(./fonts/Solbera\ Imitation.otf) format('opentype');
+}
+
+.solbera-imitation {
+  font-family: SolberaImitation;
+}
+
+@font-face {
+  font-family: 'ZatannaMisdirection';
+  src: local('ZatannaMisdirection'), url(./fonts/Zatanna\ Misdirection.otf) format('opentype');
+}
+
+.zatanna-misdirection {
+  font-family: ZatannaMisdirection;
+}
 
 .tan-background {
   height: 100%;

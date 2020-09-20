@@ -7,8 +7,6 @@ export const MonsterDetailPage = ({ entries }) => {
   const { monsterPath } = useParams();
   const selected = entries.find(x => x.path === monsterPath);
   return (
-    <div className="monster-detail-wrapper">
       <MonsterDetail monster={selected} />
-    </div>
   );
 };
