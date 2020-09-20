@@ -3,7 +3,26 @@ import './App.css';
 import * as renderer from './renderers';
 
 export const MonsterDetail = ({monster}) => {
-  console.log(monster)
+  console.log(monster);
+
+  if (!monster) {
+    return null;
+  }
+
+  const traits = monster.traits || [];
+  if (monster.size) {
+    traits.unshift(monster.size);
+  }
+  if (monster.alignment) {
+    traits.unshift(monster.alignment);
+  }
+  if (monster.rarity) {
+    traits.unshift(monster.rarity);
+  }
+
+  const senses = monster.senses || [];
+  senses.unshift(`Perception +${monster.perception}`);
+
   return (
     <div key={monster.name} className="monster tan-background">
       <h1 className="monster-heading">
@@ -16,8 +35,8 @@ export const MonsterDetail = ({monster}) => {
       {monster.description && <div className="description">
         {renderer.markdown(monster.description)}
       </div>}
-      {monster.source && <div className="sources">
-        <strong>Source</strong> {monster.source.map(renderer.renderSource)}
+      {monster.sources && <div className="sources">
+        <strong>Source</strong> {monster.sources.map(renderer.renderSource)}
       </div>}
       {monster.senses && <div className="senses">
         <strong>Senses</strong> {monster.senses.map(renderer.renderCsv)}
@@ -65,11 +84,11 @@ export const MonsterDetail = ({monster}) => {
       </div>
       <hr />
       {monster.speed && <div><strong>Speed</strong> {monster.speed.map(a => renderer.renderSpeed(a, monster))}</div>}
-      <div>{monster.melee?.map(attack => renderer.renderMeleeAttack(monster, attack))}</div>
-      <div>{monster.ranged?.map(attack => renderer.renderRangedAttack(monster, attack))}</div>
+      <div>{monster.melee_attacks?.map(attack => renderer.renderMeleeAttack(monster, attack))}</div>
+      <div>{monster.ranged_attacks?.map(attack => renderer.renderRangedAttack(monster, attack))}</div>
       {monster.spell_lists?.map(renderer.renderSpellList)}
       <div>
-        {monster.proactive_abilities?.map(a => renderer.renderAbility(a, monster))}
+        {monster.active_abilities?.map(a => renderer.renderAbility(a, monster))}
       </div>
       {monster.ritual_lists?.map(renderer.renderSpellList)}
     </div>

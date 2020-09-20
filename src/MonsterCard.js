@@ -12,7 +12,7 @@ export const MonsterCard = ({monster}) => {
           </h3>
         </div>
         <div className="monster-card-traits">
-          {monster.traits.map(trait => <span key={monster.name + trait} className="chip trait-chip">{trait}</span>)}
+          {monster.traits?.map(trait => <span key={monster.name + trait} className="chip trait-chip">{trait}</span>)}
         </div>
       </div>
     );

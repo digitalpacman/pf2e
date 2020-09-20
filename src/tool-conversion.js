@@ -83,7 +83,6 @@ export const fromSpells = (o) => {
 
   t.spell_groups = groups?.map(x => ({
     level: x.level,
-    heightened_level: x.level === 0 ? o.cantriplevel || 0 : undefined,
     spells: x.spells.map(s => ({
       name: s,
     }))

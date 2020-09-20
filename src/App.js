@@ -189,16 +189,17 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      const response = await fetch('/monster-entries.js');
+      const response = await fetch('/monster-entries.json');
       const paizoMonsters = await response.json();
       const response2 = await fetch('/api/custom-monsters');
       const customMonsters = response2.ok ? await response2.json() : [];
-      for (const monster of customMonsters) {
+      entries = paizoMonsters.concat(customMonsters);
+      for (const monster of entries) {
         monster.search_text = `${monster.name} ${monster.description} ${monster.level} ${monster.size}
           ${monster.immunities?.join(' ')} ${monster.languages?.join(' ')} ${monster.traits?.join(' ')} 
           ${monster.items?.join(' ')}`;
       }
-      entries = paizoMonsters.concat(customMonsters);
+      console.log(entries);
       init();
     })();
   }, []);

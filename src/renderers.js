@@ -63,23 +63,32 @@ export const markdown = (html) => {
   return null;
 };
 
-export const renderAbility = (x, m) => {
-  const actionCost = x.action_cost ? (<span>{actionCostImage(x.action_cost)}</span>) : null;
-  const trigger = x.trigger ? (<span><strong>Trigger</strong> {markdown(x.trigger)}</span>) : null;
-  const requirements = x.requirements ? (<span><strong>Requirements</strong> {markdown(x.requirements)}</span>) : null;
-  const effect = x.effect ? (<span><strong>Effect</strong> {markdown(x.effect)}</span>) : null;
-  const critical_success = x.critical_success ? (<div className="save-result"><strong>Critical Success</strong> {x.critical_success}</div>) : null;
-  const success = x.success ? (<div className="save-result"><strong>Success</strong> {x.success}</div>) : null;
-  const failure = x.failure ? (<div className="save-result"><strong>Failure</strong> {x.failure}</div>) : null;
-  const critical_failure = x.critical_failure ? (<div className="save-result"><strong>Critical Failure</strong> {x.critical_failure}</div>) : null;
-  const traits = x.traits ? (<span>({x.traits.map(renderCsv)})</span>) : null;
-  const frequency = x.frequency ? (<span><strong>Frequency</strong> {x.frequency}</span>) : null;
-  const description = x.description ? markdown(x.description) : null;
-  const genericDescription = x.generic_description ? markdown('. ' + x.generic_description) : null;
-  const effects = x.effects ? (<div className="effects">{x.effects.map(renderAbility)}</div>) : null;
+export const renderAbility = ({
+  name, action_cost, traits, frequency, range, description,
+  trigger, requirements, effect,
+  critical_success, success, failure, critical_failure,
+  saving_throw, maximum_duration, stages,
+}) => {
 
   return (
-    <div key={x.name} className="ability"><strong>{x.name}</strong> {actionCost} {traits} {frequency} {description}{genericDescription} {requirements} {trigger} {effect} {critical_success} {success} {failure} {critical_failure} {effects}</div>
+    <div key={name} className="ability">
+      <strong>{name}</strong> 
+      {action_cost && <span>{actionCostImage(action_cost)}</span>}
+      {traits && <span>({traits.map(renderCsv)})</span>}
+      {range && `${range}. `}
+      {frequency && <span><strong>Frequency</strong> {markdown(frequency)}</span>}
+      {markdown(description)}
+      {requirements && <span><strong>Requirements</strong> {markdown(requirements)}</span>}
+      {trigger && <span><strong>Trigger</strong> {markdown(trigger)}</span>}
+      {effect && <span><strong>Effect</strong> {markdown(effect)}</span>}
+      {critical_success && <div className="save-result"><strong>Critical Success</strong> {markdown(critical_success)}</div>}
+      {success && <div className="save-result"><strong>Success</strong> {markdown(success)}</div>}
+      {failure && <div className="save-result"><strong>Failure</strong> {markdown(failure)}</div>}
+      {critical_failure && <div className="save-result"><strong>Critical Failure</strong> {markdown(critical_failure)}</div>}
+      {saving_throw && <span><strong>Saving Throw</strong> {markdown(saving_throw)}</span>}
+      {maximum_duration && <span><strong>Maximum Duration</strong> {markdown(maximum_duration)}</span>}
+      {stages?.map((stage, i) => <span key={i}><strong>Stage {i+1}</strong> {markdown(stage)}</span>)}
+    </div>
   );
 };
 
@@ -96,43 +105,42 @@ export const toArray = (o) => {
   return Object.entries(o).map(x => ({ name: x[0], value: x[1] }));
 };
 
-export const renderSpellList = (spellList) => {
-  const spells = spellList.spell_groups.filter(x => x.level != 0 && x.level != -1);
-  const cantrips = spellList.spell_groups.filter(x => x.level == 0);
-  const constants = spellList.spell_groups.filter(x => x.level == -1);
-  const dc = spellList.dc ? `DC ${spellList.dc}` : null;
-  const to_hit = spellList.to_hit ? `attack +${spellList.to_hit}` : null;
-  const misc = dc && spellList.to_hit ? (<span> {dc}, {to_hit}; </span>) :
-    dc ? (<span> {dc}; </span>) :
-      to_hit ? (<span> {to_hit}; </span>) :
-        '; ';
+export const renderSpellList = ({ spells_source, spell_lists, cantrips, constants, dc, attack_bonus, misc }) => {
+  const dcComponent = dc && `DC ${dc}`;
+  const attackBonusComponent = attack_bonus && `attack +${attack_bonus}`;
+  const miscComponent = [
+    { key: 'dc', component: dcComponent },
+    { key: 'attack bonus', component: attackBonusComponent },
+    { key: 'misc', component: misc },
+  ].filter(x => x.component).map(x => <React.Fragment key={x.key}> {x.component}, </React.Fragment>);
 
   return (
-    <div key={spellList.name}>
-      <strong>{spellList.name}</strong>{misc}
-      {spells.map(renderSpellGroup)}
-      {ifExists(cantrips.length > 0, (<strong>Cantrips</strong>))} {cantrips.map(renderSpellGroup)}
-      {ifExists(constants.length > 0, (<strong>Constant</strong>))} {constants.map(renderSpellGroup)}
+    <div key={spells_source}>
+      <strong>{spells_source}</strong>
+      {miscComponent}
+      {spell_lists?.map(renderSpellGroup)}
+      {cantrips?.length > 0 && (<strong>Cantrips</strong>)} {cantrips?.map(renderSpellGroup)}
+      {constants?.length > 0 && (<strong>Constant</strong>)} {constants?.map(renderSpellGroup)}
     </div>
   );
 };
 
 export const levelTextEnding = (level) => {
-  if (level === '1') {
+  if (level === 1) {
     return `${level}st`;
   }
-  if (level === '2') {
+  if (level === 2) {
     return `${level}nd`;
   }
-  if (level === '3') {
+  if (level === 3) {
     return `${level}rd`;
   }
   return `${level}th`;
 };
 
 export const renderSpellGroup = (spellGroup) => {
-  const levelText = levelTextEnding(spellGroup.level > 0 ? spellGroup.level : spellGroup.heightened_level);
-  const level = spellGroup.level > 0 ? (<strong>{levelText}</strong>) : (<strong>({levelText})</strong>);
+  const levelText = levelTextEnding(spellGroup.level);
+  const level = <strong>{levelText}</strong>;
   return (
     <span key={levelText} className="scsv">{level} {spellGroup.spells.map(renderSpell)}</span>
   );
@@ -140,7 +148,9 @@ export const renderSpellGroup = (spellGroup) => {
 
 export const renderSpell = (spell) => {
   return (
-    <span key={spell.name} className="csv">{ifExists(spell.requirement, (<span>({spell.requirement})</span>))} {spell.name}{ifExists(spell.frequency, ` (${spell.frequency})`)}</span>
+    <span key={spell.name} className="csv">
+      {spell.name}
+      {spell.misc && ` (${spell.misc})`}</span>
   );
 };
 
@@ -182,13 +192,6 @@ export const renderAttack = (monster, attack, kind) => {
     console.error(attack)
     throw err;
   }
-};
-
-export const ifExists = (check, block) => {
-  if (check) {
-    return block;
-  }
-  return null;
 };
 
 export const renderSource = (source, i) => {
