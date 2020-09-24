@@ -72,7 +72,7 @@ li {
   color: #eee;
   border: #cbc18f solid 4px;
   border-width: 4px 0 4px 4px;
-  padding: 2px;
+  padding: 2px 4px;
 }
 
 .trait:last-child {
@@ -385,7 +385,7 @@ body {
 
 .monster-detail-wrapper {
   height: 100%;
-  margin: 50px 25px 0 15px;
+  margin: 15px 25px 0 15px;
 }
 
 .form-field-label {
@@ -521,7 +521,6 @@ input {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid black;
-  padding-bottom: -2px;
 }
 
 .monster-heading {
@@ -573,6 +572,16 @@ input {
 .zatanna-misdirection {
   font-family: ZatannaMisdirection;
 }
+
+@font-face {
+  font-family: 'MrEavesSmallCaps';
+  src: local('MrEavesSmallCaps'), url(./fonts/Mr\ Eaves\ Small\ Caps.otf) format('opentype');
+}
+
+.mr-eaves {
+  font-family: MrEavesSmallCaps;
+}
+
 
 .tan-background {
   height: 100%;

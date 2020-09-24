@@ -28,15 +28,16 @@ export const MonsterDetail = ({monster}) => {
     <div key={monster.name} className="monster tan-background">
       <img className="monster-image" src={monsterImage}/>
       <div className="monster-detail-wrapper">        
-          <div className="monster-detail-heading-section">
-          <h1 className="monster-heading">
-            <a className="name booksanity" href={monster.url}>{monster.name}</a>
-          </h1>
-            <h1 className="level booksanity">Level {monster.level}</h1>
+          <div className="monster-detail-heading-section mr-eaves">
+            <h1 className="monster-heading">
+              <a className="name" href={monster.url}>{monster.name}</a>
+            </h1>
+            <h2 className="level">Level {monster.level}</h2>
           </div>
-        {monster.traits && <h2 className="traits">
+        {monster.traits && <h3 className="traits">
           {monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
-        </h2>}
+        </h3>}
+        <div className="scaly-sans">
         {monster.description && <div className="description">
           {renderer.markdown(monster.description)}
         </div>}
@@ -96,6 +97,7 @@ export const MonsterDetail = ({monster}) => {
           {monster.active_abilities?.map(a => renderer.renderAbility(a, monster))}
         </div>
         {monster.ritual_lists?.map(renderer.renderSpellList)}
+        </div>
       </div>
     </div>
   );
