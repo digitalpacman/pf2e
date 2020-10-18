@@ -92,7 +92,7 @@ it('parse spells from elder wyrmwraith', () => {
 
   const fields = abilityParser(input);
 
-  const names = fields.spell_lists.map(x => x.spells_source);
+  const names = fields.active_abilities.map(x => x.name);
 
   expect(names).toEqual([
     'Breath Weapon',

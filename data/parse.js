@@ -33,4 +33,5 @@ for (let file of files) {
 if (!options.monster && options.write) {
   monsters.sort((a, b) => a.name === b.name ? 0 : a.name < b.name ? -1 : 1);
   fs.writeFileSync(outJsonMonsters, JSON.stringify(monsters, null, 2));
+  console.log(`wrote json to ${outJsonMonsters}`);
 }

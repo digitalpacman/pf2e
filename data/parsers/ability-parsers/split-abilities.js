@@ -2,9 +2,9 @@ const { br, hangingIndent } = require('../navigation');
 const removeHtml = require('../remove-html');
 const subSections = require('./ability-sub-sections');
 
+const pattern = `(?=${br}\\s*<b>(?!${subSections.join('|')}))${br}|${hangingIndent}|</span>`
 
 function splitAbilities(abilitiesBlock) {
-  const pattern = `(?=${br}\\s*<b>)${br}|${hangingIndent}|</span>`;
   return abilitiesBlock.split(new RegExp(pattern, 'gi'))
     .map(x => x.trim())
     .filter(x => x.length > 0)
