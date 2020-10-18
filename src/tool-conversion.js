@@ -162,9 +162,11 @@ export const fromStrike = (o) => {
   const t = {};
   t.action_cost = 'One Action';
   const damage = fromDamage(o.damage);
-  t.damage = { formula: damage.formula, type: damage.type };
-  t.plus_damage = damage.plusDamage;
-  t.to_hit = parseInt(o.attack) || 0;
+  t.damage = [
+    { formula: damage.formula, type: damage.type },
+    ...(damage.plusDamage || [])
+  ];
+  t.attack_bonus = parseInt(o.attack) || 0;
   t.traits = split(o.traits);
   return t;
 };

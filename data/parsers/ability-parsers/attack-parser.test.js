@@ -6,7 +6,6 @@ const template = {
   to_hit: null,
   traits: null,
   damage: null,
-  plus_damage: null,
 };
 
 it('parse melee attack frost longspear from gelugon', () => {
@@ -20,11 +19,8 @@ it('parse melee attack frost longspear from gelugon', () => {
     name: 'frost longspear',
     to_hit: 28,
     traits: ['cold','evil','magical','reach 15 feet'],
-    damage: {
-      formula: '2d8+12',
-      type: 'piercing',
-    },
-    plus_damage: [
+    damage: [
+      { formula: '2d8+12', type: 'piercing', },
       { formula: '1d6', type: 'cold' },
       { formula: '1d6', type: 'evil' },
       { formula: null, type: 'slowing frost' },
@@ -43,11 +39,8 @@ it('parse melee attack tail from gelugon', () => {
     name: 'tail',
     to_hit: 25,
     traits: ['agile','cold','evil','magical','reach 10 feet'],
-    damage: {
-      formula: '2d6+12',
-      type: 'bludgeoning',
-    },
-    plus_damage: [
+    damage: [
+      { formula: '2d6+12', type: 'bludgeoning' },
       { formula: '2d6', type: 'cold' },
       { formula: '1d6', type: 'evil' },
       { formula: null, type: 'slowing frost' },
@@ -66,11 +59,8 @@ it('parse ranged attack frost longspear from gelugon', () => {
     name: 'frost longspear',
     to_hit: 27,
     traits: ['cold','magical','thrown 20 feet'],
-    damage: {
-      formula: '2d8+12',
-      type: 'piercing',
-    },
-    plus_damage: [
+    damage: [
+      { formula: '2d8+12', type: 'piercing' },
       { formula: '1d6', type: 'cold' },
     ],
   });
@@ -87,11 +77,10 @@ it('parse ranged attack sphere of oblivion from pleroma', () => {
     name: 'Sphere of Oblivion',
     to_hit: 37,
     traits: ['magical'],
-    damage: {
+    damage: [{
       formula: null,
       type: 'see Sphere of Oblivion',
-    },
-    plus_damage: null,
+    }],
   });
 });
 
@@ -106,8 +95,8 @@ it('parse melee fangs from aapoph serpentfolk', () => {
     name: 'fangs',
     to_hit: 11,
     traits: null,
-    damage: { formula: '1d8+6', type: 'piercing' },
-    plus_damage: [
+    damage: [
+      { formula: '1d8+6', type: 'piercing' },
       { formula: null, type: 'serpentfolk venom' },
     ],
   });

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AbilityEditor } from './ability-editor';
+import { AttackEditor } from './attack-editor';
 import { SimpleListEditor } from './simple-list-editor';
 import './App.css';
 
@@ -35,7 +36,8 @@ const fieldWriter = (obj, field, value) => {
 };
 
 const BasicValueEditor = ({monster, field, onChange}) => {
-  const value = fieldReader(monster, field) || '';
+  const readerValue = fieldReader(monster, field);
+  const value = readerValue === null ? '' : readerValue;
   const [state, setState] = useState({ value });
 
   const handleOnChange = (event) => {
@@ -157,6 +159,26 @@ const AbilityListEditor = ({monster, field, onChange}) => {
   );
 };
 
+const AttackListEditor = ({monster, field, onChange}) => {
+  const value = monster[field] || [];
+  const [state, setState] = useState({ value });
+
+  const handleOnChange = ({ attack, index }) => {
+    console.log(attack, index)
+    const value = [...state.value];
+    value[index] = attack;
+    monster[field] = value;
+    setState({ value });
+    onChange(monster);
+  };
+
+  return state.value.map((attack, i) => 
+    <div key={i}>
+      <AttackEditor index={i} attack={attack} onChange={handleOnChange} />
+    </div>
+  );
+};
+
 export const MonsterEditor = ({monster, onChange}) => {
   console.log(monster)
 
@@ -169,6 +191,7 @@ export const MonsterEditor = ({monster, onChange}) => {
       <div>Traits <SimpleListEditor monster={monster} field="traits" onChange={onChange} /></div>
       <div>Description <BasicTextEditor monster={monster} field="description" onChange={onChange} /></div>
       <div>Sources <SourceEditor monster={monster} field="source" onChange={onChange} /></div>
+      <div>Perception <BasicValueEditor monster={monster} field="perception" onChange={onChange} /></div>
       <div>Senses <SimpleListEditor monster={monster} field="senses" onChange={onChange} /></div>
       <div>Languages <SimpleListEditor monster={monster} field="languages" onChange={onChange} /></div>
 
@@ -202,9 +225,15 @@ export const MonsterEditor = ({monster, onChange}) => {
       <div>Speed <QuantifiedListEditor monster={monster} field="speed" onChange={onChange} /></div>
 
       <hr />
+      <div>Sense Abilities <AbilityListEditor monster={monster} field="sense_abilities" onChange={onChange} /></div>
+      <hr />
       <div>Automatic Abilities <AbilityListEditor monster={monster} field="automatic_abilities" onChange={onChange} /></div>
       <hr />
-      <div>Proactive Abilities <AbilityListEditor monster={monster} field="proactive_abilities" onChange={onChange} /></div>
+      <div>Melee Attacks <AttackListEditor monster={monster} field="melee_attacks" onChange={onChange} /></div>
+      <hr />
+      <div>Ranged Attacks <AttackListEditor monster={monster} field="ranged_attacks" onChange={onChange} /></div>
+      <hr />
+      <div>Active Abilities <AbilityListEditor monster={monster} field="active_abilities" onChange={onChange} /></div>
     </div>
   );
 

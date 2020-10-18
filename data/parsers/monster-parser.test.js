@@ -110,20 +110,11 @@ it('parse armor class from grim reaper', () => {
         action_cost: 'One Action',
         to_hit: 40,
         traits: ['agile','deadly 3d10','magical','reach 10 feet','trip'],
-        damage: {
-          formula: '4d10+23',
-          type: 'slashing'
-        },
-        plus_damage: [
-          {
-            formula: null,
-            type: 'death strike'
-          },
-          {
-            formula: null,
-            type: 'energy drain'
-          },
-        ]
+        damage: [
+          { formula: '4d10+23', type: 'slashing' },
+          { formula: null, type: 'death strike' },
+          { formula: null, type: 'energy drain' },
+        ],
       }
     ],
     ranged_attacks: null,

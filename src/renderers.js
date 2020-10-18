@@ -76,8 +76,8 @@ export const renderAbility = ({
       {action_cost && <span>{actionCostImage(action_cost)}</span>}
       {traits && <span>({traits.map(renderCsv)})</span>}
       {range && `${range}. `}
-      {frequency && <span><strong>Frequency</strong> {markdown(frequency)}</span>}
       {markdown(description)}
+      {frequency && <span><strong>Frequency</strong> {markdown(frequency)}</span>}
       {requirements && <span><strong>Requirements</strong> {markdown(requirements)}</span>}
       {trigger && <span><strong>Trigger</strong> {markdown(trigger)}</span>}
       {effect && <span><strong>Effect</strong> {markdown(effect)}</span>}
@@ -162,19 +162,18 @@ export const renderRangedAttack = (monster, attack) => {
   return renderAttack(monster, attack, 'Ranged');
 };
 
-export const renderDamageFormula = (damage, plusDamage) => {
-  const plus = plusDamage?.map(x => {
-    return (
-      <span key={x.formula + ' ' + x.type} className="csv oxford-comma">{x?.formula} {x?.type}</span>
-    );
-  });
+export const renderDamageFormula = (damage) => {
+  if (damage.length === 0) {
+    return '';
+  }
 
-  const plusSection = plus ? (
-    <span>plus {plus}</span>
-  ) : null;
+  damage = damage.map(({formula, type}, i) => {
+    const prefix = damage.length > 2 && i === damage.length - 1 ? ', and' : i > 0 ? ',' : '';
+    return [prefix, formula, type].filter(x => !!x).join(' ');
+  }).join('');
 
   return (
-    <span><strong>Damage</strong> {damage?.formula} {damage?.type} {plusSection}</span>
+    <span><strong>Damage</strong> {damage}</span>
   );
 };
 
@@ -183,7 +182,9 @@ export const renderAttack = (monster, attack, kind) => {
     const traits = attack.traits ? (<span> ({attack.traits?.map(renderCsv)})</span>) : null;
     return (
       <div key={attack.name}>
-        <strong>{kind}</strong> {actionCostImage(attack.action_cost)} {attack.name} {signed(attack.to_hit)}{traits}, {renderDamageFormula(attack.damage, attack.plus_damage)}
+        <strong>{kind}</strong> {actionCostImage(attack.action_cost)} {attack.name} {signed(attack.to_hit)}{traits},
+        {renderDamageFormula(attack.damage)}
+        {attack.effect && <span><strong>Effect</strong> {attack.effect}</span>}
       </div>
     );
   } catch (err) {
