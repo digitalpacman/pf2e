@@ -25,7 +25,7 @@ export const MonsterDetail = ({monster}) => {
   senses.unshift(`Perception +${monster.perception}`);
 
   return (
-    <div key={monster.name} className="monster tan-background">
+    <div key={monster.name} className="monster">
       <img className="monster-image" src={monsterImage}/>
       <div className="monster-detail-wrapper">        
           <div className="monster-detail-heading-section">

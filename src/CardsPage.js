@@ -19,7 +19,7 @@ export const CardsPage = ({ search, setSearch, entries, showDetailed, matched, o
   }
 
   return (
-    <div className="tan-background cards-page">
+    <div className="cards-page">
       <div className="search"><input className="search-box" type="text" placeholder="search" value={search} onChange={e => setSearch(e.target.value)} /></div>
       <div className="matched">matched {matched}</div>
       <ul className="cards">
