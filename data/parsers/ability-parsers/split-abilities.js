@@ -1,5 +1,7 @@
 const { br, hangingIndent } = require('../navigation');
 const removeHtml = require('../remove-html');
+const subSections = require('./ability-sub-sections');
+
 
 function splitAbilities(abilitiesBlock) {
   const pattern = `(?=${br}\\s*<b>)${br}|${hangingIndent}|</span>`;

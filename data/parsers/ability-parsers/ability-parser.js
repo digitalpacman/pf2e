@@ -4,27 +4,9 @@ const actionCostParser = require('../action-cost-parser');
 const trimit = require('../trimit');
 const { toMarkdown } = require('../to-markdown');
 const universalAbilities = require('../universal-abilities');
+const miniSections = require('./ability-sub-sections');
 
 const reg = /<b>((?:(?!<\/b>).)+)<\/b>(?:.*<img.*src="([^"]+)[^>]+>)?(?:\s*\((.*?)\))?(?:\s*(\d+ feet)\.?(?:, (DC \d+))?)?(.*)/i;
-
-const miniSections = [
-  'Requirements',
-  'Frequency',
-  'Effect',
-  'Trigger',
-  'Critical Success',
-  'Success',
-  'Failure',
-  'Critical Failure',
-  'Saving Throw',
-  'Maximum Duration',
-  'Stage 1',
-  'Stage 2',
-  'Stage 3',
-  'Stage 4',
-  'Stage 5',
-  'Stage 6',
-];
 
 function parseMiniSections(value) {
   const terminators = miniSections.join('|');
