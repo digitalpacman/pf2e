@@ -10,7 +10,7 @@ export const MonsterDetail = ({monster}) => {
     return null;
   }
 
-  const traits = monster.traits || [];
+  const traits = monster.traits?.slice() || [];
   if (monster.size) {
     traits.unshift(monster.size);
   }
@@ -21,7 +21,7 @@ export const MonsterDetail = ({monster}) => {
     traits.unshift(monster.rarity);
   }
 
-  const senses = monster.senses || [];
+  const senses = monster.senses?.slice() || [];
   senses.unshift(`Perception +${monster.perception}`);
 
   return (
@@ -44,8 +44,8 @@ export const MonsterDetail = ({monster}) => {
         {monster.sources && <div className="sources">
           <strong>Source</strong> {monster.sources.map(renderer.renderSource)}
         </div>}
-        {monster.senses && <div className="senses">
-          <strong>Senses</strong> {monster.senses.map(renderer.renderCsv)}
+        {senses && <div className="senses">
+          <strong>Senses</strong> {senses.map(renderer.renderCsv)}
         </div>}
         {monster.languages && <div className="languages">
           <strong>Languages</strong> {monster.languages.map(renderer.renderCsv)}
