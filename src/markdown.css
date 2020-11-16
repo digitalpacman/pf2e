@@ -63,6 +63,18 @@ p {
   text-indent: -1em;
 }
 
+strong ~ .markdown p {
+  margin: 0;
+  padding: 0;
+  padding-left: .5em;
+  text-indent: 0;
+}
+
+.description p {
+  padding-left: 0;
+  text-indent: 0;
+}
+
 .rolls p {
   padding-left: 1em;
   text-indent: 0;

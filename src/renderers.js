@@ -73,21 +73,21 @@ export const renderAbility = ({
   return (
     <div key={name} className="ability">
       <strong>{name}</strong> 
-      {action_cost && <span>{actionCostImage(action_cost)}</span>}
-      {traits && <span>({traits.map(renderCsv)})</span>}
+      {action_cost ? actionCostImage(action_cost) : ''}
+      {traits ? <span> ({traits.map(renderCsv)})</span>: ''}
       {range && `${range}. `}
       {markdown(description)}
       {frequency && <span><strong>Frequency</strong> {markdown(frequency)}</span>}
       {requirements && <span><strong>Requirements</strong> {markdown(requirements)}</span>}
-      {trigger && <span><strong>Trigger</strong> {markdown(trigger)}</span>}
-      {effect && <span><strong>Effect</strong> {markdown(effect)}</span>}
+      {trigger && <span><strong> Trigger</strong>{markdown(trigger)}</span>}
+      {effect && <span><strong> Effect</strong>{markdown(effect)}</span>}
       {critical_success && <div className="save-result"><strong>Critical Success</strong> {markdown(critical_success)}</div>}
       {success && <div className="save-result"><strong>Success</strong> {markdown(success)}</div>}
       {failure && <div className="save-result"><strong>Failure</strong> {markdown(failure)}</div>}
       {critical_failure && <div className="save-result"><strong>Critical Failure</strong> {markdown(critical_failure)}</div>}
-      {saving_throw && <span><strong>Saving Throw</strong> {markdown(saving_throw)}</span>}
-      {maximum_duration && <span><strong>Maximum Duration</strong> {markdown(maximum_duration)}</span>}
-      {stages?.map((stage, i) => <span key={i}><strong>Stage {i+1}</strong> {markdown(stage)}</span>)}
+      {saving_throw && <span><strong> Saving Throw</strong> {markdown(saving_throw)}</span>}
+      {maximum_duration && <span><strong> Maximum Duration</strong> {markdown(maximum_duration)}</span>}
+      {stages?.map((stage, i) => <span key={i}><strong> Stage {i+1}</strong> {markdown(stage)}</span>)}
     </div>
   );
 };
@@ -173,7 +173,7 @@ export const renderDamageFormula = (damage) => {
   }).join('');
 
   return (
-    <span><strong>Damage</strong> {damage}</span>
+    <span><strong> Damage</strong> {damage}</span>
   );
 };
 
@@ -187,7 +187,7 @@ export const renderAttack = (monster, attack, kind) => {
         {attack.effect && <span><strong>Effect</strong> {attack.effect}</span>}
       </div>
     );
-  } catch (err) {
+  } catch (err) {  
     console.error(err)
     console.error(monster)
     console.error(attack)
