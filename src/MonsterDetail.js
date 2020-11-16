@@ -28,11 +28,11 @@ export const MonsterDetail = ({monster}) => {
     <div key={monster.name} className="monster">
       <img className="monster-image" src={monsterImage}/>
       <div className="monster-detail-wrapper">        
-          <div className="monster-detail-heading-section mr-eaves">
-            <h1 className="monster-heading">
+          <div className="monster-detail-heading-section">
+            <h1 className="monster-heading viner-hand">
               <a className="name" href={monster.url}>{monster.name}</a>
             </h1>
-            <h2 className="level">Level {monster.level}</h2>
+            <h2 className="level mr-eaves">Level {monster.level}</h2>
           </div>
         {monster.traits && <h3 className="traits">
           {monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
