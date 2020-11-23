@@ -74,7 +74,7 @@ export const renderAbility = ({
     <div key={name} className="ability">
       <strong>{name}</strong> 
       {action_cost ? actionCostImage(action_cost) : ''}
-      {traits ? <span> ({traits.map(renderCsv)})</span>: ''}
+      {traits ? <span> ({traits.map(renderCsv)}) </span>: ''}
       {range && `${range}. `}
       {markdown(description)}
       {frequency && <span><strong>Frequency</strong> {markdown(frequency)}</span>}
@@ -123,6 +123,33 @@ export const renderSpellList = ({ spells_source, spell_lists, cantrips, constant
       {constants?.length > 0 && (<strong>Constant</strong>)} {constants?.map(renderSpellGroup)}
     </div>
   );
+};
+
+export const description = (description, sideText) => {
+  if (sideText) {
+    return (
+      <div className="desc-side-text-container">
+        <div className="seventy">
+          <div className="description">
+            {markdown(description)}
+          </div>
+        </div>
+        <div className="thirty">
+          <div className="side-text-wrapper">
+            <div className="side-text">
+              {markdown(sideText)}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+        <div className="description">
+          {markdown(description)}
+        </div>
+      );
+  }
 };
 
 export const levelTextEnding = (level) => {

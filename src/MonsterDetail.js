@@ -38,9 +38,7 @@ export const MonsterDetail = ({monster}) => {
           {monster.traits.map((trait, i) => renderer.renderTrait(trait, i))}
         </h3>}
         <div className="scaly-sans">
-        {monster.description && <div className="description">
-          {renderer.markdown(monster.description)}
-        </div>}
+        {renderer.description(monster.description, monster.side_text)}
         {monster.sources && <div className="sources">
           <strong>Source</strong> {monster.sources.map(renderer.renderSource)}
         </div>}

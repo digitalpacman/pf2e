@@ -59,18 +59,21 @@ blockquote {
 p {
   margin: 0;
   padding: 0;
-  padding-left: 1em;
-  text-indent: -1em;
 }
 
-strong ~ .markdown p {
+strong + .markdown p {
   margin: 0;
   padding: 0;
   padding-left: .5em;
   text-indent: 0;
 }
 
-.description p {
+.description  p {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.side-text  p {
   padding-left: 0;
   text-indent: 0;
 }
