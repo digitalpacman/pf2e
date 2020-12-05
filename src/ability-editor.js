@@ -25,6 +25,10 @@ export const AbilityEditor = ({ability, index, onChange}) => {
   };
 
   return <div>
+    {state.name} <button>Edit</button>
+  </div>;
+
+  return <div>
     Name <input type="text" value={state.name} onChange={createHandleOnChange('name')} />
     <select value={state.action_cost} onChange={createHandleOnChange('action_cost')}>
       <option>None</option>

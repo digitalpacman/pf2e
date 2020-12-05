@@ -183,57 +183,55 @@ export const MonsterEditor = ({monster, onChange}) => {
   console.log(monster)
 
   return (
-    <div>
-      <div>
+    <div className="editor-container">
+      <div className="editor-name">
         Name <BasicValueEditor monster={monster} field="name" onChange={onChange} />
       </div>
-      <div>Level <BasicValueEditor monster={monster} field="level" onChange={onChange} /></div>
-      <div>Traits <SimpleListEditor monster={monster} field="traits" onChange={onChange} /></div>
-      <div>Description <BasicTextEditor monster={monster} field="description" onChange={onChange} /></div>
-      <div>Sources <SourceEditor monster={monster} field="source" onChange={onChange} /></div>
-      <div>Perception <BasicValueEditor monster={monster} field="perception" onChange={onChange} /></div>
-      <div>Senses <SimpleListEditor monster={monster} field="senses" onChange={onChange} /></div>
-      <div>Languages <SimpleListEditor monster={monster} field="languages" onChange={onChange} /></div>
+      <div className="editor-level">Level <BasicValueEditor monster={monster} field="level" onChange={onChange} /></div>
+      <div className="editor-traits">Traits <SimpleListEditor monster={monster} field="traits" onChange={onChange} /></div>
+      <div className="editor-descr">Description <BasicTextEditor monster={monster} field="description" onChange={onChange} /></div>
+      <div className="editor-sources">Sources <SourceEditor monster={monster} field="source" onChange={onChange} /></div>
+      <div className="editor-perception">Perception <BasicValueEditor monster={monster} field="perception" onChange={onChange} /></div>
+      <div className="editor-senses">Senses <SimpleListEditor monster={monster} field="senses" onChange={onChange} /></div>
+      <div className="editor-languages">Languages <SimpleListEditor monster={monster} field="languages" onChange={onChange} /></div>
 
-      <div>Str <BasicValueEditor monster={monster} field="ability_mods.str_mod" onChange={onChange} /></div>
-      <div>Dex <BasicValueEditor monster={monster} field="ability_mods.dex_mod" onChange={onChange} /></div>
-      <div>Con <BasicValueEditor monster={monster} field="ability_mods.con_mod" onChange={onChange} /></div>
-      <div>Int <BasicValueEditor monster={monster} field="ability_mods.int_mod" onChange={onChange} /></div>
-      <div>Wis <BasicValueEditor monster={monster} field="ability_mods.wis_mod" onChange={onChange} /></div>
-      <div>Cha <BasicValueEditor monster={monster} field="ability_mods.cha_mod" onChange={onChange} /></div>
+      <div className="editor-physical-mods">
+        <div>Str <BasicValueEditor monster={monster} field="ability_mods.str_mod" onChange={onChange} /></div>
+        <div>Dex <BasicValueEditor monster={monster} field="ability_mods.dex_mod" onChange={onChange} /></div>
+        <div>Con <BasicValueEditor monster={monster} field="ability_mods.con_mod" onChange={onChange} /></div>
+      </div>
+      <div className="editor-mental-mods">
+        <div>Int <BasicValueEditor monster={monster} field="ability_mods.int_mod" onChange={onChange} /></div>
+        <div>Wis <BasicValueEditor monster={monster} field="ability_mods.wis_mod" onChange={onChange} /></div>
+        <div>Cha <BasicValueEditor monster={monster} field="ability_mods.cha_mod" onChange={onChange} /></div>
+      </div>
 
-      <div>Items <SimpleListEditor monster={monster} field="items" onChange={onChange} /></div>
-      <div>Armor Class <BasicValueEditor monster={monster} field="ac" onChange={onChange} /></div>
-      <div>Armor Class Special <ArmorClassEditor monster={monster} field="ac_special" onChange={onChange} /></div>
+      <div className="editor-items">Items <SimpleListEditor monster={monster} field="items" onChange={onChange} /></div>
+      <div className="editor-armor-class">Armor Class <BasicValueEditor monster={monster} field="ac" onChange={onChange} /></div>
+      <div className="editor-armor-class-misc">Armor Class Special <ArmorClassEditor monster={monster} field="ac_special" onChange={onChange} /></div>
 
-      <div>Fort <BasicValueEditor monster={monster} field="saves.fort" onChange={onChange} /></div>
-      <div>Ref <BasicValueEditor monster={monster} field="saves.ref" onChange={onChange} /></div>
-      <div>Will <BasicValueEditor monster={monster} field="saves.will" onChange={onChange} /></div>
+      <div class="editor-fort">Fort <BasicValueEditor monster={monster} field="saves.fort" onChange={onChange} /></div>
+      <div class="editor-fort-misc">Fort Misc <BasicValueEditor monster={monster} field="saves.fort_misc" onChange={onChange} /></div>
+      <div class="editor-ref">Ref <BasicValueEditor monster={monster} field="saves.ref" onChange={onChange} /></div>
+      <div class="editor-ref-misc">Ref Misc <BasicValueEditor monster={monster} field="saves.ref_misc" onChange={onChange} /></div>
+      <div class="editor-will">Will <BasicValueEditor monster={monster} field="saves.will" onChange={onChange} /></div>
+      <div class="editor-will-misc">Will Misc <BasicValueEditor monster={monster} field="saves.will_misc" onChange={onChange} /></div>
+      <div className="editor-saves-misc">Saves Misc <BasicValueEditor monster={monster} field="saves.misc" onChange={onChange} /></div>
 
-      <div>Fort Misc <BasicValueEditor monster={monster} field="saves.fort_misc" onChange={onChange} /></div>
-      <div>Ref Misc <BasicValueEditor monster={monster} field="saves.ref_misc" onChange={onChange} /></div>
-      <div>Will Misc <BasicValueEditor monster={monster} field="saves.will_misc" onChange={onChange} /></div>
-      <div>Saves Misc <BasicValueEditor monster={monster} field="saves.misc" onChange={onChange} /></div>
+      <div className="editor-hp">HP <BasicValueEditor monster={monster} field="hp" onChange={onChange} /></div>
+      <div className="editor-hp-misc">HP Misc <BasicValueEditor monster={monster} field="hp_misc" onChange={onChange} /></div>
 
-      <div>HP <BasicValueEditor monster={monster} field="hp" onChange={onChange} /></div>
-      <div>HP Misc <BasicValueEditor monster={monster} field="hp_misc" onChange={onChange} /></div>
+      <div className="editor-immunities">Immunities <SimpleListEditor monster={monster} field="immunities" onChange={onChange} /></div>
+      <div className="editor-resistances">Resistances <QuantifiedListEditor monster={monster} field="resistances" onChange={onChange} /></div>
+      <div className="editor-weaknesses">Weaknesses <QuantifiedListEditor monster={monster} field="weaknesses" onChange={onChange} /></div>
 
-      <div>Immunities <SimpleListEditor monster={monster} field="immunities" onChange={onChange} /></div>
-      <div>Resistances <QuantifiedListEditor monster={monster} field="resistances" onChange={onChange} /></div>
-      <div>Weaknesses <QuantifiedListEditor monster={monster} field="weaknesses" onChange={onChange} /></div>
+      <div className="editor-speed">Speed <QuantifiedListEditor monster={monster} field="speed" onChange={onChange} /></div>
 
-      <div>Speed <QuantifiedListEditor monster={monster} field="speed" onChange={onChange} /></div>
-
-      <hr />
-      <div>Sense Abilities <AbilityListEditor monster={monster} field="sense_abilities" onChange={onChange} /></div>
-      <hr />
-      <div>Automatic Abilities <AbilityListEditor monster={monster} field="automatic_abilities" onChange={onChange} /></div>
-      <hr />
-      <div>Melee Attacks <AttackListEditor monster={monster} field="melee_attacks" onChange={onChange} /></div>
-      <hr />
-      <div>Ranged Attacks <AttackListEditor monster={monster} field="ranged_attacks" onChange={onChange} /></div>
-      <hr />
-      <div>Active Abilities <AbilityListEditor monster={monster} field="active_abilities" onChange={onChange} /></div>
+      <div className="editor-abilities"><hr />Sense Abilities <AbilityListEditor monster={monster} field="sense_abilities" onChange={onChange} /></div>
+      <div className="editor-abilities"><hr />Automatic Abilities <AbilityListEditor monster={monster} field="automatic_abilities" onChange={onChange} /></div>
+      <div className="editor-abilities"><hr />Melee Attacks <AttackListEditor monster={monster} field="melee_attacks" onChange={onChange} /></div>
+      <div className="editor-abilities"><hr />Ranged Attacks <AttackListEditor monster={monster} field="ranged_attacks" onChange={onChange} /></div>
+      <div className="editor-abilities"><hr />Active Abilities <AbilityListEditor monster={monster} field="active_abilities" onChange={onChange} /></div>
     </div>
   );
 

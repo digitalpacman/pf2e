@@ -46,6 +46,10 @@ export const AttackEditor = ({attack, index, onChange}) => {
   };
 
   return <div>
+    {state.attack.name} <button>Edit</button>
+  </div>;
+  
+  return <div>
     Name <input type="text" value={state.attack.name} onChange={createHandleOnChange('name')} />
     <select value={state.attack.action_cost} onChange={createHandleOnChange('action_cost')}>
       <option>None</option>
