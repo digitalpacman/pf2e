@@ -210,12 +210,12 @@ export const MonsterEditor = ({monster, onChange}) => {
       <div className="editor-armor-class">Armor Class <BasicValueEditor monster={monster} field="ac" onChange={onChange} /></div>
       <div className="editor-armor-class-misc">Armor Class Special <ArmorClassEditor monster={monster} field="ac_special" onChange={onChange} /></div>
 
-      <div class="editor-fort">Fort <BasicValueEditor monster={monster} field="saves.fort" onChange={onChange} /></div>
-      <div class="editor-fort-misc">Fort Misc <BasicValueEditor monster={monster} field="saves.fort_misc" onChange={onChange} /></div>
-      <div class="editor-ref">Ref <BasicValueEditor monster={monster} field="saves.ref" onChange={onChange} /></div>
-      <div class="editor-ref-misc">Ref Misc <BasicValueEditor monster={monster} field="saves.ref_misc" onChange={onChange} /></div>
-      <div class="editor-will">Will <BasicValueEditor monster={monster} field="saves.will" onChange={onChange} /></div>
-      <div class="editor-will-misc">Will Misc <BasicValueEditor monster={monster} field="saves.will_misc" onChange={onChange} /></div>
+      <div className="editor-fort">Fort <BasicValueEditor monster={monster} field="saves.fort" onChange={onChange} /></div>
+      <div className="editor-fort-misc">Fort Misc <BasicValueEditor monster={monster} field="saves.fort_misc" onChange={onChange} /></div>
+      <div className="editor-ref">Ref <BasicValueEditor monster={monster} field="saves.ref" onChange={onChange} /></div>
+      <div className="editor-ref-misc">Ref Misc <BasicValueEditor monster={monster} field="saves.ref_misc" onChange={onChange} /></div>
+      <div className="editor-will">Will <BasicValueEditor monster={monster} field="saves.will" onChange={onChange} /></div>
+      <div className="editor-will-misc">Will Misc <BasicValueEditor monster={monster} field="saves.will_misc" onChange={onChange} /></div>
       <div className="editor-saves-misc">Saves Misc <BasicValueEditor monster={monster} field="saves.misc" onChange={onChange} /></div>
 
       <div className="editor-hp">HP <BasicValueEditor monster={monster} field="hp" onChange={onChange} /></div>
@@ -232,6 +232,10 @@ export const MonsterEditor = ({monster, onChange}) => {
       <div className="editor-abilities"><hr />Melee Attacks <AttackListEditor monster={monster} field="melee_attacks" onChange={onChange} /></div>
       <div className="editor-abilities"><hr />Ranged Attacks <AttackListEditor monster={monster} field="ranged_attacks" onChange={onChange} /></div>
       <div className="editor-abilities"><hr />Active Abilities <AbilityListEditor monster={monster} field="active_abilities" onChange={onChange} /></div>
+
+      <div className="ability-floater">
+        
+      </div>
     </div>
   );
 
