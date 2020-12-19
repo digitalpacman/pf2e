@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import monsterImage from './/monster-icon.png';
+import pageBorder from './page-border.png'
 import * as renderer from './renderers';
 
 export const MonsterDetail = ({monster}) => {
@@ -26,7 +27,10 @@ export const MonsterDetail = ({monster}) => {
 
   return (
     <div key={monster.name} className="monster">
-      <img className="monster-image" src={monsterImage}/>
+      <div>
+        <img className="monster-image" src={monsterImage}/>
+        <img className="page-border" src={pageBorder}/>
+      </div>
       <div className="monster-detail-wrapper">        
           <div className="monster-detail-heading-section">
             <h1 className="monster-heading viner-hand">

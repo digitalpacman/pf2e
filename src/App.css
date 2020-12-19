@@ -570,8 +570,16 @@ input {
 }
 
 .monster-image {
-  height: 157px;
+  position: relative;
+  height: 204px;
+  width: 88px;
+  z-index: 2;
+}
+
+.page-border {
   width: 68px;
+  margin-top: -20px;
+  z-index: 0;
 }
 
 .monster-detail-heading-section {
