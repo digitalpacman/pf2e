@@ -235,3 +235,31 @@ export const renderSave = (name, bonus, miscText) => {
     <span className="csv"><strong>{name}</strong> {signed(bonus)}{misc}</span>
   );
 };
+
+export const userPositionedMonsterImage = (image) => {
+  if(image && (image.position?.x || image.position?.y)) {
+    const left = image.position?.x ? image.position.x : '0';
+    const right = image.position?.y ? image.position.y : '0';
+    const style = {
+      left: left,
+      right: right,
+    }
+    return (
+      <div><img src={image.file} className="user-monster-detail-image" style={style}></img></div>
+    );
+  }
+}
+
+export const defaultPositionedMonsterImage = (image) => {
+  if(image && !image.position?.x && !image.position?.y) {
+    var urlString = `url(${image.file})`
+      const style = {
+      shapeOutside: urlString,
+      shapeThreshold: 1,
+      shapeMargin: '2%'
+    }
+    return (
+      <div><img src={image.file} className="monster-detail-image" style={style}></img></div>
+    );
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import monsterImage from './/monster-icon.png';
+import monsterImage from './monster-icon.png';
 import pageBorder from './page-border.png'
 import * as renderer from './renderers';
 
@@ -28,6 +28,7 @@ export const MonsterDetail = ({monster}) => {
   return (
     <div key={monster.name} className="monster">
       <div>
+        {renderer.userPositionedMonsterImage(monster.image)}
         <img className="monster-image" src={monsterImage}/>
         <img className="page-border" src={pageBorder}/>
       </div>
@@ -43,6 +44,8 @@ export const MonsterDetail = ({monster}) => {
         </h3>}
         <div className="scaly-sans">
         {renderer.description(monster.description, monster.side_text)}
+        <div>
+        {renderer.defaultPositionedMonsterImage(monster.image)}
         {monster.sources && <div className="sources">
           <strong>Source</strong> {monster.sources.map(renderer.renderSource)}
         </div>}
@@ -99,6 +102,7 @@ export const MonsterDetail = ({monster}) => {
           {monster.active_abilities?.map(a => renderer.renderAbility(a, monster))}
         </div>
         {monster.ritual_lists?.map(renderer.renderSpellList)}
+        </div>
         </div>
       </div>
     </div>

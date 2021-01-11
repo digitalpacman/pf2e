@@ -274,6 +274,7 @@ body {
   color:#fff;
   min-height: 2em;
   padding: .25em 2em;
+  z-index: 100;
 }
 
 .flex {
@@ -591,6 +592,20 @@ input {
 .monster-heading {
   margin-bottom: 0;
   line-height:23px;
+}
+
+.user-monster-detail-image {
+  position: absolute;
+  height:605px;
+  width:560px;
+  left:10px;
+  top:10px;
+}
+
+.monster-detail-image {
+  float: right;
+  height:605px;
+  width:560px;
 }
 
 .level {
