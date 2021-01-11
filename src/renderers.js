@@ -239,10 +239,10 @@ export const renderSave = (name, bonus, miscText) => {
 export const userPositionedMonsterImage = (image) => {
   if(image && (image.position?.x || image.position?.y)) {
     const left = image.position?.x ? image.position.x : '0';
-    const right = image.position?.y ? image.position.y : '0';
+    const top = image.position?.y ? image.position.y : '0';
     const style = {
       left: left,
-      right: right,
+      top: top,
     }
     return (
       <div><img src={image.file} className="user-monster-detail-image" style={style}></img></div>
