@@ -14,6 +14,8 @@ import { EncounterBuilderControls } from './EncounterBuilderControls';
 import 'typeface-roboto';
 import './App.css';
 import './Grid.css';
+import { ReactComponent as MenuIcon } from './menu-icon.svg';
+import { SideNavBar } from './SideNavBar';
 
 import {
   BrowserRouter as Router,
@@ -39,6 +41,7 @@ function App() {
     customError: null,
     token: null,
     loadMore: false,
+    showSideNav: false,
 
     builderSettingsVisible: false,
     enableEncounterBuilder: false,
@@ -341,132 +344,159 @@ function App() {
   const tempMonster = entries.find(x => x.name === 'Grim Reaper');
   console.log(tempMonster)
 
+  const showSideNav = () => {
+    const showSideNav = true;
+    setState({ ...state, showSideNav });
+    const overlay = document.getElementById('overlay');
+    overlay.style.pointerEvents = 'none';
+
+  }
+
+  const closeSideNav = () => {
+    const showSideNav = false;
+    setState({ ...state, showSideNav });
+    const overlay = document.getElementById('overlay');
+    overlay.style.pointerEvents = 'auto';
+  }
+
+  const overlayClass = state.showSideNav ? 'page-wrapper-overlay' : '';
+  const wrapperOnClick = (overlayClass == 'page-wrapper-overlay') ? closeSideNav : undefined;
+
   return (
     <Router>
-      <div className="page-wrapper">
-        <div className="top-bar">
-          <div className="flex">
-            <h3 className="top-bar-item">Pathfinder 2e Monster Library</h3>
-            <Link className="top-bar-link" to="/">Monsters</Link>
-            <Link className="top-bar-link" to="/create">Monster Builder</Link>
-            <Link className="top-bar-link" to="/createEncounter">Encounter Builder</Link>
+      <SideNavBar showSideNav={state.showSideNav} closeSideNav={closeSideNav}/>
+      <div className='page-wrapper' onClick={wrapperOnClick}>
+        <div id="overlay" className={overlayClass}>
+          <div className="top-bar desktop">
+            <div className="flex">
+              <h3 className="top-bar-item">Pathfinder 2e Monster Library</h3>
+              <Link className="nav-link" to="/">Monsters</Link>
+              <Link className="nav-link" to="/create">Monster Builder</Link>
+              <Link className="nav-link" to="/createEncounter">Encounter Builder</Link>
+            </div>
+          </div>
+
+          <div className="top-bar-mobile">
+            <div className="flex">
+            <MenuIcon className="menu-icon" onClick={showSideNav}/>
+              <h3 className="top-bar-item">Pathfinder 2e Monster Library</h3>
+            </div>
+          </div>
+
+          <div className="content">
+            <Switch>
+              <Route path="/template">
+                <Template />
+              </Route>
+              <Route path="/monster/:monsterPath">
+                <EncounterBuilderControls 
+                  encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
+                  expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                  monster={state.selected}
+                  addToEncounter={addToEncounter} 
+                  encounterXp={state.encounterXp} 
+                  encounterXpThreshold={state.encounterXpThreshold}
+                  encounterThreat={state.encounterThreat}
+                  encounterMonsters={state.encounterMonsters}
+                  closeEncounterBuilder={closeEncounterBuilder}
+                  removeFromEncounter={removeFromEncounter}/>
+                <MonsterDetailPage
+                  entries={list}
+                  addToEncounter={addToEncounter}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                />
+              </Route>
+              <Route path="/monster-3rd-party/:monsterPath">
+                <EncounterBuilderControls 
+                  encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
+                  expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                  monster={state.selected}
+                  numberPlayers={state.numberPlayers}
+                  addToEncounter={addToEncounter} 
+                  encounterXp={state.encounterXp} 
+                  encounterXpThreshold={state.encounterXpThreshold}
+                  encounterThreat={state.encounterThreat}
+                  encounterMonsters={state.encounterMonsters}
+                  closeEncounterBuilder={closeEncounterBuilder}
+                  removeFromEncounter={removeFromEncounter}/>
+                <MonsterDetailPage
+                  entries={entries}
+                  selected={state.selected}
+                  addToEncounter={addToEncounter}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                />
+              </Route>
+              <Route path="/create">
+                <EncounterBuilderControls 
+                  encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
+                  expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                  monster={state.selected}
+                  numberPlayers={state.numberPlayers}
+                  addToEncounter={addToEncounter} 
+                  encounterXp={state.encounterXp} 
+                  encounterXpThreshold={state.encounterXpThreshold}
+                  encounterThreat={state.encounterThreat}
+                  encounterMonsters={state.encounterMonsters}
+                  closeEncounterBuilder={closeEncounterBuilder}
+                  removeFromEncounter={removeFromEncounter}/>
+                <CreatePage 
+                  key={tempMonster?.name}
+                  tryLoadCustom={tryLoadCustom}
+                  handleSignIn={handleSignIn}
+                  saveCustomMonster={saveCustomMonster}
+                  monster={tempMonster}
+                />
+              </Route>
+              <Route path="/createEncounter">
+              <EncounterBuilderControls 
+                  encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
+                  expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                  monster={state.selected}
+                  numberPlayers={state.numberPlayers}
+                  addToEncounter={addToEncounter} 
+                  encounterXp={state.encounterXp} 
+                  encounterXpThreshold={state.encounterXpThreshold}
+                  encounterThreat={state.encounterThreat}
+                  encounterMonsters={state.encounterMonsters}
+                  closeEncounterBuilder={closeEncounterBuilder}
+                  removeFromEncounter={removeFromEncounter}/>
+                <CreateEncounterPage
+                  averagePartyLevel={state.averagePartyLevel}
+                  numberPlayers={state.numberPlayers}
+                  saveBuilderSettings={saveBuilderSettings}
+                />
+              </Route>
+              <Route path="/">
+                <EncounterBuilderControls 
+                  encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
+                  expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
+                  enableEncounterBuilder={state.enableEncounterBuilder}
+                  monster={state.selected}
+                  numberPlayers={state.numberPlayers}
+                  addToEncounter={addToEncounter} 
+                  encounterXp={state.encounterXp} 
+                  encounterXpThreshold={state.encounterXpThreshold}
+                  encounterThreat={state.encounterThreat}
+                  encounterMonsters={state.encounterMonsters}
+                  closeEncounterBuilder={closeEncounterBuilder}
+                  removeFromEncounter={removeFromEncounter}/>
+                <CardsPage 
+                  search={state.search}
+                  matched={state.entries.length}
+                  setSearch={setSearch}
+                  entries={state.entries}
+                  showDetailed={showDetailed} 
+                  onLoadMore={handleLoadMore}
+                  loadMore={state.loadMore}
+                />
+              </Route>
+            </Switch>
           </div>
         </div>
-
-        <div className="content">
-          <Switch>
-            <Route path="/template">
-              <Template />
-            </Route>
-            <Route path="/monster/:monsterPath">
-              <EncounterBuilderControls 
-                encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
-                expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-                monster={state.selected}
-                addToEncounter={addToEncounter} 
-                encounterXp={state.encounterXp} 
-                encounterXpThreshold={state.encounterXpThreshold}
-                encounterThreat={state.encounterThreat}
-                encounterMonsters={state.encounterMonsters}
-                closeEncounterBuilder={closeEncounterBuilder}
-                removeFromEncounter={removeFromEncounter}/>
-              <MonsterDetailPage
-                entries={list}
-                addToEncounter={addToEncounter}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-              />
-            </Route>
-            <Route path="/monster-3rd-party/:monsterPath">
-              <EncounterBuilderControls 
-                encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
-                expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-                monster={state.selected}
-                numberPlayers={state.numberPlayers}
-                addToEncounter={addToEncounter} 
-                encounterXp={state.encounterXp} 
-                encounterXpThreshold={state.encounterXpThreshold}
-                encounterThreat={state.encounterThreat}
-                encounterMonsters={state.encounterMonsters}
-                closeEncounterBuilder={closeEncounterBuilder}
-                removeFromEncounter={removeFromEncounter}/>
-              <MonsterDetailPage
-                entries={entries}
-                selected={state.selected}
-                addToEncounter={addToEncounter}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-              />
-            </Route>
-            <Route path="/create">
-              <EncounterBuilderControls 
-                encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
-                expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-                monster={state.selected}
-                numberPlayers={state.numberPlayers}
-                addToEncounter={addToEncounter} 
-                encounterXp={state.encounterXp} 
-                encounterXpThreshold={state.encounterXpThreshold}
-                encounterThreat={state.encounterThreat}
-                encounterMonsters={state.encounterMonsters}
-                closeEncounterBuilder={closeEncounterBuilder}
-                removeFromEncounter={removeFromEncounter}/>
-              <CreatePage 
-                key={tempMonster?.name}
-                tryLoadCustom={tryLoadCustom}
-                handleSignIn={handleSignIn}
-                saveCustomMonster={saveCustomMonster}
-                monster={tempMonster}
-              />
-            </Route>
-            <Route path="/createEncounter">
-            <EncounterBuilderControls 
-                encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
-                expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-                monster={state.selected}
-                numberPlayers={state.numberPlayers}
-                addToEncounter={addToEncounter} 
-                encounterXp={state.encounterXp} 
-                encounterXpThreshold={state.encounterXpThreshold}
-                encounterThreat={state.encounterThreat}
-                encounterMonsters={state.encounterMonsters}
-                closeEncounterBuilder={closeEncounterBuilder}
-                removeFromEncounter={removeFromEncounter}/>
-              <CreateEncounterPage
-                averagePartyLevel={state.averagePartyLevel}
-                numberPlayers={state.numberPlayers}
-                saveBuilderSettings={saveBuilderSettings}
-              />
-            </Route>
-            <Route path="/">
-              <EncounterBuilderControls 
-                encounterBuilderControlsExpanded={state.encounterBuilderControlsExpanded}
-                expandCollapseEncounterBuilder={expandCollapseEncounterBuilder}
-                enableEncounterBuilder={state.enableEncounterBuilder}
-                monster={state.selected}
-                numberPlayers={state.numberPlayers}
-                addToEncounter={addToEncounter} 
-                encounterXp={state.encounterXp} 
-                encounterXpThreshold={state.encounterXpThreshold}
-                encounterThreat={state.encounterThreat}
-                encounterMonsters={state.encounterMonsters}
-                closeEncounterBuilder={closeEncounterBuilder}
-                removeFromEncounter={removeFromEncounter}/>
-              <CardsPage 
-                search={state.search}
-                matched={state.entries.length}
-                setSearch={setSearch}
-                entries={state.entries}
-                showDetailed={showDetailed} 
-                onLoadMore={handleLoadMore}
-                loadMore={state.loadMore}
-              />
-            </Route>
-          </Switch>
-        </div>
-
       </div>
     </Router>
   );
