@@ -11,3 +11,14 @@ it('parse immunities from treerazer', () => {
     'poison',
   ]);
 });
+
+it('parse immunities from ancient brine dragon', () => {
+  const input = `<b>AC</b> 33; <b>Fort</b> +25, <b>Ref</b> +20, <b>Will</b> +21; +1 status to all saves vs. magic<br /><b>HP</b> 222; <b>Immunities</b> acid, <a style="text-decoration:underline" href="Conditions.aspx?ID=28">paralyzed</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=145">sleep</a><br /><b><a style="text-decoration:underline" href="MonsterAbilities.aspx?ID=17">Frightful Presence</a></b> (<a style="text-decoration:underline" href="Traits.aspx?ID=206">aura</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=60">emotion</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=68">fear</a>, <a style="text-decoration:underline" href="Traits.aspx?ID=106">mental</a>) 90 feet, DC 30<br /><b>Brine Spit <img class="actiondark" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction.png"><img class="actionlight" alt="Reaction" style="height:15px; padding:0px 2px 0px 2px" src="Images\Actions\Reaction_I.png"></b> <b>Trigger </b>A creature the brine dragon observes within 30 feet uses a <a style="text-decoration:underline" href="Traits.aspx?ID=32">concentrate</a> action; <b>Effect </b>The dragon spits a glob of caustic salt water at the creature. The creature takes 5d6 acid damage (DC 30 basic Reflex save). On a failure, the concentrate action is disrupted.`;
+  const fields = immunitiesParser(input);
+
+  expect(fields.immunities).toEqual([
+    'acid',
+    '__paralyzed__',
+    '__sleep__',
+  ]);
+});

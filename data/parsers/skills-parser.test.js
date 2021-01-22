@@ -12,3 +12,19 @@ it('parse skills from ahvothian', () => {
     { bonus: 17, misc: null, name: 'Survival' },
   ]);
 });
+
+it.only('parse skills from norn', () => {
+  const input = `<span alt="Rare Trait" class="traitrare" title="This rarity indicates that a rules element is very difficult to find in the game world. A rare feat, spell, item or the like is available to players only if the GM decides to include it in the game, typically through discovery during play. Creatures with this trait are rare. They typically can't be summoned. The DC of Recall Knowledge checks related to these creatures is increased by 5."><a href="Traits.aspx?ID=137">Rare</a></span><span alt="Lawful Neutral" class="traitalignment" title="Lawful Neutral">LN</span><span alt="Large" class="traitsize" title="Large">Large</span><span alt="Fey Trait" class="trait" title="Creatures of the First World are called the fey."><a href="Traits.aspx?ID=69">Fey</a></span><br /><b>Source</b> <a href="https://paizo.com/products/btq022yq" target="_blank" class="external-link"><i>Bestiary 2 pg. 184</i></a><br /><b>Perception</b> +41; <a style="text-decoration:underline" href="Spells.aspx?ID=66"><i>detect magic</i></a>, <a style="text-decoration:underline" href="MonsterAbilities.aspx?ID=12">greater darkvision</a>, <a style="text-decoration:underline" href="MonsterAbilities.aspx?ID=21">lifesense 120 feet</a>, <a style="text-decoration:underline" href="Spells.aspx?ID=344"><i>true seeing</i></a><br /><b>Languages</b> <a href="Languages.aspx?ID=1"><u>Common</a></u>, <a href="Languages.aspx?ID=8"><u>Jotun</a></u>, <a href="Languages.aspx?ID=10"><u>Sylvan</a></u>; <a style="text-decoration:underline" href="Spells.aspx?ID=340"><i>tongues</i></a><br /><b>Skills</b> <a href="Skills.aspx?ID=4"><u>Crafting</a></u> +36, <a href="Skills.aspx?ID=5"><u>Deception</a></u> +35, <a href="Skills.aspx?ID=7"><u>Intimidation</a></u> +37, <a href="Skills.aspx?ID=8"><u>Lore (all)</a></u> +28, <a href="Skills.aspx?ID=9"><u>Medicine</a></u> +38, <a href="Skills.aspx?ID=11"><u>Occultism</a></u> +34, <a href="Skills.aspx?ID=12"><u>Performance</a></u> +31, <a href="Skills.aspx?ID=13"><u>Religion</a></u> +34<br /><b>Str</b> +7, <b>Dex</b> +6, <b>Con</b> +6, <b>Int</b> +6, <b>Wis</b> +10, <b>Cha</b> +7<br /><b>Sense Fate</b> (<a style="text-decoration:underline" href="Traits.aspx?ID=76">fortune</a>) A norn automatically rolls a 20 when she rolls initiative.<br /><b>Triumvirate</b> This functions as the <a style="text-decoration:underline" href="MonsterAbilities.aspx?ID=11">coven</a> ability, except only norns can join a triumvirate, and it functions only as long as exactly three norns are part of the triumvirate. A triumvirate grants the following spells: <a style="text-decoration:underline" href="Spells.aspx?ID=8"><i>alter reality</i></a> (once per day), <a style="text-decoration:underline" href="Spells.aspx?ID=32"><i>cataclysm</i></a>, <a style="text-decoration:underline" href="Spells.aspx?ID=75"><i>discern location</i></a>, <a style="text-decoration:underline" href="Spells.aspx?ID=127"><i>foresight</i></a>, and <a style="text-decoration:underline" href="Spells.aspx?ID=262"><i>revival</i></a>.`;
+  const fields = skillsParser(input);
+
+  expect(fields.skills).toEqual([
+    { bonus: 36, misc: null, name: 'Crafting' },
+    { bonus: 35, misc: null, name: 'Deception' },
+    { bonus: 37, misc: null, name: 'Intimidation' },
+    { bonus: 28, misc: 'all', name: 'Lore' },
+    { bonus: 38, misc: null, name: 'Medicine' },
+    { bonus: 34, misc: null, name: 'Occultism' },
+    { bonus: 31, misc: null, name: 'Performance' },
+    { bonus: 34, misc: null, name: 'Religion' },
+  ]);
+});
