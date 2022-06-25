@@ -16,7 +16,7 @@
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^1.4.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.4",
     "pg": "^8.2.1",
     "react": "^16.13.0",
